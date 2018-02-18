@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">VocabluryBooster</string>
+    <string-array name="languages">
+        <item>Portuguese</item>
+        <item>Russian</item>
+    </string-array>
+    <string-array name="translations">
+        <item>Portuguese</item>
+        <item>Russian</item>
+    </string-array>
+</resources>
