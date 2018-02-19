@@ -47,7 +47,7 @@ public class ModeChoice extends AppCompatActivity {
         btnTopics.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /* TODO: Intent startactivity Choose a topic -> load parts of dictionary based on topics */
+                startTopicChoice();
             }
         });
 
@@ -74,5 +74,11 @@ public class ModeChoice extends AppCompatActivity {
         i.putExtra("dictionary", currentDictionary);
         this.startActivity(i);
 
+    }
+
+    private void startTopicChoice(){
+        Intent i = new Intent(this, TopicsChoice.class);
+        i.putExtra("source", dict_source);
+        this.startActivity(i);
     }
 }

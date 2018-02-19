@@ -15,12 +15,12 @@ import java.util.Random;
 
 public class Dictionary implements Serializable{
 
-    private HashMap<String, String> wordsMap = new HashMap<String, String>();
-    private HashMap<String, Integer> inProcessMap = new HashMap<String, Integer>();
-    private List<String> learned = new ArrayList<String>();
-    private List<String> unlearned = new ArrayList<String>(wordsMap.keySet());
-    private List<String> to_learn = new ArrayList<String>();
-    private String dict_source;
+    protected HashMap<String, String> wordsMap = new HashMap<String, String>();
+    protected HashMap<String, Integer> inProcessMap = new HashMap<String, Integer>();
+    protected List<String> learned = new ArrayList<String>();
+    protected List<String> unlearned = new ArrayList<String>(wordsMap.keySet());
+    protected List<String> to_learn = new ArrayList<String>();
+    protected String dict_source;
 
     Random random = new Random();
 
@@ -35,13 +35,6 @@ public class Dictionary implements Serializable{
         this.inProcessMap = inProcess;
         this.learned = learned;
 
-        this.importFile();
-        this.getWordsMap();
-        this.getUnlearned();
-        this.getToLearn();
-
-        this.setToLearn(to_learn);
-        this.setUnlearned(unlearned);
     }
 
 
@@ -57,9 +50,9 @@ public class Dictionary implements Serializable{
 
             while ((line = reader.readLine()) != null) {
                 String[] parts = line.split(" - ", 2);
-                if (parts.length >= 2) {
+                if (parts.length >= 3) {
                     String key = parts[0];
-                    String value = parts[1];
+                    String value = parts[2];
                     this.wordsMap.put(key, value);
                 } else {
                     Log.i("Import:", "ignoring line: " + line);

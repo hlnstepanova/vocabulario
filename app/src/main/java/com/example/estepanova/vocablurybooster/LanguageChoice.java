@@ -106,7 +106,7 @@ public class LanguageChoice extends AppCompatActivity{
     }
 
     private void startModeActivity(){
-        Intent i = new Intent(this, TopicsChoice.class);
+        Intent i = new Intent(this, ModeChoice.class);
         i.putExtra("source", dict_source);
         this.startActivity(i);
 
