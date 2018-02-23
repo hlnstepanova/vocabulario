@@ -79,14 +79,14 @@ public class WordAnswer extends AppCompatActivity {
 
     private void wrongAnswer(){
 
-        if (count < 50) { //if less than 100 words checked, continue checking
+        if (count < 50) { //if less than 50 words checked, continue checking
             Intent i = new Intent(this, WordCheck.class);
             i.putExtra("dictionary", currentDictionary);
             i.putExtra("count", count);
             startActivity(i);
 
         } else {//else go to main (learning) activity
-            Intent i = new Intent(this, MainActivity.class);
+            Intent i = new Intent(this, MainShow.class);
             i.putExtra("dictionary", currentDictionary);
             startActivity(i);
         }

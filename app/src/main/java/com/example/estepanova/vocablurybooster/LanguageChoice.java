@@ -1,19 +1,18 @@
 package com.example.estepanova.vocablurybooster;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class LanguageChoice extends AppCompatActivity{
+public class LanguageChoice extends AppCompatActivity {
 
     private Spinner
             spWords,
@@ -30,16 +29,27 @@ public class LanguageChoice extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.language_choice);
 
+        btnApply = (Button) findViewById(R.id.aplBtn);
+
+        spWords = (Spinner) findViewById(R.id.vocabSpin);
+        spTrans = (Spinner) findViewById(R.id.transSpin);
+
+        //when apply button is clicked, move to choose mode activity
+        btnApply.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                //define the name of the file with the words-translation pairs
+                dict_source = (language_choice + "-" + translation_choice).toLowerCase() + ".txt";
+                startModeActivity();
+            }
+        });
 
         chooseLanguage();
 
     }
 
     private void chooseLanguage(){
-        btnApply = (Button) findViewById(R.id.aplBtn);
-
-        spWords = (Spinner) findViewById(R.id.vocabSpin);
-        spTrans = (Spinner) findViewById(R.id.transSpin);
 
         // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<CharSequence> WAdapter = ArrayAdapter.createFromResource(this,
@@ -60,14 +70,11 @@ public class LanguageChoice extends AppCompatActivity{
         spWords.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                if(!(view instanceof TextView))
-                    return;
 
-                TextView item = (TextView) view;
-                language_choice = item.getText().toString();
+                language_choice = spWords.getSelectedItem().toString();
+                Toast.makeText(LanguageChoice.this, "language_choice: " + language_choice, Toast.LENGTH_LONG).show();
 
             }
-
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
                 // do nothing
@@ -78,28 +85,14 @@ public class LanguageChoice extends AppCompatActivity{
         spTrans.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                if(!(view instanceof TextView))
-                    return;
 
-                TextView item = (TextView) view;
-                translation_choice = item.getText().toString();
+                translation_choice = spTrans.getSelectedItem().toString();
+                Toast.makeText(LanguageChoice.this, "translation_choice: " + translation_choice, Toast.LENGTH_LONG).show();
 
             }
-
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
                 // do nothing
-            }
-        });
-
-        //define the name of the file with the words-translation pairs
-        dict_source = (language_choice + "-" + translation_choice).toLowerCase() + ".txt";
-
-        //when apply button is clicked, move to choose mode activity
-        btnApply.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startModeActivity();
             }
         });
 
@@ -111,5 +104,4 @@ public class LanguageChoice extends AppCompatActivity{
         this.startActivity(i);
 
     }
-
 }

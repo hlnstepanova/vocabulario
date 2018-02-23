@@ -1,12 +1,5 @@
 package com.example.estepanova.vocablurybooster;
 
-import android.content.Context;
-import android.util.Log;
-import android.widget.TableLayout;
-
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -18,54 +11,27 @@ public class Dictionary implements Serializable{
     protected HashMap<String, String> wordsMap = new HashMap<String, String>();
     protected HashMap<String, Integer> inProcessMap = new HashMap<String, Integer>();
     protected List<String> learned = new ArrayList<String>();
-    protected List<String> unlearned = new ArrayList<String>(wordsMap.keySet());
+    protected List<String> unlearned = new ArrayList<String>();
     protected List<String> to_learn = new ArrayList<String>();
     protected String dict_source;
+
+    public String encoding = "UTF-8";
 
     Random random = new Random();
 
     public Dictionary(String dict_source, HashMap<String, String> wordsMap,
-                      List<String> unlearned, List<String> to_learn, HashMap<String, Integer> inProcess,
+                      List<String> unlearned, List<String> to_learn, HashMap<String, Integer> inProcessMap,
                       List<String> learned) {
 
         this.dict_source = dict_source;
         this.wordsMap = wordsMap;
         this.unlearned = unlearned;
         this.to_learn = to_learn;
-        this.inProcessMap = inProcess;
+        this.inProcessMap = inProcessMap;
         this.learned = learned;
 
     }
 
-
-    public void importFile() {
-
-        //first import the correspondent dictionary
-        String filePath = dict_source;
-        Log.i("import from", filePath);
-
-        try {
-            String line;
-            BufferedReader reader = new BufferedReader(new FileReader(filePath));
-
-            while ((line = reader.readLine()) != null) {
-                String[] parts = line.split(" - ", 2);
-                if (parts.length >= 3) {
-                    String key = parts[0];
-                    String value = parts[2];
-                    this.wordsMap.put(key, value);
-                } else {
-                    Log.i("Import:", "ignoring line: " + line);
-                }
-            }
-            reader.close();
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-
-    }
 
     public String showNewWord(){
         if (unlearned.size() > 0) {
@@ -100,10 +66,15 @@ public class Dictionary implements Serializable{
             this.inProcessMap.remove(word);
             this.to_learn.remove(word);
             this.learned.add(word);
+            if (to_learn.size()==0 && unlearned.size()==0) {
+                //TODO: start congratulations activity
+            }
         }else{
             this.inProcessMap.put(word, new_count);
         }
     }
+
+
 
 
     public HashMap getWordsMap(){

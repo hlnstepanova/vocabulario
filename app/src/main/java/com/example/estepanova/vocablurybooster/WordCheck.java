@@ -3,6 +3,7 @@ package com.example.estepanova.vocablurybooster;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -33,8 +34,9 @@ public class WordCheck extends AppCompatActivity {
         Intent saveIntent = getIntent();
 
         if (saveIntent.getExtras() == null) {
-            //do nothing
+            Log.i("Wordcheck:", "no words to check");
         } else {
+            Log.i("Wordcheck:", count.toString());
             currentDictionary = (Dictionary) saveIntent.getSerializableExtra("dictionary");
         }
 
