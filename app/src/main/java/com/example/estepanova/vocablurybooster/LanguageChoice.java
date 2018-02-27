@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -39,9 +40,16 @@ public class LanguageChoice extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                //define the name of the file with the words-translation pairs
-                dict_source = (language_choice + "-" + translation_choice).toLowerCase() + ".txt";
-                startModeActivity();
+                if (language_choice.equals(translation_choice)){
+                    Toast toast = Toast.makeText(LanguageChoice.this, "Please choose different languages", Toast.LENGTH_LONG);
+                    toast.setGravity(Gravity.CENTER, 0, 0);
+                    toast.show();
+
+                } else {
+                    //define the name of the file with the words-translation pairs
+                    dict_source = (language_choice + "-" + translation_choice).toLowerCase() + ".txt";
+                    startModeActivity();
+                }
             }
         });
 
@@ -49,14 +57,19 @@ public class LanguageChoice extends AppCompatActivity {
 
     }
 
+    //TODO: add AppBar in every activity
+    //TODO: implement progress bars in TopicChoice
+    //TODO: implement saving/loading for selected dictionary - should be saved in internal storage and recalled from there
+    //TODO: relative layout everywhere
+
     private void chooseLanguage(){
 
         // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<CharSequence> WAdapter = ArrayAdapter.createFromResource(this,
-                R.array.languages, android.R.layout.simple_spinner_item);
+                R.array.languages, R.layout.spinner_item);
 
         ArrayAdapter<CharSequence> TAdapter = ArrayAdapter.createFromResource(this,
-                R.array.translations, android.R.layout.simple_spinner_item);
+                R.array.translations, R.layout.spinner_item);
 
         // Specify the layout to use when the list of choices appears
         WAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -72,7 +85,6 @@ public class LanguageChoice extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
                 language_choice = spWords.getSelectedItem().toString();
-                Toast.makeText(LanguageChoice.this, "language_choice: " + language_choice, Toast.LENGTH_LONG).show();
 
             }
             @Override
@@ -87,7 +99,6 @@ public class LanguageChoice extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
                 translation_choice = spTrans.getSelectedItem().toString();
-                Toast.makeText(LanguageChoice.this, "translation_choice: " + translation_choice, Toast.LENGTH_LONG).show();
 
             }
             @Override

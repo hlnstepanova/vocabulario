@@ -1,5 +1,7 @@
 package com.example.estepanova.vocablurybooster;
 
+import android.util.Log;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -66,19 +68,29 @@ public class Dictionary implements Serializable{
             this.inProcessMap.remove(word);
             this.to_learn.remove(word);
             this.learned.add(word);
-            if (to_learn.size()==0 && unlearned.size()==0) {
-                //TODO: start congratulations activity
-            }
+
         }else{
             this.inProcessMap.put(word, new_count);
         }
+
+        Log.i("inProcessMap:", inProcessMap.toString());
+        Log.i("To learn:", to_learn.toString());
+        Log.i("Learned:", learned.toString());
     }
 
-
-
+    public String checkEmpty(){
+        if (to_learn.size()==0 && unlearned.size()==0) {
+            return "Empty";
+        }
+        return "Not empty";
+    }
 
     public HashMap getWordsMap(){
         return wordsMap;
+    }
+
+    public String getSource(){
+        return dict_source;
     }
 
     public List getUnlearned(){

@@ -36,7 +36,6 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
 
 
     protected void onCreate(Bundle savedInstanceState) {
-        Log.i("DEBUG", "ModeOnCreate");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.topics_choice);
 
@@ -56,22 +55,27 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
             dict_source = (String) saveIntent.getSerializableExtra("source");
         }
 
+
+        Log.i("Topics", dict_source);
+
     }
 
     @Override
     public void onClick(View view) {
         TextView field = (TextView) view;
         String selected = field.getText().toString();
+        Log.i("selected", selected);
         startTopicsMode(selected);
     }
 
     public void startTopicsMode(String selected){
-        topicDict = new Dictionary(dict_source, wordsMap, unlearned, to_learn, inProcessMap, learned);
+        Log.i("selected", selected);
         //redundant: topicDict.importTopics(selected);
         importTopicFile(selected);
+        topicDict = new Dictionary(dict_source, wordsMap, unlearned, to_learn, inProcessMap, learned);
 
         //then start the main (learning) activity
-        Intent i = new Intent(this, LanguageChoice.class);
+        Intent i = new Intent(this, MainShow.class);
         i.putExtra("dictionary", topicDict);
         this.startActivity(i);
 

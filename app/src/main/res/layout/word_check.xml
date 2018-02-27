@@ -15,24 +15,24 @@
         android:layout_marginTop="120dp"
         android:text="TRANSLATION"
         android:textAlignment="center"
-        android:textSize="24sp"
+        android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/checkBtn"
-        android:layout_width="154dp"
-        android:layout_height="54dp"
+        android:layout_width="190dp"
+        android:layout_height="65dp"
         android:layout_marginBottom="24dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="196dp"
+        android:layout_marginTop="16dp"
         android:text="CHECK"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/trans1View"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.76" />
 </android.support.constraint.ConstraintLayout>

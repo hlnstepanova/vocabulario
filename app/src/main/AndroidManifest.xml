@@ -16,22 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainShow">
-        </activity>
-        <activity
-            android:name=".ModeChoice">
-        </activity>
-        <activity
-            android:name=".TopicsChoice">
-        </activity>
-        <activity
-            android:name=".WordAnswer">
-        </activity>
-        <activity
-            android:name=".WordCheck">
-        </activity>
-
+        <activity android:name=".MainShow"></activity>
+        <activity android:name=".ModeChoice"></activity>
+        <activity android:name=".TopicsChoice"></activity>
+        <activity android:name=".WordAnswer"></activity>
+        <activity android:name=".WordCheck"></activity>
     </application>
 
 </manifest>

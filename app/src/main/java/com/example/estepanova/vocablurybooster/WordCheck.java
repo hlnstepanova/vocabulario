@@ -26,8 +26,6 @@ public class WordCheck extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word_check);
 
-        count = 0;
-
         trans1 = (TextView) findViewById(R.id.trans1View);
         btnCheck = (Button) findViewById(R.id.checkBtn);
 
@@ -36,8 +34,13 @@ public class WordCheck extends AppCompatActivity {
         if (saveIntent.getExtras() == null) {
             Log.i("Wordcheck:", "no words to check");
         } else {
-            Log.i("Wordcheck:", count.toString());
             currentDictionary = (Dictionary) saveIntent.getSerializableExtra("dictionary");
+            if(saveIntent.getSerializableExtra("count")==null){
+                count=0;
+            } else {
+                count = (Integer) saveIntent.getSerializableExtra("count");
+            }
+            Log.i("Wordcheck:", count.toString());
         }
 
         btnCheck.setOnClickListener(new View.OnClickListener() {

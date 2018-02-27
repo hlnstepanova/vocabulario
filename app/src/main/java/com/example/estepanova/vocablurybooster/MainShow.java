@@ -36,27 +36,24 @@ public class MainShow extends AppCompatActivity{
 
         final Intent saveIntent = getIntent();
 
-        //TODO: find how to change TextView contents without restarting activity (I think it's just settext in a loop)
-
         if (saveIntent.getExtras() == null) {
             initLanguageChoice();
         } else {//create an instance of a dictionary
             currentDictionary = (Dictionary) saveIntent.getSerializableExtra("dictionary");
-            if(saveIntent.getSerializableExtra("count")==null){
-                count=0;
-            } else {
-                count = (Integer) saveIntent.getSerializableExtra("count");
-            }
         }
+
+        count=0;
 
         btnGotIt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                saveIntent.putExtra("dictionary", currentDictionary);
-                saveIntent.putExtra("count", count);
-                Log.d("Click: ", count.toString());
-                finish();
-                startActivity(saveIntent);
+                if (count==5) {
+                    initWordCheck();
+                } else {
+                    wordShow();
+                }
+
+
             }
         });
 
@@ -68,7 +65,7 @@ public class MainShow extends AppCompatActivity{
 
 
         //if count < 25, show one mord word
-        if (count < 25){
+
             String randomKey = currentDictionary.showNewWord(); // get a random word from unlearned array
 
             if (randomKey.equals("no_unlearned_words")){
@@ -80,20 +77,17 @@ public class MainShow extends AppCompatActivity{
             newTrans.setText(value);
 
             count++;
-
-
-        } else {//if count = 25, set count to 0 and move to learning activity
-            initWordCheck();
-
-        }
-
+            Log.d("Count: ", count.toString());
 
     }
-    //TODO: didn't move to WordCheck, try deleting count=0;
+
+
+
+
     private void initWordCheck(){
-        count=0;
         Intent i = new Intent(this, WordCheck.class);
         i.putExtra("dictionary", currentDictionary);
+        startActivity(i);
     }
 
     private void initLanguageChoice() {

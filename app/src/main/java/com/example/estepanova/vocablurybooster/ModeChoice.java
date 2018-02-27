@@ -88,7 +88,7 @@ public class ModeChoice extends AppCompatActivity {
 
     private void startTopicChoice(){
         Intent i = new Intent(this, TopicsChoice.class);
-        i.putExtra("source topics", dict_source);
+        i.putExtra("source", dict_source);
         this.startActivity(i);
     }
 

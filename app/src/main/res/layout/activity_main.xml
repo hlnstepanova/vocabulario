@@ -8,43 +8,47 @@
 
     <TextView
         android:id="@+id/newWordView"
-        android:layout_width="276dp"
-        android:layout_height="111dp"
+        android:layout_width="305dp"
+        android:layout_height="160dp"
+        android:gravity="center"
         android:text="WORD"
         android:textAlignment="center"
-        android:textSize="30sp"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.242" />
+        app:layout_constraintVertical_bias="0.154" />
 
     <TextView
         android:id="@+id/newTransView"
-        android:layout_width="276dp"
-        android:layout_height="111dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_width="305dp"
+        android:layout_height="160dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
         android:text="TRANSLATION"
         android:textAlignment="center"
-        android:textSize="30sp"
+        android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/newWordView" />
 
     <Button
         android:id="@+id/gotBtn"
-        android:layout_width="146dp"
-        android:layout_height="51dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="190dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="24dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="20dp"
         android:text="GOT IT!"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/newTransView" />
+        app:layout_constraintTop_toBottomOf="@+id/newTransView"
+        app:layout_constraintVertical_bias="0.35000002" />
 
 </android.support.constraint.ConstraintLayout>

@@ -3,6 +3,7 @@ package com.example.estepanova.vocablurybooster;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -79,7 +80,7 @@ public class WordAnswer extends AppCompatActivity {
 
     private void wrongAnswer(){
 
-        if (count < 50) { //if less than 50 words checked, continue checking
+        if (count < 7) { //if less than 50 words checked, continue checking
             Intent i = new Intent(this, WordCheck.class);
             i.putExtra("dictionary", currentDictionary);
             i.putExtra("count", count);
@@ -95,7 +96,15 @@ public class WordAnswer extends AppCompatActivity {
 
     private void correctAnswer(){
 
+        String check="Empty";
+
         currentDictionary.correctAnswer(word);
+
+        if (check.equals(currentDictionary.checkEmpty())){
+            Intent i = new Intent(this, CongratsTopic.class);
+            i.putExtra("dictionary", currentDictionary);
+            startActivity(i);
+        }
 
         wrongAnswer();
 
