@@ -1,14 +1,23 @@
 package com.example.estepanova.vocablurybooster;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.gson.Gson;
+
 public class MainShow extends AppCompatActivity{
+    SharedPreferences preferences;
 
     private Dictionary currentDictionary;
 
@@ -26,6 +35,16 @@ public class MainShow extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolbar);
+
+        preferences = PreferenceManager.getDefaultSharedPreferences(this);
+
+        // Get a support ActionBar corresponding to this toolbar
+        ActionBar ab = getSupportActionBar();
+
+        // Enable the Up button
+        ab.setDisplayHomeAsUpEnabled(true);
 
         newWord = (TextView) findViewById(R.id.newWordView);
         newTrans = (TextView) findViewById(R.id.newTransView);
@@ -61,6 +80,12 @@ public class MainShow extends AppCompatActivity{
 
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        return(super.onOptionsItemSelected(item));
+    }
+
     private void wordShow() {
 
 
@@ -85,6 +110,8 @@ public class MainShow extends AppCompatActivity{
 
 
     private void initWordCheck(){
+        savePreferences();
+
         Intent i = new Intent(this, WordCheck.class);
         i.putExtra("dictionary", currentDictionary);
         startActivity(i);
@@ -93,6 +120,22 @@ public class MainShow extends AppCompatActivity{
     private void initLanguageChoice() {
         startActivity(
                 new Intent(this, LanguageChoice.class));
+    }
+
+    private void savePreferences(){
+        String saved_source = currentDictionary.getSource()+ "-" + currentDictionary.getTopic();
+        SharedPreferences.Editor prefsEditor = preferences.edit();
+        Gson gson = new Gson();
+        String json = gson.toJson(currentDictionary);
+        prefsEditor.putString(saved_source, json);
+        prefsEditor.commit();
+    }
+
+    private void initModeChoice() {
+        Intent i = new Intent(this, ModeChoice.class);
+        String dict_source = currentDictionary.getSource();
+        i.putExtra("source", dict_source);
+        startActivity(i);
     }
 
 

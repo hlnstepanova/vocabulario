@@ -16,6 +16,7 @@ public class Dictionary implements Serializable{
     protected List<String> unlearned = new ArrayList<String>();
     protected List<String> to_learn = new ArrayList<String>();
     protected String dict_source;
+    protected String topic;
 
     public String encoding = "UTF-8";
 
@@ -23,7 +24,7 @@ public class Dictionary implements Serializable{
 
     public Dictionary(String dict_source, HashMap<String, String> wordsMap,
                       List<String> unlearned, List<String> to_learn, HashMap<String, Integer> inProcessMap,
-                      List<String> learned) {
+                      List<String> learned, String topic) {
 
         this.dict_source = dict_source;
         this.wordsMap = wordsMap;
@@ -31,6 +32,7 @@ public class Dictionary implements Serializable{
         this.to_learn = to_learn;
         this.inProcessMap = inProcessMap;
         this.learned = learned;
+        this.topic = topic;
 
     }
 
@@ -85,12 +87,24 @@ public class Dictionary implements Serializable{
         return "Not empty";
     }
 
+    public double calculateProgress(){
+        return learned.size()/(learned.size()+unlearned.size());
+    }
+
     public HashMap getWordsMap(){
         return wordsMap;
     }
 
     public String getSource(){
         return dict_source;
+    }
+
+    public String getTopic(){
+        return topic;
+    }
+
+    public void setTopic(String topic){
+        this.topic = topic;
     }
 
     public List getUnlearned(){

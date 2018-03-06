@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".LanguageChoice">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,11 +16,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainShow"></activity>
-        <activity android:name=".ModeChoice"></activity>
-        <activity android:name=".TopicsChoice"></activity>
-        <activity android:name=".WordAnswer"></activity>
-        <activity android:name=".WordCheck"></activity>
+        <activity android:name=".ModeChoice"
+            android:label="Mode Choice"
+            android:parentActivityName="com.example.estepanova.vocablurybooster.LanguageChoice"
+            android:launchMode="singleTop">
+        </activity>
+        <activity android:name=".MainShow"
+            android:label="Learn"
+            android:parentActivityName="com.example.estepanova.vocablurybooster.ModeChoice">>
+        </activity>
+        <activity android:name=".TopicsChoice"
+            android:label="Topics"
+            android:parentActivityName="com.example.estepanova.vocablurybooster.ModeChoice">
+        </activity>
+        <activity android:name=".WordAnswer"
+            android:label="Revise"
+            android:parentActivityName="com.example.estepanova.vocablurybooster.ModeChoice">
+        </activity>
+        <activity android:name=".WordCheck"
+            android:label="Revise"
+            android:parentActivityName="com.example.estepanova.vocablurybooster.ModeChoice">
+        </activity>
+        <activity android:name=".CongratsTopic"
+            android:label="You shall pass!"></activity>
+        <activity android:name=".Congrats"
+            android:label="You shall pass!"></activity>
     </application>
 
 </manifest>

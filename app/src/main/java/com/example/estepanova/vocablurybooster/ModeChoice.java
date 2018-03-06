@@ -1,12 +1,21 @@
 package com.example.estepanova.vocablurybooster;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.AssetManager;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
+import android.support.v4.app.NavUtils;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+
+import com.google.gson.Gson;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -18,6 +27,8 @@ import java.util.List;
 
 
 public class ModeChoice extends AppCompatActivity {
+
+    SharedPreferences preferences;
 
     private Dictionary currentDictionary;
 
@@ -37,12 +48,23 @@ public class ModeChoice extends AppCompatActivity {
             btnTopics,
             btnGeneral;
 
-    String dict_source;
+    private String dict_source;
+    private String topic = "general";
 
     protected void onCreate(Bundle savedInstanceState) {
         Log.i("DEBUG", "ModeOnCreate");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mode_choice);
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolbar);
+
+        preferences = PreferenceManager.getDefaultSharedPreferences(this);
+
+        // Get a support ActionBar corresponding to this toolbar
+        ActionBar ab = getSupportActionBar();
+
+        // Enable the Up button
+        ab.setDisplayHomeAsUpEnabled(true);
 
         btnTopics = (Button) findViewById(R.id.topBtn);
         btnGeneral = (Button) findViewById(R.id.genBtn);
@@ -68,16 +90,28 @@ public class ModeChoice extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                importFile();
                 generalMode();
+                initMainShow();
             }
         });
 
     }
 
-    private void generalMode(){
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
 
-        currentDictionary = new Dictionary(dict_source, wordsMap, unlearned, to_learn, inProcessMap, learned);
+        switch (item.getItemId()) {
+            // Respond to the action bar's Up/Home button
+            case android.R.id.home:
+                NavUtils.navigateUpFromSameTask(this);
+                return true;
+        }
+
+        return(super.onOptionsItemSelected(item));
+    }
+
+
+    private void initMainShow(){
 
         //then start the main (learning) activity
         Intent i = new Intent(this, MainShow.class);
@@ -92,35 +126,51 @@ public class ModeChoice extends AppCompatActivity {
         this.startActivity(i);
     }
 
-    public void importFile() {
+    private void generalMode(){
+        // if the sharedPrefs for language-translation-general exists, load currentdictionary from sharedPrefs, else import
 
-        //first import the correspondent dictionary
-        String filePath = dict_source;
-        Log.i("import from", filePath);
+        Gson gson = new Gson();
+        String saved_source = dict_source + "-" + topic;
+        String json = preferences.getString(saved_source, "");
+        if (!json.isEmpty()) {
+            currentDictionary = gson.fromJson(json, Dictionary.class);
 
-        try {
-
-            BufferedReader reader = new BufferedReader(new InputStreamReader(getApplicationContext().getAssets().open(filePath)));
-
-            String line;
-
-            while ((line = reader.readLine()) != null) {
-                String[] parts = line.split(" - ", 3);
-                if (parts.length == 3) {
-                    String key = parts[1];
-                    String value = parts[2];
-                    wordsMap.put(key, value);
-                } else {
-                    Log.i("Import:", "ignoring line: " + line);
-                }
-            }
-            reader.close();
-
-        } catch (IOException e) {
-            e.printStackTrace();
+        } else {
+            importFile();
         }
 
-        unlearned = new ArrayList<String>(wordsMap.keySet());
+    }
+
+    public void importFile() {
+
+            //first import the correspondent dictionary
+            String filePath = dict_source;
+            Log.i("import from", filePath);
+
+            try {
+
+                BufferedReader reader = new BufferedReader(new InputStreamReader(getApplicationContext().getAssets().open(filePath)));
+
+                String line;
+
+                while ((line = reader.readLine()) != null) {
+                    String[] parts = line.split(" - ", 3);
+                    if (parts.length == 3) {
+                        String key = parts[1];
+                        String value = parts[2];
+                        wordsMap.put(key, value);
+                    } else {
+                        Log.i("Import:", "ignoring line: " + line);
+                    }
+                }
+                reader.close();
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            unlearned = new ArrayList<String>(wordsMap.keySet());
+            currentDictionary = new Dictionary (dict_source, wordsMap, unlearned, to_learn, inProcessMap, learned, topic);
 
     }
 

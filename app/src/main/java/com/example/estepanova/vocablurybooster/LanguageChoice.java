@@ -57,10 +57,11 @@ public class LanguageChoice extends AppCompatActivity {
 
     }
 
-    //TODO: add AppBar in every activity
     //TODO: implement progress bars in TopicChoice
-    //TODO: implement saving/loading for selected dictionary - should be saved in internal storage and recalled from there
+    //TODO: think about where it's better to save sharedPrefs and how to start at the same learning stage (learning/checking)
+    //TODO: remove Check button and replace by tapping any part of screen
     //TODO: relative layout everywhere
+    //TODO: if progress = 100% (no unlearned words), ask the user if he want to revise or restart
 
     private void chooseLanguage(){
 

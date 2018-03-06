@@ -2,8 +2,12 @@ package com.example.estepanova.vocablurybooster;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -25,6 +29,14 @@ public class WordCheck extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word_check);
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolbar);
+
+        // Get a support ActionBar corresponding to this toolbar
+        ActionBar ab = getSupportActionBar();
+
+        // Enable the Up button
+        ab.setDisplayHomeAsUpEnabled(true);
 
         trans1 = (TextView) findViewById(R.id.trans1View);
         btnCheck = (Button) findViewById(R.id.checkBtn);
@@ -60,6 +72,13 @@ public class WordCheck extends AppCompatActivity {
 
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        return(super.onOptionsItemSelected(item));
+    }
+
+
     private void initializeCheck(){
 
         word = currentDictionary.testWord();
@@ -68,4 +87,17 @@ public class WordCheck extends AppCompatActivity {
         trans1.setText(translation);
         count++;
     }
+
+    private void initLanguageChoice() {
+        startActivity(
+                new Intent(this, LanguageChoice.class));
+    }
+
+    private void initModeChoice() {
+        Intent i = new Intent(this, ModeChoice.class);
+        String dict_source = currentDictionary.getSource();
+        i.putExtra("source", dict_source);
+        startActivity(i);
+    }
+
 }
