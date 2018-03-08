@@ -194,7 +194,8 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
 
         for (int i = 0; i < topics.size(); i++){
             progress = topicMap.get(topics.get(i).getText());
-            progresses.get(i).setText(String.valueOf(progress) + "%");
+            String text = getString(R.string.progress, progress);
+            progresses.get(i).setText(text);
         }
 
     }

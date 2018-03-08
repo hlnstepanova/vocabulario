@@ -8,6 +8,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
 
+import static java.lang.String.valueOf;
+
 public class Dictionary implements Serializable{
 
     protected HashMap<String, String> wordsMap = new HashMap<String, String>();
@@ -88,7 +90,12 @@ public class Dictionary implements Serializable{
     }
 
     public double calculateProgress(){
-        return learned.size()/(learned.size()+unlearned.size());
+        double result = (double) learned.size()/(learned.size()+unlearned.size()) * 100.0;
+        Log.i("Progress:", (valueOf(result)));
+        Log.i("Learned size:", (valueOf(learned.size())));
+        Log.i("Total size:", (valueOf(learned.size()+unlearned.size())));
+        return result;
+
     }
 
     public HashMap getWordsMap(){

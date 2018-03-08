@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.estepanova.vocablurybooster.LanguageChoice">
+    tools:context="com.example.estepanova.vocablurybooster.LanguageChoice"
+    tools:layout_editor_absoluteY="25dp">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/my_toolbar"
@@ -13,51 +15,43 @@
         android:background="?attr/colorPrimary"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
     <TextView
         android:id="@+id/newWordView"
-        android:layout_width="305dp"
-        android:layout_height="160dp"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:text="WORD"
         android:textAlignment="center"
         android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.154" />
+        tools:layout_editor_absoluteY="64dp" />
 
     <TextView
         android:id="@+id/newTransView"
-        android:layout_width="305dp"
-        android:layout_height="160dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:text="TRANSLATION"
         android:textAlignment="center"
         android:textSize="36sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/newWordView" />
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="242dp" />
 
     <Button
         android:id="@+id/gotBtn"
         android:layout_width="190dp"
         android:layout_height="65dp"
-        android:layout_marginBottom="24dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="20dp"
         android:text="GOT IT!"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/newTransView"
-        app:layout_constraintVertical_bias="0.35000002" />
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.74" />
 
 </android.support.constraint.ConstraintLayout>

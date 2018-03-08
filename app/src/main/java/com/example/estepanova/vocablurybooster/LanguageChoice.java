@@ -57,7 +57,7 @@ public class LanguageChoice extends AppCompatActivity {
 
     }
 
-    //TODO: implement progress bars in TopicChoice
+    //TODO: implement progress bars in TopicChoice, Mainshow, WorCheck and WordAnswer
     //TODO: think about where it's better to save sharedPrefs and how to start at the same learning stage (learning/checking)
     //TODO: remove Check button and replace by tapping any part of screen
     //TODO: relative layout everywhere
