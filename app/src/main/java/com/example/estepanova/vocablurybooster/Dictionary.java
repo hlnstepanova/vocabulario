@@ -82,11 +82,11 @@ public class Dictionary implements Serializable{
         Log.i("Learned:", learned.toString());
     }
 
-    public String checkEmpty(){
+    public boolean checkEmpty(){
         if (to_learn.size()==0 && unlearned.size()==0) {
-            return "Empty";
+            return true;
         }
-        return "Not empty";
+        return false;
     }
 
     public double calculateProgress(){

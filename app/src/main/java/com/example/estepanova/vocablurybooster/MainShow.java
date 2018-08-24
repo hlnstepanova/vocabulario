@@ -105,9 +105,7 @@ public class MainShow extends AppCompatActivity{
             Log.d("Count: ", count.toString());
 
     }
-
-
-
+    
 
     private void initWordCheck(){
         savePreferences();

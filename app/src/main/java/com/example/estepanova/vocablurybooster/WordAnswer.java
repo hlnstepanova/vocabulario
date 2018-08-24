@@ -136,14 +136,12 @@ public class WordAnswer extends AppCompatActivity {
 
     private void correctAnswer(){
 
-        String check="Empty";
-
         currentDictionary.correctAnswer(word);
         progress = currentDictionary.calculateProgress();
         topicMap.put(currentDictionary.getTopic(), progress);
         savePreferences();
 
-        if (check.equals(currentDictionary.checkEmpty())){
+        if (currentDictionary.checkEmpty()){
             Intent i = new Intent(this, CongratsTopic.class);
             i.putExtra("dictionary", currentDictionary);
             startActivity(i);
@@ -156,7 +154,7 @@ public class WordAnswer extends AppCompatActivity {
 
     private void savePreferences(){
 
-        //save into preferences currentDictionary and topicMap (progress) after eery correct answer
+        //save into preferences currentDictionary and topicMap (progress) after every correct answer
 
         String saved_source = currentDictionary.getSource()+ "-" + currentDictionary.getTopic();
         SharedPreferences.Editor prefsEditor = preferences.edit();

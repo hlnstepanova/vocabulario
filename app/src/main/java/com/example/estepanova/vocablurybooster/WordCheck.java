@@ -26,6 +26,9 @@ public class WordCheck extends AppCompatActivity {
 
     private String word;
 
+    HashMap<String, String> wordsMap;
+
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word_check);
@@ -41,12 +44,15 @@ public class WordCheck extends AppCompatActivity {
         trans1 = (TextView) findViewById(R.id.trans1View);
         btnCheck = (Button) findViewById(R.id.checkBtn);
 
+
         Intent saveIntent = getIntent();
 
         if (saveIntent.getExtras() == null) {
             Log.i("Wordcheck:", "no words to check");
         } else {
             currentDictionary = (Dictionary) saveIntent.getSerializableExtra("dictionary");
+            wordsMap = currentDictionary.getWordsMap();
+
             if(saveIntent.getSerializableExtra("count")==null){
                 count=0;
             } else {
@@ -82,7 +88,6 @@ public class WordCheck extends AppCompatActivity {
     private void initializeCheck(){
 
         word = currentDictionary.testWord();
-        HashMap<String, String> wordsMap = currentDictionary.getWordsMap();
         String translation = wordsMap.get(word);
         trans1.setText(translation);
         count++;
