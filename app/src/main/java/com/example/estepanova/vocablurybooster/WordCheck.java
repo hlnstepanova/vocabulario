@@ -1,7 +1,10 @@
 package com.example.estepanova.vocablurybooster;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
+import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -12,6 +15,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.gson.Gson;
+
 import java.util.HashMap;
 
 
@@ -19,21 +24,34 @@ public class WordCheck extends AppCompatActivity {
 
     private Dictionary currentDictionary;
 
-    private TextView trans1;
-    private Button btnCheck;
+    private HashMap<String, Double> topicMap;
+
+    SharedPreferences preferences;
+
+    private TextView
+            trans2,
+            answer;
+
+    private Button
+            btnCorrect,
+            btnWrong;
 
     private Integer count;
 
     private String word;
+
+    private double progress;
 
     HashMap<String, String> wordsMap;
 
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.word_check);
+        setContentView(R.layout.check_answer);
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
+
+        preferences = PreferenceManager.getDefaultSharedPreferences(this);
 
         // Get a support ActionBar corresponding to this toolbar
         ActionBar ab = getSupportActionBar();
@@ -41,9 +59,11 @@ public class WordCheck extends AppCompatActivity {
         // Enable the Up button
         ab.setDisplayHomeAsUpEnabled(true);
 
-        trans1 = (TextView) findViewById(R.id.trans1View);
-        btnCheck = (Button) findViewById(R.id.checkBtn);
+        trans2 = (TextView) findViewById(R.id.trans2View);
+        answer = (TextView) findViewById(R.id.ansView);
 
+        btnCorrect = (Button) findViewById(R.id.corBtn);
+        btnWrong = (Button) findViewById(R.id.wrongBtn);
 
         Intent saveIntent = getIntent();
 
@@ -61,20 +81,58 @@ public class WordCheck extends AppCompatActivity {
             Log.i("Wordcheck:", count.toString());
         }
 
-        btnCheck.setOnClickListener(new View.OnClickListener() {
+        btnCorrect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                Intent i = new Intent(v.getContext(), WordAnswer.class);
-                i.putExtra("dictionary", currentDictionary);
-                i.putExtra("word", word);
-                i.putExtra("count", count);
-                startActivity(i);
+                //if correct answer, change the count of correct answers in ProcessMap
+                if (count%2==0) {
+                    correctAnswer();
+                } else {
+                    //TODO: alarm that first you should guess the word and tap the screen
+                }
 
             }
         });
 
-        initializeCheck();
+        btnWrong.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //if wrong, just go back to word show
+                if (count%2==0) {
+                    wrongAnswer();
+                } else {
+                    //TODO: alarm that first you should guess the word and tap the screen
+                }
+
+
+            }
+        });
+
+        ConstraintLayout touch_area = (ConstraintLayout) findViewById(R.id.touch_area);
+        touch_area.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                if (count%2!=0) {
+                    showAnswer();
+                }
+
+            }
+
+        });
+
+        //get a topic HashMap with progresses from preferences
+        preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        Gson gson = new Gson();
+
+        String json = preferences.getString("topicMap", "");
+        if (!json.isEmpty()) {
+            topicMap = gson.fromJson(json, HashMap.class);
+        } else {
+            Log.d("WordAnswer", "no progress map found");
+        }
+
+        showTranslation();
 
     }
 
@@ -84,12 +142,21 @@ public class WordCheck extends AppCompatActivity {
         return(super.onOptionsItemSelected(item));
     }
 
+    private void showAnswer(){
 
-    private void initializeCheck(){
+        String translation = wordsMap.get(word);
+        answer.setText(translation);
+        count++;
+    }
+
+
+    private void showTranslation(){
 
         word = currentDictionary.testWord();
-        String translation = wordsMap.get(word);
-        trans1.setText(translation);
+        trans2.setText(word);
+        answer.setText("");
+        //String translation = wordsMap.get(word);
+        //trans2.setText(translation);
         count++;
     }
 
@@ -103,6 +170,52 @@ public class WordCheck extends AppCompatActivity {
         String dict_source = currentDictionary.getSource();
         i.putExtra("source", dict_source);
         startActivity(i);
+    }
+
+    private void wrongAnswer(){
+
+        if (count < 7) { //if less than 50 words checked, continue checking
+            showTranslation();
+
+        } else {//else go to main (learning) activity
+            Intent i = new Intent(this, MainShow.class);
+            i.putExtra("dictionary", currentDictionary);
+            startActivity(i);
+        }
+
+    }
+
+    private void correctAnswer(){
+
+        currentDictionary.correctAnswer(word);
+        progress = currentDictionary.calculateProgress();
+        topicMap.put(currentDictionary.getTopic(), progress);
+        savePreferences();
+
+        if (currentDictionary.checkEmpty()){
+            Intent i = new Intent(this, CongratsTopic.class);
+            i.putExtra("dictionary", currentDictionary);
+            startActivity(i);
+        } else {
+            wrongAnswer();
+        }
+
+
+    }
+
+    private void savePreferences(){
+
+        //save into preferences currentDictionary and topicMap (progress) after every correct answer
+
+        String saved_source = currentDictionary.getSource()+ "-" + currentDictionary.getTopic();
+        SharedPreferences.Editor prefsEditor = preferences.edit();
+        Gson gson = new Gson();
+        String json = gson.toJson(currentDictionary);
+        String topics = gson.toJson(topicMap);
+        prefsEditor.putString(saved_source, json);
+        prefsEditor.putString("topicMap", topics);
+        prefsEditor.commit();
+
     }
 
 }
