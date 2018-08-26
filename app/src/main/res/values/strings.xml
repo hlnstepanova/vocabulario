@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">VocabluryBooster</string>
+    <string name="ok">OK</string>
+    <string name="dialog_language_choice">The languages have to differ</string>
     <string-array name="languages">
         <item>Portuguese</item>
         <item>Russian</item>

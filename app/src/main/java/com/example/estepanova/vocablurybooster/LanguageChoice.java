@@ -1,6 +1,10 @@
 package com.example.estepanova.vocablurybooster;
 
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -35,15 +39,31 @@ public class LanguageChoice extends AppCompatActivity {
         spWords = (Spinner) findViewById(R.id.vocabSpin);
         spTrans = (Spinner) findViewById(R.id.transSpin);
 
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        preferences.edit().remove("topicMap").commit();
+
+        final AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setNeutralButton(R.string.ok, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        // User clicked OK button
+                    }
+        });
+        builder.setMessage(R.string.dialog_language_choice);
+
+        //TODO: customize dialog alert layout (create dialog_layout xml layout)
+        /*LayoutInflater inflater = getLayoutInflater();
+        View dialoglayout = inflater.inflate(R.layout.dialog_layout, null);
+        builder.setView(dialogLayout)*/
+
         //when apply button is clicked, move to choose mode activity
         btnApply.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
+
                 if (language_choice.equals(translation_choice)){
-                    Toast toast = Toast.makeText(LanguageChoice.this, "Please choose different languages", Toast.LENGTH_LONG);
-                    toast.setGravity(Gravity.CENTER, 0, 0);
-                    toast.show();
+                    AlertDialog alert = builder.create();
+                    alert.show();
 
                 } else {
                     //define the name of the file with the words-translation pairs
@@ -59,9 +79,9 @@ public class LanguageChoice extends AppCompatActivity {
 
     //TODO: implement progress bars in TopicChoice, Mainshow, WorCheck and WordAnswer
     //TODO: think about where it's better to save sharedPrefs and how to start at the same learning stage (learning/checking)
-    //TODO: relative layout everywhere
+    //TODO: thin how many topics there're and their names
     //TODO: save Instance State not to lose data on orientation change?
-    //TODO: alert instead of toas when choosing the same language for translation and dictionary
+    //TODO: alert Congratulations instead of new Activity?
     //TODO: if progress = 100% (no unlearned words), ask the user if he want to revise or restart
 
     private void chooseLanguage(){

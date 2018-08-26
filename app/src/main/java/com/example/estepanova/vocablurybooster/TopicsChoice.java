@@ -62,6 +62,13 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
         topics.add((TextView)findViewById(R.id.topic1));
         topics.add((TextView)findViewById(R.id.topic2));
         topics.add((TextView)findViewById(R.id.topic3));
+        topics.add((TextView)findViewById(R.id.topic4));
+        topics.add((TextView)findViewById(R.id.topic5));
+        topics.add((TextView)findViewById(R.id.topic6));
+        topics.add((TextView)findViewById(R.id.topic7));
+        topics.add((TextView)findViewById(R.id.topic8));
+        topics.add((TextView)findViewById(R.id.topic9));
+        topics.add((TextView)findViewById(R.id.topic10));
 
 
         for (TextView topic : topics){
@@ -187,12 +194,22 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
         progresses.add((TextView) findViewById(R.id.progress1));
         progresses.add((TextView) findViewById(R.id.progress2));
         progresses.add((TextView) findViewById(R.id.progress3));
+        progresses.add((TextView) findViewById(R.id.progress4));
+        progresses.add((TextView) findViewById(R.id.progress5));
+        progresses.add((TextView) findViewById(R.id.progress6));
+        progresses.add((TextView) findViewById(R.id.progress7));
+        progresses.add((TextView) findViewById(R.id.progress8));
+        progresses.add((TextView) findViewById(R.id.progress9));
+        progresses.add((TextView) findViewById(R.id.progress10));
 
         double progress;
 
         //get progress from topicMap for every topic
 
         for (int i = 0; i < topics.size(); i++){
+
+            //String topic_number = topics.get(i).getText().toString().split(" ")[0];
+
             progress = topicMap.get(topics.get(i).getText());
             String text = getString(R.string.progress, progress);
             progresses.get(i).setText(text);
