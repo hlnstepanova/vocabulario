@@ -118,12 +118,20 @@ public class Dictionary implements Serializable{
         return this.unlearned;
     }
 
+    public List getLearned(){
+        return this.learned;
+    }
+
     public List getToLearn(){
         return this.to_learn;
     }
 
     public void setUnlearned(List unlearned) {
         this.unlearned = unlearned;
+    }
+
+    public List setLearned(List<String> learned){
+        return this.learned = learned;
     }
 
     public void setToLearn(List to_learn){

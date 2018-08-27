@@ -1,5 +1,6 @@
 package com.example.estepanova.vocablurybooster;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.AssetManager;
@@ -7,12 +8,14 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 
@@ -45,6 +48,7 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
     ArrayList<TextView> progresses = new ArrayList<TextView>();
 
     String dict_source;
+    String topic_selected;
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,9 +81,9 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
                 @Override
                 public void onClick(View view) {
                     TextView field = (TextView) view;
-                    String topic_selected = field.getText().toString();
-                    Log.i("selected", topic_selected);
-                    startTopicsMode(topic_selected);
+                    topic_selected = field.getText().toString();
+
+                    checkProgress();
 
                 }
             });
@@ -90,9 +94,10 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
                 @Override
                 public void onClick(View view) {
                     TextView field = topicTitleMap.get((TextView) view);
-                    String topic_selected = field.getText().toString();
-                    Log.i("selected", topic_selected);
-                    startTopicsMode(topic_selected);
+                    topic_selected = field.getText().toString();
+
+                    checkProgress();
+
 
                 }
             });
@@ -134,9 +139,9 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         TextView field = (TextView) view;
-        String topic_selected = field.getText().toString();
+        topic_selected = field.getText().toString();
         Log.i("selected", topic_selected);
-        startTopicsMode(topic_selected);
+        startTopicsMode();
     }
 
 
@@ -152,18 +157,18 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
         return(super.onOptionsItemSelected(item));
     }
 
-    public void startTopicsMode(String selected){
-        Log.i("selected", selected);
+    public void startTopicsMode(){
+        Log.i("selected", topic_selected);
         // if the sharedPrefs for language-translation-general exists, load currentdictionary from sharedPrefs, else import
 
         Gson gson = new Gson();
-        String saved_source = dict_source + "-" + selected;
+        String saved_source = dict_source + "-" + topic_selected;
         String json = preferences.getString(saved_source, "");
         if (!json.isEmpty()) {
             topicDict = gson.fromJson(json, Dictionary.class);
 
         } else {
-            importTopicFile(selected);
+            importTopicFile();
         }
 
             //then start the main (learning) activity
@@ -173,7 +178,13 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
 
     }
 
-    public void importTopicFile(String selected) {
+    public void initRevise(){
+        Intent i = new Intent(this, Revision.class);
+        i.putExtra("dictionary", topicDict);
+        this.startActivity(i);
+    }
+
+    public void importTopicFile() {
 
 
             //first import the correspondent dictionary
@@ -193,7 +204,7 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
                         String key = parts[1];
                         String topic = parts[0];
                         String value = parts[2];
-                        if (topic.equals(selected)) {
+                        if (topic.equals(topic_selected)) {
                             //create a hashmap only with words from selected topic
                             this.wordsMap.put(key, value);
                         }
@@ -208,7 +219,7 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
             }
 
             unlearned = new ArrayList<String>(wordsMap.keySet());
-            topicDict = new Dictionary(dict_source, wordsMap, unlearned, to_learn, inProcessMap, learned, selected);
+            topicDict = new Dictionary(dict_source, wordsMap, unlearned, to_learn, inProcessMap, learned, topic_selected);
 
     }
 
@@ -236,6 +247,42 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
         String json = gson.toJson(topicProgressMap);
         prefsEditor.putString("topicProgressMap", json);
         prefsEditor.commit();
+
+    }
+
+    private void checkProgress(){
+
+        double progress = topicProgressMap.get(topic_selected);
+        Log.i("selected", topic_selected);
+        if (progress==100){
+            //alarm learned all words in this category, go back to topic choice
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setNeutralButton(R.string.revise, new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    importTopicFile();
+                    initRevise();
+                }
+            });
+            builder.setNeutralButton(R.string.reset, new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+
+                    topicProgressMap.put(topic_selected,0.0);
+                    savePrefTopicMap();
+                    importTopicFile();
+                    Intent i = new Intent(TopicsChoice.this, MainShow.class);
+                    i.putExtra("dictionary", topicDict);
+                    startActivity(i);
+
+                }
+            });
+            builder.setTitle(R.string.congrats_title);
+            builder.setMessage(R.string.congrats_msg);
+
+            AlertDialog alert = builder.create();
+            alert.show();
+        } else {
+            startTopicsMode();
+        }
 
     }
 

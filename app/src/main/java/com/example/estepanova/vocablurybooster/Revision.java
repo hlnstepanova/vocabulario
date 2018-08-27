@@ -19,13 +19,15 @@ import android.widget.TextView;
 import com.google.gson.Gson;
 
 import java.util.HashMap;
+import java.util.List;
+import java.util.Random;
 
 
-public class WordCheck extends AppCompatActivity {
+public class Revision extends AppCompatActivity {
+
+    Random random = new Random();
 
     private Dictionary currentDictionary;
-
-    private HashMap<String, Double> topicProgressMap;
 
     SharedPreferences preferences;
 
@@ -37,13 +39,11 @@ public class WordCheck extends AppCompatActivity {
             btnCorrect,
             btnWrong;
 
+    private String word;
     private Integer count;
 
-    private String word;
-
-    private double progress;
-
     HashMap<String, String> wordsMap;
+    protected List<String> learned;
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,31 +73,25 @@ public class WordCheck extends AppCompatActivity {
         } else {
             currentDictionary = (Dictionary) saveIntent.getSerializableExtra("dictionary");
             wordsMap = currentDictionary.getWordsMap();
-
-            if(saveIntent.getSerializableExtra("count")==null){
-                count=0;
-            } else {
-                count = (Integer) saveIntent.getSerializableExtra("count");
-            }
-            Log.i("Wordcheck:", count.toString());
+            learned = currentDictionary.getLearned();
         }
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setNeutralButton(R.string.ok, new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+                // User clicked OK button
+            }
+        });
+        builder.setMessage(R.string.dialog_wordcheck_intro);
 
         btnCorrect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //if correct answer, change the count of correct answers in ProcessMap
                 if (count%2==0) {
-                    correctAnswer();
+                    showTranslation();
                 } else {
                     //alarm that first you should guess the word and tap the screen
-                    builder.setNeutralButton(R.string.ok, new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int id) {
-                            // User clicked OK button
-                        }
-                    });
-                    builder.setMessage(R.string.dialog_wordcheck_intro);
                     AlertDialog alert = builder.create();
                     alert.show();
                 }
@@ -110,7 +104,7 @@ public class WordCheck extends AppCompatActivity {
             public void onClick(View v) {
                 //if wrong, just go back to word show
                 if (count%2==0) {
-                    wrongAnswer();
+                    showTranslation();
                 } else {
                     //alarm that first you should guess the word and tap the screen
                     AlertDialog alert = builder.create();
@@ -134,17 +128,6 @@ public class WordCheck extends AppCompatActivity {
 
         });
 
-        //get a topic HashMap with progresses from preferences
-        preferences = PreferenceManager.getDefaultSharedPreferences(this);
-        Gson gson = new Gson();
-
-        String json = preferences.getString("topicProgressMap", "");
-        if (!json.isEmpty()) {
-            topicProgressMap = gson.fromJson(json, HashMap.class);
-        } else {
-            Log.d("WordAnswer", "no progress map found");
-        }
-
         showTranslation();
 
     }
@@ -165,7 +148,9 @@ public class WordCheck extends AppCompatActivity {
 
     private void showTranslation(){
 
-        word = currentDictionary.testWord();
+        int wordPos = random.nextInt(wordsMap.size());
+        word = learned.get(wordPos);
+
         trans2.setText(word);
         answer.setText("");
         //String translation = wordsMap.get(word);
@@ -185,75 +170,5 @@ public class WordCheck extends AppCompatActivity {
         startActivity(i);
     }
 
-    private void wrongAnswer(){
-
-        if (count < 7) { //if less than 50 words checked, continue checking
-            showTranslation();
-
-        } else {//else go to main (learning) activity
-            Intent i = new Intent(this, MainShow.class);
-            i.putExtra("dictionary", currentDictionary);
-            startActivity(i);
-        }
-
-    }
-
-    private void correctAnswer(){
-
-        currentDictionary.correctAnswer(word);
-        progress = currentDictionary.calculateProgress();
-        topicProgressMap.put(currentDictionary.getTopic(), progress);
-        savePreferences();
-
-        if (currentDictionary.checkEmpty()){
-            //alarm learned all words in this category, go back to topic choice
-            AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setNeutralButton(R.string.revise, new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialog, int id) {
-                    // User chose to revise current topic
-                    // TODO: design a revision activity (can be used both for topics revisin and general vocabulary)
-
-                    Intent i = new Intent(WordCheck.this, Revision.class);
-                    i.putExtra("dictionary", currentDictionary);
-                    startActivity(i);
-                }
-            });
-            builder.setNeutralButton(R.string.new_topic, new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialog, int id) {
-                    // User chose to learn a new topic
-                    String dict_source = currentDictionary.getSource();
-
-                    Intent i = new Intent(WordCheck.this, TopicsChoice.class);
-                    i.putExtra("source", dict_source);
-                    startActivity(i);
-                }
-            });
-            builder.setTitle(R.string.congrats_title);
-            builder.setMessage(R.string.congrats_msg);
-
-            AlertDialog alert = builder.create();
-            alert.show();
-
-        } else {
-            wrongAnswer();
-        }
-
-
-    }
-
-    private void savePreferences(){
-
-        //save into preferences currentDictionary and topicProgressMap (progress) after every correct answer
-
-        String saved_source = currentDictionary.getSource()+ "-" + currentDictionary.getTopic();
-        SharedPreferences.Editor prefsEditor = preferences.edit();
-        Gson gson = new Gson();
-        String json = gson.toJson(currentDictionary);
-        String topics = gson.toJson(topicProgressMap);
-        prefsEditor.putString(saved_source, json);
-        prefsEditor.putString("topicProgressMap", topics);
-        prefsEditor.commit();
-
-    }
-
 }
+

@@ -21,6 +21,7 @@
 
     <string name="ok">OK</string>
     <string name="revise">REVISE</string>
+    <string name="reset">RESET</string>
     <string name="new_topic">NEW TOPIC</string>
 
     <string name="congrats_title">"Congratulations!"</string>
