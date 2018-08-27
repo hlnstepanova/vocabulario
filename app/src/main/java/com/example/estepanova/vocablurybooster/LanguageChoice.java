@@ -39,8 +39,8 @@ public class LanguageChoice extends AppCompatActivity {
         spWords = (Spinner) findViewById(R.id.vocabSpin);
         spTrans = (Spinner) findViewById(R.id.transSpin);
 
-        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
-        preferences.edit().remove("topicMap").commit();
+        //SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        //preferences.edit().remove("topicMap").commit();
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setNeutralButton(R.string.ok, new DialogInterface.OnClickListener() {
@@ -80,7 +80,7 @@ public class LanguageChoice extends AppCompatActivity {
     //TODO: implement progress bars in TopicChoice, Mainshow, WorCheck and WordAnswer
     //TODO: think about where it's better to save sharedPrefs and how to start at the same learning stage (learning/checking)
     //TODO: save Instance State not to lose data on orientation change?
-    //TODO: implement swipe left (wrong) and swipe right (correct) instead of buttons
+    //TODO: implement swipe left (wrong) and swipe right (correct) instead of buttons (word_answer layout)
 
     private void chooseLanguage(){
 

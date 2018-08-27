@@ -211,7 +211,6 @@ public class WordCheck extends AppCompatActivity {
             builder.setNeutralButton(R.string.revise, new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
                     // User chose to revise current topic
-                    // TODO: design a revision activity (can be used both for topics revisin and general vocabulary)
 
                     Intent i = new Intent(WordCheck.this, Revision.class);
                     i.putExtra("dictionary", currentDictionary);
