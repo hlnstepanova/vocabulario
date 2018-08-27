@@ -2,6 +2,7 @@
     <string name="app_name">VocabluryBooster</string>
     <string name="ok">OK</string>
     <string name="dialog_language_choice">The languages have to differ</string>
+    <string name="dialog_wordcheck_intro">Try to remember the word and tap the screen, then if you guessed correct press "Correct!", otherwise press "Repeat"</string>
     <string-array name="languages">
         <item>Portuguese</item>
         <item>Russian</item>

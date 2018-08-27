@@ -1,11 +1,13 @@
 package com.example.estepanova.vocablurybooster;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -81,6 +83,14 @@ public class WordCheck extends AppCompatActivity {
             Log.i("Wordcheck:", count.toString());
         }
 
+        final AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setNeutralButton(R.string.ok, new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+                // User clicked OK button
+            }
+        });
+        builder.setMessage(R.string.dialog_wordcheck_intro);
+
         btnCorrect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -88,7 +98,9 @@ public class WordCheck extends AppCompatActivity {
                 if (count%2==0) {
                     correctAnswer();
                 } else {
-                    //TODO: alarm that first you should guess the word and tap the screen
+                    //alarm that first you should guess the word and tap the screen
+                    AlertDialog alert = builder.create();
+                    alert.show();
                 }
 
             }
@@ -101,7 +113,9 @@ public class WordCheck extends AppCompatActivity {
                 if (count%2==0) {
                     wrongAnswer();
                 } else {
-                    //TODO: alarm that first you should guess the word and tap the screen
+                    //alarm that first you should guess the word and tap the screen
+                    AlertDialog alert = builder.create();
+                    alert.show();
                 }
 
 

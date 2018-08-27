@@ -101,6 +101,10 @@ public class LanguageChoice extends AppCompatActivity {
         spWords.setAdapter(WAdapter);
         spTrans.setAdapter(TAdapter);
 
+        //set default value for the spinner
+        spTrans.setSelection(1);
+
+
         //spinner for input language
         spWords.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override

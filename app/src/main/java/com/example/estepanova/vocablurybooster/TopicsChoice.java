@@ -10,7 +10,6 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
@@ -36,10 +35,13 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
     List<String> to_learn = new ArrayList<String>();
     private HashMap<String, Integer> inProcessMap = new HashMap<String, Integer>();
     private List<String> learned = new ArrayList<String>();
-    private HashMap<String, Double> topicMap = new HashMap<String, Double>();
+
+    private HashMap<String, Double> topicProgressMap = new HashMap<String, Double>();
+    private HashMap<TextView, TextView> topicTitleMap = new HashMap<TextView, TextView>();
 
 
     ArrayList<TextView> topics = new ArrayList<TextView>();
+    ArrayList<TextView> titles = new ArrayList<TextView>();
     ArrayList<TextView> progresses = new ArrayList<TextView>();
 
     String dict_source;
@@ -58,34 +60,55 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
         // Enable the Up button
         ab.setDisplayHomeAsUpEnabled(true);
 
-
-        topics.add((TextView)findViewById(R.id.topic1));
-        topics.add((TextView)findViewById(R.id.topic2));
-        topics.add((TextView)findViewById(R.id.topic3));
-        topics.add((TextView)findViewById(R.id.topic4));
-        topics.add((TextView)findViewById(R.id.topic5));
-        topics.add((TextView)findViewById(R.id.topic6));
-        topics.add((TextView)findViewById(R.id.topic7));
-        topics.add((TextView)findViewById(R.id.topic8));
-        topics.add((TextView)findViewById(R.id.topic9));
-        topics.add((TextView)findViewById(R.id.topic10));
+        //Assigning textviews (topic numbers and titles) and binding them together in a map
+        for (int i =1; i<11; i++){
+            TextView topic = (TextView)findViewById(getResources().getIdentifier("topic"+i,"id", getPackageName()));
+            topics.add(topic);
+            TextView title = (TextView)findViewById(getResources().getIdentifier("title"+i,"id", getPackageName()));
+            titles.add(title);
+            TextView progress = (TextView)findViewById(getResources().getIdentifier("progress"+i,"id", getPackageName()));
+            progresses.add(progress);
+            topicTitleMap.put(title, topic);
+        }
 
 
         for (TextView topic : topics){
-            topic.setOnClickListener(this);
+            topic.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    TextView field = (TextView) view;
+                    String topic_selected = field.getText().toString();
+                    Log.i("selected", topic_selected);
+                    startTopicsMode(topic_selected);
+
+                }
+            });
+        }
+
+        for (TextView title : titles){
+            title.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    TextView field = topicTitleMap.get((TextView) view);
+                    String topic_selected = field.getText().toString();
+                    Log.i("selected", topic_selected);
+                    startTopicsMode(topic_selected);
+
+                }
+            });
         }
 
         //get the map with topics and progresses from preferences, if there's none, set the progress to 0%
 
         preferences = PreferenceManager.getDefaultSharedPreferences(this);
         Gson gson = new Gson();
-        String json = preferences.getString("topicMap", "");
+        String json = preferences.getString("topicProgressMap", "");
         if (!json.isEmpty()) {
-            topicMap = gson.fromJson(json, HashMap.class);
+            topicProgressMap = gson.fromJson(json, HashMap.class);
         } else {
             //automatically for every topic fill 0%
             for (TextView topic : topics){
-                topicMap.put(topic.getText().toString(), 0.0);
+                topicProgressMap.put(topic.getText().toString(), 0.0);
             }
 
             savePrefTopicMap();
@@ -191,26 +214,15 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
 
     public void progressSetter(){
 
-        progresses.add((TextView) findViewById(R.id.progress1));
-        progresses.add((TextView) findViewById(R.id.progress2));
-        progresses.add((TextView) findViewById(R.id.progress3));
-        progresses.add((TextView) findViewById(R.id.progress4));
-        progresses.add((TextView) findViewById(R.id.progress5));
-        progresses.add((TextView) findViewById(R.id.progress6));
-        progresses.add((TextView) findViewById(R.id.progress7));
-        progresses.add((TextView) findViewById(R.id.progress8));
-        progresses.add((TextView) findViewById(R.id.progress9));
-        progresses.add((TextView) findViewById(R.id.progress10));
-
         double progress;
 
-        //get progress from topicMap for every topic
+        //get progress from topicProgressMap for every topic
 
         for (int i = 0; i < topics.size(); i++){
 
             //String topic_number = topics.get(i).getText().toString().split(" ")[0];
 
-            progress = topicMap.get(topics.get(i).getText());
+            progress = topicProgressMap.get(topics.get(i).getText());
             String text = getString(R.string.progress, progress);
             progresses.get(i).setText(text);
         }
@@ -221,8 +233,8 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
 
         SharedPreferences.Editor prefsEditor = preferences.edit();
         Gson gson = new Gson();
-        String json = gson.toJson(topicMap);
-        prefsEditor.putString("topicMap", json);
+        String json = gson.toJson(topicProgressMap);
+        prefsEditor.putString("topicProgressMap", json);
         prefsEditor.commit();
 
     }
