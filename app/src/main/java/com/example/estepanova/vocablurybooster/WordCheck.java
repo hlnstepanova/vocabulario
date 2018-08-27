@@ -207,9 +207,30 @@ public class WordCheck extends AppCompatActivity {
         savePreferences();
 
         if (currentDictionary.checkEmpty()){
-            Intent i = new Intent(this, CongratsTopic.class);
-            i.putExtra("dictionary", currentDictionary);
-            startActivity(i);
+            //alarm learned all words in this category, go back to topic choice
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setNeutralButton(R.string.revise, new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    // User chose to revise current topic
+                    // TODO: design a revision activity (can be used both for topics revisin and general vocabulary)
+                }
+            });
+            builder.setNeutralButton(R.string.new_topic, new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    // User chose to learn a new topic
+                    String dict_source = currentDictionary.getSource();
+
+                    Intent i = new Intent(WordCheck.this, TopicsChoice.class);
+                    i.putExtra("source", dict_source);
+                    startActivity(i);
+                }
+            });
+            builder.setTitle(R.string.congrats_title);
+            builder.setMessage(R.string.congrats_msg);
+
+            AlertDialog alert = builder.create();
+            alert.show();
+
         } else {
             wrongAnswer();
         }
