@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
@@ -38,6 +39,8 @@ public class WordAnswer extends AppCompatActivity {
     private String word;
     private double progress;
 
+    ProgressBar progressBar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,6 +49,8 @@ public class WordAnswer extends AppCompatActivity {
         setSupportActionBar(myToolbar);
 
         preferences = PreferenceManager.getDefaultSharedPreferences(this);
+
+        progressBar=(ProgressBar)findViewById(R.id.progressBar);
 
         // Get a support ActionBar corresponding to this toolbar
         ActionBar ab = getSupportActionBar();
@@ -99,6 +104,8 @@ public class WordAnswer extends AppCompatActivity {
             Log.d("WordAnswer", "no progress map found");
         }
 
+        progressBar.setProgress(currentDictionary.getProgress());
+
         showAnswer();
 
     }
@@ -138,6 +145,8 @@ public class WordAnswer extends AppCompatActivity {
         currentDictionary.correctAnswer(word);
         progress = currentDictionary.calculateProgress();
         topicMap.put(currentDictionary.getTopic(), progress);
+        currentDictionary.setProgress((int) progress);
+        progressBar.setProgress((int) progress);
         savePreferences();
 
         if (currentDictionary.checkEmpty()){

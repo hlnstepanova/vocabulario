@@ -165,9 +165,13 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
         String saved_source = dict_source + "-" + topic_selected;
         String json = preferences.getString(saved_source, "");
         if (!json.isEmpty()) {
+
+            Log.i("Importing", "from prefs");
             topicDict = gson.fromJson(json, Dictionary.class);
 
         } else {
+
+            Log.i("Importing", "from file");
             importTopicFile();
         }
 
@@ -219,7 +223,7 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
             }
 
             unlearned = new ArrayList<String>(wordsMap.keySet());
-            topicDict = new Dictionary(dict_source, wordsMap, unlearned, to_learn, inProcessMap, learned, topic_selected);
+            topicDict = new Dictionary(dict_source, wordsMap, unlearned, to_learn, inProcessMap, learned, topic_selected, 0);
 
     }
 

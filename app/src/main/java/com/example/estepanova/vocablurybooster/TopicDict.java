@@ -16,9 +16,9 @@ public class TopicDict extends Dictionary {
 
     public TopicDict (String dict_source, HashMap<String, String> wordsMap,
                       List<String> unlearned, List<String> to_learn, HashMap<String, Integer> inProcessMap,
-                      List<String> learned, String topic, HashMap<String, String> topicMap){
+                      List<String> learned, String topic, HashMap<String, String> topicMap, int progress){
 
-        super(dict_source, wordsMap, unlearned, to_learn, inProcessMap, learned, topic);
+        super(dict_source, wordsMap, unlearned, to_learn, inProcessMap, learned, topic, progress);
         this.topicMap = topicMap;
     }
 

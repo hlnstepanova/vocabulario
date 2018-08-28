@@ -170,7 +170,7 @@ public class ModeChoice extends AppCompatActivity {
             }
 
             unlearned = new ArrayList<String>(wordsMap.keySet());
-            currentDictionary = new Dictionary (dict_source, wordsMap, unlearned, to_learn, inProcessMap, learned, topic);
+            currentDictionary = new Dictionary (dict_source, wordsMap, unlearned, to_learn, inProcessMap, learned, topic, 0);
 
     }
 

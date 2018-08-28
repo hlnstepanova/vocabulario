@@ -12,6 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
@@ -30,6 +31,8 @@ public class MainShow extends AppCompatActivity{
             btnGotIt;
 
     private Integer count;
+
+    private ProgressBar progressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,6 +79,9 @@ public class MainShow extends AppCompatActivity{
             }
         });
 
+        progressBar=(ProgressBar)findViewById(R.id.progressBar);
+        progressBar.setProgress(currentDictionary.getProgress());
+
         wordShow();
 
     }
@@ -87,7 +93,6 @@ public class MainShow extends AppCompatActivity{
     }
 
     private void wordShow() {
-
 
         //if count < 25, show one mord word
 
