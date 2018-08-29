@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
@@ -27,7 +28,7 @@ public class WordCheck extends AppCompatActivity {
 
     private HashMap<String, Double> topicProgressMap;
 
-    SharedPreferences preferences;
+    private SharedPreferences preferences;
 
     private TextView
             trans2,
@@ -37,13 +38,15 @@ public class WordCheck extends AppCompatActivity {
             btnCorrect,
             btnWrong;
 
+    private ConstraintLayout constraintLayout;
+
     private Integer count;
-
     private String word;
-
     private double progress;
 
-    HashMap<String, String> wordsMap;
+    private ProgressBar progressBar;
+
+    private HashMap<String, String> wordsMap;
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,7 +55,11 @@ public class WordCheck extends AppCompatActivity {
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
 
+        constraintLayout = (ConstraintLayout) findViewById(R.id.constraintLayout);
+
         preferences = PreferenceManager.getDefaultSharedPreferences(this);
+
+        progressBar=(ProgressBar)findViewById(R.id.progressBar);
 
         // Get a support ActionBar corresponding to this toolbar
         ActionBar ab = getSupportActionBar();
@@ -120,6 +127,24 @@ public class WordCheck extends AppCompatActivity {
 
             }
         });
+
+        constraintLayout.setOnTouchListener(new OnSwipeTouchListener(WordCheck.this) {
+            public void onSwipeTop() {
+                correctAnswer();
+            }
+            public void onSwipeRight() {
+                wrongAnswer();
+            }
+            public void onSwipeLeft() {
+                correctAnswer();
+            }
+            public void onSwipeBottom() {
+                wrongAnswer();
+            }
+
+        });
+
+        progressBar.setProgress(currentDictionary.getProgress());
 
         ConstraintLayout touch_area = (ConstraintLayout) findViewById(R.id.touch_area);
         touch_area.setOnClickListener(new View.OnClickListener() {
@@ -203,6 +228,8 @@ public class WordCheck extends AppCompatActivity {
         currentDictionary.correctAnswer(word);
         progress = currentDictionary.calculateProgress();
         topicProgressMap.put(currentDictionary.getTopic(), progress);
+        currentDictionary.setProgress((int) progress);
+        progressBar.setProgress((int) progress);
         savePreferences();
 
         if (currentDictionary.checkEmpty()){
