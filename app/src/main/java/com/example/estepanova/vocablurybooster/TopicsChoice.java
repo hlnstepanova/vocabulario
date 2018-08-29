@@ -168,6 +168,7 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
 
             Log.i("Importing", "from prefs");
             topicDict = gson.fromJson(json, Dictionary.class);
+            Log.i("Importing", Integer.toString(topicDict.getProgress()));
 
         } else {
 

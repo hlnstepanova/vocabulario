@@ -40,7 +40,7 @@ public class LanguageChoice extends AppCompatActivity {
         spTrans = (Spinner) findViewById(R.id.transSpin);
 
         //SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
-        //preferences.edit().remove("topicMap").commit();
+        //preferences.edit().remove("topicProgressMap").commit();
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setNeutralButton(R.string.ok, new DialogInterface.OnClickListener() {
