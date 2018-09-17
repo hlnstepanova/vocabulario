@@ -79,6 +79,7 @@ public class Dictionary implements Serializable{
             this.inProcessMap.put(word, new_count);
         }
 
+        Log.i("new count", Integer.toString(new_count));
         Log.i("inProcessMap:", inProcessMap.toString());
         Log.i("To learn:", to_learn.toString());
         Log.i("Learned:", learned.toString());
@@ -92,10 +93,10 @@ public class Dictionary implements Serializable{
     }
 
     public double calculateProgress(){
-        double result = (double) learned.size()/(learned.size()+unlearned.size()) * 100.0;
+        double result = (double) learned.size()/(wordsMap.size()) * 100.0;
         Log.i("Progress:", (valueOf(result)));
         Log.i("Learned size:", (valueOf(learned.size())));
-        Log.i("Total size:", (valueOf(learned.size()+unlearned.size())));
+        Log.i("Total size:", valueOf((wordsMap.size())));
         return result;
 
     }

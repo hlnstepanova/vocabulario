@@ -39,7 +39,7 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
     private HashMap<String, Integer> inProcessMap = new HashMap<String, Integer>();
     private List<String> learned = new ArrayList<String>();
 
-    private HashMap<String, Double> topicProgressMap = new HashMap<String, Double>();
+    private HashMap<String, Double> topicProgressMap = new HashMap<>();
     private HashMap<TextView, TextView> topicTitleMap = new HashMap<TextView, TextView>();
 
 
@@ -67,6 +67,7 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
         //Assigning textviews (topic numbers and titles) and binding them together in a map
         for (int i =1; i<11; i++){
             TextView topic = (TextView)findViewById(getResources().getIdentifier("topic"+i,"id", getPackageName()));
+            Log.i("topic",topic.getText().toString());
             topics.add(topic);
             TextView title = (TextView)findViewById(getResources().getIdentifier("title"+i,"id", getPackageName()));
             titles.add(title);
@@ -163,6 +164,7 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
 
         Gson gson = new Gson();
         String saved_source = dict_source + "-" + topic_selected;
+        Log.i("saved source", saved_source);
         String json = preferences.getString(saved_source, "");
         if (!json.isEmpty()) {
 
@@ -234,11 +236,18 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
 
         //get progress from topicProgressMap for every topic
 
+        Log.i("topics size",Integer.toString(topics.size()));
+
         for (int i = 0; i < topics.size(); i++){
 
             //String topic_number = topics.get(i).getText().toString().split(" ")[0];
+            if (topicProgressMap==null){
+                progress=0.0;
+                topicProgressMap = new HashMap<>();
+            } else {
+                progress = topicProgressMap.get(topics.get(i).getText());
+            }
 
-            progress = topicProgressMap.get(topics.get(i).getText());
             String text = getString(R.string.progress, progress);
             progresses.get(i).setText(text);
         }

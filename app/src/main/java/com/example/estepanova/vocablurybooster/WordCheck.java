@@ -168,6 +168,7 @@ public class WordCheck extends AppCompatActivity {
             topicProgressMap = gson.fromJson(json, HashMap.class);
         } else {
             Log.d("WordAnswer", "no progress map found");
+            topicProgressMap = new HashMap<>();
         }
 
         showTranslation();

@@ -14,6 +14,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 
@@ -46,7 +47,8 @@ public class ModeChoice extends AppCompatActivity {
 
     private Button
             btnTopics,
-            btnGeneral;
+            btnGeneral,
+            btnReset;
 
     private String dict_source;
     private String topic = "general";
@@ -68,6 +70,7 @@ public class ModeChoice extends AppCompatActivity {
 
         btnTopics = (Button) findViewById(R.id.topBtn);
         btnGeneral = (Button) findViewById(R.id.genBtn);
+        btnReset = (Button) findViewById(R.id.resetBtn);
 
         Intent saveIntent = getIntent();
 
@@ -92,6 +95,14 @@ public class ModeChoice extends AppCompatActivity {
 
                 generalMode();
                 initMainShow();
+            }
+        });
+
+        btnReset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                resetAll();
             }
         });
 
@@ -139,6 +150,13 @@ public class ModeChoice extends AppCompatActivity {
             importFile();
         }
 
+    }
+
+    public void resetAll(){
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        preferences.edit().clear().apply();
+        Toast.makeText(getApplicationContext(),
+                "All you progress was successfuly reset!", Toast.LENGTH_SHORT).show();
     }
 
     public void importFile() {

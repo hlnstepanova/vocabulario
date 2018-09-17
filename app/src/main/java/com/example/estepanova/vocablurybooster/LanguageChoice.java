@@ -39,7 +39,6 @@ public class LanguageChoice extends AppCompatActivity {
         spWords = (Spinner) findViewById(R.id.vocabSpin);
         spTrans = (Spinner) findViewById(R.id.transSpin);
 
-        //SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
         //preferences.edit().remove("topicProgressMap").commit();
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
