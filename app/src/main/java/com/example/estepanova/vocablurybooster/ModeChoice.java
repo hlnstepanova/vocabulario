@@ -1,5 +1,6 @@
 package com.example.estepanova.vocablurybooster;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.AssetManager;
@@ -7,6 +8,7 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -153,10 +155,28 @@ public class ModeChoice extends AppCompatActivity {
     }
 
     public void resetAll(){
-        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
-        preferences.edit().clear().apply();
-        Toast.makeText(getApplicationContext(),
-                "All you progress was successfuly reset!", Toast.LENGTH_SHORT).show();
+        //alert about resetting all the progress to 0
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setNeutralButton(R.string.ok, new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+                // User chose to reset all the progress
+                SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(ModeChoice.this);
+                preferences.edit().clear().apply();
+                Toast.makeText(getApplicationContext(),
+                        "All you progress was successfuly reset!", Toast.LENGTH_SHORT).show();
+            }
+        });
+        builder.setNeutralButton(R.string.cancel, new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+                // User chose to cancel resetting = do nothing
+            }
+        });
+        builder.setTitle(R.string.reset_title);
+        builder.setMessage(R.string.reset_msg);
+
+        AlertDialog alert = builder.create();
+        alert.show();
+
     }
 
     public void importFile() {

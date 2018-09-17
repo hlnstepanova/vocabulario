@@ -23,7 +23,13 @@
     <string name="revise">REVISE</string>
     <string name="reset">RESET</string>
     <string name="new_topic">NEW TOPIC</string>
+    <string name="cancel">CANCEL</string>
 
     <string name="congrats_title">"Congratulations!"</string>
     <string name="congrats_msg">"You learned all words in this category. Do you want to choose another topic or continue revising this one?"</string>
+
+    <string name="reset_title">"Reset?"</string>
+    <string name="reset_msg">"All your current progress will be reset."</string>
+
+
 </resources>

@@ -54,18 +54,17 @@ public class WordCheck extends AppCompatActivity {
         setContentView(R.layout.check_answer);
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
+        // Get a support ActionBar corresponding to this toolbar
+        ActionBar ab = getSupportActionBar();
+
+        // Enable the Up button
+        ab.setDisplayHomeAsUpEnabled(true);
 
         constraintLayout = (ConstraintLayout) findViewById(R.id.constraintLayout);
 
         preferences = PreferenceManager.getDefaultSharedPreferences(this);
 
         progressBar=(ProgressBar)findViewById(R.id.progressBar);
-
-        // Get a support ActionBar corresponding to this toolbar
-        ActionBar ab = getSupportActionBar();
-
-        // Enable the Up button
-        ab.setDisplayHomeAsUpEnabled(true);
 
         trans2 = (TextView) findViewById(R.id.trans2View);
         answer = (TextView) findViewById(R.id.ansView);
@@ -178,7 +177,13 @@ public class WordCheck extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
-        return(super.onOptionsItemSelected(item));
+        //if the chosen mode is "general", go back to  moded choice, else to topics choice
+        if (currentDictionary.getTopic().equals("general")){
+            return(super.onOptionsItemSelected(item));
+        }else {
+            initTopicsChoice();
+            return true;
+        }
     }
 
     private void showAnswer(){
@@ -281,6 +286,13 @@ public class WordCheck extends AppCompatActivity {
         prefsEditor.putString("topicProgressMap", topics);
         prefsEditor.commit();
 
+    }
+
+    private void initTopicsChoice(){
+        Intent i = new Intent(this, TopicsChoice.class);
+        String dict_source = currentDictionary.getSource();
+        i.putExtra("source", dict_source);
+        startActivity(i);
     }
 
 }

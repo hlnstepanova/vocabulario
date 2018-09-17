@@ -41,13 +41,13 @@ public class MainShow extends AppCompatActivity{
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
 
-        preferences = PreferenceManager.getDefaultSharedPreferences(this);
-
         // Get a support ActionBar corresponding to this toolbar
         ActionBar ab = getSupportActionBar();
 
         // Enable the Up button
         ab.setDisplayHomeAsUpEnabled(true);
+
+        preferences = PreferenceManager.getDefaultSharedPreferences(this);
 
         newWord = (TextView) findViewById(R.id.newWordView);
         newTrans = (TextView) findViewById(R.id.newTransView);
@@ -88,8 +88,14 @@ public class MainShow extends AppCompatActivity{
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        //if the chosen mode is "general", go back to  moded choice, else to topics choice
+        if (currentDictionary.getTopic().equals("general")){
+            return(super.onOptionsItemSelected(item));
+        }else {
+            initTopicsChoice();
+            return true;
+        }
 
-        return(super.onOptionsItemSelected(item));
     }
 
     private void wordShow() {
@@ -123,6 +129,13 @@ public class MainShow extends AppCompatActivity{
     private void initLanguageChoice() {
         startActivity(
                 new Intent(this, LanguageChoice.class));
+    }
+
+    private void initTopicsChoice(){
+        Intent i = new Intent(this, TopicsChoice.class);
+        String dict_source = currentDictionary.getSource();
+        i.putExtra("source", dict_source);
+        startActivity(i);
     }
 
     private void savePreferences(){
