@@ -20,16 +20,19 @@
     <string name="title_activity_congrats">Congratulations</string>
 
     <string name="ok">OK</string>
-    <string name="revise">REVISE</string>
-    <string name="reset">RESET</string>
-    <string name="new_topic">NEW TOPIC</string>
-    <string name="cancel">CANCEL</string>
+    <string name="revise">Revise</string>
+    <string name="reset">Reset</string>
+    <string name="new_topic">New Topic</string>
+    <string name="cancel">Cancel</string>
 
     <string name="congrats_title">"Congratulations!"</string>
     <string name="congrats_msg">"You learned all words in this category. Do you want to choose another topic or continue revising this one?"</string>
 
-    <string name="reset_title">"Reset?"</string>
+    <string name="reset_title">"Reset all?"</string>
     <string name="reset_msg">"All your current progress will be reset."</string>
+
+    <string name="reset_topic_title">"Reset topic?"</string>
+    <string name="reset_topic_msg">"Your current progress for this topic will be reset."</string>
 
 
 </resources>

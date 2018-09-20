@@ -41,6 +41,7 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
 
     private HashMap<String, Double> topicProgressMap = new HashMap<>();
     private HashMap<TextView, TextView> topicTitleMap = new HashMap<TextView, TextView>();
+    private HashMap<TextView, TextView> topicProgressViewMap = new HashMap<TextView, TextView>();
 
 
     ArrayList<TextView> topics = new ArrayList<TextView>();
@@ -74,6 +75,7 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
             TextView progress = (TextView)findViewById(getResources().getIdentifier("progress"+i,"id", getPackageName()));
             progresses.add(progress);
             topicTitleMap.put(title, topic);
+            topicProgressViewMap.put(progress,topic);
         }
 
 
@@ -100,6 +102,33 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
                     checkProgress();
 
 
+                }
+            });
+        }
+
+        for (final TextView progressView: progresses){
+            progressView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    final TextView topicToResetView = topicProgressViewMap.get((TextView) view);
+                    //alert about resetting the progress for this topic
+                    AlertDialog.Builder builder = new AlertDialog.Builder(TopicsChoice.this);
+                    builder.setPositiveButton(R.string.reset, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            resetProgress(topicToResetView, progressView);
+                        }
+                    });
+                    builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            //do nothing
+                        }
+                    });
+                    builder.setTitle(R.string.reset_topic_title);
+                    builder.setMessage(R.string.reset_topic_msg);
+
+                    AlertDialog alert = builder.create();
+                    alert.show();
+                    Log.i("selected topic", topicToResetView.getText().toString());
                 }
             });
         }
@@ -298,6 +327,18 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
             startTopicsMode();
         }
 
+    }
+
+    private void resetProgress(TextView topicToResetView, TextView progressView){
+        //define, what topic belongs to this progress textview
+        String topic_to_reset = topicToResetView.getText().toString();
+        //reset the textview to 0.0
+        progressView.setText(getString(R.string.progress, 0.0));
+        //reset the progress in topicprogressMap to 0.0
+        topicProgressMap.put(topic_to_reset,0.0);
+        //clear SharedPrefrences file for this topic*/
+        String saved_source = dict_source+ "-" + topic_to_reset;
+        preferences.edit().remove(saved_source).apply();
     }
 
 

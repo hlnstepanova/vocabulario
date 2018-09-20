@@ -157,7 +157,7 @@ public class ModeChoice extends AppCompatActivity {
     public void resetAll(){
         //alert about resetting all the progress to 0
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setNeutralButton(R.string.ok, new DialogInterface.OnClickListener() {
+        builder.setPositiveButton(R.string.reset, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
                 // User chose to reset all the progress
                 SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(ModeChoice.this);
@@ -166,7 +166,7 @@ public class ModeChoice extends AppCompatActivity {
                         "All you progress was successfuly reset!", Toast.LENGTH_SHORT).show();
             }
         });
-        builder.setNeutralButton(R.string.cancel, new DialogInterface.OnClickListener() {
+        builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
                 // User chose to cancel resetting = do nothing
             }
@@ -186,16 +186,17 @@ public class ModeChoice extends AppCompatActivity {
             Log.i("import from", filePath);
 
             try {
-
+                int reverse = 1;
                 BufferedReader reader = new BufferedReader(new InputStreamReader(getApplicationContext().getAssets().open(filePath)));
+                //TODO: check if file exists, else remove everything after . in the string, split by - and swap, new filepath, tryagain, reverse->2
 
                 String line;
 
                 while ((line = reader.readLine()) != null) {
                     String[] parts = line.split(" - ", 3);
                     if (parts.length == 3) {
-                        String key = parts[1];
-                        String value = parts[2];
+                        String key = parts[1*reverse%3]; // if dict reversed, keys become values
+                        String value = parts[2*reverse%3];
                         wordsMap.put(key, value);
                     } else {
                         Log.i("Import:", "ignoring line: " + line);

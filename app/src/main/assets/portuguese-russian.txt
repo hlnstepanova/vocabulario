@@ -1,29 +1,14 @@
-﻿1 -
-1 -
-1 -
-1 -
-1 - surgir vi - возникать
-1 -
+﻿1 - surgir vi - возникать
 1 - slogan, m - лозунг
-1 -
 1 - incitar, vt  (а) - побуждать (сделать что-л.)
-1 -
 1 - сompreender, vt - включать в себя
-1 -
 1 - dividir, vt (em) - делить (на что-л.)
-1 -
 1 - caraterizar-se, vr (por) - характеризоваться (чем-л.)
-1 -
 1 - relevo, m - рельеф
-1 -
 1 - montanhoso, adj - гористый
-1 -
 1 - decorrente, adj (de) - вытекающий из, являющийся следствием (чего-л.)
-1 -
 1 - cadeia, f - цепь
-1 -
 1 - costa, f - берег (моря, океана), побережье
-1 -
 1 - planalto, m - плоскогорье
 1 -
 1 - planície, f - равнина
@@ -1120,12 +1105,6 @@
 4 - de repente - вдруг
 4 -
 4 - por sorte - по счастью
-4 -
-4 -
-5 -
-5 -
-5 -
-5 -
 5 - herdeiro, m - наследник
 5 -
 5 - regência, f - регентство
@@ -2103,9 +2082,6 @@
 8 - precaver-se, vr de - обезопаситься (от чего-л.)
 8 -
 8 - violação, f - нарушение
-8 -
-8 -
-8 -
 8 - inconveniente, m - неудобство
 8 -
 8 - guerra, f de informação - иноформационная война
@@ -2356,10 +2332,6 @@
 9 - em busca de, loc adv - в поисках (чего-л.)
 9 -
 9 - cada vez mais, loc adv - все больше
-9 -
-9 -
-10 -
-10 -
 10 - rural, adj - сельский
 10 -
 10 - setor primário, secundário, terciário - сельское хозяйство, промышленность, услуги
@@ -2572,13 +2544,6 @@
 10 - défice, m orçamental, adj - бюджетный дефицит
 10 -
 10 - estar no topo, m de, estar na vanguarda, f de, ser líder em  - возглавлять (что-л.), быть в авангарде  чего-л.), быть лидером (в чем-л.)
-10 -
-10 -
-10 -
-10 -
-10 -
-10 -
-10 -
 10 - por influência de, loc adv - под влиянием (чего-л.)
 10 -
 10 - ao longo de, prep - на протяжении (чего-л.)
@@ -2592,5 +2557,3 @@
 10 - em nome de, loc adv - во имя (чего-л, кого-л.)
 10 -
 10 - por esse mundo fora, loc adv - во всем мире
-10 -
-10 -
