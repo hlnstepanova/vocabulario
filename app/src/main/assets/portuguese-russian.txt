@@ -1,4 +1,4 @@
-﻿1 - surgir vi - возникать
+1 - surgir vi - возникать
 1 - slogan, m - лозунг
 1 - incitar, vt  (а) - побуждать (сделать что-л.)
 1 - сompreender, vt - включать в себя
@@ -10,2550 +10,1222 @@
 1 - cadeia, f - цепь
 1 - costa, f - берег (моря, океана), побережье
 1 - planalto, m - плоскогорье
-1 -
 1 - planície, f - равнина
-1 -
 1 - cálido, adj - теплый, жаркий
-1 -
 1 - altitude, f - высота
-1 -
 1 - mediterrânico, adj - средиземноморский
-1 -
 1 - litoral, m - побережье
-1 -
 1 - caudal, m - поток, полноводность
-1 -
 1 - nascer, vi - брать начало (о реке)
-1 -
 1 - salientar-se, vr (por) - выделяться (чем-л.)
-1 -
 1 - extensão, f - протяженность
-1 -
 1 - navegabilidade, f - судоходность
-1 -
 1 - nascente, f - исток
-1 -
 1 - foz, f - устье
-1 -
 1 - encosta, f - склон
-1 -
 1 - sudeste, m - юго-восток
-1 -
 1 - desaguar, vi (em) - впадать (во что-л.)
-1 -
 1 - separar, vt (de) - отделять (от чего-л.)
-1 -
 1 - diversidade, f - разнообразие
-1 -
 1 - pinheiro, m - сосна
-1 -
 1 - castanheiro, m - каштан
-1 -
 1 - oliveira, f - оливковое дерево
-1 -
 1 - carvalho, m - дуб
-1 -
 1 - precipitações, f pl - осадки
-1 -
 1 - abundar, vi - изобиловать
-1 -
 1 - plantar, vt - сажать
-1 -
 1 - pasta, f de papel - целлюлозная пульпа
-1 -
 1 - distinguir-se, vr (por) - выделяться (чем-л.)
-1 -
 1 - agrícola, adj - сельскохозяйственный
-1 -
 1 - predominar, vi - преобладать
-1 -
 1 - propriedade, f - владение, собственность
-1 -
 1 - cultura, f - разведение растений
-1 -
 1 - milho, m - кукуруза
-1 -
 1 - cereias, m pl - злаковые
-1 -
 1 - centeio, m - рожь
-1 -
 1 - feijão, m - фасоль
-1 -
 1 - vinhas, f pl - виноградник
-1 -
-1 -
-1 -
 1 - maravilha, f - чудо
-1 -
 1 - sepultar, vt - хоронить
-1 -
 1 - imortalizar, vt - обессмертить
-1 -
 1 - paixão, f - страсть
-1 -
 1 - dirigir-se, vr (a) - направляться (к чему-л.)
-1 -
 1 - mosteiro, m - монастырь
-1 -
 1 - edificar, vt - воздвигать
-1 -
 1 - agradecimento, m (a) - благодарность (кому-л.)
-1 -
 1 - virgem, f - дева
-1 -
 1 - castelhano, m - кастильский, испанский
-1 -
 1 - ficar pasmado, part (com) - удивляться (чему-л.)
-1 -
 1 - capela, f - придел, часовня
-1 -
 1 - imperfeito, adj - несовершенный, незаконченный
-1 -
 1 - margem, f - берег (реки)
-1 -
 1 - poupar, vt - беречь, щадить
-1 -
 1 - sola, f - подметка
-1 -
 1 - acervo, m - хранилище
-1 -
 1 - rococó, adj - рококо
-1 -
 1 - barroco, adj - барокко
-1 -
 1 - estudantil, adj - студенческий
-1 -
 1 - finalista, m f - выпускник
-1 -
 1 - benzer, vt - благословлять, освящать
-1 -
 1 - queimar, vt - сжигать
-1 -
 1 - evento, m - событие
-1 -
 1 - povoação, f - населенный пункт
-1 -
 1 - vestígio, m - след
-1 -
 1 - estação, f - пункт
-1 -
 1 - arqueológico, adj - археологический
-1 -
 1 - romano, adj - римский
-1 -
 1 - conter, vt - содержать
-1 -
 1 - conjunto, m - ансамбль
-1 -
 1 - medir vt - иметь рост, насчитывать
-1 -
 1 - rumar, vi (а) - направляться (к чему-л.)
-1 -
 1 - navegar, vi - плавать
-1 -
 1 - salina, f  - соляная копь, солеварня
-1 -
 1 - fonte, f - источник
-1 -
 1 - encaminhar-se, vr (para) - направляться (куда-л.)
-1 -
 1 - invicto, adj - непобедимый
-1 -
 1 - conquistar, vt - завоевывать
-1 -
 1 - cave, f - погреб
-1 -
 1 - ribeirinho, adj - береговой, прибрежный
-1 -
 1 - património, m - наследие
-1 -
 1 - embarcar, vi (em) - садиться (на что-л.) (корабль, самолет)
-1 -
 1 - pipa, f - бочка
-1 -
 1 - apreciar, vt - ценить
-1 -
 1 - destacar-se, vr (por) - выделяться (чем-л.)
-1 -
 1 - estádio, m - стадион
-1 -
 1 - aproximar-se, vr (de) - приближаться (к чему-л.)
-1 -
 1 - rezar, vi - молиться
-1 -
 1 - ditado, m - поговорка
-1 -
 1 - pólo, m - полюс
-1 -
 1 - santuário, m - святилище
-1 -
 1 - funicular, m - фуникулер
-1 -
 1 - em serviço - зд. работающий
-1 -
 1 - contrapeso, m - противовес
-1 -
 1 - escadório, m - лестница
-1 -
 1 - berço, m - колыбель
-1 -
 1 - proclamar, vt - провозглашать
-1 -
 1 - reconquista, f - реконкиста, отвоевание земель
-1 -
 1 - escala, f - остановка
-1 -
 1 - medieval, adj - средневековый
-1 -
 1 - pescatório, adj - рыбацкий
-1 -
 1 - encantado, part - очарованный
-1 -
 1 - percurso, m - путь
-1 -
-1 -
-1 -
-1 -
-1 -
 1 - périplo, m - круиз, путешествие
-1 -
 1 - desbravar, vt - вспахивать
-1 -
 1 - paisagem, f - пейзаж
-1 -
 1 - sobreiro, m - пробковый дуб
-1 -
 1 - azinheira, f - каменный дуб
-1 -
 1 - figueira, f - инжир, фиговое дерево
-1 -
 1 - oliveira, f - оливковое дерево
-1 -
 1 - exploração, f - зд. хозяйство
-1 -
 1 - latifundiário, adj - крупнопоместный, крупноземельный
-1 -
 1 - trigo, m - пшеница
-1 -
 1 - cevada, f - ячмень
-1 -
 1 - aveia, f - овес
-1 -
 1 - milho, m - кукуруза
-1 -
 1 - hortaliças, f pl - зелень, овощные культуры
-1 -
 1 - sujeito, adj (a) - подверженный (чему-л.)
-1 -
 1 - seca, f - засуха
-1 -
 1 - escasso, adj - редкий
-1 -
 1 - barragem, f - плотина
-1 -
 1 - irrigação, f - орошение
-1 -
 1 - celeiro, m - зд. житница
-1 -
 1 - cortiça, f - пробка
-1 -
 1 - abastecer, vt (em) - снабжать (чем-л.)
-1 -
 1 - recolha, f - сбор
-1 -
 1 - ocorrer, vi - случаться
-1 -
 1 - consistir, vi (em) - состоять (из чего-л.)
-1 -
 1 - retirar, vt - снимать
-1 -
 1 - casca, f - кора
-1 -
 1 - consecutivamente, adv - следовательно
-1 -
 1 - pilar, m - основание, опора
-1 -
 1 - оsso, m - кость
-1 -
 1 - transitoriedade, f - бренность
-1 -
 1 - iniciar, vt (a) - приобщить (к чему-л.)
-1 -
 1 - alentejano, adj - житель провинции Алентежу; относящийся к Алентежу
-1 -
 1 - saborear, vt - наслаждаться вкусом
-1 -
 1 - açorda, f - похлебка
-1 -
 1 - gaspacho, m - гаспачо
-1 -
 1 - ensopado, m - тушеное мясо с овощами
-1 -
 1 - аdega, f - погребок
-1 -
 1 - alternar, vi (соm) - чередоваться (c чем-л.)
-1 -
 1 - pernoitar, vi - переночевать
-1 -
 1 - pousada, f - гостиница в историческом памятнике (дворце, монастыре, особняке)
-1 -
 1 - convento, m - монастырь
-1 -
 1 - franciscano, adj - францисканский
-1 -
 1 - senhorial, adj - господский
-1 -
 1 - porção, f - часть, порция
-1 -
 1 - conquistar, vt (a) - отвоевать (у кого-л.)
-1 -
 1 - mouro, m - мавры
-1 -
 1 - reinado, m - царствование
-1 -
 1 - destino, m - пункт назначения
-1 -
 1 - temperado, adj - умеренный
-1 -
 1 - ameno, adj - мягкий
-1 -
 1 - fruto, m - плод
-1 -
 1 - figo, m - инжир
-1 -
 1 - amêndoa, f - миндаль
-1 -
 1 - alfarroba, f - плод рожкового дерева (alfarrobeira, f)
-1 -
 1 - aguardente, f - водка
-1 -
 1 - medronho, m - плод знмляничного дерева
-1 -
-1 -
-1 -
-1 -
-1 -
 1 - fazer fronteira com - граничить с чем-л.
-1 -
 1 - não poupar a sola dos sapatos - не жалеть ног
-1 -
 1 - não perder a oportunidade de - не упускать возможности
-1 -
 1 - dar um passeio por - совершать прогулку по чему-л.
-1 -
 1 - fazer questão de (que + conjuntivo) - настаивать на том, чтобы
-1 -
 1 - dar uma gargalhada - рассмеяться
-1 -
 1 - conquistar renome - завоевать славу
-1 -
 1 - a perder de vista - докуда хватает глаз
-1 -
 1 - fazer o deleite de - быть усладой кого-л.
-1 -
-1 -
-1 -
-1 -
-1 -
 1 - ao ponto de - до такой степени, что
-1 -
 1 - rumo a - по направлению к чему-л.
-1 -
 1 - ao longo de - вдоль чего-л.
-1 -
 1 - a Oeste, a Norte, a Este, a Sul - на западе, на севере, на востоке, на юге
-1 -
 1 - em direção a - по направлению к
-1 -
 1 - à medida que - по мере того, как
-1 -
 1 - devido a - благодаря чему-л.
-1 -
 1 - de facto - на самом деле, действительно
-1 -
 1 - ao ritmo de  - в ритме чего-л.
-1 -
 1 - por sorte - по счастью
-1 -
 1 - ao ar livre - под открытым небом
-1 -
 1 - pelo caminho - по дороге
-1 -
 1 - em ponto pequeno - в миниатюре
-1 -
 1 - junto a - рядом с чем-л.
-1 -
 1 - em breve - вскоре
-1 -
 1 - por acaso - случайно
-1 -
 1 - ao vivo - живьем
-1 -
 1 - em sinal de - в знак чего-л.
-1 -
-1 -
 2 - invasão, f - вторжение, нашествие
-2 -
 2 - bárbaro, m adj - варвар, варварский
-2 -
 2 - domínio, m - господство
-2 -
 2 - correspondente, adj (a) - соответствующий (чему-л.)
-2 -
 2 - germânico, adj - германский
-2 -
 2 - Cáucaso, m - Кавказ
-2 -
 2 - alano, m adj - алан, аланский
-2 -
 2 - vândalo, m adj - вандал, вандальский
-2 -
 2 - suevo, m adj - свев, свевский
-2 -
 2 - visigodo, m adj - вестгот, вестготский
-2 -
 2 - pejorativamente, adv - презрительно
-2 -
 2 - oriundo (de), adj - родом (из), происходящий (от кого-л.)
-2 -
 2 - império, m - империя
-2 -
 2 - latim, m - латынь
-2 -
 2 - costume, m - обычай
-2 -
 2 - marca, f - след, метка
-2 -
 2 - visível, adj - заметный, видимый
-2 -
 2 - vestígio, m - след
-2 -
 2 - reino, m - царство
-2 -
 2 - assimilar, vt - усваивать, ассимилировать
-2 -
 2 - adquirir, vt - приобретать
-2 -
 2 - progressivamente, adj - постепенно
-2 -
 2 - traço, m - черта
-2 -
 2 - distintivo, adj - отличительный
-2 -
 2 - implantar, vt - насаждать
-2 -
 2 - enfrentar, vt - столкнуться (с чем-л.)
-2 -
 2 - medieval, adj - средневековый
-2 -
 2 - derrotar, vt - разгромить
-2 -
 2 - islâmico, adj - исламский
-2 -
 2 - conquista, f - завоевание
-2 -
 2 - escapar, vi (a) - избегать (чего-л.)
-2 -
 2 - jugo, m - ярмо, гнет
-2 -
 2 - refugiar-se, vr - укрываться
-2 -
 2 - resistência, f - сопротивление
-2 -
 2 - determinante, adj - решающий, определяющий
-2 -
 2 - meridional, adj - южный
-2 -
 2 - сontributo, m - вклад
-2 -
 2 - equiparável, adj - сопоставимый
-2 -
 2 - notável, adj - заметный, видимый, значительный
-2 -
 2 - rega, f - полив
-2 -
 2 - dominar, vt - зд. владеть
-2 -
 2 - moinho, m - мельница
-2 -
 2 - herança, f - наследие
-2 -
 2 - passagem, f - проход
-2 -
 2 - chaminé, f - труба
-2 -
 2 - terraço, m - терраса, веранда
-2 -
 2 - caiar, vt - штукатурить
-2 -
 2 - emblemático, adj - символический
-2 -
 2 - azulejo, m - изразец
-2 -
 2 - doçaria, f - кондитерское дело, сладость
-2 -
 2 - bolinho, m - шарик
-2 -
 2 - amêndoa, f - миндальный орех
-2 -
 2 - irresistível, adj - непреодолимый
-2 -
 2 - figo, m - инжир
-2 -
 2 - batata-doce, f - сладкий батат
-2 -
 2 - discórdia, f - противоречие, разногласие
-2 -
-2 - beneficiar, vt - служить;  beneficiar, vi (de) - пользоваться (чем-л.)
-2 -
 2 - conquistar, vt (a) - отвоевывать (у кого-л.)
-2 -
 2 - fundar, vt - основывать
-2 -
 2 - governativo, adj - правительственный
-2 -
 2 - condado, m - графство
-2 -
 2 - designar, vt - называть, назначать
-2 -
 2 - berço, m - колыбель
-2 -
 2 - conde, m - граф
-2 -
 2 - solicitar, vt - просить
-2 -
 2 - auxílio, m - помощь
-2 -
 2 - defrontar, vt - противостоять (чему-л.)
-2 -
 2 - tropa, f - армия
-2 -
 2 - galego, m adj - галисиец, галисийский
-2 -
 2 - apoderar-se, vr (de) - овладевать (чем-л.)
-2 -
 2 - reconhecimento, m - признание
-2 -
 2 - exército, m - армия
-2 -
 2 - apoio, m - помощь
-2 -
 2 - ordem, f - ордер
-2 -
 2 - Cruzada, f - крестовый поход
-2 -
 2 - batalha, f - битва
-2 -
 2 - proclamar, vt - провозглашать
-2 -
 2 - lenda, f - легенда
-2 -
 2 - milagre, m - чудо
-2 -
 2 - revelação, f - откровение
-2 -
 2 - profético, adj - пророческий
-2 -
 2 - mediante, prep - при помощи
-2 -
 2 - surgir, vi - возникать
-2 -
 2 - combate, m - битва
-2 -
 2 - mito, m - миф
-2 -
 2 - ancorar, vi - бросать якорь, зд. внедряться
-2 -
 2 - imaginário, m adj - воображаемый, мнимый (мир)
-2 -
 2 - retratar, vt - изображать
-2 -
 2 - brasão, m de armas - герб
-2 -
 2 - escudete, m - небольшой щит
-2 -
 2 - chaga, f - рана, язва
-2 -
 2 - segundo, prep - в соответствие с чем-л.
-2 -
 2 - servir, vi (de) - cлужить (чем-л.)
-2 -
 2 - justificar, vt - оправдывать
-2 -
 2 - concretizar-se, vr - осуществляться
-2 -
 2 - tratado, m - договор
-2 -
 2 - prolongar, vt - продлевать
-2 -
 2 - obra, f - дело, произведение
-2 -
 2 - limite, m - граница
-2 -
 2 - retomar (a) - отвоевывать (у кого-л.)
-2 -
 2 - alargamento, m - расширение
-2 -
 2 - posse, f - власть
-2 -
-2 -
-2 -
-2 -
-2 -
-2 -
-2 -
 2 - estar a par (de) - быть в курсе (чего-л.)
-2 -
 2 - não fazer a mínima ideia (de) - не иметь ни малейшего представления (о чем-л.)
-2 -
-2 - o, a chamado (a), adj - так называемый, - ая
-2 -
 2 - pôr cobro, pôr fim (a) - положить конец (чему-л.)
-2 -
 2 - passar a ser - cтановиться
-2 -
 2 - é de assinalar - следует отметить
-2 -
 2 - sofrer a influência (de) - испытывать влияние (чего-л.)
-2 -
 2 - converter-se ao cristianismo - принять христианство
-2 -
 2 - a partir de, loc adv - начиная с (чего-л.)
-2 -
 2 - graças a, loc adv - благодаря (чему-л.)
-2 -
 2 - lançar os alicerces, m pl (de) - заложить основы (чего-л.)
-2 -
 2 - em trânsito (para) - по пути (куда-л.)
-2 -
 2 - assumir, vt o governo - прийти к власти
-2 -
 2 - ganhar, vt fôlego - обрести второе дыхание
-2 -
 2 - dar início (a), dar origem (a) - положить начало (чему-л.)
-2 -
 2 - por iniciativa (de) - по инициативе (кого-л.)
-2 -
 2 - em recompensa, loc adv - взамен
-2 -
 2 - sob o comando, m (de) - под командованием (кого-л.)
-2 -
 2 - mediante (alguma coisa) - посредством (чего-л.), при помощи (чего-л.)
-2 -
 2 - a vitória (sobre) - победа (над кем-л.)
-2 -
 2 - concentrar os seus esforços (em) - сосредотачивать усилия (на чем-л.)
-2 -
 2 - por referência (a) - в отношении (чего-л.), зд. в память (чего-л.)
-2 -
 2 - reconhecer, vt a soberania - признать суверенитет
-2 -
-2 -
 3 - barra, f - вход в гавань
-3 -
 3 - baluarte, m - бастион
-3 -
 3 - disparar, vi - стрелять
-3 -
 3 - menagem, f - главная башня
-3 -
 3 - refrescar, vt - освежать
-3 -
 3 - gesta, f - подвиг
-3 -
 3 - proeminente, adj - выдающийся
-3 -
 3 - proa, f  - нос, носовая часть судна
-3 -
 3 - ermida, f - часовня
-3 -
 3 - dedicar, vt (a) - посвящать (кому-л.)
-3 -
 3 - sucessor, m - преемник
-3 -
 3 - devoção, f (a) - зд. почитание (кого-л.)
-3 -
 3 - crença, f - вера, верование
-3 -
 3 - rosa, f dos ventos - роза ветров
-3 -
 3 - galeão, m - галеон (судно)
-3 -
 3 - sereia, f - сирена, русалка
-3 -
 3 - rota, f - путь, направление
-3 -
 3 - expandir, vi - расширяться
-3 -
 3 - bem-sucedido, adj - удачный
-3 -
 3 - dilatar, vt - распространять
-3 -
 3 - fé, f - вера
-3 -
 3 - pressupor, vt - подразумевать
-3 -
 3 - náutico, adj - мореходный, навигационный, морской
-3 -
 3 - auge, m - апогей
-3 -
 3 - especiarias, f pl - пряности
-3 -
 3 - canela, f - корица
-3 -
 3 - pimenta, f - перец
-3 -
 3 - gengibre, m - имбирь
-3 -
 3 - vestimentário, adj - относящийся к одежде
-3 -
 3 - espalhar, vt - распространять
-3 -
 3 - bronzeado, m - загар
-3 -
 3 - cânone, m - канон
-3 -
 3 - divulgação, f - распространение
-3 -
 3 - missionário, m - миссионер
-3 -
 3 - conversão, f - обращение
-3 -
 3 - surpreendente, adj - удивительный
-3 -
 3 - casta, f - каста
-3 -
 3 - unguento, m - мазь
-3 -
 3 - tez, f - кожа лица
-3 -
 3 - abundante, adj - обильный
-3 -
 3 - desviar, vt - отклонять в сторону
-3 -
 3 - corrente, f - течение
-3 -
 3 - corroborar, vt - подтверждать
-3 -
 3 - coroa, f - корона
-3 -
 3 - fonte, f - источник
-3 -
 3 - pau-brasil, m - красный сандал
-3 -
 3 - extrair, vt - добывать
-3 -
 3 - tingimento, m - oкраска
-3 -
 3 - tecido, m - ткань
-3 -
 3 - cana-de-açúcar, f - сахарный тростник
-3 -
 3 - fausto, m - роскошь, великолепие
-3 -
 3 - luxo, m - роскошь
-3 -
 3 - ostentação, f - блеск, помпа, пышность
-3 -
 3 - afluxo, m - приток
-3 -
 3 - à mercê (de) - в зависимости (от кого-л.), на милости (кого-л.)
-3 -
 3 - peninsular, adj - полуостровной
-3 -
 3 - fustigar, vt - бичевать
-3 -
 3 - rapina, f - грабеж, хищение
-3 -
 3 - guerreiro, adj - воинственный, военный
-3 -
-3 -
-3 -
-3 -
-3 -
 3 - sob a invocação, f (de) - зд. в честь (чего-л., кого-л.)
-3 -
 3 - por esse mundo fora - по всему миру
-3 -
 3 - desta feita, loc adv - таким образом
-3 -
 3 - por acaso, loc adv - случайно
-3 -
 3 - a caminho de, loc adv - по дороге к
-3 -
 3 - entrar em decadência, f - прийти в упадок
-3 -
 3 - adotar medidas - принимать меры
-3 -
 3 - a bem dizer - по правде сказать
-3 -
-3 -
-3 -
-3 -
 4 - ponta, f - край, конец
-4 -
 4 - constar, vi - зд. содержаться
-4 -
 4 - dados, m pl de identificação, f (dados pessoais) - личные данные
-4 -
 4 - anfitrião, m - хозяин
-4 -
 4 - emissão, f - выпуск
-4 -
 4 - data de validade, f - срок действия
-4 -
 4 - referência, f - упоминание
-4 -
 4 - entidade, f emissora - учреждение, выдавшее паспорт
-4 -
 4 - estadia, f - пребывание
-4 -
 4 - termo, m de responsabilidade - обязательство
-4 -
 4 - país de origem, f - страна происхождения
-4 -
 4 - efetuar um pedido, m de visto, m - запросить визу
-4 -
 4 - aceder, vi à internet, f, ao portal  - входить в интернет, на портал
-4 -
 4 - preencher, vt - заполнять
-4 -
 4 - secção, f consular - косульский отдел
-4 -
 4 - afluxo, m - приток
-4 -
 4 - subscrever um seguro, m de viagem - купить страховку
-4 -
 4 - precaver-se, vr (de) - остерегаться (чего-л), зд. защищаться (от чего-л.)
-4 -
 4 - requerente, m - проситель
-4 -
 4 - extrato, m de conta, f bancária - выписка из банковского счета
-4 -
 4 - entidade, f empregadora - работодатель
-4 -
 4 - vencimento, m - заработок
-4 -
 4 - usufruir, vt - пользоваться (доходами)
-4 -
 4 - levantar, vt - зд. забирать
-4 -
 4 - visto, m de uma entrada - одноразовая виза
-4 -
 4 - tardar, vi - зд. проходить (о времени)
-4 -
 4 - evitar, vt  - избегать
-4 -
 4 - engarrafamento, m - пробка
-4 -
 4 - hora, f de ponta, f - час пик
-4 -
 4 - detetor, m de metais - металлоискатель
-4 -
 4 - fazer o check-in, m - зарегистрироваться (на рейс)
-4 -
 4 - balcão, m - стойка
-4 -
 4 - hospedeira, f - стюардесса
-4 -
 4 - pesar, vt - взвешивать
-4 -
 4 - excesso, m de peso, m - перевес багажа
-4 -
 4 - cartão, m de embarque, m - посадочный талон
-4 -
 4 - zona, f de embarque, m - зона посадки
-4 -
 4 - revistar, vt - обыскивать
-4 -
 4 - efeitos, m pl pessoais - личные вещи
-4 -
 4 - cesto, m - корзина
-4 -
 4 - apropriado, adj - подходящий
-4 -
 4 - raio X, m - рентгеновские лучи
-4 -
 4 - líquido, f - жидкость
-4 -
 4 - porão, m - зд. багажное отделение
-4 -
 4 - frasco, m - флакон
-4 -
 4 - confiscar, vt - конфисковывать
-4 -
 4 - submeter, vt (a) - подвергать (чему-л.)
-4 -
 4 - medidas f pl de segurança, f  - меры безопасности
-4 -
 4 - reforçar, vt - усиливать
-4 -
 4 - constante, adj - постоянный
-4 -
 4 - ameaça, f - угроза
-4 -
 4 - atentado, m - теракт
-4 -
 4 - sobrar, vi - оставаться
-4 -
 4 - embarque, m - посадка
-4 -
 4 - lembrança, f - зд. сувенир
-4 -
 4 - fugir, vi (a) - зд. избегать (чего-л.)
-4 -
 4 - aperceber-se, vr (de) - заметить (что-л.)
-4 -
 4 - semelhante (a) - похожий (на что-л.)
-4 -
 4 - documentário, m - документальный фильм
-4 -
 4 - fadista, m f - исполнитель, -ца фаду
-4 -
 4 - envergar, vt - надевать, носить
-4 -
 4 - cliché, m - клише
-4 -
 4 - cofre, m - зд. отделение
-4 -
 4 - assento, m - сидение
-4 -
 4 - descolar, vi - взлетать
-4 -
 4 - conexão, f - пересадка
-4 -
 4 - deambular, vi - бродить
-4 -
 4 - cabeçalho, m - заголовок
-4 -
-4 -
-4 -
 4 - deslocar-se, vr (a) - перемещаться (куда-л.)
-4 -
 4 - ferroviáriо, adj - железнодорожный
-4 -
 4 - tirar bilhete, m - взять билет
-4 -
 4 - ligação, f - сообщение
-4 -
 4 - carruagem, f - вагон
-4 -
 4 - atribuir, vt - присваивать
-4 -
 4 - velocidade, f de cruzeiro, m - крейсерская скорость
-4 -
 4 - povoação, f - населенный пункт
-4 -
 4 - teor, m - содержание
-4 -
 4 - vozeirão, m - грубый голос
-4 -
 4 - sobrepôr-se (a) - накладываться (на что-л.)
-4 -
 4 - pacato, adj - спокойный
-4 -
 4 - revisor, m - кондуктор
-4 -
 4 - obliterar, vt - компостировать
-4 -
 4 - algazarra, f - шум, гам
-4 -
 4 - entoar, f - затягивать
-4 -
 4 - serenata, f - серенада
-4 -
 4 - viola, f - род гитары
-4 -
 4 - pandeireta, f - бубен
-4 -
 4 - cavaquinho, m - небольшая четырехструнная гитара
-4 -
 4 - calar, vi - замолчать
-4 -
 4 - travagem, f - торможение
-4 -
 4 - brusco, adj - резкий
-4 -
 4 - ruído, m - шум
-4 -
 4 - ensurdecedor, adj - оглушительный
-4 -
 4 - pânico, m - паника
-4 -
 4 - terramoto, m - землетрясение
-4 -
 4 - ajoelhar-se, vr - вставать на колени
-4 -
 4 - implorar, vt - умолять
-4 -
 4 - catenária, f - кабель (на железных дорогах)
-4 -
 4 - forçar, vt as portas - вышибать  двери
-4 -
 4 - enxergar, vt - замечать, видеть
-4 -
 4 - discretamente, adv - скромно
-4 -
 4 - aparatoso, adj - пышный, роскошный
-4 -
 4 - viatura, f - транспортное средство
-4 -
 4 - passagem, f de níveis - наземный переход
-4 -
 4 - abalroar, vt - сталкиваться
-4 -
 4 - irreconhecível, adj - неузнаваемый
-4 -
 4 - condutor, m - водитель
-4 -
 4 - ileso, adj - невредимый
-4 -
 4 - colisão, f - столкновение
-4 -
 4 - desamparado, adj - беспомощный
-4 -
 4 - pegar, vi (em) - брать (что-л.)
-4 -
 4 - sucedido, m - происшествие
-4 -
 4 - conciliador, adj - примирительный
-4 -
 4 - adiar, vt - откладывать, переносить на более поздний срок
-4 -
 4 - autoridades, f pl - власти
-4 -
 4 - transbordo, m - пересадка
-4 -
-4 -
-4 -
-4 -
-4 -
-4 -
-4 -
 4 - efetuar a marcação - записываться
-4 -
 4 - reunir as condições - выполнить условия
-4 -
 4 - fazer questão (de) - считать важным (что-л.), настаивать (на чем-л.)
-4 -
 4 - causar boa impressão (junto de, em) - произвести хорошее впечатление (на кого-л.)
-4 -
 4 - pensar cá com os seus botões - говорить сам с собой
-4 -
 4 - apertar o cinto de segurança - застегивать привязные ремни
-4 -
 4 - matar o tempo - убивать время
-4 -
 4 - revestir-se de uma importância particular - приобретать особое значение
-4 -
 4 - confirmar as suspeitas - подтвердить подозрения
-4 -
 4 - perder a paciência - потерять терпение
-4 -
 4 - como peças de dominó - как кости домино
-4 -
 4 - manter o seu sangue-frio - сохранять хладнокровие
-4 -
 4 - transtornar os planos - расстраивать планы
-4 -
 4 - respirar de alívio - вздохнуть с облегчением
-4 -
 4 - ativar um plano de emergência - привести в действие запасной план
-4 -
 4 - fazer juz (a) - быть достойным (чего-л.), заслуживать (что-л.)
-4 -
-4 -
-4 -
-4 -
-4 -
 4 - a convite (de) - по приглашению (кого-л.)
-4 -
-4 - o (a) dito (-a) - упомянутый, - ая; dito, -a - так называемый, -ая
-4 -
 4 - dentro do prazo estipulado - в указанный срок
-4 -
 4 - isto é - то есть
-4 -
 4 - devido (a) - из-за (чего-л.)
-4 -
 4 - em linha - он-лайн
-4 -
 4 - desta feita - на этот раз
-4 -
 4 - com antecedência - заранее
-4 -
 4 - de mala em punho - с чемоданом в руке
-4 -
 4 - de mochila às costas - с рюкзаком за спиной
-4 -
 4 - dos pés à cabeça - с головы до ног
-4 -
 4 - para grande desalento seu - к его великому огорчению
-4 -
 4 - hoje em dia - в настоящий момент
-4 -
 4 - à procura (de) - в поисках (чего-л.)
-4 -
 4 - rumo (a) - по направлению (к чему-л.)
-4 -
 4 - de braços abertos - с распростертыми объятиями
-4 -
 4 - por uma questão de comodidade - из соображений удобства
-4 -
 4 - de rompante - стремительно
-4 -
 4 - de repente - вдруг
-4 -
 4 - por sorte - по счастью
 5 - herdeiro, m - наследник
-5 -
 5 - regência, f - регентство
-5 -
 5 - exercer, vt - исполнять
-5 -
 5 - cardeal, m - кардинал
-5 -
 5 - curar vt - лечить
-5 -
 5 - ansiedade, f - нетерпение
-5 -
 5 - marechal, m - зд. паладин
-5 -
 5 - exército, m - войско
-5 -
 5 - combatente, m - воин, боец; борец
-5 -
 5 - esmagar, vt - уничтожать
-5 -
 5 - capturar, vt - брать в плен
-5 -
 5 - próprio, adj - сам
-5 -
 5 - relacionar, vt (сom) - связывать (с чем-л.)
-5 -
 5 - sebastianismo, m - cебастьянизм
-5 -
 5 - falecer, vi - умирать
-5 -
 5 - recusar-se, vr (a) - отказываться (от чего-л.)
-5 -
 5 - cavaleiresco, adj - рыцарский
-5 -
 5 - confessar, vt - признавать
-5 -
 5 - infâmia, f - бесчестие
-5 -
 5 - ausência, f - отсутствие
-5 -
 5 - cognome, m - прозвище
-5 -
 5 - mergulhar, vt - погружать
-5 -
 5 - colapso, m - коллапс
-5 -
 5 - anexar, vt - присоединять
-5 -
 5 - revelar, vt - раскрывать
-5 -
 5 - amargura, f - горечь
-5 -
 5 - relembrar, vt - напоминать
-5 -
 5 - oportuno, adj - своевременный, подходящий
-5 -
 5 - nevoeiro, m - туман
-5 -
 5 - expulsar, vt - изгонять
-5 -
 5 - surgir, vi - возникать
-5 -
 5 - inúmero, adj - бесчисленный
-5 -
 5 - relato, m - повествование, рассказ
-5 -
 5 - mencionar, vt - упоминать
-5 -
 5 - escapar, vi - избегать
-5 -
 5 - usurpador, m - узурпатор, захватчик
-5 -
 5 - messiânico, adj - мессианский
-5 -
 5 - perdurar, vi - долго длиться, долго существоать
-5 -
 5 - sofrimento, m - страдание
-5 -
 5 - providencial, adj - провидческий
-5 -
 5 - inclusive, adv - включительно
-5 -
 5 - revolta, f - восстание
-5 -
 5 - conjurado, m - заговорщик
-5 -
 5 - chefiar, vt - возглавлять
-5 -
 5 - duque, m - герцог
-5 -
 5 - restauração, f - восстановление
-5 -
 5 - imaginário, m - воображаемый мир
-5 -
 5 - interpretar, vt - интерпретировать, истолковывать
-5 -
 5 - circunstância, f - обстоятельство
-5 -
 5 - verificar-se, vr - осуществляться
-5 -
 5 - recrudescimento, m - усилени
-5 -
 5 - invasão, f - вторжение
-5 -
 5 - mito, m - миф
-5 -
 5 - converter-se, vr (em) - превратиться (во что-л.)
-5 -
 5 - debruçar-se, vr (sobre) - склоняться (над чем-л.)
-5 -
 5 - inconsciente, m - бессознательное
-5 -
 5 - paradoxal, adj - парадоксальный
-5 -
 5 - contribuir, vi (para) - способствовать (чему-л.)
-5 -
 5 - recuperação, f - зд. восстановление, возрождение
-5 -
 5 - estimular, vt - стимулировать
-5 -
 5 - espírito, m de iniciativa, f - инициативность
-5 -
 5 - acentuar, vt - усиливать
-5 -
 5 - inércia, f - инертность
-5 -
 5 - passivamente, adv - пассивно
-5 -
 5 - salvador, m - спаситель
-5 -
 5 - submissão, f - подчинение
-5 -
 5 - sucessivo, adj - последовательный, непрерывный
-5 -
 5 - contributo, m - вклад
-5 -
 5 - milagre, m - чудо
-5 -
 5 - reacender, vt - вновь зажигать
-5 -
 5 - sublinhar, vt - подчеркивать
-5 -
-5 -
-5 -
-5 -
-5 -
 5 - depositar esperanças (em) - возлагать надежды (на что-л, кого-л.)
-5 -
 5 - com base em - на основе чего-л.
-5 -
 5 - ao encontro de - навстречу чему-л.
-5 -
 5 - sofrer uma derrota - потерпеть поражение
-5 -
 5 - de acordo com - в соответствии с
-5 -
 5 - segundo - согласно чему-л.
-5 -
 5 - dar a vida por - отдать жизнь за что-л.,  кого-л.
-5 -
 5 - quanto a - в том, что касается чего-л.
-5 -
 5 - fazer-se passar por - выдавать себя за кого-л.
-5 -
 5 - uma espécie de - что-то вроде
-5 -
 5 - levar a acreditar - заставлять поверить
-5 -
 5 - ter influência em - оказывать влияние на что-л.
-5 -
 5 - a partir de - начиная с чего-л.
-5 -
 5 - ao sabor de - по воле чего-л., в соответствии с чем-л.
-5 -
 5 - ser parte integrante de - быть составной частью чего-л.
-5 -
 5 - por um lado, por outro lado - с одной стороны, с другой стороны
-5 -
-5 -
-5 -
-5 -
 6 - cegueira, f - слепота
-6 -
 6 - disco, m - круг
-6 -
 6 - iluminar-se, vr - зажигаться
-6 -
 6 - acelerar, vi - нажимать на педаль газа, прибавить скорость
-6 -
 6 - sinal, m vermelho - красный свет
-6 -
 6 - passadeira, f - переход
-6 -
 6 - peão, m - пешеход
-6 -
 6 - surgir, vi - возникать
-6 -
 6 - pisar, vt - ступать
-6 -
 6 - faixa, f - полоса
-6 -
 6 - capa, f - зд. оболочка
-6 -
 6 - porém, adv - однако
-6 -
 6 - embraiagem, f - сцепление
-6 -
 6 - tensão, f - напряжение
-6 -
 6 - avançar, vi - продвигаться вперед
-6 -
 6 - recuar, vi - отступать
-6 -
 6 - chibata, f - хлыст
-6 -
 6 - acender-se, vr - зажигаться
-6 -
 6 - bruscamente, adv - внезапно
-6 -
 6 - arrancar, vi - резко двигаться с места, набирать скорость
-6 -
 6 - notar, vt - замечать
-6 -
 6 - acelerador, m - педаль газа
-6 -
 6 - solto, adj - свободный, выпущенный
-6 -
 6 - alavanca, f - рычаг, рукоятка
-6 -
 6 - caixa, f de velocidades, f pl - коробка скоростей
-6 -
 6 - encravar-se, vr - заедать
-6 -
 6 - blocagem, f - блокировка
-6 -
 6 - travão, m - тормоз
-6 -
 6 - falha, f - зд. отказ
-6 -
 6 - circuito, m eléctrico - электрический ток
-6 -
 6 - gasolina, f - бензин
-6 -
 6 - ajuntamento, m - группа, сборище
-6 -
 6 - passeio, m - тротуар
-6 -
 6 - condutor, m - водитель
-6 -
 6 - pára-brisas, m - лобовое стекло
-6 -
 6 - buzinar, vi - гудеть
-6 -
 6 - disposto, part a - расположенный (к чему-л.)
-6 -
 6 - empurrar, vt - толкать (от себя)
-6 -
 6 - empanado, adj - попавший в аварию
-6 -
 6 - estorvar, vt - мешать, затруднять, препятствовать
-6 -
 6 - trânsito, m - дорожное движение
-6 -
 6 - consoante, prep - в соответствии с чем-л.
-6 -
 6 - apreciar, vt - ценить
-6 -
 6 - são, sã, adj - здоровый, -ая
-6 -
 6 - punho, m - кулак
-6 -
 6 - reter, vt - удерживать
-6 -
 6 - cérebro, m - мозг, ум
-6 -
 6 - recolher, vt - собирать
-6 -
 6 - desespero, m - отчаяние
-6 -
 6 - romper, vi - прерывать
-6 -
 6 - mudar, vi de - сменить, изменить (что-л.)
-6 -
 6 - transeunte, m - прохожий
-6 -
 6 - vulgar, adj - обычный
-6 -
 6 - farol, m - фара
-6 -
 6 - partir, vt - ломать, разбивать
-6 -
 6 - guarda-lamas, m - крыло (автомобиля)
-6 -
 6 - amolgar, vt - зд. корежить
-6 -
 6 - confusão, f - неразбериха, беспорядок
-6 -
 6 - lata, f - жестянка
-6 -
 6 - implorar, vi - умолять
-6 -
 6 - ambulância, f - карета скорой помощи
-6 -
 6 - intervir, vi - вмешиваться
-6 -
-6 - murmurar, vi - бормотать, murmúrio, m - шепот, бормотание
-6 -
 6 - aprovação, f - одобрение
-6 -
 6 - cinto, m de segurança, f - ремень безопасности
-6 -
 6 - espreitar, vi - кидать взгляд, взглянуть
-6 -
 6 - guloso, adj - жадный
-6 -
 6 - nevoeiro, m - туман
-6 -
 6 - desgraça, f - несчастье
-6 -
 6 - arranque, m - рывок
-6 -
 6 - balbuciar, vt - бормотать
-6 -
 6 - enfraquecer, vt - слабеть
-6 -
 6 - arrumar, vt - зд. парковать, поставить (машину)
-6 -
 6 - transversal, adj - поперечный
-6 -
 6 - desamparado, adj - беспомощный
-6 -
 6 - aflição, f - печаль, скорбь
-6 -
 6 - socorro, m - помощь
-6 -
 6 - irregularidade, f - зд. неровность
-6 -
 6 - calçada, f - мостовая
-6 -
 6 - calhar, vi - случаться
-6 -
 6 - suceder, vi - случаться
-6 -
 6 - gabar-se, vr de - хвастаться, хвалиться (чем-л.)
-6 -
 6 - tão-pouco, adv - также не
-6 -
 6 - arranjar-se, vr - устроиться
-6 -
 6 - apertado, adj - тесный
-6 -
 6 - patamar, m - лестничная площадка
-6 -
 6 - molho, m - связка
-6 -
 6 - tatear, vt - ощупать
-6 -
 6 - às apalpadelas, loc adv - на ощупь
-6 -
 6 - cautelosamente, adv - осторожно
-6 -
 6 - zelo, m - усердие
-6 -
 6 - suspeito, adj - подозрительный
-6 -
 6 - tramar, vt - замышлять
-6 -
 6 - atar, vt - связывать
-6 -
 6 - amordaçar, vt - затыкать рот
-6 -
 6 - suspirar, vi - вздыхать
-6 -
 6 - alívio, m - облегчение
-6 -
 6 - ruído, m - шум
-6 -
 6 - maquinal, adj - машинальный
-6 -
 6 - adolescência, f - подростковый период
-6 -
 6 - suportável, adj - сносный, переносимый
-6 -
 6 - contorno, m - контуры
-6 -
-6 -
-6 -
-6 -
-6 -
 6 - tomar conta de - заботиться о ком-л.
-6 -
 6 - lançar um grito - издать крик
-6 -
 6 - arrastar os pés - волочить ноги
-6 -
 6 - ocorrer a alguém - приходить кому-л. в голову
-6 -
 6 - deitar a mão a - наложить руку на что-л.
-6 -
 6 - uma espécie de - что-то вроде
-6 -
 6 - chegar à conclusão - приходить  к выводу
-6 -
 6 - ao cabo de cinco minutos (duas semanas, três anos)  - пять минут (две недели, три года) спустя
-6 -
 6 - no fim de contas - в конце концов
-6 -
 6 - causar transtorno, m - причинять беспокойство
-6 -
 6 - eu cá me arranjo - я справлюсь
-6 -
-6 -
-6 -
-6 -
 6 - аcidente, m de viação, f - дорожно-транспортное происшествие, ДТП
-6 -
 6 - guarda, m - дорожный полицейский
-6 -
 6 - ficar feito num oito - превратиться в восьмерку, быть разбитым вдребезги
-6 -
 6 - sucata, f - свалка
-6 -
 6 - danificar, vt - наносить ущерб, повреждать
-6 -
 6 - embutido, part - помятый
-6 -
 6 - farol, m - фара
-6 -
 6 - capô, m - капот
-6 -
 6 - amolgar, vt - царапать
-6 -
 6 - furar, vt - пробить
-6 -
 6 - chassis, m - шасси, рама
-6 -
-6 - de que vale
-6 -
 6 - air bags, анг. - подушки безопасности
-6 -
 6 - cartа, f de condução, f - водительское удостоверение, права
-6 -
 6 - apólice, f de seguro, m - страховой полис
-6 -
 6 - seguro contra terceiros - страхование ответственности перед третьими лицами
-6 -
 6 - viatura, f - транспортное средство, машина
-6 -
 6 - subscrever, vt - подписать
-6 -
 6 - dano, m - ущерб
-6 -
 6 - traseira,f - задняя часть
-6 -
 6 - metidо, part para dentro - помятый
-6 -
 6 - lateral, adj - боковой
-6 -
 6 - riscar, vt - царапать
-6 -
 6 - cano, m de escape, f - выхлопная труба
-6 -
 6 - soltar-se, vr - отваливаться
-6 -
 6 - pára-brisas, m - лобовое стекло
-6 -
 6 - esmigalhar-se, vr - разбиваться вдебезги
-6 -
 6 - soprar, vi - дуть
-6 -
 6 - balão, m - зд. трубка (букв. шарик)
-6 -
 6 - submeter, vt a - подвергать (чему-л.)
-6 -
 6 - deteção, f - обнаружение
-6 -
 6 - ultrapassar, vt - обгонять
-6 -
 6 - em excesso de velocidade, loc adv - с превышением скорости
-6 -
 6 - embater, vi em - врезаться (во что-л.)
-6 -
 6 - código, m da estrada, f - правила уличного движения
-6 -
 6 - coima, f - штраф
-6 -
 6 - seguradorа, f  - страховая компания
-6 -
 6 - atribuir, vt a responsabilidade - определить ответственность
-6 -
 6 - sinistro - несчастный случай
-6 -
 6 - perito, m - эксперт
-6 -
 6 - definir, vt - определять
-6 -
 6 - prejuízo, m - ущерб
-6 -
 6 - conserto, m - ремонт
-6 -
 6 - de momento, loc adv - в настоящий момент, пока
-6 -
 6 - ocorrência, f - происшествие
-6 -
 6 - declaração, f amigável de sinistro - совместное заявление о ДТП
-6 -
 6 - dar seguimento, m a - продолжить (что-л.)
-6 -
 6 - pronto-socorro, m - эвакуатор
-6 -
 6 - oficina, f - пункт техобслуживания, сервис
-6 -
 6 - vigilante, adj - бдительный
-6 -
 6 - respeitar, vt - соблюдать
-6 -
 6 - limitações, f pl de velocidade, f - ограничение скорости
-6 -
-6 -
-6 -
-6 -
-6 -
-6 -
 6 - auto-estrada, f - шоссе
-6 -
 6 - pelos vistos, loc adv - судя по всему
-6 -
 6 - causador, m - зд. ответственный
-6 -
 6 - carga, f de trabalhos - куча проблем
-6 -
 6 - bónus, m - бонус
-6 -
 6 - chapa, f - кузов
-6 -
 6 - orçamento, m - зд. смета
-6 -
 6 - peritagem, f - экспертиза
-6 -
 6 - recorrer, vi a - прибегать (к чему-л, кому-л.)
-6 -
 6 - solicitar, vt - просить
-6 -
 6 - reparar, vt - чинить
-6 -
 6 - cortesia, f - вежливость, любезность
-6 -
 6 - substituição, f - замена
-6 -
 6 - radiador, m - радиатор
-6 -
 6 - suspensão, f - подвеска
-6 -
 6 - levar, vt - зд. получать
-6 -
 6 - bateria, f - аккумулятор
-6 -
 6 - bomba, f do óleo, m - масляный насос
-6 -
 6 - verificar, vt - проверять
-6 -
 6 - níveis, m pl do óleo - уровень масла
-6 -
 6 - pressão, f dos pneus - давление в камерах
-6 -
 6 - remeter, vt - передавать
-6 -
 6 - fatura, f - счет
-6 -
 6 - ao cuidado, loc adv - зд. по адресу
-6 -
-6 -
-7 -
-7 -
 7 - atar, vt - завязывать
-7 -
 7 - bota, f - сапог, зд. ботинок на шнурках
-7 -
 7 - desmedido, adj - непомерный
-7 -
 7 - desconfiado, adj - недоверчивый, подозрительный
-7 -
 7 - buraco, m - дыра, отверстие; нора
-7 -
 7 - apontar, vi para - указывать (на кого-л., что-л.)
-7 -
 7 - enrolar, vt - зд. бормотать, говорить неразборчиво
-7 -
 7 - agastar-se, vr com - сердиться, злиться (на кого-л.)
-7 -
 7 - treta, f - хитровсть, уловка; болтовня, пустословие
-7 -
 7 - desconsolado, adj - безутешный
-7 -
 7 - navalha, f - складной нож
-7 -
 7 - zanga, f - досада, недовольство
-7 -
 7 - desânimo, m - уныние, упадок духа
-7 -
 7 - rouquidão, f - хрипота
-7 -
 7 - vago, adj - смутный, неопределенный
-7 -
 7 - partilhar, vt - разделять
-7 -
 7 - poste, m - столб
-7 -
 7 - esboçar, vt - намечать
-7 -
 7 - inclinar-se, vr - наклоняться
-7 -
 7 - contributo, m - вклад
-7 -
 7 - distinção, f - изысканность, изящество
-7 -
 7 - postura, f - положение тела, поза
-7 -
 7 - tranquilizar-se, vr - успокаиваться
-7 -
 7 - generosidade, f - щедрость
-7 -
 7 - carregar, vt - носить, грузить
-7 -
 7 - fraqueza, f - слабость
-7 -
 7 - custoso, adj - тяжелый, трудный
-7 -
 7 - carteira, f - бумажник
-7 -
 7 - palma, f da mão - ладонь
-7 -
 7 - inspeccionar, vt - осматривать
-7 -
 7 - baralhado, adj - смущенный, в замешательстве
-7 -
 7 - interrogativo, adj - вопросительный
-7 -
 7 - brando, adj - мягкий
-7 -
 7 - com educação, loc adv - вежливо, воспитанно
-7 -
 7 - consternar-se, vr - приходить в в ужас
-7 -
 7 - assertivo, adj - утвердительный
-7 -
 7 - compatriota, m f - соотечественник, -ца
-7 -
 7 - padecer, vt agruras, f pl - переносить страдания
-7 -
 7 - tímido, adj - застенчивый, робкий
-7 -
 7 - carruagem, f - вагон
-7 -
 7 - revisor, m - контролер
-7 -
 7 - cachimbo, m - трубка
-7 -
 7 - desdém, m - презрение
-7 -
 7 - prateleira, f - полка
-7 -
 7 - preocupar-se, vr com - волноваться (о ком-л, чем-л.)
-7 -
 7 - parceiro, m - партнер
-7 -
 7 - ansiedade, f - беспокойство
-7 -
 7 - dobrar, vt - складывать
-7 -
 7 - cuidar, vi - зд. думать, полагать
-7 -
 7 - cordial, adj - сердечный
-7 -
 7 - ditar, vt - диктовать
-7 -
 7 - retirar-se, vr - уходить
-7 -
 7 - compasso, m - зд. рывок
-7 -
 7 - pousar, vt - класть
-7 -
 7 - enfiar, vt - продевать
-7 -
 7 - recolher, vt - подбирать
-7 -
 7 - molho, m - соус
-7 -
 7 - envergonhar-se, vr - стыдиться
-7 -
 7 - candeeiro, m - лампа
-7 -
 7 - fosco, m - тусклый
-7 -
 7 - fardado, part - в форме
-7 -
 7 - cavalheiro, m - кавалер, господин
-7 -
 7 - lavabo, m - зд. туалет
-7 -
 7 - descuidar-se, vr - расслабиться, быть беззаботным
-7 -
 7 - assomar-se, vr - высовываться, выглядывать
-7 -
 7 - apito, m - свисток
-7 -
 7 - agarrar, vt - схватить
-7 -
 7 - imparável, adj - неустанный
-7 -
 7 - infinito, adj - бесконечный
-7 -
 7 - reparar, vi - замечать
-7 -
 7 - enumerar, vt - перечислять
-7 -
 7 - comprovar, vt - подтверждать, удостоверять
-7 -
 7 - placa, f - табличка
-7 -
 7 - varrer, vt - зд. прочесывать
-7 -
 7 - apertar-se, vr - тесниться
-7 -
 7 - rejeitar, vt - отбрасывать
-7 -
 7 - destroço, m - обломки
-7 -
 7 - multidão, f - толпа
-7 -
 7 - boina, f - берет
-7 -
 7 - choroso, adj - плачущий, заплаканный
-7 -
 7 - carrego, m - кладь
-7 -
 7 - estafado, adj - усталый, утомленный
-7 -
 7 - angústia, f - тоска, печаль
-7 -
 7 - calcorrear, vt - долго ходить
-7 -
-7 -
-7 -
-7 -
-7 -
 7 - não poder com os braços, as pernas - не чуять рук, ног (от усталости), обессилеть
-7 -
 7 - fixar o olhar em - пристально смотреть на кого-л., устремлять взгляд на кого-л.
-7 -
 7 - recuperar o fôlego - восстановить дыхание, отдышаться, перевести дух
-7 -
 7 - dar um jeito a alguém - идти навстречу, постараться помочь кому-л.
-7 -
 7 - juntar as forças - объединить усилия
-7 -
 7 - ser capaz de - быть способным на что-л.
-7 -
 7 - perder a calma - потерять спокойствие
-7 -
 7 - tratar alguém por senhor, por tu, por monsieur - обращаться к кому-л. на «вы», на «ты», называть кого-л. «месье»
-7 -
 7 - dar-se como voluntário - вызваться добровольцем
-7 -
 7 - ir buscar alguém - идти за кем-л.
-7 -
 7 - respirar fundo - глубоко вздохнуть
-7 -
-7 -
-8 -
-8 -
 8 - advento, m - наступление, приход, прибытие
-8 -
 8 - até, adv - даже
-8 -
 8 - avesso, adj a - противник (чего-л.)
-8 -
 8 - conectar, vt a - подключать (к чему-л.)
-8 -
 8 - conexão, f a - подключение (к чему-л.)
-8 -
 8 - rede, f - сеть
-8 -
 8 - destinatário, m - получатель
-8 -
 8 - dispensar, vt - освобождать (от чего-л.)
-8 -
 8 - deslocação, f - перемещение
-8 -
 8 - correios, m pl - почта
-8 -
 8 - envelope, m - конверт
-8 -
 8 - selo, m - марка
-8 -
 8 - extraviar, vt - затерять
-8 -
 8 - movimento (transferência) bancário, -a - банковский перевод
-8 -
 8 - interminável, adj - бесконечный
-8 -
 8 - suplantar, vt - заменять
-8 -
 8 - divulgar, vt - распространять
-8 -
 8 - alienador, adj - отупляющий
-8 -
 8 - repleto, adj de - полный (чего-л.)
-8 -
 8 - publicidade, f - реклама
-8 -
 8 - internauta, m f - пользователь интернета
-8 -
 8 - acessível, adj - доступный
-8 -
 8 - clique, m - нажатие (кнопки мыши)
-8 -
 8 - disponibilizar, vt - предоставлять
-8 -
 8 - abolir, vt - отменять, уничтожать
-8 -
 8 - promover, vt - двигать вперед, поощрять
-8 -
 8 - inclusão, f social - социальная адаптация
-8 -
 8 - inclusive, adv - в том числе
-8 -
 8 - ferramenta, f - инструмент
-8 -
 8 - aprendizagem, f - обучение
-8 -
 8 - indispensável, adj - необходимый
-8 -
 8 - impulsionar, vt - побуждать
-8 -
 8 - favorecer, vt - благоприятствовать
-8 -
 8 - bastar, vi - быть достаточным
-8 -
 8 - confluir, vi - стекаться
-8 -
 8 - impacto, m em - толчок, удар, перен. влияние (на что-л.)
-8 -
 8 - mente, f - разум
-8 -
 8 - perturbar, vt - нарушать, расстраивать
-8 -
 8 - fluxo, m - поток
-8 -
 8 - alterar, vt - изменять
-8 -
 8 - navegar, vi - перен. плавать
-8 -
 8 - escanear, vt - сканировать
-8 -
 8 - interpretativo, adj - зд. аналитический
-8 -
 8 - cérebro, m - мозг
-8 -
 8 - habilidade, f - способность
-8 -
 8 - contemplação, f - созерцание
-8 -
 8 - remoque, m - насмешка, колкость
-8 -
 8 - detrator, m - клветник, очернитель
-8 -
 8 - abalo, m - потрясение
-8 -
 8 - assumidamente, adv - по всеобщему мнению
-8 -
 8 - enraizado, adj - укоренившийся
-8 -
 8 - planetar, adj - всемирный
-8 -
-8 -
-8 -
-8 -
-8 -
 8 - operar uma revolução - совершать революцию
-8 -
 8 - sem precedentes, m pl  - беспрецедентный
-8 -
 8 - trazer vantagens - дать преимущества
-8 -
 8 - meios de comunicação - cредства массовой информации
-8 -
 8 - enviar emails, m pl - отправлять электронные письма
-8 -
 8 - para nem falar de - не говоря уже (о ком-л, чем-л.)
-8 -
 8 - em tempo real - в реальном времени
-8 -
 8 - por assim dizer - если можно так выразиться
-8 -
 8 - tomar uma decisão, uma tomada de decisão - принимать решение, принятие решения
-8 -
 8 - ao que tudo indica - судя по всему
-8 -
-8 -
-8 -
-8 -
-8 -
 8 - em instantes, loc adv - в считанные мгновения
-8 -
 8 - em prol de, prep - в защиту чего-л., за что-л.
-8 -
 8 - pelo contrário, loc adv - наоборот, напротив
-8 -
 8 - por excelência, loc adv - преимущественно
-8 -
 8 - em detrimento de, loc adv - в ущерб (чему-л.)
-8 -
 8 - em linha, loc adv - он-лайн
-8 -
 8 - até, adv - даже
-8 -
-8 -
-8 -
-8 -
 8 - gastar dinheiro com - тратить деньги (на что-л.)
-8 -
 8 - aquisição, f - приобретение
-8 -
 8 - sacar, vt - извлекать, доставать
-8 -
 8 - piratear, vi - пиратствовать
-8 -
 8 - respeitar os direitos, m pl de autor (direitos autorais) - соблюдать авторские права
-8 -
 8 - ao alcance de - в пределах доступности
-8 -
 8 - circuitos de produção e distribuição - продюсерские и дистрибюторские сети
-8 -
 8 - intermediário, m - посредник
-8 -
 8 - estar em livre acesso - находиться в свободном доступе
-8 -
 8 - suportes, m pl eletrónicos - электронные носители
-8 -
 8 - livro eletrónico, m - электронная книга
-8 -
 8 - pen-drive, m - флэшка
-8 -
 8 - Ipod, m - айпод
-8 -
 8 - leitor MP-3, m - МП-3-проигрыватель
-8 -
 8 - tablete, f - планшетник
-8 -
 8 - sobreviver, vi - выживать
-8 -
 8 - editora, f - издательство
-8 -
 8 - passar na rádio (na televisão) - быть переданным по радио, быть показанным по телевидению
-8 -
 8 - cobrar a - собирать (с кого-л.)
-8 -
 8 - uma percentagem, f - процент, доля
-8 -
 8 - reverter, vt - обращать
-8 -
 8 - a favor de - в пользу (кого-л.)
-8 -
 8 - transmitir, vt - передавать (вещать по радио или тв)
-8 -
 8 - tencionar, vt - намереваться
-8 -
 8 - é ouro sobre azul - все замечательно, лучше не бывает
-8 -
 8 - pôr cobro a - положить конец (чему-л.)
-8 -
 8 - pirataria, f - пиратство
-8 -
 8 - precaver-se, vr de - обезопаситься (от чего-л.)
-8 -
 8 - violação, f - нарушение
 8 - inconveniente, m - неудобство
-8 -
 8 - guerra, f de informação - иноформационная война
-8 -
 8 - estar ao abrigo de - быть защищенным (от чего-л.)
-8 -
 8 - espalhar vírus, m - распространять вирусы
-8 -
 8 - divulgar informação confidencial - распространять конфиденциальную информацию
-8 -
 8 - inclusive, adv - в том числе
-8 -
 8 - sigilo, m de estado - государственная тайна
-8 -
 8 - flagelo, m - зд. перен. бедствие, бич
-8 -
 8 - contemporâneo, adj - современный
-8 -
 8 - sistema, m anti-vírus - противовирусная система
-8 -
 8 - ter conta no Facebook - иметь аккаунт в «фейсбуке»
-8 -
 8 - ainda por cima, loc adv - вдобавок
-8 -
 8 - derrubar, vt - свергать
-8 -
 8 - autoritário, adj - авторитарный
-8 -
-8 -
-9 -
-9 -
 9 - faixa, f - полоса, зд. категория
-9 -
 9 - enfrentar, vt - сталкиваться (с чем-л.)
-9 -
 9 - dominar, vt - зд. владеть (языками)
-9 -
 9 - bonança, f - благополучие
-9 -
 9 - criatividade, f - творчество, способность к творчеству
-9 -
 9 - índice, m - показатель
-9 -
 9 - desemprego, m - безработица
-9 -
 9 - juvenil, adj - юношеский
-9 -
 9 - recessão, f - рецессия, экномический спад
-9 -
 9 - desperdiçar, vt - растрачивать впустую
-9 -
 9 - despedir, vt - увольнять
-9 -
 9 - temporário, adj - временный
-9 -
 9 - maioritariamente, adv - главным образом
-9 -
 9 - sujeitar-se, vr a - подчиняться (чему-л.)
-9 -
 9 - precário, adj - шаткий, ненадежный, зд. временный
-9 -
 9 - mão-de-obra, f - рабочая сила
-9 -
 9 - acumular, vt - накапливать, собирать
-9 -
 9 - estágio, m curricular, adj - cтажировка по специальности
-9 -
 9 - gerir, vt - управлять
-9 -
 9 - orçamento, m - бюджет
-9 -
 9 - tender, vi a - иметь склонность, тенденцию (к чему-л.)
-9 -
 9 - supérfluo, m - излишнее, лишнее
-9 -
 9 - miragem, f - мираж
-9 -
 9 - limitar-se, vt a - ограничиваться (чем-л.)
-9 -
 9 - integrar, vt - входить (во что-л.), быть частью (чего-л.)
-9 -
 9 - estatísticas, f pl - статистика
-9 -
 9 - expectativa, f - ожидание
-9 -
 9 - frustrar, vt - обманывать (надежды), расстраивать (планы)
-9 -
 9 - sonhar, vi em fazer algo, com algo - мечтать (сделать что-л., о чем-л.)
-9 -
 9 - omitir, vt - пропускать, упускать
-9 -
 9 - habilitações, f pl - знания, образование
-9 -
 9 - currículo, m - СV, резюме
-9 -
 9 - perante, prep - перед
-9 -
 9 - cenário, m - зд. развитие событий, сценарий
-9 -
 9 - antepassado, m - предок
-9 -
 9 - eclosão, f - расцветание, зд. начало
-9 -
 9 - inclusive, adv - в том числе, включительно
-9 -
 9 - faltar, vi - недоставать, не хватать
-9 -
 9 - governante, m - правитель
-9 -
 9 - incitar, vt а - побуждать, подстрекать (к чему-л.)
-9 -
 9 - gerar, vt - порождать
-9 -
 9 - aceso, adj - зд. пламенный, горячий
-9 -
 9 - duradouro, adj - длительный
-9 -
 9 - desvantagem, f - неблагоприятное обстоятельство
-9 -
 9 - afetar, vt - ущемлять, затрагивать
-9 -
 9 - saúde, f pública - здравоохранение
-9 -
 9 - depressão, f - депрессия
-9 -
 9 - constituir, vt - являться, представлять собой
-9 -
 9 - desperdício, m - растрата
-9 -
 9 - investimento, m - инвестиция
-9 -
 9 - recurso, m - средство, возможность, ресурс
-9 -
 9 - inestimável, adj - бесценный, неоценимый
-9 -
 9 - défice, m - дефицит
-9 -
 9 - matrimónio, m - брак, женитьба
-9 -
 9 - resultar, vt de - являться следствием (чего-л.)
-9 -
 9 - drástico, adj - решительный, резкий
-9 -
 9 - taxa, f de natalidade, f - уровень рождаемости
-9 -
 9 - conjugar, vt com - зд. объединиться, сочетаться (с чем-л.)
-9 -
 9 - consequente, adj - последовательный
-9 -
 9 - envelhecimento, m - старение
-9 -
 9 - adversidade, f - противоречивость
-9 -
 9 - conjuntura, f - обстановка
-9 -
 9 - postura, f - положение, поза
-9 -
 9 - confiante, adj - доверчивый
-9 -
 9 - competitivj, adj - конкурентноспособный
-9 -
 9 - destacar, vt - выделять
-9 -
 9 - empreendedor, m - предприниматель
-9 -
 9 - apostar, vi em - делать ставку (на что-л.)
-9 -
 9 - inovador, adj - инновационный
-9 -
 9 - desertificação, f - превращение в пустыню
-9 -
 9 - sustento, m - пропитание
-9 -
 9 - genuíno, adj - подлинный, истинный
-9 -
 9 - saudável, adj - здоровый
-9 -
 9 - poluição, f - загрязнение окружающей среды
-9 -
 9 - inconveniente, m - неудобство
-9 -
 9 - urbano, adj - городской
-9 -
-9 - lançar, vt um desafio, m a
-9 -
 9 - reinventar, vt - вновь изобретать
-9 -
 9 - sustentável, adj - зд. гарантированный, стабильный
-9 -
 9 - geração, f - поколение
-9 -
 9 - vindouro, adj - будущий, грядущий
-9 -
-9 -
-9 -
-9 -
-9 -
 9 - liberdade, f de expressão, f - свобода слова
-9 -
 9 - adiar, vt para as calendas gregas - отложить в долгий ящик
-9 -
 9 - deixar algo de parte - оставлять что-л. в стороне, обходиться (без чего-л.)
-9 -
 9 - não passar, vi de - быть всего-навсего (чем-л.), быть ничем иным, как (что-л.)
-9 -
 9 - saber, vi de - знать (о чем-л.)
-9 -
 9 - arrumar, vt (pôr, colocar) os sonhos na prateleira, f - отложить свои мечты на потом
-9 -
 9 - seguir, vt as pegadas - следовать по стопам
-9 -
 9 - tentar, vt a sorte - попытать удачу
-9 -
 9 - acarretar, vt consequências, f pl - влечь за собой последствия
-9 -
 9 - fazer valer, vt - заставить оценить (что-л.), считаться (с чем-л.)
-9 -
 9 - lançar, vt um desafio, m a - бросать вызов (чему-л.)
-9 -
 9 - ultrapassar, vt as dificuldades - преодолевать трудности
-9 -
-9 -
-9 -
-9 -
-9 -
-9 -
-9 -
 9 - por conseguinte, loc adv - поэтому, вследствие
-9 -
 9 - a termo incerto, loc adv - на неопределенный срок
-9 -
 9 - no contexto de, loc adv -  в обстановке (чего-л.)
-9 -
 9 - tanto ... como, conj - как ..., так
-9 -
 9 - em termos, loc adv - в терминах, выражаясь (каким-л. образом)
-9 -
 9 - em última análise, loc adv - в конечном итоге
-9 -
 9 - no seio de, prep - среди, внутри (чего-л.)
-9 -
 9 - de acordo com, prep - в соответствии (с чем-л.)
-9 -
 9 - devido a, prep - из-за (чего-л.)
-9 -
 9 - ao invés de, loc adv - в противоположность (чему-л.)
-9 -
 9 - em busca de, loc adv - в поисках (чего-л.)
-9 -
 9 - cada vez mais, loc adv - все больше
 10 - rural, adj - сельский
-10 -
 10 - setor primário, secundário, terciário - сельское хозяйство, промышленность, услуги
-10 -
 10 - mina, f - рудник
-10 -
 10 - rendimento, m - доход
-10 -
 10 - produtividade, f - производительность
-10 -
 10 - produtivo, adj - производительный
-10 -
 10 - predominante, adj - преимущественный
-10 -
 10 - destino, m - место назначения
-10 -
 10 - adesão, f a - присоединение (к чему-л.)
-10 -
 10 - renovação, f - обновление
-10 -
 10 - acelerar-se, vr - ускоряться
-10 -
 10 - empregar, vt - занять
-10 -
 10 - exponencialmente, adv - зд. стремительно
-10 -
 10 - pleno, adj - полный
-10 -
 10 - integração, f ... em ... - интеграция (во что-л.)
-10 -
 10 - padrão, m - образец, стандарт
-10 -
 10 - média, f - средний показатель
-10 -
 10 - remuneração, f - вознаграждение (зарплата)
-10 -
 10 - contudo, adv - однако
-10 -
 10 - equivalente, adj a - равный (чему-л.)
-10 -
 10 - excetuar, vt - исключать
-10 -
 10 - corporação, f - корпорация
-10 -
-10 - a recibos verdes, adv
-10 -
 10 - ornamentação, а - отделка
-10 -
 10 - xisto, m - сланец
-10 -
 10 - mármore, m - мрамор
-10 -
 10 - calcário, m - известняк
-10 -
 10 - areia, f - песок
-10 -
 10 - argila, f - глина
-10 -
 10 - minério, m - руда
-10 -
 10 - jazida, f - месторождение
-10 -
 10 - cobre, m - медь
-10 -
 10 - volfrâmio, m - вольфрам
-10 -
 10 - zinco, m - цинк
-10 -
 10 - chumbo, m - свинец
-10 -
 10 - estanho, m - олово
-10 -
 10 - urânio, m - уран
-10 -
 10 - dispor, vi de -  располагать (чем-л.)
-10 -
 10 - mina, f - шахта
-10 -
 10 - têxteis, m pl - зд. текстильная промышленность
-10 -
 10 - couro, m - кожа, зд. кожевенная промышленность
-10 -
 10 - obras, f pl públicas, adj - общественные работы, стройки
-10 -
 10 - máquinas, f pl e equipamento, m - машино- и станкостроение
-10 -
 10 - cortiça, f - пробка, зд. производство пробки
-10 -
 10 - concorrência, f - конкуренция
 10 - aderir, vt а - присоединиться (к чему-л.)
-10 -
 10 - remessa, f - перевод (денежный)
-10 -
 10 - tecido, m - ткань
-10 -
 10 - empresarial, adj - предпринимательский
-10 -
 10 - indústria, f transformadora, adj - перерабатывающая промышленность
-10 -
 10 - drástico, adj - резкий
-10 -
 10 - êxodo, m - исход
-10 -
 10 - favorável, adj a - благоприятный (чему-л.)
-10 -
 10 - frota, f - флот
-10 -
 10 - doloroso, adj - болезненный
-10 -
 10 - adesão, f  a - присоединение (к чему-л.)
-10 -
 10 - privado, adj de - лишенный (чего-л.)
-10 -
 10 - aproximação, f de - приближение (к чему-л.)
-10 -
 10 - compromisso, m - обязательство
-10 -
 10 - submeter, vt a - подвергать (чему-л.)
-10 -
 10 - ditar, vt - диктовать
-10 -
 10 - redução, f - сокращение
-10 -
 10 - animador, adj - воодушевляющий, ободряющий
-10 -
 10 - precariedade, f - неустойчивость, ненадежность, шаткость
-10 -
 10 - inconcebível, adj - немыслимый, необъяснимый
-10 -
 10 - agitação, f - волнение
-10 -
 10 - impedir, vt de - запретить кому-л. (сделать что-л.)
-10 -
 10 - conceituado, adj - уважаемый
-10 -
 10 - fabuloso, adj - сказочный
-10 -
 10 - assinalar, vt - отмечать, указывать, выделять
-10 -
 10 - vanguarda, f - авангард
-10 -
 10 - incontestado, adj - несомненный
-10 -
 10 - energia, f renovável - возобновляемая энергия
-10 -
 10 - pagamento, m pré-pago - предоплата
-10 -
 10 - inovador, adj - инновационный
-10 -
 10 - auto-estrada, f - шоссе
-10 -
 10 - calçar, vt - обувать
-10 -
 10 - distribuição, f - распределение
-10 -
 10 - abastecer, vt em - снабжать (чем-л.)
-10 -
 10 - dispensar, vt - обходиться (без чего-л.)
-10 -
 10 - rolha, f - пробка
-10 -
-10 -
-10 -
-10 -
-10 -
-10 -
-10 -
 10 - dão-se os sinais de... - появляются признаки (чего-л.)
-10 -
 10 - sofrer, vt tranformações, f pl - претерпевать изменения
-10 -
 10 - composição, f social e profissional da população - социальный и профессиональный состав населения
-10 -
 10 - população, f (in)ativa - (не)трудоспособное население
-10 -
 10 - passar de ... para ... - измениться (увеличиться, снизиться) с ... до ...
-10 -
 10 - função, f pública - госслужба
-10 -
 10 - comércio, m a retalho, m (por grosso) - розничная (оптовая) торговля
-10 -
 10 - atravessar, vt uma crise, atravessar um período de recessão - переживать кризис, период спада
-10 -
 10 - fazer face, f a - противостоять (чему-л.)
-10 -
 10 - fonte, f de receita, f - источник дохода
-10 -
 10 - auferir, vt rendimentos, m pl - получать доходы
-10 -
 10 - ser constituído por, ser composto por - состоять из (чего-л.), быть образованным (чем-л.)
-10 -
 10 - sofrer, vt uma redução, f - претерпевать сокращение
-10 -
 10 - impor, vt restrições a - наложить ограничения (на что-л.)
-10 -
 10 - explorar, vt os recursos, m pl - использовать ресурсы
-10 -
 10 - medidas, f pl de austeridade, f - меры жесткой экономии, меры по затягиванию поясов
-10 -
 10 - reajustamento, m financeiro, adj - финансовое урегулирование
-10 -
 10 - resgate, m financeiro, adj - финансовая помощь (букв. выкуп)
-10 -
 10 - ver-se obrigado a - быть вынужденным (сделать что-л.)
-10 -
 10 - cumprir, vt as metas, f pl - достигать показателей (букв. целей)
-10 -
 10 - dívida, f pública, adj - госдолг
-10 -
 10 - défice, m orçamental, adj - бюджетный дефицит
-10 -
 10 - estar no topo, m de, estar na vanguarda, f de, ser líder em  - возглавлять (что-л.), быть в авангарде  чего-л.), быть лидером (в чем-л.)
 10 - por influência de, loc adv - под влиянием (чего-л.)
-10 -
 10 - ao longo de, prep - на протяжении (чего-л.)
-10 -
 10 - em média, loc adv - в среднем
-10 -
 10 - por ordem, f de importância, f - в убывающем порядке
-10 -
 10 - de um modo geral, loc adv - в общем
-10 -
 10 - em nome de, loc adv - во имя (чего-л, кого-л.)
-10 -
 10 - por esse mundo fora, loc adv - во всем мире

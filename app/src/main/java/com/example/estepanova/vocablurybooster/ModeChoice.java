@@ -21,6 +21,7 @@ import android.widget.Toast;
 import com.google.gson.Gson;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -187,9 +188,25 @@ public class ModeChoice extends AppCompatActivity {
 
             try {
                 int reverse = 1;
-                BufferedReader reader = new BufferedReader(new InputStreamReader(getApplicationContext().getAssets().open(filePath)));
-                //TODO: check if file exists, else remove everything after . in the string, split by - and swap, new filepath, tryagain, reverse->2
+                
+                //check if file exists
+                File f = new File(filePath);
+                if(f.exists() && !f.isDirectory()) {
+                    //if file exists, proceed to import
 
+                } else {
+                    //remove everything after . in the string, split by - and swap, new filepath, tryagain, reverse->2
+                    String language_translation = filePath.split(".")[0];
+                    String language_choice = language_translation.split("-")[0];
+                    String translation_choice = language_translation.split("-")[1];
+                    filePath = (translation_choice + "-" + language_choice).toLowerCase() + ".txt";
+
+                    //indicator to import correct keys and values afterwards
+                    reverse=2;
+
+                }
+                // import from file
+                BufferedReader reader = new BufferedReader(new InputStreamReader(getApplicationContext().getAssets().open(filePath)));
                 String line;
 
                 while ((line = reader.readLine()) != null) {
@@ -203,7 +220,6 @@ public class ModeChoice extends AppCompatActivity {
                     }
                 }
                 reader.close();
-
             } catch (IOException e) {
                 e.printStackTrace();
             }
