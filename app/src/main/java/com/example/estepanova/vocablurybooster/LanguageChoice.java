@@ -4,11 +4,15 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
+import android.support.v4.app.NavUtils;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Gravity;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -18,8 +22,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class LanguageChoice extends AppCompatActivity {
-
-    SharedPreferences preferences;
 
     private Spinner
             spWords,
@@ -35,13 +37,16 @@ public class LanguageChoice extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.language_choice);
-
-        preferences = PreferenceManager.getDefaultSharedPreferences(this);
-        if (preferences.getBoolean("IsFirstTimeLaunch",true)){
-            //laucnh intro
-        }
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolbar);
 
         //preferences.edit().remove("topicProgressMap").commit();
+
+        // Get a support ActionBar corresponding to this toolbar
+        ActionBar ab = getSupportActionBar();
+
+        // Enable the Up button
+        ab.setDisplayHomeAsUpEnabled(true);
 
         btnApply = (Button) findViewById(R.id.aplBtn);
 
@@ -55,6 +60,14 @@ public class LanguageChoice extends AppCompatActivity {
                     }
         });
         builder.setMessage(R.string.dialog_language_choice);
+
+        Intent saveIntent = getIntent();
+
+        if (saveIntent.getExtras() == null) {
+            Log.i("DEBUG", "no chosen level found");
+        } else {
+            dict_source = (String) saveIntent.getSerializableExtra("source");
+        }
 
         //TODO: customize dialog alert layout (create dialog_layout xml layout)
         /*LayoutInflater inflater = getLayoutInflater();
@@ -73,7 +86,7 @@ public class LanguageChoice extends AppCompatActivity {
 
                 } else {
                     //define the name of the file with the words-translation pairs
-                    dict_source = (language_choice + "-" + translation_choice).toLowerCase() + ".txt";
+                    dict_source = (dict_source + "-" + language_choice + "-" + translation_choice).toLowerCase() + ".txt";
                     startModeActivity();
                 }
             }
@@ -81,6 +94,19 @@ public class LanguageChoice extends AppCompatActivity {
 
         chooseLanguage();
 
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        switch (item.getItemId()) {
+            // Respond to the action bar's Up/Home button
+            case android.R.id.home:
+                NavUtils.navigateUpFromSameTask(this);
+                return true;
+        }
+
+        return(super.onOptionsItemSelected(item));
     }
 
     //TODO: think about where it's better to save sharedPrefs and how to start at the same learning stage (learning/checking)

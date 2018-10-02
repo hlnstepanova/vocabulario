@@ -25,7 +25,7 @@
         android:layout_height="50dp"
         android:background="@color/bg_screen1"
         android:gravity="center"
-        android:text="A1 - A2"
+        android:text="A1 - A2 (not available)"
         android:textColor="@color/main_text"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/imageA1"

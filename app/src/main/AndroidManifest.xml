@@ -17,9 +17,13 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".LevelChoice"
+            android:label="Level Choice"
+            android:parentActivityName=".WelcomeActivity" />
+        <activity
             android:name=".LanguageChoice"
             android:label="Language Choice"
-            android:parentActivityName=".WelcomeActivity" />
+            android:parentActivityName=".LevelChoice" />
         <activity
             android:name=".ModeChoice"
             android:label="Mode Choice"
@@ -48,7 +52,6 @@
         <activity
             android:name=".Congrats"
             android:label="You shall pass!" />
-        <activity android:name=".LevelChoice"></activity>
     </application>
 
 </manifest>

@@ -125,7 +125,7 @@ public class WelcomeActivity extends AppCompatActivity {
         editor = preferences.edit();
         editor.putBoolean("IsFirstTimeLaunch", false);
         editor.commit();
-        startActivity(new Intent(WelcomeActivity.this, LanguageChoice.class));
+        startActivity(new Intent(WelcomeActivity.this, LevelChoice.class));
         finish();
     }
 

@@ -197,9 +197,10 @@ public class ModeChoice extends AppCompatActivity {
                 } else {
                     //remove everything after . in the string, split by - and swap, new filepath, tryagain, reverse->2
                     String language_translation = filePath.split(".")[0];
-                    String language_choice = language_translation.split("-")[0];
-                    String translation_choice = language_translation.split("-")[1];
-                    filePath = (translation_choice + "-" + language_choice).toLowerCase() + ".txt";
+                    String level = language_translation.split("-")[0];
+                    String language_choice = language_translation.split("-")[1];
+                    String translation_choice = language_translation.split("-")[2];
+                    filePath = (level+ "-" + translation_choice + "-" + language_choice).toLowerCase() + ".txt";
 
                     //indicator to import correct keys and values afterwards
                     reverse=2;
