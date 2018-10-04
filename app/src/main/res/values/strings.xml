@@ -24,6 +24,9 @@
     <string name="reset">Reset</string>
     <string name="new_topic">New Topic</string>
     <string name="cancel">Cancel</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
 
     <string name="congrats_title">"Congratulations!"</string>
     <string name="congrats_msg">"You learned all words in this category. Do you want to choose another topic or continue revising this one?"</string>
@@ -33,6 +36,26 @@
 
     <string name="reset_topic_title">"Reset topic?"</string>
     <string name="reset_topic_msg">"Your current progress for this topic will be reset."</string>
+
+    <string name="title_activity_welcome">Intro</string>
+
+    <string name="slide_1_title">Welcome!</string>
+    <string name="slide_1_desc">This app will help you learn new words even when you\'re on the go</string>
+
+    <string name="slide_2_title">1. Learn</string>
+    <string name="slide_2_desc">Try memorising new words</string>
+
+    <string name="slide_3_title">2. Tap</string>
+    <string name="slide_3_desc">Try to remember the words. Tap the screen to see the translation.</string>
+
+    <string name="slide_4_title">3. Swipe</string>
+    <string name="slide_4_desc">If you guessed correctly, swipe right, if not - swipe left. You progress will grow after you remembered the word correctly 5 times.</string>
+
+    <string name="slide_5_title">Feedback</string>
+    <string name="slide_5_desc">If you find any mistakes or have suggestions about this app, don\'t hesitate to use the feedback button!</string>
+
+    <string name="slide_6_title">Good luck!</string>
+    <string name="slide_6_desc">Practice makes perfect, so keep on learning!</string>
 
 
 </resources>

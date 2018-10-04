@@ -19,6 +19,8 @@ import android.widget.Toast;
 
 public class LanguageChoice extends AppCompatActivity {
 
+    SharedPreferences preferences;
+
     private Spinner
             spWords,
             spTrans;
@@ -34,12 +36,17 @@ public class LanguageChoice extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.language_choice);
 
+        preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        if (preferences.getBoolean("IsFirstTimeLaunch",true)){
+            //laucnh intro
+        }
+
+        //preferences.edit().remove("topicProgressMap").commit();
+
         btnApply = (Button) findViewById(R.id.aplBtn);
 
         spWords = (Spinner) findViewById(R.id.vocabSpin);
         spTrans = (Spinner) findViewById(R.id.transSpin);
-
-        //preferences.edit().remove("topicProgressMap").commit();
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setNeutralButton(R.string.ok, new DialogInterface.OnClickListener() {

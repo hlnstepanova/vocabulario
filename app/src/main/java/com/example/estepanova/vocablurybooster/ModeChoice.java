@@ -188,7 +188,7 @@ public class ModeChoice extends AppCompatActivity {
 
             try {
                 int reverse = 1;
-                
+
                 //check if file exists
                 File f = new File(filePath);
                 if(f.exists() && !f.isDirectory()) {

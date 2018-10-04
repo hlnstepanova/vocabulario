@@ -9,38 +9,45 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".LanguageChoice">
+        <activity android:name=".WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ModeChoice"
+        <activity
+            android:name=".LanguageChoice"
+            android:label="Language Choice"
+            android:parentActivityName=".WelcomeActivity"></activity>
+        <activity
+            android:name=".ModeChoice"
             android:label="Mode Choice"
-            android:parentActivityName="com.example.estepanova.vocablurybooster.LanguageChoice"
-            android:launchMode="singleTop">
-        </activity>
-        <activity android:name=".MainShow"
+            android:parentActivityName=".LanguageChoice"></activity>
+        <activity
+            android:name=".MainShow"
             android:label="Learn"
-            android:parentActivityName="com.example.estepanova.vocablurybooster.ModeChoice">>
+            android:parentActivityName=".ModeChoice">
+            >
         </activity>
-        <activity android:name=".TopicsChoice"
+        <activity
+            android:name=".TopicsChoice"
             android:label="Topics"
-            android:parentActivityName="com.example.estepanova.vocablurybooster.ModeChoice">
-        </activity>
-        <activity android:name=".WordAnswer"
+            android:parentActivityName=".ModeChoice"></activity>
+        <activity
+            android:name=".WordAnswer"
             android:label="Revise"
-            android:parentActivityName="com.example.estepanova.vocablurybooster.ModeChoice">
-        </activity>
-        <activity android:name=".WordCheck"
+            android:parentActivityName=".ModeChoice"></activity>
+        <activity
+            android:name=".WordCheck"
             android:label="Revise"
-            android:parentActivityName="com.example.estepanova.vocablurybooster.ModeChoice">
-        </activity>
-        <activity android:name=".CongratsTopic"
-            android:label="You shall pass!"></activity>
-        <activity android:name=".Congrats"
-            android:label="You shall pass!"></activity>
+            android:parentActivityName=".ModeChoice"></activity>
+        <activity
+            android:name=".CongratsTopic"
+            android:label="You shall pass!" />
+        <activity
+            android:name=".Congrats"
+            android:label="You shall pass!" />
     </application>
 
 </manifest>
