@@ -19,6 +19,12 @@
     <!-- headings color -->
     <color name="heading">#007c00</color>
 
+    <!-- translation color -->
+    <color name="translation">#1a582c</color>
+
+    <!-- headings color -->
+    <color name="white">#ffffff</color>
+
     <array name="array_dot_active">
         <item>@color/dot_light_screen1</item>
     </array>
