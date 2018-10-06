@@ -39,10 +39,6 @@
             android:label="Topics"
             android:parentActivityName=".ModeChoice" />
         <activity
-            android:name=".WordAnswer"
-            android:label="Revise"
-            android:parentActivityName=".ModeChoice" />
-        <activity
             android:name=".WordCheck"
             android:label="Revise"
             android:parentActivityName=".ModeChoice" />
