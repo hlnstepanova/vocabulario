@@ -52,6 +52,7 @@
         <activity
             android:name=".Congrats"
             android:label="You shall pass!" />
+        <activity android:name=".Feedback"></activity>
     </application>
 
 </manifest>

@@ -11,6 +11,7 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,8 +29,11 @@ public class WelcomeActivity extends AppCompatActivity {
     private TextView[] dots;
     private int[] layouts;
     private Button btnSkip, btnNext;
+
     SharedPreferences preferences;
     SharedPreferences.Editor editor;
+
+    Boolean emptyIntent = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,9 +41,19 @@ public class WelcomeActivity extends AppCompatActivity {
 
         // Checking for first time launch - before calling setContentView()
         preferences = PreferenceManager.getDefaultSharedPreferences(this);
-        if (!preferences.getBoolean("IsFirstTimeLaunch",true)) {
-            launchHomeScreen();
-            finish();
+
+        Intent saveIntent = getIntent();
+        if (saveIntent.getExtras() == null){
+            emptyIntent = true;
+        }
+
+        if (emptyIntent) {
+            if (!preferences.getBoolean("IsFirstTimeLaunch",true)) {
+                launchHomeScreen();
+                finish();
+            } else {
+                Log.i("DEBUG", "rewatch intro");
+            }
         }
 
         // Making notification bar transparent
@@ -92,7 +106,11 @@ public class WelcomeActivity extends AppCompatActivity {
                     // move to next screen
                     viewPager.setCurrentItem(current);
                 } else {
+                    if(emptyIntent){
                     launchHomeScreen();
+                    } else {
+                        finish();
+                    }
                 }
             }
         });

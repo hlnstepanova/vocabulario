@@ -2,16 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <item
+        android:id="@+id/feedback"
+        app:showAsAction="never"
+        android:title="Leave feedback" />
 
     <item
-        android:id="@+id/language_choice"
+        android:id="@+id/activity_welcome"
         app:showAsAction="never"
-        android:title="Language choice" />
-
-    <item
-        android:id="@+id/mode_choice"
-        app:showAsAction="never"
-        android:title="Mode choice" />
+        android:title="Rewatch intro" />
 
 
 

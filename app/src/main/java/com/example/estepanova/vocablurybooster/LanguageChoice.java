@@ -2,8 +2,6 @@ package com.example.estepanova.vocablurybooster;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
@@ -11,14 +9,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.Gravity;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class LanguageChoice extends AppCompatActivity {
@@ -97,17 +95,33 @@ public class LanguageChoice extends AppCompatActivity {
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.appbar, menu);
+        return true;
+    }
 
-        switch (item.getItemId()) {
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId()) {
+
             // Respond to the action bar's Up/Home button
             case android.R.id.home:
                 NavUtils.navigateUpFromSameTask(this);
                 return true;
-        }
 
+            case R.id.feedback:
+                startFeedback();
+                return true;
+
+            case R.id.activity_welcome:
+                startWelcome();
+                return true;
+
+        }
         return(super.onOptionsItemSelected(item));
     }
+
 
     //TODO: think about where it's better to save sharedPrefs and how to start at the same learning stage (learning/checking)
     //TODO: save Instance State not to lose data on orientation change?
@@ -166,6 +180,19 @@ public class LanguageChoice extends AppCompatActivity {
     private void startModeActivity(){
         Intent i = new Intent(this, ModeChoice.class);
         i.putExtra("source", dict_source);
+        this.startActivity(i);
+
+    }
+
+    private void startFeedback(){
+        Intent i = new Intent(this, Feedback.class);
+        this.startActivity(i);
+
+    }
+
+    private void startWelcome(){
+        Intent i = new Intent(this, WelcomeActivity.class);
+        i.putExtra("again", 1);
         this.startActivity(i);
 
     }
