@@ -1,72 +1,146 @@
 <resources>
     <string name="app_name">VocabluryBooster</string>
 
-    <string name="dialog_language_choice">The languages have to differ</string>
-    <string name="dialog_wordcheck_intro">Try to remember the word and tap the screen, then if you guessed correct press "Correct!", otherwise press "Repeat"</string>
+    <string name="dialog_language_choice">As linguas tem que ser diffirentes</string>
+    <string name="dialog_wordcheck_intro">Tenta relembrar as palavras e toca no ecrã. Se relembraste correctamente, desliza para a direita. Se não - para a esquerda.</string>
 
     <string-array name="languages">
-        <item>Portuguese</item>
-        <item>Russian</item>
+        <item>Portugués</item>
+        <item>Russo</item>
     </string-array>
 
     <string-array name="translations">
-        <item>Portuguese</item>
-        <item>Russian</item>
+        <item>Portugués</item>
+        <item>Russo</item>
     </string-array>
 
 
     <string name="progress">"%.2f%%"</string>
 
-    <string name="title_activity_congrats">Congratulations</string>
+    <string name="title_activity_congrats">Parabens</string>
 
     <string name="ok">OK</string>
-    <string name="revise">Revise</string>
-    <string name="reset">Reset</string>
-    <string name="new_topic">New Topic</string>
-    <string name="cancel">Cancel</string>
-    <string name="next">NEXT</string>
-    <string name="skip">SKIP</string>
-    <string name="start">GOT IT</string>
+    <string name="revise">REVER</string>
+    <string name="reset">REAJUSTAR</string>
+    <string name="new_topic">OUTRA TEMA</string>
+    <string name="cancel">CANCELAR</string>
+    <string name="next">SEGUINTE</string>
+    <string name="skip">IGNORAR</string>
+    <string name="start">CONCLUIR</string>
 
-    <string name="congrats_title">"Congratulations!"</string>
-    <string name="congrats_msg">"You learned all words in this category. Do you want to choose another topic or continue revising this one?"</string>
+    <string name="congrats_title">Parabens!</string>
+    <string name="congrats_msg">Tu aprendeste todas as palavras neste tema. Queres escolher um outro tema ou continuar rever o atual?</string>
 
-    <string name="reset_title">"Reset all?"</string>
-    <string name="reset_msg">"All your current progress will be reset."</string>
+    <string name="reset_title">Reajustar tudo?</string>
+    <string name="reset_msg">"Todo o teu progresso vai ser zerado!"</string>
 
-    <string name="reset_topic_title">"Reset topic?"</string>
-    <string name="reset_topic_msg">"Your current progress for this topic will be reset."</string>
+    <string name="reset_topic_title">Reajustar o tema?</string>
+    <string name="reset_topic_msg">"O teu progresso neste tema vai ser zerado."</string>
 
     <string name="title_activity_welcome">Intro</string>
 
-    <string name="slide_1_title">Welcome!</string>
-    <string name="slide_1_desc">This app will help you learn new words even when you\'re on the go</string>
+    <string name="slide_1_title">Bem vindo!</string>
+    <string name="slide_1_desc">Esta app vai ajudar-te aprender novas palavras ainda quando estás em movimento.</string>
 
-    <string name="slide_2_title">1. Learn</string>
-    <string name="slide_2_desc">Try memorising new words</string>
+    <string name="slide_2_title">1. Memoriza</string>
+    <string name="slide_2_desc">Aprende as novas palavras</string>
 
     <string name="slide_3_title">2. Tap</string>
-    <string name="slide_3_desc">Try to remember the words. Tap the screen to see the translation.</string>
+    <string name="slide_3_desc">Tenta relembrar as palavras. Toca no ecrâ para ver o tradução</string>
 
     <string name="slide_4_title">3. Swipe</string>
-    <string name="slide_4_desc">If you guessed correctly, swipe right, if not - swipe left. You progress will grow after you remembered the word correctly 5 times.</string>
+    <string name="slide_4_desc">Se relembraste correctamente, desliza para a direita. Se não - para a esquerda. O teu progresso vai crescer depois relembrares a mesma palavra correctamente 5 vezes.</string>
 
     <string name="slide_5_title">Feedback</string>
-    <string name="slide_5_desc">If you find any mistakes or have suggestions about this app, don\'t hesitate to use the feedback button!</string>
+    <string name="slide_5_desc">Se encontraste erros ou tens sugestões, não hesita em deixar um feedback!</string>
 
-    <string name="slide_6_title">Good luck!</string>
-    <string name="slide_6_desc">Practice makes perfect, so keep on learning!</string>
+    <string name="slide_6_title">Boa sorte!</string>
+    <string name="slide_6_desc">A prática leva à perfeição, ou seja, nunca para aprender!</string>
 
     <!-- activity main -->
-
-    <!-- activity welcome -->
+    <string name="word">PALAVRA</string>
+    <string name="translation">TRADUÇÃO</string>
+    <string name="entendi">ENTENDI</string>
+    <string name="progresso">Progresso</string>
 
     <!-- check answer -->
 
-    <!-- dots active colors -->
+    <string name="correct">CORRECTO</string>
+    <string name="repeat">REPETIR</string>
+    <string name="answer">PALAVRA</string>
 
-    <!-- dots active colors -->
+    <!-- congrats -->
+    <string name="learned_all">Tu aprendeste todas as palavras</string>
+    <string name="restart">RECOMEÇAR</string>
 
-    <!-- dots active colors -->
+    <!-- congrats topic -->
+    <string name="learned_all_topic">Tu aprendeste todas as palavras nesta tema</string>
+
+    <!-- feedback -->
+    <string name="name">Nome</string>
+    <string name="email">Email</string>
+    <string name="feedback">Feedback</string>
+    <string name="send">ENVIAR</string>
+
+    <!-- feedback -->
+    <string name="direction">Escolha a direção</string>
+    <string name="vocablury">VOCABULÁRIO</string>
+    <string name="apply">APLICAR</string>
+
+    <!-- level choice -->
+    <string name="a1">A1 - A2 (não disponível)</string>
+    <string name="b1">B1 - B2</string>
+
+    <!-- level choice -->
+    <string name="mode_choice">Escolhe um modo</string>
+    <string name="topics">TEMAS</string>
+    <string name="general">GERAL</string>
+
+    <!-- topics choice -->
+
+    <string name="topic_choice">Escolhe um tema</string>
+
+    <string name="topic1">1</string>
+    <string name="title1">Geografia de Portugal</string>
+    <string name="progress1">10%</string>
+
+    <string name="topic2">2</string>
+    <string name="title2">História de Portugal</string>
+    <string name="progress2">3%</string>
+
+    <string name="topic3">3</string>
+    <string name="title3">Descobrimentos</string>
+    <string name="progress3">5%</string>
+
+    <string name="topic4">4</string>
+    <string name="title4">Viagens de avião e de comboio</string>
+    <string name="progress4">5%</string>
+
+    <string name="topic5">5</string>
+    <string name="title5">Imáginario Portugûes</string>
+    <string name="progress5">5%</string>
+
+    <string name="topic6">6</string>
+    <string name="title6">Automóvel. Acidente de viação</string>
+    <string name="progress6">5%</string>
+
+    <string name="topic7">7</string>
+    <string name="title7">Emigração</string>
+    <string name="progress7">5%</string>
+
+    <string name="topic8">8</string>
+    <string name="title8">Internet e meios de comunicação</string>
+    <string name="progress8">5%</string>
+
+    <string name="topic9">9</string>
+    <string name="title9">Problemas da juventude</string>
+    <string name="progress9">5%</string>
+
+    <string name="topic10">10</string>
+    <string name="title10">Economia</string>
+    <string name="progress10">5%</string>
+
+
+
 
 </resources>

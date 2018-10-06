@@ -30,7 +30,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="24dp"
             android:gravity="center"
-            android:text="Choose a topic:"
+            android:text="@string/topic_choice"
             android:textAlignment="center"
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -57,7 +57,7 @@
                     android:id="@+id/topic1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1"
+                    android:text="@string/topic1"
                     android:textSize="24sp" />
 
                 <TextView
@@ -66,15 +66,15 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
                     android:paddingLeft="15dp"
-                    android:text="Geografia de Portugal"
+                    android:text="@string/title1"
                     android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/progress1"
-                    android:layout_weight="0.2"
                     android:layout_width="30dp"
                     android:layout_height="wrap_content"
-                    android:text="10%"
+                    android:layout_weight="0.2"
+                    android:text="@string/progress1"
                     android:textAlignment="center"
                     android:textSize="24sp" />
             </TableRow>
@@ -88,7 +88,7 @@
                     android:id="@+id/topic2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2"
+                    android:text="@string/topic2"
                     android:textSize="24sp" />
 
                 <TextView
@@ -97,15 +97,15 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
-                    android:text="História de Portugal"
+                    android:text="@string/title2"
                     android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/progress2"
-                    android:layout_weight="0.2"
                     android:layout_width="30dp"
                     android:layout_height="wrap_content"
-                    android:text="3%"
+                    android:layout_weight="0.2"
+                    android:text="@string/progress2"
                     android:textAlignment="center"
                     android:textSize="24sp" />
             </TableRow>
@@ -120,7 +120,7 @@
                     android:id="@+id/topic3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3"
+                    android:text="@string/topic3"
                     android:textSize="24sp" />
 
                 <TextView
@@ -129,15 +129,15 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
-                    android:text="Descobrimentos"
+                    android:text="@string/title3"
                     android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/progress3"
-                    android:layout_weight="0.2"
                     android:layout_width="30dp"
                     android:layout_height="wrap_content"
-                    android:text="5%"
+                    android:layout_weight="0.2"
+                    android:text="@string/progress3"
                     android:textAlignment="center"
                     android:textSize="24sp" />
             </TableRow>
@@ -151,7 +151,7 @@
                     android:id="@+id/topic4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4"
+                    android:text="@string/topic4"
                     android:textSize="24sp" />
 
                 <TextView
@@ -160,15 +160,15 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
-                    android:text="Viagens de avião e de comboio"
+                    android:text="@string/title4"
                     android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/progress4"
-                    android:layout_weight="0.2"
                     android:layout_width="30dp"
                     android:layout_height="wrap_content"
-                    android:text="5%"
+                    android:layout_weight="0.2"
+                    android:text="@string/progress4"
                     android:textAlignment="center"
                     android:textSize="24sp" />
             </TableRow>
@@ -182,7 +182,7 @@
                     android:id="@+id/topic5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="5"
+                    android:text="@string/topic5"
                     android:textSize="24sp" />
 
                 <TextView
@@ -191,15 +191,15 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
-                    android:text="Imáginario Portugûes"
+                    android:text="@string/title5"
                     android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/progress5"
-                    android:layout_weight="0.2"
                     android:layout_width="30dp"
                     android:layout_height="wrap_content"
-                    android:text="5%"
+                    android:layout_weight="0.2"
+                    android:text="@string/progress5"
                     android:textAlignment="center"
                     android:textSize="24sp" />
             </TableRow>
@@ -213,7 +213,7 @@
                     android:id="@+id/topic6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="6"
+                    android:text="@string/topic6"
                     android:textSize="24sp" />
 
                 <TextView
@@ -222,15 +222,15 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
-                    android:text="Automóvel. Acidente de viação"
+                    android:text="@string/title6"
                     android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/progress6"
-                    android:layout_weight="0.2"
                     android:layout_width="30dp"
                     android:layout_height="wrap_content"
-                    android:text="5%"
+                    android:layout_weight="0.2"
+                    android:text="@string/progress6"
                     android:textAlignment="center"
                     android:textSize="24sp" />
             </TableRow>
@@ -244,7 +244,7 @@
                     android:id="@+id/topic7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="7"
+                    android:text="@string/topic7"
                     android:textSize="24sp" />
 
                 <TextView
@@ -253,15 +253,15 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
-                    android:text="Emigração"
+                    android:text="@string/title7"
                     android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/progress7"
-                    android:layout_weight="0.2"
                     android:layout_width="30dp"
                     android:layout_height="wrap_content"
-                    android:text="5%"
+                    android:layout_weight="0.2"
+                    android:text="@string/progress7"
                     android:textAlignment="center"
                     android:textSize="24sp" />
             </TableRow>
@@ -275,7 +275,7 @@
                     android:id="@+id/topic8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="8"
+                    android:text="@string/topic8"
                     android:textSize="24sp" />
 
                 <TextView
@@ -284,15 +284,15 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
-                    android:text="Internet e meios de comunicação"
+                    android:text="@string/title8"
                     android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/progress8"
-                    android:layout_weight="0.2"
                     android:layout_width="30dp"
                     android:layout_height="wrap_content"
-                    android:text="5%"
+                    android:layout_weight="0.2"
+                    android:text="@string/progress8"
                     android:textAlignment="center"
                     android:textSize="24sp" />
             </TableRow>
@@ -306,7 +306,7 @@
                     android:id="@+id/topic9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="9"
+                    android:text="@string/topic9"
                     android:textSize="24sp" />
 
                 <TextView
@@ -315,15 +315,15 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
                     android:paddingLeft="15dp"
-                    android:text="Problemas da juventude"
+                    android:text="@string/title9"
                     android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/progress9"
-                    android:layout_weight="0.2"
                     android:layout_width="30dp"
                     android:layout_height="wrap_content"
-                    android:text="5%"
+                    android:layout_weight="0.2"
+                    android:text="@string/progress9"
                     android:textAlignment="center"
                     android:textSize="24sp" />
             </TableRow>
@@ -337,7 +337,7 @@
                     android:id="@+id/topic10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="10"
+                    android:text="@string/topic10"
                     android:textSize="24sp" />
 
                 <TextView
@@ -346,15 +346,15 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
-                    android:text="Economia"
+                    android:text="@string/title10"
                     android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/progress10"
-                    android:layout_weight="0.2"
                     android:layout_width="30dp"
                     android:layout_height="wrap_content"
-                    android:text="5%"
+                    android:layout_weight="0.2"
+                    android:text="@string/progress10"
                     android:textAlignment="center"
                     android:textSize="24sp" />
             </TableRow>
