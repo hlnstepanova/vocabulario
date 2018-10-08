@@ -7,14 +7,14 @@
     android:layout_height="match_parent"
     tools:context="com.example.estepanova.vocablurybooster.LanguageChoice"
     tools:layout_editor_absoluteY="25dp"
-    android:background="@color/white">
+    android:background="@color/bg_screen1">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
+        android:background="@color/green"
         android:elevation="4dp"
-        android:background="@color/colorPrimary"
         android:theme="@style/AzulejoAppbar"
         app:popupTheme="@style/MyToolbar"/>
 
@@ -27,8 +27,7 @@
         android:layout_marginTop="8dp"
         android:gravity="center"
         android:text="@string/word"
-        android:textAlignment="center"
-        android:textColor="@color/green"
+        android:textColor="@color/heading"
         android:textSize="36sp"
         app:layout_constraintBottom_toTopOf="@+id/newTransView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,8 +45,7 @@
         android:layout_marginTop="8dp"
         android:gravity="center"
         android:text="@string/translation"
-        android:textAlignment="center"
-        android:textColor="@color/blue"
+        android:textColor="@color/main_text"
         android:textSize="36sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,10 +60,10 @@
         android:layout_marginBottom="30dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:background="@color/colorPrimary"
-        android:textColor="@color/white"
+        android:background="@color/green"
         android:text="@string/entendi"
         android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/main_text">
+
 
     <item
         android:id="@+id/feedback"
         app:showAsAction="never"
-        android:title="Leave feedback" />
+        android:title="Leave feedback"/>
 
     <item
         android:id="@+id/activity_welcome"
         app:showAsAction="never"
-        android:title="Rewatch intro" />
+        android:title="Rewatch intro"/>
 
 
 

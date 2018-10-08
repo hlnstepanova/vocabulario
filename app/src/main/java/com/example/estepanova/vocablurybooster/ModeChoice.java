@@ -3,7 +3,6 @@ package com.example.estepanova.vocablurybooster;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.NavUtils;
@@ -13,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -22,7 +22,6 @@ import com.google.gson.Gson;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -59,7 +58,7 @@ public class ModeChoice extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         Log.i("DEBUG", "ModeOnCreate");
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mode_choice);
+        setContentView(R.layout.mode_choice_dark);
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
 
@@ -81,6 +80,7 @@ public class ModeChoice extends AppCompatActivity {
             Log.i("DEBUG", "mode choice no intent");
         } else {
             dict_source = (String) saveIntent.getSerializableExtra("source");
+            Log.i("SOURCE", dict_source);
         }
 
         //if Topics button is clicked, we go to the Topics catalog
@@ -112,15 +112,30 @@ public class ModeChoice extends AppCompatActivity {
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.appbar, menu);
+        return true;
+    }
 
-        switch (item.getItemId()) {
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId()) {
+
             // Respond to the action bar's Up/Home button
             case android.R.id.home:
                 NavUtils.navigateUpFromSameTask(this);
                 return true;
-        }
 
+            case R.id.feedback:
+                startFeedback();
+                return true;
+
+            case R.id.activity_welcome:
+                startWelcome();
+                return true;
+
+        }
         return(super.onOptionsItemSelected(item));
     }
 
@@ -227,6 +242,19 @@ public class ModeChoice extends AppCompatActivity {
 
             unlearned = new ArrayList<String>(wordsMap.keySet());
             currentDictionary = new Dictionary (dict_source, wordsMap, unlearned, to_learn, inProcessMap, learned, topic, 0);
+
+    }
+
+    private void startFeedback(){
+        Intent i = new Intent(this, Feedback.class);
+        this.startActivity(i);
+
+    }
+
+    private void startWelcome(){
+        Intent i = new Intent(this, WelcomeActivity.class);
+        i.putExtra("again", 1);
+        this.startActivity(i);
 
     }
 

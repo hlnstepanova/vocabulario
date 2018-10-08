@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.estepanova.vocablurybooster.LevelChoice">
+    tools:context="com.example.estepanova.vocablurybooster.LevelChoice"
+    android:background="@color/bg_screen1">
 
     <ImageView
         android:id="@+id/imageA1"
@@ -17,16 +18,16 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewA1"
-        app:srcCompat="@drawable/a1a2" />
+        app:srcCompat="@drawable/a1rect" />
 
     <TextView
         android:id="@+id/textViewA1"
         android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:background="@color/bg_screen1"
         android:gravity="center"
         android:text="@string/a1"
-        android:textColor="@color/main_text"
+        android:textColor="@color/white"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/imageA1"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,11 +38,11 @@
     <TextView
         android:id="@+id/textViewB1"
         android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:background="@color/translation"
+        android:layout_height="60dp"
+        android:background="@color/green"
         android:gravity="center"
         android:text="@string/b1"
-        android:textColor="@color/main_text"
+        android:textColor="@color/white"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/imageB1"
         app:layout_constraintEnd_toEndOf="parent"
@@ -60,5 +61,5 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewB1"
-        app:srcCompat="@drawable/b1b2" />
+        app:srcCompat="@drawable/b1rect" />
 </android.support.constraint.ConstraintLayout>

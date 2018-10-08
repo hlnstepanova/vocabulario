@@ -12,10 +12,11 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.gson.Gson;
 
@@ -54,7 +55,7 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.topics_choice);
+        setContentView(R.layout.topics_choice_dark);
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
 
@@ -167,6 +168,34 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
     }
 
     @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.appbar, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId()) {
+
+            // Respond to the action bar's Up/Home button
+            case android.R.id.home:
+                NavUtils.navigateUpFromSameTask(this);
+                return true;
+
+            case R.id.feedback:
+                startFeedback();
+                return true;
+
+            case R.id.activity_welcome:
+                startWelcome();
+                return true;
+
+        }
+        return(super.onOptionsItemSelected(item));
+    }
+
+    @Override
     public void onClick(View view) {
         TextView field = (TextView) view;
         topic_selected = field.getText().toString();
@@ -174,18 +203,6 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
         startTopicsMode();
     }
 
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            // Respond to the action bar's Up/Home button
-            case android.R.id.home:
-                NavUtils.navigateUpFromSameTask(this);
-                return true;
-        }
-
-        return(super.onOptionsItemSelected(item));
-    }
 
     public void startTopicsMode(){
         Log.i("selected", topic_selected);
@@ -340,6 +357,17 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
         String saved_source = dict_source+ "-" + topic_to_reset;
         preferences.edit().remove(saved_source).apply();
     }
+    private void startFeedback(){
+        Intent i = new Intent(this, Feedback.class);
+        this.startActivity(i);
 
+    }
+
+    private void startWelcome(){
+        Intent i = new Intent(this, WelcomeActivity.class);
+        i.putExtra("again", 1);
+        this.startActivity(i);
+
+    }
 
 }

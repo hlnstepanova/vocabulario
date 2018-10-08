@@ -16,12 +16,12 @@ public class Congrats extends AppCompatActivity{
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.congrats);
+        setContentView(R.layout.congrats_dark);
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
 
 
-        btnYay = (Button) findViewById(R.id.YayBtn);
+        btnYay = (Button) findViewById(R.id.btnYay);
 
         Intent saveIntent = getIntent();
 

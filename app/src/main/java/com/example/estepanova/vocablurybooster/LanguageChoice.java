@@ -17,7 +17,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
-import android.widget.Toast;
 
 public class LanguageChoice extends AppCompatActivity {
 
@@ -34,7 +33,7 @@ public class LanguageChoice extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.language_choice);
+        setContentView(R.layout.language_choice_dark);
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
 
@@ -65,6 +64,7 @@ public class LanguageChoice extends AppCompatActivity {
             Log.i("DEBUG", "no chosen level found");
         } else {
             dict_source = (String) saveIntent.getSerializableExtra("source");
+            Log.i("LEVEL", dict_source);
         }
 
         //TODO: customize dialog alert layout (create dialog_layout xml layout)

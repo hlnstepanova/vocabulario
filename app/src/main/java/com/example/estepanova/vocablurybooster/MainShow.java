@@ -8,7 +8,6 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -37,7 +36,7 @@ public class MainShow extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_dark);
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
 
@@ -88,14 +87,21 @@ public class MainShow extends AppCompatActivity{
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        //if the chosen mode is "general", go back to  moded choice, else to topics choice
-        if (currentDictionary.getTopic().equals("general")){
+
+        if (item.getItemId()==R.id.feedback){
+            startFeedback();
+            return true;
+        } else if (item.getItemId()==R.id.activity_welcome){
+            startWelcome();
+            return true;
+        }
+        //if the chosen mode is "general", go back to  mode choice, else to topics choice
+         else if (currentDictionary.getTopic().equals("general")){
             return(super.onOptionsItemSelected(item));
         }else {
             initTopicsChoice();
             return true;
         }
-
     }
 
     private void wordShow() {
@@ -153,6 +159,17 @@ public class MainShow extends AppCompatActivity{
         i.putExtra("source", dict_source);
         startActivity(i);
     }
+    private void startFeedback(){
+        Intent i = new Intent(this, Feedback.class);
+        this.startActivity(i);
 
+    }
+
+    private void startWelcome(){
+        Intent i = new Intent(this, WelcomeActivity.class);
+        i.putExtra("again", 1);
+        this.startActivity(i);
+
+    }
 
 }

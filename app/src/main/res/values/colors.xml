@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#7d91aa</color>
+    <color name="colorPrimaryDark">#2d446e</color>
+    <color name="colorAccent">#fe260d</color>
 
     <!-- Screens background color-->
-    <color name="bg_screen1">#db2323</color>
+    <color name="bg_screen1">#bb141a</color>
 
     <!-- dots inactive colors -->
-    <color name="dot_dark_screen1">#bc1e1e</color>
+    <color name="dot_dark_screen1">#db181f</color>
 
     <!-- dots active colors -->
-    <color name="dot_light_screen1">#ff2828</color>
+    <color name="dot_light_screen1">#ff2121</color>
 
     <!-- main text color -->
-    <color name="main_text">#f2f210</color>
+    <color name="main_text">#f1e1a6</color>
+
+    <color name="azulejo_white">#e5e4c8</color>
+
+    <!-- menu color -->
+    <color name="menu">#317c7c</color>
+
+    <!-- text color -->
+    <color name="brown">#35160b</color>
+
+    <!-- text color -->
+    <color name="blue">#2d446e</color>
 
     <!-- headings color -->
-    <color name="heading">#007c00</color>
+    <color name="heading">#bed62f</color>
 
     <!-- translation color -->
     <color name="translation">#1a582c</color>
@@ -32,5 +43,18 @@
     <array name="array_dot_inactive">
         <item>@color/dot_dark_screen1</item>
     </array>
+
+    <!-- headings color -->
+    <color name="calcada">#536066</color>
+
+    <!-- headings color -->
+    <color name="metro">#ff2809</color>
+
+    <!-- headings color -->
+    <color name="bluegrey">#91ab8e</color>
+
+    <!-- headings color -->
+    <color name="green">#678e13</color>
+
 
 </resources>

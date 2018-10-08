@@ -5,23 +5,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/ScrollView01"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:background="@color/bg_screen1">
 
     <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/bg_screen1">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/my_toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:elevation="4dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/green"
             android:theme="@style/AzulejoAppbar"
             app:popupTheme="@style/MyToolbar"/>
-        />
 
         <TextView
             android:id="@+id/textView4"
@@ -32,7 +33,7 @@
             android:layout_marginTop="24dp"
             android:gravity="center"
             android:text="@string/topic_choice"
-            android:textColor="@color/brown"
+            android:textColor="@color/main_text"
             android:textAlignment="center"
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -57,10 +58,11 @@
 
                 <TextView
                     android:id="@+id/topic1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/topic1"
-                    android:textColor="@color/heading"
+                    android:textColor="@color/main_text"
+                    android:gravity="center"
                     android:textSize="24sp" />
 
                 <TextView
@@ -70,7 +72,7 @@
                     android:layout_weight="0.8"
                     android:paddingLeft="15dp"
                     android:text="@string/title1"
-                    android:textColor="@color/blue"
+                    android:textColor="@color/heading"
                     android:textSize="24sp" />
 
                 <TextView
@@ -79,22 +81,24 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
                     android:text="@string/progress1"
-                    android:textColor="@color/dot_light_screen1"
-                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@color/metro"
+                    android:background="@color/heading"
                     android:textSize="24sp" />
             </TableRow>
 
             <TableRow
-                android:layout_marginTop="4.5dp"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp">
 
                 <TextView
                     android:id="@+id/topic2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/topic2"
-                    android:textColor="@color/heading"
+                    android:textColor="@color/main_text"
+                    android:gravity="center"
                     android:textSize="24sp" />
 
                 <TextView
@@ -104,7 +108,7 @@
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
                     android:text="@string/title2"
-                    android:textColor="@color/blue"
+                    android:textColor="@color/heading"
                     android:textSize="24sp" />
 
                 <TextView
@@ -113,23 +117,25 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
                     android:text="@string/progress2"
-                    android:textColor="@color/dot_light_screen1"
-                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@color/metro"
+                    android:background="@color/heading"
                     android:textSize="24sp" />
             </TableRow>
 
             <TableRow
 
-                android:layout_marginTop="4.5dp"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp">
 
                 <TextView
                     android:id="@+id/topic3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/topic3"
-                    android:textColor="@color/heading"
+                    android:textColor="@color/main_text"
+                    android:gravity="center"
                     android:textSize="24sp" />
 
                 <TextView
@@ -139,7 +145,7 @@
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
                     android:text="@string/title3"
-                    android:textColor="@color/blue"
+                    android:textColor="@color/heading"
                     android:textSize="24sp" />
 
                 <TextView
@@ -148,22 +154,24 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
                     android:text="@string/progress3"
-                    android:textColor="@color/dot_light_screen1"
-                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@color/metro"
+                    android:background="@color/heading"
                     android:textSize="24sp" />
             </TableRow>
 
             <TableRow
-                android:layout_marginTop="4.5dp"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp">
 
                 <TextView
                     android:id="@+id/topic4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/topic4"
-                    android:textColor="@color/heading"
+                    android:textColor="@color/main_text"
+                    android:gravity="center"
                     android:textSize="24sp" />
 
                 <TextView
@@ -173,31 +181,33 @@
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
                     android:text="@string/title4"
-                    android:textColor="@color/blue"
+                    android:textColor="@color/heading"
                     android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/progress4"
                     android:layout_width="30dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="0.2"
                     android:text="@string/progress4"
-                    android:textColor="@color/dot_light_screen1"
-                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:background="@color/heading"
+                    android:textColor="@color/metro"
                     android:textSize="24sp" />
             </TableRow>
 
             <TableRow
-                android:layout_marginTop="4.5dp"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp">
 
                 <TextView
                     android:id="@+id/topic5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/topic5"
-                    android:textColor="@color/heading"
+                    android:textColor="@color/main_text"
+                    android:gravity="center"
                     android:textSize="24sp" />
 
                 <TextView
@@ -207,7 +217,7 @@
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
                     android:text="@string/title5"
-                    android:textColor="@color/blue"
+                    android:textColor="@color/heading"
                     android:textSize="24sp" />
 
                 <TextView
@@ -216,22 +226,24 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
                     android:text="@string/progress5"
-                    android:textColor="@color/dot_light_screen1"
                     android:textAlignment="center"
+                    android:textColor="@color/metro"
+                    android:background="@color/heading"
                     android:textSize="24sp" />
             </TableRow>
 
             <TableRow
-                android:layout_marginTop="4.5dp"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp">
 
                 <TextView
                     android:id="@+id/topic6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/topic6"
-                    android:textColor="@color/heading"
+                    android:textColor="@color/main_text"
+                    android:gravity="center"
                     android:textSize="24sp" />
 
                 <TextView
@@ -241,31 +253,33 @@
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
                     android:text="@string/title6"
-                    android:textColor="@color/blue"
+                    android:textColor="@color/heading"
                     android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/progress6"
                     android:layout_width="30dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="0.2"
                     android:text="@string/topic6"
-                    android:textColor="@color/dot_light_screen1"
-                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:background="@color/heading"
+                    android:textColor="@color/metro"
                     android:textSize="24sp" />
             </TableRow>
 
             <TableRow
-                android:layout_marginTop="4.5dp"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp">
 
                 <TextView
                     android:id="@+id/topic7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/topic7"
-                    android:textColor="@color/heading"
+                    android:textColor="@color/main_text"
+                    android:gravity="center"
                     android:textSize="24sp" />
 
                 <TextView
@@ -275,7 +289,7 @@
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
                     android:text="@string/title7"
-                    android:textColor="@color/blue"
+                    android:textColor="@color/heading"
                     android:textSize="24sp" />
 
                 <TextView
@@ -284,22 +298,24 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
                     android:text="@string/progress7"
-                    android:textColor="@color/dot_light_screen1"
-                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@color/metro"
+                    android:background="@color/heading"
                     android:textSize="24sp" />
             </TableRow>
 
             <TableRow
-                android:layout_marginTop="4.5dp"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp">
 
                 <TextView
                     android:id="@+id/topic8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/topic8"
-                    android:textColor="@color/heading"
+                    android:textColor="@color/main_text"
+                    android:gravity="center"
                     android:textSize="24sp" />
 
                 <TextView
@@ -309,31 +325,33 @@
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
                     android:text="@string/title8"
-                    android:textColor="@color/blue"
+                    android:textColor="@color/heading"
                     android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/progress8"
                     android:layout_width="30dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="0.2"
                     android:text="@string/progress8"
-                    android:textColor="@color/dot_light_screen1"
-                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:background="@color/heading"
+                    android:textColor="@color/metro"
                     android:textSize="24sp" />
             </TableRow>
 
             <TableRow
-                android:layout_marginTop="4.5dp"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp">
 
                 <TextView
                     android:id="@+id/topic9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/topic9"
-                    android:textColor="@color/heading"
+                    android:textColor="@color/main_text"
+                    android:gravity="center"
                     android:textSize="24sp" />
 
                 <TextView
@@ -343,31 +361,33 @@
                     android:layout_weight="0.8"
                     android:paddingLeft="15dp"
                     android:text="@string/title9"
-                    android:textColor="@color/blue"
+                    android:textColor="@color/heading"
                     android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/progress9"
                     android:layout_width="30dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="0.2"
                     android:text="@string/progress9"
-                    android:textColor="@color/dot_light_screen1"
-                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:background="@color/heading"
+                    android:textColor="@color/metro"
                     android:textSize="24sp" />
             </TableRow>
 
             <TableRow
-                android:layout_marginTop="4.5dp"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp">
 
                 <TextView
                     android:id="@+id/topic10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/topic10"
-                    android:textColor="@color/heading"
+                    android:textColor="@color/main_text"
+                    android:gravity="center"
                     android:textSize="24sp" />
 
                 <TextView
@@ -377,7 +397,7 @@
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
                     android:text="@string/title10"
-                    android:textColor="@color/blue"
+                    android:textColor="@color/heading"
                     android:textSize="24sp" />
 
                 <TextView
@@ -386,8 +406,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
                     android:text="@string/progress10"
-                    android:textColor="@color/dot_light_screen1"
-                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@color/metro"
+                    android:background="@color/heading"
                     android:textSize="24sp" />
             </TableRow>
 

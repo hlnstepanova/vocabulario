@@ -3,6 +3,7 @@ package com.example.estepanova.vocablurybooster;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -78,6 +79,7 @@ public class LevelChoice extends AppCompatActivity implements View.OnClickListen
 
     public void startLanguageMode(String level){
         Intent i = new Intent(this, LanguageChoice.class);
+        Log.i("level",level);
         i.putExtra("source", level);
         startActivity(i);
     }

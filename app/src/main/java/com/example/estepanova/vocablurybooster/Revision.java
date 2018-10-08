@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.constraint.ConstraintLayout;
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -134,7 +135,22 @@ public class Revision extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId()) {
 
+            // Respond to the action bar's Up/Home button
+            case android.R.id.home:
+                NavUtils.navigateUpFromSameTask(this);
+                return true;
+
+            case R.id.feedback:
+                startFeedback();
+                return true;
+
+            case R.id.activity_welcome:
+                startWelcome();
+                return true;
+
+        }
         return(super.onOptionsItemSelected(item));
     }
 
@@ -168,6 +184,19 @@ public class Revision extends AppCompatActivity {
         String dict_source = currentDictionary.getSource();
         i.putExtra("source", dict_source);
         startActivity(i);
+    }
+
+    private void startFeedback(){
+        Intent i = new Intent(this, Feedback.class);
+        this.startActivity(i);
+
+    }
+
+    private void startWelcome(){
+        Intent i = new Intent(this, WelcomeActivity.class);
+        i.putExtra("again", 1);
+        this.startActivity(i);
+
     }
 
 }
