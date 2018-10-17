@@ -9,41 +9,53 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".WelcomeActivity">
+        <activity
+            android:name=".WelcomeActivity"
+            android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
             android:name=".LevelChoice"
+            android:launchMode="singleTop"
             android:parentActivityName=".WelcomeActivity" />
         <activity
             android:name=".LanguageChoice"
+            android:launchMode="singleTop"
             android:parentActivityName=".LevelChoice" />
         <activity
             android:name=".ModeChoice"
+            android:launchMode="singleTop"
             android:parentActivityName=".LanguageChoice" />
         <activity
             android:name=".MainShow"
+            android:launchMode="singleTop"
             android:parentActivityName=".ModeChoice">
             >
         </activity>
         <activity
             android:name=".TopicsChoice"
+            android:launchMode="singleTop"
             android:parentActivityName=".ModeChoice" />
         <activity
             android:name=".WordCheck"
+            android:launchMode="singleTop"
             android:parentActivityName=".ModeChoice" />
         <activity
             android:name=".CongratsTopic"
+            android:launchMode="singleTop"
             android:label="You shall pass!" />
         <activity
             android:name=".Congrats"
+            android:launchMode="singleTop"
             android:label="You shall pass!" />
         <activity
-            android:name=".Feedback"/>
+            android:name=".Feedback"
+            android:launchMode="singleTop"/>
     </application>
 
 </manifest>

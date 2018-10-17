@@ -13,7 +13,7 @@
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/green"
+        android:background="@color/bg_screen1"
         android:elevation="4dp"
         android:theme="@style/AzulejoAppbar"
         app:popupTheme="@style/MyToolbar"/>
@@ -28,7 +28,7 @@
         android:gravity="center"
         android:text="@string/word"
         android:textColor="@color/heading"
-        android:textSize="36sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/newTransView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -46,7 +46,7 @@
         android:gravity="center"
         android:text="@string/translation"
         android:textColor="@color/main_text"
-        android:textSize="36sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -64,7 +64,7 @@
         android:text="@string/entendi"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -81,21 +81,20 @@
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="87dp"
         android:layout_height="27dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
         android:max="100"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/my_toolbar" />
 
     <TextView
         android:id="@+id/progressView"
-        android:layout_width="86dp"
+        android:layout_width="wrap_content"
         android:layout_height="26dp"
-        android:layout_marginEnd="128dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginEnd="107dp"
+        android:gravity="center"
         android:text="@string/progresso"
         android:textColor="@color/metro"
-        android:textSize="18sp"
+        android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/my_toolbar" />
 

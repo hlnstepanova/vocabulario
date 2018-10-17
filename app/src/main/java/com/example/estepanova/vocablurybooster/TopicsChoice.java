@@ -59,7 +59,6 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
 
-
         // Get a support ActionBar corresponding to this toolbar
         ActionBar ab = getSupportActionBar();
 

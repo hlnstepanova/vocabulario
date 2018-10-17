@@ -8,6 +8,9 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:popupMenuStyle">@style/PopupMenu</item>
         <item name="android:itemBackground">@color/azulejo_white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="colorControlHighlight">@android:color/white</item>
     </style>
 
     <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
@@ -51,7 +54,7 @@
     </style>
 
     <style name="MyToolbar" parent="ThemeOverlay.AppCompat.Light">
-        <item name="android:colorBackground">@color/green</item>
+        <item name="android:colorBackground">@color/bg_screen1</item>
         <item name="android:textColor">@color/white</item>
     </style>
 

@@ -126,7 +126,7 @@ public class WelcomeActivity extends AppCompatActivity {
         for (int i = 0; i < dots.length; i++) {
             dots[i] = new TextView(this);
             dots[i].setText(Html.fromHtml("&#8226;"));
-            dots[i].setTextSize(35);
+            dots[i].setTextSize(30);
             dots[i].setTextColor(colorsInactive[0]);
             dotsLayout.addView(dots[i]);
         }

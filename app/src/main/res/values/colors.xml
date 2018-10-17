@@ -5,7 +5,7 @@
     <color name="colorAccent">#fe260d</color>
 
     <!-- Screens background color-->
-    <color name="bg_screen1">#bb141a</color>
+    <color name="bg_screen1">#7a0b0f</color>
 
     <!-- dots inactive colors -->
     <color name="dot_dark_screen1">#db181f</color>
@@ -28,7 +28,7 @@
     <color name="blue">#2d446e</color>
 
     <!-- headings color -->
-    <color name="heading">#bed62f</color>
+    <color name="heading">#a2b724</color>
 
     <!-- translation color -->
     <color name="translation">#1a582c</color>
@@ -54,7 +54,7 @@
     <color name="bluegrey">#91ab8e</color>
 
     <!-- headings color -->
-    <color name="green">#678e13</color>
+    <color name="green">#043a0a</color>
 
 
 </resources>
