@@ -17,36 +17,36 @@
         app:popupTheme="@style/MyToolbar" />
 
     <Button
-        android:id="@+id/corBtn"
+        android:id="@+id/wrongBtn"
         android:layout_width="160dp"
         android:layout_height="60dp"
         android:layout_marginBottom="24dp"
         android:layout_marginStart="36dp"
         android:fontFamily="sans-serif-medium"
-        android:text="@string/correct"
-        android:background="@color/green"
+        android:text="@string/repeat"
+        android:background="@color/dot_dark_screen1"
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/wrongBtn"
+        app:layout_constraintEnd_toStartOf="@+id/corBtn"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/wrongBtn"
+        android:id="@+id/corBtn"
         android:layout_width="160dp"
         android:layout_height="60dp"
         android:layout_marginBottom="24dp"
         android:layout_marginEnd="32dp"
         android:layout_marginStart="20dp"
-        android:text="@string/repeat"
-        android:background="@color/dot_light_screen1"
+        android:text="@string/correct"
+        android:background="@color/green"
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/corBtn" />
+        app:layout_constraintStart_toEndOf="@+id/wrongBtn" />
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/touch_area"

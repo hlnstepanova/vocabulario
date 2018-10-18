@@ -128,17 +128,11 @@ public class WordCheck extends AppCompatActivity {
         });
 
         constraintLayout.setOnTouchListener(new OnSwipeTouchListener(WordCheck.this) {
-            public void onSwipeTop() {
-                correctAnswer();
-            }
             public void onSwipeRight() {
                 wrongAnswer();
             }
             public void onSwipeLeft() {
                 correctAnswer();
-            }
-            public void onSwipeBottom() {
-                wrongAnswer();
             }
 
         });
@@ -225,13 +219,19 @@ public class WordCheck extends AppCompatActivity {
 
     private void wrongAnswer(){
 
-        if (count < 7) { //if less than 50 words checked, continue checking
-            showTranslation();
+        int size = currentDictionary.getToLearnLength();
 
-        } else {//else go to main (learning) activity
-            Intent i = new Intent(this, MainShow.class);
-            i.putExtra("dictionary", currentDictionary);
-            startActivity(i);
+        if (currentDictionary.getUnlearnedLength()>0) {
+            if (count < 0.2*size) { //if less than 0.2*number of to_learn words checked, continue checking
+                showTranslation();
+
+            } else {//else go to main (learning) activity
+                Intent i = new Intent(this, MainShow.class);
+                i.putExtra("dictionary", currentDictionary);
+                startActivity(i);
+            }
+        } else {
+            showTranslation();
         }
 
     }

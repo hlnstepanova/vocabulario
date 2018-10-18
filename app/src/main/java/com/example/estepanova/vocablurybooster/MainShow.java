@@ -68,7 +68,9 @@ public class MainShow extends AppCompatActivity{
         btnGotIt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (count==5) {
+
+                //if count < 15, show one mord word
+                if (count==15) {
                     initWordCheck();
                 } else {
                     wordShow();
@@ -106,7 +108,7 @@ public class MainShow extends AppCompatActivity{
 
     private void wordShow() {
 
-        //if count < 25, show one mord word
+        //if count < 15, show one mord word
 
             String randomKey = currentDictionary.showNewWord(); // get a random word from unlearned array
 

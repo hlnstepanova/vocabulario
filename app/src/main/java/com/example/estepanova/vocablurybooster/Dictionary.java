@@ -125,8 +125,12 @@ public class Dictionary implements Serializable{
         this.progress = progress;
     }
 
-    public List getUnlearned(){
-        return this.unlearned;
+    public int getUnlearnedLength(){
+        return this.unlearned.size();
+    }
+
+    public int getToLearnLength(){
+        return this.to_learn.size();
     }
 
     public List getLearned(){

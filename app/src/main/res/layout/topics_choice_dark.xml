@@ -42,7 +42,7 @@
 
                 <TextView
                     android:id="@+id/topic1"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="@string/topic1"
@@ -51,7 +51,7 @@
 
                 <TextView
                     android:id="@+id/title1"
-                    android:layout_width="50dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
                     android:paddingLeft="15dp"
@@ -61,7 +61,7 @@
 
                 <TextView
                     android:id="@+id/progress1"
-                    android:layout_width="25dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
                     android:gravity="center"
@@ -77,7 +77,7 @@
 
                 <TextView
                     android:id="@+id/topic2"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="@string/topic2"
@@ -86,7 +86,7 @@
 
                 <TextView
                     android:id="@+id/title2"
-                    android:layout_width="50dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
@@ -96,7 +96,7 @@
 
                 <TextView
                     android:id="@+id/progress2"
-                    android:layout_width="25dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
                     android:gravity="center"
@@ -113,7 +113,7 @@
 
                 <TextView
                     android:id="@+id/topic3"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="@string/topic3"
@@ -122,7 +122,7 @@
 
                 <TextView
                     android:id="@+id/title3"
-                    android:layout_width="50dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
@@ -132,7 +132,7 @@
 
                 <TextView
                     android:id="@+id/progress3"
-                    android:layout_width="25dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
                     android:gravity="center"
@@ -148,7 +148,7 @@
 
                 <TextView
                     android:id="@+id/topic4"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="@string/topic4"
@@ -157,7 +157,7 @@
 
                 <TextView
                     android:id="@+id/title4"
-                    android:layout_width="50dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
@@ -167,7 +167,7 @@
 
                 <TextView
                     android:id="@+id/progress4"
-                    android:layout_width="25dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="0.2"
                     android:gravity="center"
@@ -183,7 +183,7 @@
 
                 <TextView
                     android:id="@+id/topic5"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="@string/topic5"
@@ -192,7 +192,7 @@
 
                 <TextView
                     android:id="@+id/title5"
-                    android:layout_width="50dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
@@ -202,7 +202,7 @@
 
                 <TextView
                     android:id="@+id/progress5"
-                    android:layout_width="25dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
                     android:text="@string/progress5"
@@ -218,7 +218,7 @@
 
                 <TextView
                     android:id="@+id/topic6"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="@string/topic6"
@@ -237,7 +237,7 @@
 
                 <TextView
                     android:id="@+id/progress6"
-                    android:layout_width="25dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="0.2"
                     android:gravity="center"
@@ -253,7 +253,7 @@
 
                 <TextView
                     android:id="@+id/topic7"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="@string/topic7"
@@ -262,7 +262,7 @@
 
                 <TextView
                     android:id="@+id/title7"
-                    android:layout_width="50dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
@@ -272,7 +272,7 @@
 
                 <TextView
                     android:id="@+id/progress7"
-                    android:layout_width="25dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
                     android:gravity="center"
@@ -288,7 +288,7 @@
 
                 <TextView
                     android:id="@+id/topic8"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="@string/topic8"
@@ -297,7 +297,7 @@
 
                 <TextView
                     android:id="@+id/title8"
-                    android:layout_width="50dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
@@ -307,7 +307,7 @@
 
                 <TextView
                     android:id="@+id/progress8"
-                    android:layout_width="25dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="0.2"
                     android:gravity="center"
@@ -323,7 +323,7 @@
 
                 <TextView
                     android:id="@+id/topic9"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="@string/topic9"
@@ -332,7 +332,7 @@
 
                 <TextView
                     android:id="@+id/title9"
-                    android:layout_width="50dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
                     android:paddingLeft="15dp"
@@ -342,7 +342,7 @@
 
                 <TextView
                     android:id="@+id/progress9"
-                    android:layout_width="25dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="0.2"
                     android:gravity="center"
@@ -358,7 +358,7 @@
 
                 <TextView
                     android:id="@+id/topic10"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="@string/topic10"
@@ -367,7 +367,7 @@
 
                 <TextView
                     android:id="@+id/title10"
-                    android:layout_width="50dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
                     android:paddingLeft="15dip"
@@ -377,7 +377,7 @@
 
                 <TextView
                     android:id="@+id/progress10"
-                    android:layout_width="25dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
                     android:gravity="center"
