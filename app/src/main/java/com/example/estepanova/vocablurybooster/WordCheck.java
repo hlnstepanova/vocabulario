@@ -41,6 +41,7 @@ public class WordCheck extends AppCompatActivity {
     private ConstraintLayout constraintLayout;
 
     private Integer count;
+    private boolean reversed;
     private String word;
     private double progress;
 
@@ -189,8 +190,12 @@ public class WordCheck extends AppCompatActivity {
 
     private void showAnswer(){
 
+        if (reversed){
+            answer.setText(word);
+        } else {
         String translation = wordsMap.get(word);
         answer.setText(translation);
+        }
         count++;
     }
 
@@ -198,10 +203,20 @@ public class WordCheck extends AppCompatActivity {
     private void showTranslation(){
 
         word = currentDictionary.testWord();
-        trans2.setText(word);
+
+        String word_to_show ="";
+        double prob = Math.random();
+        if (prob<0.5){
+            word_to_show = word;
+            reversed = false;
+        } else {
+            //show the translation instead of the word
+            word_to_show = currentDictionary.reverseWord(word);
+            reversed = true;
+        }
+
+        trans2.setText(word_to_show);
         answer.setText("");
-        //String translation = wordsMap.get(word);
-        //trans2.setText(translation);
         count++;
     }
 

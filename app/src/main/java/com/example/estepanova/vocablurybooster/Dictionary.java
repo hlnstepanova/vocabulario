@@ -65,7 +65,11 @@ public class Dictionary implements Serializable{
 
         int wordPos = random.nextInt(to_learn.size());
         return to_learn.get(wordPos);
+    }
 
+    public String reverseWord(String word){
+            //get a new word and show it's translation in a different language
+            return wordsMap.get(word);
     }
 
     public void correctAnswer(String word){
