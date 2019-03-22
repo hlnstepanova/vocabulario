@@ -3,11 +3,12 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/touch_area"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bg_screen1"
     tools:context="com.example.estepanova.vocablurybooster.LanguageChoice"
-    tools:layout_editor_absoluteY="25dp"
-    android:background="@color/bg_screen1">
+    tools:layout_editor_absoluteY="25dp">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/my_toolbar"
@@ -16,7 +17,7 @@
         android:background="@color/bg_screen1"
         android:elevation="4dp"
         android:theme="@style/AzulejoAppbar"
-        app:popupTheme="@style/MyToolbar"/>
+        app:popupTheme="@style/MyToolbar" />
 
     <TextView
         android:id="@+id/newWordView"
@@ -60,7 +61,7 @@
         android:layout_marginBottom="30dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:background="@color/green"
+        android:background="@color/heading"
         android:text="@string/entendi"
         android:textAlignment="center"
         android:textColor="@color/white"

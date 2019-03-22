@@ -14,9 +14,14 @@ public class LevelChoice extends AppCompatActivity implements View.OnClickListen
     private TextView
             levelA1,
             levelB1;
+
     private ImageView
             imgA1,
             imgB1;
+
+    String language_choice = "portugues";
+    String translation_choice = "russo";
+    String dict_source;
 
 
     @Override
@@ -46,7 +51,7 @@ public class LevelChoice extends AppCompatActivity implements View.OnClickListen
             @Override
             public void onClick(View view) {
                 String level = "B1";
-                startLanguageMode(level);
+                startModeActivity(level);
 
             }
         });
@@ -66,7 +71,7 @@ public class LevelChoice extends AppCompatActivity implements View.OnClickListen
             @Override
             public void onClick(View view) {
                 String level = "B1";
-                startLanguageMode(level);
+                startModeActivity(level);
 
             }
         });
@@ -77,11 +82,12 @@ public class LevelChoice extends AppCompatActivity implements View.OnClickListen
     public void onClick(View view) {
     }
 
-    public void startLanguageMode(String level){
-        Intent i = new Intent(this, LanguageChoice.class);
-        Log.i("level",level);
-        i.putExtra("source", level);
-        startActivity(i);
+    private void startModeActivity(String level){
+        dict_source = (level + "-" + language_choice + "-" + translation_choice).toLowerCase() + ".txt";
+        Intent i = new Intent(this, ModeChoice.class);
+        i.putExtra("source", dict_source);
+        this.startActivity(i);
+
     }
 
 }

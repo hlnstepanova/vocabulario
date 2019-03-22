@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -33,6 +34,8 @@ public class MainShow extends AppCompatActivity{
 
     private ProgressBar progressBar;
 
+    private ConstraintLayout touchArea;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,6 +49,8 @@ public class MainShow extends AppCompatActivity{
         // Enable the Up button
         ab.setDisplayHomeAsUpEnabled(true);
 
+        touchArea = (ConstraintLayout) findViewById(R.id.touch_area);
+
         preferences = PreferenceManager.getDefaultSharedPreferences(this);
 
         newWord = (TextView) findViewById(R.id.newWordView);
@@ -53,17 +58,28 @@ public class MainShow extends AppCompatActivity{
 
         btnGotIt = (Button) findViewById(R.id.gotBtn);
 
-        //on first create, if there's no intent, you should get it from language choice
+        //on first create, if there's no intent, you should get it from level choice
 
         final Intent saveIntent = getIntent();
 
         if (saveIntent.getExtras() == null) {
-            initLanguageChoice();
+            initLevelChoice();
         } else {//create an instance of a dictionary
             currentDictionary = (Dictionary) saveIntent.getSerializableExtra("dictionary");
         }
 
         count=0;
+
+        touchArea.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                if (count==15) {
+                    initWordCheck();
+                } else {
+                    wordShow();
+                }
+            }
+        });
 
         btnGotIt.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -113,6 +129,7 @@ public class MainShow extends AppCompatActivity{
             String randomKey = currentDictionary.showNewWord(); // get a random word from unlearned array
 
             if (randomKey.equals("no_unlearned_words")){
+                Log.d("MainShow", "no unlearned words");
                 initWordCheck();
             }
 
@@ -134,9 +151,9 @@ public class MainShow extends AppCompatActivity{
         startActivity(i);
     }
 
-    private void initLanguageChoice() {
+    private void initLevelChoice() {
         startActivity(
-                new Intent(this, LanguageChoice.class));
+                new Intent(this, LevelChoice.class));
     }
 
     private void initTopicsChoice(){
