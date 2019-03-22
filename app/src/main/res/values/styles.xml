@@ -54,7 +54,7 @@
     </style>
 
     <style name="MyToolbar" parent="ThemeOverlay.AppCompat.Light">
-        <item name="android:colorBackground">@color/bg_screen1</item>
+        <item name="android:colorBackground">@color/topmenu</item>
         <item name="android:textColor">@color/white</item>
     </style>
 

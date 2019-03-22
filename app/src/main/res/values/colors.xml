@@ -5,13 +5,19 @@
     <color name="colorAccent">#fe260d</color>
 
     <!-- Screens background color-->
+    <color name="bg_screen2">#3d0303</color>
+
+    <!-- Screens background color-->
     <color name="bg_screen1">#7a0b0f</color>
 
+    <!-- Screens background color-->
+    <color name="topmenu">#560407</color>
+
     <!-- dots inactive colors -->
-    <color name="dot_dark_screen1">#db181f</color>
+    <color name="dot_dark_screen1">#7a0b0f</color>
 
     <!-- dots active colors -->
-    <color name="dot_light_screen1">#ff2121</color>
+    <color name="dot_light_screen1">#db181f</color>
 
     <!-- main text color -->
     <color name="main_text">#f1e1a6</color>

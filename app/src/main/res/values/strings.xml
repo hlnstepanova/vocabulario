@@ -22,6 +22,7 @@
     <string name="ok">OK</string>
     <string name="revise">REVER</string>
     <string name="reset">REAJUSTAR</string>
+    <string name="reset_progress">REAJUSTAR PROGRESSO</string>
     <string name="new_topic">OUTRA TEMA</string>
     <string name="cancel">CANCELAR</string>
     <string name="next">SEGUINTE</string>
@@ -42,13 +43,13 @@
     <string name="slide_1_title">Bem vindo!</string>
     <string name="slide_1_desc">Esta app vai ajudar-te aprender novas palavras ainda quando estás em movimento.</string>
 
-    <string name="slide_2_title">1. Memoriza</string>
+    <string name="slide_2_title">Memoriza</string>
     <string name="slide_2_desc">Aprende as novas palavras</string>
 
-    <string name="slide_3_title">2. Tap</string>
+    <string name="slide_3_title">Toca</string>
     <string name="slide_3_desc">Tenta relembrar as palavras. Toca no ecrâ para ver o tradução</string>
 
-    <string name="slide_4_title">3. Swipe</string>
+    <string name="slide_4_title">Desliza</string>
     <string name="slide_4_desc">Se relembraste correctamente, desliza para a direita. Se não - para a esquerda. Ou usa os botões. O teu progresso vai crescer depois relembrares a mesma palavra correctamente 5 vezes.</string>
 
     <string name="slide_5_title">Feedback</string>
@@ -93,8 +94,8 @@
 
     <!-- level choice -->
     <string name="mode_choice">Escolhe um modo</string>
-    <string name="topics">TEMAS</string>
-    <string name="general">GERAL</string>
+    <string name="topics">APRENDER POR TEMAS</string>
+    <string name="general">APRENDER GERAL</string>
 
     <!-- topics choice -->
 
