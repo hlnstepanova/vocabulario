@@ -38,7 +38,7 @@ public class WordCheck extends AppCompatActivity {
             btnCorrect,
             btnWrong;
 
-    private ConstraintLayout constraintLayout;
+    private ConstraintLayout touchArea;
 
     private Integer count;
     private boolean reversed;
@@ -61,7 +61,7 @@ public class WordCheck extends AppCompatActivity {
         // Enable the Up button
         ab.setDisplayHomeAsUpEnabled(true);
 
-        constraintLayout = (ConstraintLayout) findViewById(R.id.constraintLayout);
+        touchArea = (ConstraintLayout) findViewById(R.id.touch_area);
 
         preferences = PreferenceManager.getDefaultSharedPreferences(this);
 
@@ -96,17 +96,10 @@ public class WordCheck extends AppCompatActivity {
             public void onClick(View v) {
                 //if correct answer, change the count of correct answers in ProcessMap
                 if (count%2==0) {
+                    Log.d("CORRECT", "correct answer");
                     correctAnswer();
                 } else {
-                    //alarm that first you should guess the word and tap the screen
-                    builder.setNeutralButton(R.string.ok, new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int id) {
-                            // User clicked OK button
-                        }
-                    });
-                    builder.setMessage(R.string.dialog_wordcheck_intro);
-                    AlertDialog alert = builder.create();
-                    alert.show();
+                    showAnswer();
                 }
 
             }
@@ -117,31 +110,47 @@ public class WordCheck extends AppCompatActivity {
             public void onClick(View v) {
                 //if wrong, just go back to word show
                 if (count%2==0) {
+                    Log.d("REPETIR", "wrong answer");
                     wrongAnswer();
                 } else {
-                    //alarm that first you should guess the word and tap the screen
-                    AlertDialog alert = builder.create();
-                    alert.show();
+                    showAnswer();
                 }
 
 
             }
         });
 
-        constraintLayout.setOnTouchListener(new OnSwipeTouchListener(WordCheck.this) {
-            public void onSwipeRight() {
-                wrongAnswer();
+        touchArea.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                showAnswer();
             }
-            public void onSwipeLeft() {
-                correctAnswer();
-            }
+        });
 
+       touchArea.setOnTouchListener(new OnSwipeTouchListener() {
+            public boolean onSwipeRight() {
+                if (count%2==0) {
+                    Log.d("CORRECT", "correct answer");
+                    correctAnswer();
+                } else {
+                    showAnswer();
+                }
+                return true;
+            }
+            public boolean onSwipeLeft() {
+                if (count%2==0) {
+                    Log.d("REPETIR", "wrong answer");
+                    wrongAnswer();
+                } else {
+                    showAnswer();
+                }
+                return true;
+            }
         });
 
         progressBar.setProgress(currentDictionary.getProgress());
 
-        ConstraintLayout touch_area = (ConstraintLayout) findViewById(R.id.touch_area);
-        touch_area.setOnClickListener(new View.OnClickListener() {
+        touchArea.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {

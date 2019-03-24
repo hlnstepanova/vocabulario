@@ -2,7 +2,7 @@
     <string name="app_name">VocabluryBooster</string>
 
     <string name="dialog_language_choice">As linguas tem que ser diffirentes</string>
-    <string name="dialog_wordcheck_intro">Tenta relembrar as palavras e toca no ecrã. Se relembraste correctamente, carrega no botão "Correcto". Se não - no botão "Incorrecto"</string>
+    <string name="dialog_wordcheck_intro">Tenta relembrar as palavras e toca no ecrã. Se relembraste correctamente, desliza para a direita. Se não - para a esquerda. Ou usa os botões.</string>
 
     <string-array name="languages">
         <item>Portugués</item>
@@ -49,7 +49,7 @@
     <string name="slide_3_desc">Tenta relembrar as palavras. Toca no ecrâ para ver o tradução</string>
 
     <string name="slide_4_title">3. Swipe</string>
-    <string name="slide_4_desc">Se relembraste correctamente, carrega no botão "Correcto". Se não - no botão "Incorrecto". O teu progresso vai crescer depois relembrares a mesma palavra correctamente 5 vezes.</string>
+    <string name="slide_4_desc">Se relembraste correctamente, desliza para a direita. Se não - para a esquerda. Ou usa os botões. O teu progresso vai crescer depois relembrares a mesma palavra correctamente 5 vezes.</string>
 
     <string name="slide_5_title">Feedback</string>
     <string name="slide_5_desc">Se encontraste erros ou tens sugestões, não hesita em deixar um feedback!</string>
