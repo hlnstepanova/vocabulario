@@ -2,7 +2,7 @@
     <string name="app_name">VocabluryBooster</string>
 
     <string name="dialog_language_choice">As linguas tem que ser diffirentes</string>
-    <string name="dialog_wordcheck_intro">Tenta relembrar as palavras e toca no ecrã. Se relembraste correctamente, desliza para a direita. Se não - para a esquerda.</string>
+    <string name="dialog_wordcheck_intro">Tenta relembrar as palavras e toca no ecrã. Se relembraste correctamente, carrega no botão "Correcto". Se não - no botão "Incorrecto"</string>
 
     <string-array name="languages">
         <item>Portugués</item>
@@ -49,7 +49,7 @@
     <string name="slide_3_desc">Tenta relembrar as palavras. Toca no ecrâ para ver o tradução</string>
 
     <string name="slide_4_title">3. Swipe</string>
-    <string name="slide_4_desc">Se relembraste correctamente, desliza para a direita. Se não - para a esquerda. O teu progresso vai crescer depois relembrares a mesma palavra correctamente 5 vezes.</string>
+    <string name="slide_4_desc">Se relembraste correctamente, carrega no botão "Correcto". Se não - no botão "Incorrecto". O teu progresso vai crescer depois relembrares a mesma palavra correctamente 5 vezes.</string>
 
     <string name="slide_5_title">Feedback</string>
     <string name="slide_5_desc">Se encontraste erros ou tens sugestões, não hesita em deixar um feedback!</string>
@@ -102,43 +102,43 @@
 
     <string name="topic1">1</string>
     <string name="title1">Geografia de Portugal</string>
-    <string name="progress1">10%</string>
+    <string name="progress1">10.44%</string>
 
     <string name="topic2">2</string>
     <string name="title2">História de Portugal</string>
-    <string name="progress2">3%</string>
+    <string name="progress2">3.32%</string>
 
     <string name="topic3">3</string>
     <string name="title3">Descobrimentos</string>
-    <string name="progress3">5%</string>
+    <string name="progress3">5.78%</string>
 
     <string name="topic4">4</string>
     <string name="title4">Viagens de avião e de comboio</string>
-    <string name="progress4">5%</string>
+    <string name="progress4">5.99%</string>
 
     <string name="topic5">5</string>
     <string name="title5">Imáginario Portugûes</string>
-    <string name="progress5">5%</string>
+    <string name="progress5">5.76%</string>
 
     <string name="topic6">6</string>
     <string name="title6">Automóvel. Acidente de viação</string>
-    <string name="progress6">5%</string>
+    <string name="progress6">5.90%</string>
 
     <string name="topic7">7</string>
     <string name="title7">Emigração</string>
-    <string name="progress7">5%</string>
+    <string name="progress7">5.00%</string>
 
     <string name="topic8">8</string>
     <string name="title8">Internet e meios de comunicação</string>
-    <string name="progress8">5%</string>
+    <string name="progress8">5.00%</string>
 
     <string name="topic9">9</string>
     <string name="title9">Problemas da juventude</string>
-    <string name="progress9">5%</string>
+    <string name="progress9">100.50%</string>
 
     <string name="topic10">10</string>
     <string name="title10">Economia</string>
-    <string name="progress10">5%</string>
+    <string name="progress10">85.78%</string>
 
 
 
