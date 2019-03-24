@@ -231,8 +231,27 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
     }
 
     public void initRevise(){
+        Log.i("selected", topic_selected);
+        // if the sharedPrefs for language-translation-general exists, load currentdictionary from sharedPrefs, else import
+
+        Gson gson = new Gson();
+        String saved_source = dict_source + "-" + topic_selected;
+        Log.i("saved source", saved_source);
+        String json = preferences.getString(saved_source, "");
+        if (!json.isEmpty()) {
+
+            Log.i("Importing", "from prefs");
+            topicDict = gson.fromJson(json, Dictionary.class);
+            Log.i("Importing", Integer.toString(topicDict.getProgress()));
+
+        } else {
+
+            Log.i("Importing", "from file");
+            importTopicFile();
+        }
         Intent i = new Intent(this, Revision.class);
         i.putExtra("dictionary", topicDict);
+        Log.i("Starting revision: ", topicDict.getSource());
         this.startActivity(i);
     }
 
@@ -316,13 +335,13 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
         if (progress==100){
             //alarm learned all words in this category, go back to topic choice
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setNeutralButton(R.string.revise, new DialogInterface.OnClickListener() {
+            builder.setPositiveButton(R.string.revise, new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
                     importTopicFile();
                     initRevise();
                 }
             });
-            builder.setNeutralButton(R.string.reset, new DialogInterface.OnClickListener() {
+            builder.setNegativeButton(R.string.reset, new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
 
                     topicProgressMap.put(topic_selected,0.0);

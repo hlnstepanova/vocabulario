@@ -34,9 +34,11 @@
         <activity
             android:name=".MainShow"
             android:launchMode="singleTop"
-            android:parentActivityName=".ModeChoice">
-            >
-        </activity>
+            android:parentActivityName=".ModeChoice"/>
+        <activity
+            android:name=".Revision"
+            android:launchMode="singleTop"
+            android:parentActivityName=".ModeChoice"/>
         <activity
             android:name=".TopicsChoice"
             android:launchMode="singleTop"

@@ -43,6 +43,8 @@ public class Revision extends AppCompatActivity {
     private String word;
     private Integer count;
 
+    private boolean reversed;
+
     HashMap<String, String> wordsMap;
     protected List<String> learned;
 
@@ -75,6 +77,11 @@ public class Revision extends AppCompatActivity {
             currentDictionary = (Dictionary) saveIntent.getSerializableExtra("dictionary");
             wordsMap = currentDictionary.getWordsMap();
             learned = currentDictionary.getLearned();
+            if(saveIntent.getSerializableExtra("count")==null){
+                count=0;
+            } else {
+                count = (Integer) saveIntent.getSerializableExtra("count");
+            }
         }
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -129,6 +136,8 @@ public class Revision extends AppCompatActivity {
 
         });
 
+
+
         showTranslation();
 
     }
@@ -164,13 +173,23 @@ public class Revision extends AppCompatActivity {
 
     private void showTranslation(){
 
-        int wordPos = random.nextInt(wordsMap.size());
-        word = learned.get(wordPos);
+        Log.i("Revision dictionary ", currentDictionary.getSource());
 
-        trans2.setText(word);
+        word = currentDictionary.testWord();
+
+        String word_to_show ="";
+        double prob = Math.random();
+        if (prob<0.5){
+            word_to_show = word;
+            reversed = false;
+        } else {
+            //show the translation instead of the word
+            word_to_show = currentDictionary.reverseWord(word);
+            reversed = true;
+        }
+
+        trans2.setText(word_to_show);
         answer.setText("");
-        //String translation = wordsMap.get(word);
-        //trans2.setText(translation);
         count++;
     }
 

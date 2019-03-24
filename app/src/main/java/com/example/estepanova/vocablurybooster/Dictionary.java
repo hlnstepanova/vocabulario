@@ -63,8 +63,14 @@ public class Dictionary implements Serializable{
 
     public String testWord(){
 
-        int wordPos = random.nextInt(to_learn.size());
-        return to_learn.get(wordPos);
+        if (to_learn.size()==0){
+            int wordPos = random.nextInt(learned.size());
+            return learned.get(wordPos);
+        } else {
+            int wordPos = random.nextInt(to_learn.size());
+            return to_learn.get(wordPos);
+        }
+
     }
 
     public String reverseWord(String word){
