@@ -55,7 +55,7 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.topics_choice_dark);
+        setContentView(R.layout.topics_choice);
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
 
