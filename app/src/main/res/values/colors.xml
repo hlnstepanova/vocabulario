@@ -33,6 +33,12 @@
     <!-- text color -->
     <color name="blue">#2d446e</color>
 
+    <!-- text color -->
+    <color name="blue1">#0a3563</color>
+
+    <!-- text color -->
+    <color name="bright_blue">#00c2ff</color>
+
     <!-- headings color -->
     <color name="heading">#a2b724</color>
 

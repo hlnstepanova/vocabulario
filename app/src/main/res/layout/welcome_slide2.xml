@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_screen2">
+    android:background="@color/bright_blue">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -16,14 +16,14 @@
         <ImageView
             android:layout_width="@dimen/img_width_height"
             android:layout_height="@dimen/img_width_height"
-            android:src="@drawable/learn" />
+            android:src="@drawable/learn1" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/slide_2_title"
-            android:textColor="@color/heading"
+            android:textColor="@color/metro"
             android:textSize="@dimen/slide_title"
             android:textStyle="bold" />
 
@@ -35,7 +35,7 @@
             android:paddingRight="@dimen/desc_padding"
             android:text="@string/slide_2_desc"
             android:textAlignment="center"
-            android:textColor="@color/main_text"
+            android:textColor="@color/white"
             android:textSize="@dimen/slide_desc" />
 
     </LinearLayout>
