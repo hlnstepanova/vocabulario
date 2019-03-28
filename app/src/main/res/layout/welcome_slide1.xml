@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue1">
+    android:background="@color/bright_blue">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -11,13 +11,12 @@
         android:layout_centerInParent="true"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        android:paddingBottom="30dp"
         tools:gravity="center">
 
         <ImageView
             android:layout_width="@dimen/img_width_height"
             android:layout_height="@dimen/img_width_height"
-            android:src="@drawable/worldwide2" />
+            android:src="@drawable/worldwide1" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -26,7 +25,8 @@
             android:text="@string/slide_1_title"
             android:textColor="@color/metro"
             android:textSize="@dimen/slide_title"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:fontFamily="@font/PacificoRegular"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -37,7 +37,8 @@
             android:text="@string/slide_1_desc"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="@dimen/slide_desc" />
+            android:textSize="@dimen/slide_desc"
+            android:fontFamily="@font/AmaticSCBold"/>
 
     </LinearLayout>
 </RelativeLayout>

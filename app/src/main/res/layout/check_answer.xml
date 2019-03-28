@@ -11,7 +11,7 @@
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/blue"
+        android:background="@color/blue1"
         android:elevation="4dp"
         android:theme="@style/AzulejoAppbar"
         app:popupTheme="@style/MyToolbar" />
@@ -20,8 +20,10 @@
         android:id="@+id/touch_area"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="48dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <android.support.constraint.Guideline
             android:id="@+id/guideline7"
@@ -39,6 +41,7 @@
             android:layout_marginStart="22dp"
             android:layout_marginTop="8dp"
             android:background="@color/white"
+            android:fontFamily="@font/PacificoRegular"
             android:gravity="center"
             android:paddingLeft="15dip"
             android:paddingRight="15dip"
@@ -59,6 +62,7 @@
             android:layout_marginEnd="20dp"
             android:layout_marginStart="22dp"
             android:background="@color/white"
+            android:fontFamily="@font/PacificoRegular"
             android:gravity="center"
             android:paddingLeft="15dip"
             android:paddingRight="15dip"
@@ -73,14 +77,15 @@
 
         <TextView
             android:id="@+id/progressView"
-            android:layout_width="82dp"
+            android:layout_width="50dp"
             android:layout_height="26dp"
             android:layout_marginTop="6dp"
             android:background="@color/white"
+            android:fontFamily="@font/AmaticSCBold"
             android:gravity="center"
             android:text="@string/progresso"
             android:textColor="@color/calcada"
-            android:textSize="14sp"
+            android:textSize="12sp"
             app:layout_constraintEnd_toStartOf="@+id/progressBar"
             app:layout_constraintTop_toTopOf="@+id/guideline7" />
 
@@ -88,7 +93,7 @@
             android:id="@+id/progressBar"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="87dp"
-            android:layout_height="27dp"
+            android:layout_height="26dp"
             android:layout_marginEnd="20dp"
             android:layout_marginTop="6dp"
             android:background="@color/white"
@@ -100,7 +105,7 @@
             android:layout_width="0dp"
             android:layout_height="60dp"
             android:background="@color/dot_light_screen1"
-            android:fontFamily="sans-serif-medium"
+            android:fontFamily="@font/Roboto-Light"
             android:text="@string/repeat"
             android:textColor="@color/white"
             android:textSize="18sp"
@@ -114,6 +119,7 @@
             android:layout_width="0dp"
             android:layout_height="60dp"
             android:background="@color/heading"
+            android:fontFamily="@font/Roboto-Light"
             android:text="@string/correct"
             android:textColor="@color/white"
             android:textSize="18sp"

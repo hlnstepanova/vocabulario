@@ -14,7 +14,7 @@
     </style>
 
     <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
-        <item name="android:popupBackground">@color/blue</item>
+        <item name="android:popupBackground">@color/blue1</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -54,7 +54,7 @@
     </style>
 
     <style name="MyToolbar" parent="ThemeOverlay.AppCompat.Light">
-        <item name="android:colorBackground">@color/topmenu</item>
+        <item name="android:colorBackground">@color/menu</item>
         <item name="android:textColor">@color/white</item>
     </style>
 

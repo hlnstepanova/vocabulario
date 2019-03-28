@@ -26,6 +26,7 @@
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
+        android:paddingLeft="6dp"
         android:background="@color/white"
         android:ems="10"
         android:inputType="textPersonName"
@@ -34,7 +35,8 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/my_toolbar" />
+        app:layout_constraintTop_toBottomOf="@+id/my_toolbar"
+        android:fontFamily="@font/PacificoRegular"/>
 
     <EditText
         android:id="@+id/emailTxt"
@@ -43,6 +45,7 @@
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="16dp"
+        android:paddingLeft="6dp"
         android:background="@color/white"
         android:ems="10"
         android:inputType="textEmailAddress"
@@ -51,7 +54,8 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nameTxt" />
+        app:layout_constraintTop_toBottomOf="@+id/nameTxt"
+        android:fontFamily="@font/PacificoRegular"/>
 
     <EditText
         android:id="@+id/feedbackTxt"
@@ -61,6 +65,7 @@
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="16dp"
+        android:paddingLeft="6dp"
         android:background="@color/white"
         android:ems="10"
         android:gravity="top"
@@ -71,17 +76,19 @@
         app:layout_constraintBottom_toTopOf="@+id/sendBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailTxt" />
+        app:layout_constraintTop_toBottomOf="@+id/emailTxt"
+        android:fontFamily="@font/PacificoRegular"/>
 
     <Button
         android:id="@+id/sendBtn"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:background="@color/heading"
         android:text="@string/send"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="@font/RobotoLight"/>
 </android.support.constraint.ConstraintLayout>

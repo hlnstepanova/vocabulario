@@ -9,8 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:gravity="center_horizontal"
-        android:orientation="vertical"
-        android:paddingBottom="30dp">
+        android:orientation="vertical">
 
         <ImageView
             android:layout_width="@dimen/img_width_height"
@@ -24,7 +23,8 @@
             android:text="@string/slide_3_title"
             android:textColor="@color/metro"
             android:textSize="@dimen/slide_title"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:fontFamily="@font/PacificoRegular"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -35,7 +35,8 @@
             android:text="@string/slide_3_desc"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="@dimen/slide_desc" />
+            android:textSize="@dimen/slide_desc"
+            android:fontFamily="@font/AmaticSCBold"/>
 
     </LinearLayout>
 </RelativeLayout>

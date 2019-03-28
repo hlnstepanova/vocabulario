@@ -5,12 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.estepanova.vocablurybooster.LevelChoice"
-    android:background="@color/bg_screen1">
+    android:background="@drawable/tile_bg">
 
     <ImageView
         android:id="@+id/imageA1"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
         android:contentDescription="@string/a1"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toTopOf="@+id/textViewB1"
@@ -23,37 +26,48 @@
     <TextView
         android:id="@+id/textViewA1"
         android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
         android:background="@color/dot_light_screen1"
         android:gravity="center"
         android:text="@string/a1"
         android:textColor="@color/white"
-        android:textSize="22sp"
+        android:textSize="28sp"
         app:layout_constraintBottom_toTopOf="@+id/imageA1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/AmaticSCBold"/>
 
     <TextView
         android:id="@+id/textViewB1"
         android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
         android:background="@color/menu"
         android:gravity="center"
         android:text="@string/b1"
         android:textColor="@color/white"
-        android:textSize="22sp"
+        android:textSize="28sp"
         app:layout_constraintBottom_toTopOf="@+id/imageB1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageA1" />
+        app:layout_constraintTop_toBottomOf="@+id/imageA1"
+        android:fontFamily="@font/AmaticSCBold"/>
 
     <ImageView
         android:id="@+id/imageB1"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
         android:contentDescription="@string/b1"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"

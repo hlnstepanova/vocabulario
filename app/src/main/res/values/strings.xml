@@ -59,8 +59,8 @@
     <string name="slide_6_desc">A prática leva à perfeição, ou seja, nunca para aprender!</string>
 
     <!-- activity main -->
-    <string name="word">PALAVRA</string>
-    <string name="translation">TRADUÇÃO</string>
+    <string name="word">Palavra</string>
+    <string name="translation">Перевод</string>
     <string name="entendi">ENTENDI</string>
     <string name="progresso">Progresso</string>
 

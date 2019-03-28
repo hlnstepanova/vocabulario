@@ -14,7 +14,7 @@
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/blue1"
         android:elevation="4dp"
         android:theme="@style/AzulejoAppbar"
         app:popupTheme="@style/MyToolbar" />
@@ -33,12 +33,13 @@
         android:text="@string/word"
         android:textAlignment="center"
         android:textColor="@color/heading"
-        android:textSize="30sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/newTransView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/progressView" />
+        app:layout_constraintTop_toBottomOf="@+id/progressView"
+        android:fontFamily="@font/PacificoRegular" />
 
     <TextView
         android:id="@+id/newTransView"
@@ -55,12 +56,13 @@
         android:text="@string/translation"
         android:textAlignment="center"
         android:textColor="@color/calcada"
-        android:textSize="30sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/newWordView" />
+        app:layout_constraintTop_toBottomOf="@+id/newWordView"
+        android:fontFamily="@font/PacificoRegular" />
 
     <Button
         android:id="@+id/gotBtn"
@@ -73,7 +75,8 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="@font/Roboto-Light"/>
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
@@ -86,7 +89,7 @@
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="87dp"
-        android:layout_height="27dp"
+        android:layout_height="26dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="10dp"
         android:background="@color/white"
@@ -96,16 +99,17 @@
 
     <TextView
         android:id="@+id/progressView"
-        android:layout_width="86dp"
+        android:layout_width="50dp"
         android:layout_height="26dp"
         android:layout_marginEnd="108dp"
         android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:fontFamily="@font/AmaticSCBold"
         android:gravity="center"
         android:text="@string/progresso"
         android:textAlignment="center"
-        android:textColor="@color/colorPrimaryDark"
-        android:background="@color/white"
-        android:textSize="14sp"
+        android:textColor="@color/calcada"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/my_toolbar" />
 
