@@ -272,7 +272,7 @@ public class WordCheck extends AppCompatActivity {
         if (currentDictionary.checkEmpty()){
             //alarm learned all words in this category, go back to topic choice
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setNeutralButton(R.string.revise, new DialogInterface.OnClickListener() {
+            builder.setPositiveButton(R.string.revise, new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
                     // User chose to revise current topic
 
@@ -281,7 +281,7 @@ public class WordCheck extends AppCompatActivity {
                     startActivity(i);
                 }
             });
-            builder.setNeutralButton(R.string.new_topic, new DialogInterface.OnClickListener() {
+            builder.setNegativeButton(R.string.new_topic, new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
                     // User chose to learn a new topic
                     String dict_source = currentDictionary.getSource();
