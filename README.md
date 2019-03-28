@@ -1,17 +1,15 @@
 # Vocabulário
 
-<i>An application for learning words </i>
-<i>Based on a course book "Português para principiantes" by Galina Petrova and João Carlos Mendonça João<i>
+<i>An application for learning words </i><br>
+<i>Based on a course book "Português para principiantes" by Galina Petrova and João Carlos Mendonça João</i>
   
 <b>Purpose</b>
 
 This app is meant to help students learn new words even when they're on the go and do not have a printed version of the course book at hand.
 
 ![image](screenshots/welcome.png?raw=true "Welcome")
-![image](screenshots/welcome1.png?raw=true "Memorize")
 ![image](screenshots/welcome2.png?raw=true "Tap")
 ![image](screenshots/welcome3.png?raw=true "Swipe")
-![image](screenshots/welcome4.png?raw=true "Feedback")
 
 <b>Principle</b>
 
