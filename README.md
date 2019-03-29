@@ -1,6 +1,7 @@
 # Vocabulário
 
-<i>An application for learning words </i><br>
+<i>An application for learning words (Russian <-> Portuguese) </i><br>
+<a href="https://play.google.com/store/apps/details?id=com.vocabulario.estepanova.vocablurybooster"><img src="screeenshots/google.png" alt="Google play market"></a><br>
 <i>Based on a course book "Português para principiantes" by Galina Petrova and João Carlos Mendonça João</i>
   
 <b>Purpose</b>
