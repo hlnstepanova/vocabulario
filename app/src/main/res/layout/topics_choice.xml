@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:elevation="4dp"
-            android:background="@color/blue"
+            android:background="@color/blue1"
             android:theme="@style/AzulejoAppbar"
             app:popupTheme="@style/MyToolbar"/>
 
@@ -32,7 +32,6 @@
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="20dp"
-            android:background="@color/white"
             android:paddingBottom="8dp"
             android:paddingTop="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -45,7 +44,8 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="4dp"
-                android:paddingTop="4dp">
+                android:paddingTop="4dp"
+                android:background="@color/white">
 
                 <TextView
                     android:id="@+id/topic1"
@@ -57,7 +57,7 @@
                     android:text="@string/topic1"
                     android:textColor="@color/heading"
                     android:textSize="26sp"
-                    android:fontFamily="@font/RobotoLight"/>
+                    android:fontFamily="@font/robotolight"/>
 
                 <TextView
                     android:id="@+id/title1"
@@ -70,7 +70,7 @@
                     android:text="@string/title1"
                     android:textColor="@color/blue1"
                     android:textSize="22sp"
-                    android:fontFamily="@font/AmaticSCBold"/>
+                    android:fontFamily="@font/amaticbold"/>
 
                 <TextView
                     android:id="@+id/progress1"
@@ -80,7 +80,7 @@
                     android:text="@string/progress1"
                     android:textColor="@color/dot_light_screen1"
                     android:textSize="24sp"
-                    android:fontFamily="@font/AmaticSCBold"/>
+                    android:fontFamily="@font/amaticbold"/>
             </TableRow>
 
             <TableRow
@@ -88,7 +88,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4.5dp"
                 android:paddingBottom="4dp"
-                android:paddingTop="4dp">
+                android:paddingTop="4dp"
+                android:background="@color/white">
 
                 <TextView
                     android:id="@+id/topic2"
@@ -99,7 +100,7 @@
                     android:text="@string/topic2"
                     android:textColor="@color/heading"
                     android:textSize="26sp"
-                    android:fontFamily="@font/RobotoLight" />
+                    android:fontFamily="@font/robotolight" />
 
                 <TextView
                     android:id="@+id/title2"
@@ -112,7 +113,7 @@
                     android:text="@string/title2"
                     android:textColor="@color/blue1"
                     android:textSize="22sp"
-                    android:fontFamily="@font/AmaticSCBold"/>
+                    android:fontFamily="@font/amaticbold"/>
 
                 <TextView
                     android:id="@+id/progress2"
@@ -122,7 +123,7 @@
                     android:text="@string/progress2"
                     android:textColor="@color/dot_light_screen1"
                     android:textSize="24sp"
-                    android:fontFamily="@font/AmaticSCBold"/>
+                    android:fontFamily="@font/amaticbold"/>
             </TableRow>
 
             <TableRow
@@ -131,7 +132,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4.5dp"
                 android:paddingBottom="4dp"
-                android:paddingTop="4dp">
+                android:paddingTop="4dp"
+                android:background="@color/white">
 
                 <TextView
                     android:id="@+id/topic3"
@@ -142,7 +144,7 @@
                     android:text="@string/topic3"
                     android:textColor="@color/heading"
                     android:textSize="26sp"
-                    android:fontFamily="@font/RobotoLight"  />
+                    android:fontFamily="@font/robotolight"  />
 
                 <TextView
                     android:id="@+id/title3"
@@ -155,7 +157,7 @@
                     android:text="@string/title3"
                     android:textColor="@color/blue1"
                     android:textSize="22sp"
-                    android:fontFamily="@font/AmaticSCBold" />
+                    android:fontFamily="@font/amaticbold" />
 
                 <TextView
                     android:id="@+id/progress3"
@@ -165,7 +167,7 @@
                     android:text="@string/progress3"
                     android:textColor="@color/dot_light_screen1"
                     android:textSize="24sp"
-                    android:fontFamily="@font/AmaticSCBold"  />
+                    android:fontFamily="@font/amaticbold"  />
             </TableRow>
 
             <TableRow
@@ -173,7 +175,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4.5dp"
                 android:paddingBottom="4dp"
-                android:paddingTop="4dp">
+                android:paddingTop="4dp"
+                android:background="@color/white">
 
                 <TextView
                     android:id="@+id/topic4"
@@ -184,7 +187,7 @@
                     android:text="@string/topic4"
                     android:textColor="@color/heading"
                     android:textSize="26sp"
-                    android:fontFamily="@font/RobotoLight" />
+                    android:fontFamily="@font/robotolight" />
 
                 <TextView
                     android:id="@+id/title4"
@@ -197,7 +200,7 @@
                     android:text="@string/title4"
                     android:textColor="@color/blue1"
                     android:textSize="22sp"
-                    android:fontFamily="@font/AmaticSCBold"/>
+                    android:fontFamily="@font/amaticbold"/>
 
                 <TextView
                     android:id="@+id/progress4"
@@ -207,7 +210,7 @@
                     android:text="@string/progress4"
                     android:textColor="@color/dot_light_screen1"
                     android:textSize="24sp"
-                    android:fontFamily="@font/AmaticSCBold"/>
+                    android:fontFamily="@font/amaticbold"/>
             </TableRow>
 
             <TableRow
@@ -215,7 +218,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4.5dp"
                 android:paddingBottom="4dp"
-                android:paddingTop="4dp">
+                android:paddingTop="4dp"
+                android:background="@color/white">
 
                 <TextView
                     android:id="@+id/topic5"
@@ -226,7 +230,7 @@
                     android:text="@string/topic5"
                     android:textColor="@color/heading"
                     android:textSize="26sp"
-                    android:fontFamily="@font/RobotoLight" />
+                    android:fontFamily="@font/robotolight" />
 
                 <TextView
                     android:id="@+id/title5"
@@ -239,7 +243,7 @@
                     android:text="@string/title5"
                     android:textColor="@color/blue1"
                     android:textSize="22sp"
-                    android:fontFamily="@font/AmaticSCBold"/>
+                    android:fontFamily="@font/amaticbold"/>
 
                 <TextView
                     android:id="@+id/progress5"
@@ -249,7 +253,7 @@
                     android:textAlignment="center"
                     android:textColor="@color/dot_light_screen1"
                     android:textSize="24sp"
-                    android:fontFamily="@font/AmaticSCBold" />
+                    android:fontFamily="@font/amaticbold" />
             </TableRow>
 
             <TableRow
@@ -257,7 +261,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4.5dp"
                 android:paddingBottom="4dp"
-                android:paddingTop="4dp">
+                android:paddingTop="4dp"
+                android:background="@color/white">
 
                 <TextView
                     android:id="@+id/topic6"
@@ -268,7 +273,7 @@
                     android:text="@string/topic6"
                     android:textColor="@color/heading"
                     android:textSize="26sp"
-                    android:fontFamily="@font/RobotoLight" />
+                    android:fontFamily="@font/robotolight" />
 
                 <TextView
                     android:id="@+id/title6"
@@ -281,7 +286,7 @@
                     android:text="@string/title6"
                     android:textColor="@color/blue1"
                     android:textSize="22sp"
-                    android:fontFamily="@font/AmaticSCBold"/>
+                    android:fontFamily="@font/amaticbold"/>
 
                 <TextView
                     android:id="@+id/progress6"
@@ -291,7 +296,7 @@
                     android:text="@string/progress6"
                     android:textColor="@color/dot_light_screen1"
                     android:textSize="24sp"
-                    android:fontFamily="@font/AmaticSCBold" />
+                    android:fontFamily="@font/amaticbold" />
             </TableRow>
 
             <TableRow
@@ -299,7 +304,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4.5dp"
                 android:paddingBottom="4dp"
-                android:paddingTop="4dp">
+                android:paddingTop="4dp"
+                android:background="@color/white">
 
                 <TextView
                     android:id="@+id/topic7"
@@ -310,7 +316,7 @@
                     android:text="@string/topic7"
                     android:textColor="@color/heading"
                     android:textSize="26sp"
-                    android:fontFamily="@font/RobotoLight"/>
+                    android:fontFamily="@font/robotolight"/>
 
                 <TextView
                     android:id="@+id/title7"
@@ -323,7 +329,7 @@
                     android:text="@string/title7"
                     android:textColor="@color/blue1"
                     android:textSize="22sp"
-                    android:fontFamily="@font/AmaticSCBold"/>
+                    android:fontFamily="@font/amaticbold"/>
 
                 <TextView
                     android:id="@+id/progress7"
@@ -333,7 +339,7 @@
                     android:text="@string/progress7"
                     android:textColor="@color/dot_light_screen1"
                     android:textSize="24sp"
-                    android:fontFamily="@font/AmaticSCBold"/>
+                    android:fontFamily="@font/amaticbold"/>
             </TableRow>
 
             <TableRow
@@ -341,7 +347,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4.5dp"
                 android:paddingBottom="4dp"
-                android:paddingTop="4dp">
+                android:paddingTop="4dp"
+                android:background="@color/white">
 
                 <TextView
                     android:id="@+id/topic8"
@@ -352,7 +359,7 @@
                     android:text="@string/topic8"
                     android:textColor="@color/heading"
                     android:textSize="26sp"
-                    android:fontFamily="@font/RobotoLight" />
+                    android:fontFamily="@font/robotolight" />
 
                 <TextView
                     android:id="@+id/title8"
@@ -365,7 +372,7 @@
                     android:text="@string/title8"
                     android:textColor="@color/blue1"
                     android:textSize="22sp"
-                    android:fontFamily="@font/AmaticSCBold"/>
+                    android:fontFamily="@font/amaticbold"/>
 
                 <TextView
                     android:id="@+id/progress8"
@@ -375,7 +382,7 @@
                     android:text="@string/progress8"
                     android:textColor="@color/dot_light_screen1"
                     android:textSize="24sp"
-                    android:fontFamily="@font/AmaticSCBold" />
+                    android:fontFamily="@font/amaticbold" />
             </TableRow>
 
             <TableRow
@@ -383,7 +390,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4.5dp"
                 android:paddingBottom="4dp"
-                android:paddingTop="4dp">
+                android:paddingTop="4dp"
+                android:background="@color/white">
 
                 <TextView
                     android:id="@+id/topic9"
@@ -394,7 +402,7 @@
                     android:text="@string/topic9"
                     android:textColor="@color/heading"
                     android:textSize="26sp"
-                    android:fontFamily="@font/RobotoLight"/>
+                    android:fontFamily="@font/robotolight"/>
 
                 <TextView
                     android:id="@+id/title9"
@@ -407,7 +415,7 @@
                     android:text="@string/title9"
                     android:textColor="@color/blue1"
                     android:textSize="22sp"
-                    android:fontFamily="@font/AmaticSCBold"/>
+                    android:fontFamily="@font/amaticbold"/>
 
                 <TextView
                     android:id="@+id/progress9"
@@ -417,7 +425,7 @@
                     android:text="@string/progress9"
                     android:textColor="@color/dot_light_screen1"
                     android:textSize="24sp"
-                    android:fontFamily="@font/AmaticSCBold"/>
+                    android:fontFamily="@font/amaticbold"/>
             </TableRow>
 
             <TableRow
@@ -425,7 +433,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4.5dp"
                 android:paddingBottom="4dp"
-                android:paddingTop="4dp">
+                android:paddingTop="4dp"
+                android:background="@color/white">
 
                 <TextView
                     android:id="@+id/topic10"
@@ -436,7 +445,7 @@
                     android:text="@string/topic10"
                     android:textColor="@color/heading"
                     android:textSize="26sp"
-                    android:fontFamily="@font/RobotoLight"/>
+                    android:fontFamily="@font/robotolight"/>
 
                 <TextView
                     android:id="@+id/title10"
@@ -449,7 +458,7 @@
                     android:text="@string/title10"
                     android:textColor="@color/blue1"
                     android:textSize="22sp"
-                    android:fontFamily="@font/AmaticSCBold"/>
+                    android:fontFamily="@font/amaticbold"/>
 
                 <TextView
                     android:id="@+id/progress10"
@@ -459,7 +468,7 @@
                     android:text="@string/progress10"
                     android:textColor="@color/dot_light_screen1"
                     android:textSize="24sp"
-                    android:fontFamily="@font/AmaticSCBold"/>
+                    android:fontFamily="@font/amaticbold"/>
             </TableRow>
 
         </TableLayout>

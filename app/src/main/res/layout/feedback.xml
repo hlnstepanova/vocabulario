@@ -11,7 +11,7 @@
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/blue1"
         android:theme="@style/AzulejoAppbar"
         app:popupTheme="@style/MyToolbar"
         android:minHeight="?attr/actionBarSize"
@@ -36,7 +36,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/my_toolbar"
-        android:fontFamily="@font/PacificoRegular"/>
+        android:fontFamily="@font/robotolight"/>
 
     <EditText
         android:id="@+id/emailTxt"
@@ -55,7 +55,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nameTxt"
-        android:fontFamily="@font/PacificoRegular"/>
+        android:fontFamily="@font/robotolight"/>
 
     <EditText
         android:id="@+id/feedbackTxt"
@@ -77,7 +77,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailTxt"
-        android:fontFamily="@font/PacificoRegular"/>
+        android:fontFamily="@font/robotolight"/>
 
     <Button
         android:id="@+id/sendBtn"
@@ -90,5 +90,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:fontFamily="@font/RobotoLight"/>
+        android:fontFamily="@font/amaticbold"/>
 </android.support.constraint.ConstraintLayout>

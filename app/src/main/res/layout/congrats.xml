@@ -14,7 +14,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:fontFamily="@font/PacificoRegular"
+        android:fontFamily="@font/pacifico"
         android:text="@string/congrats_title"
         android:textAlignment="center"
         android:textColor="@color/metro"
@@ -46,7 +46,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:fontFamily="@font/AmaticSCBold"
+        android:fontFamily="@font/amaticbold"
         android:text="@string/learned_all"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -68,7 +68,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:fontFamily="@font/RobotoLight"/>
+        android:fontFamily="@font/amaticbold"/>
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline2"

@@ -58,7 +58,7 @@ public class ModeChoice extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         Log.i("DEBUG", "ModeOnCreate");
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mode_choice_dark);
+        setContentView(R.layout.mode_choice);
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
 
