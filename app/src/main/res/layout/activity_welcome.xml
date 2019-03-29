@@ -26,7 +26,7 @@
         android:layout_height="1dp"
         android:alpha=".5"
         android:layout_above="@id/layoutDots"
-        android:background="@color/blue1" />
+        android:background="@color/white" />
 
     <Button
         android:id="@+id/btn_next"
@@ -36,7 +36,9 @@
         android:layout_alignParentRight="true"
         android:background="@null"
         android:text="@string/next"
-        android:textColor="@color/metro" />
+        android:textColor="@color/white"
+        android:fontFamily="@font/amaticbold"
+        android:textSize="18sp"/>
 
     <Button
         android:id="@+id/btn_skip"
@@ -46,6 +48,8 @@
         android:layout_alignParentLeft="true"
         android:background="@null"
         android:text="@string/skip"
-        android:textColor="@color/metro" />
+        android:textColor="@color/white"
+        android:fontFamily="@font/amaticbold"
+        android:textSize="18sp"/>
 
 </RelativeLayout>

@@ -74,6 +74,7 @@
 
                 <TextView
                     android:id="@+id/progress1"
+                    android:paddingRight="4dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -117,6 +118,7 @@
 
                 <TextView
                     android:id="@+id/progress2"
+                    android:paddingRight="4dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -161,6 +163,7 @@
 
                 <TextView
                     android:id="@+id/progress3"
+                    android:paddingRight="4dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -204,6 +207,7 @@
 
                 <TextView
                     android:id="@+id/progress4"
+                    android:paddingRight="4dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -247,6 +251,7 @@
 
                 <TextView
                     android:id="@+id/progress5"
+                    android:paddingRight="4dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="@string/progress5"
@@ -290,6 +295,7 @@
 
                 <TextView
                     android:id="@+id/progress6"
+                    android:paddingRight="4dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -333,6 +339,7 @@
 
                 <TextView
                     android:id="@+id/progress7"
+                    android:paddingRight="4dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -376,6 +383,7 @@
 
                 <TextView
                     android:id="@+id/progress8"
+                    android:paddingRight="4dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -419,6 +427,7 @@
 
                 <TextView
                     android:id="@+id/progress9"
+                    android:paddingRight="4dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -462,6 +471,7 @@
 
                 <TextView
                     android:id="@+id/progress10"
+                    android:paddingRight="4dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"

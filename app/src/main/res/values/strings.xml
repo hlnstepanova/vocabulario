@@ -88,6 +88,8 @@
     <string name="vocablury">VOCABULÁRIO</string>
     <string name="apply">APLICAR</string>
 
+    <string name="reset_all_progress">Tudo o progresso foi zerado!</string>
+
     <!-- level choice -->
     <string name="a1">A1 - A2</string>
     <string name="b1">B1 - B2</string>

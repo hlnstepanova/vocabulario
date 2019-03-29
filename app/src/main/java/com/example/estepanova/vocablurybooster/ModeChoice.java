@@ -179,7 +179,7 @@ public class ModeChoice extends AppCompatActivity {
                 SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(ModeChoice.this);
                 preferences.edit().clear().apply();
                 Toast.makeText(getApplicationContext(),
-                        "All you progress was successfuly reset!", Toast.LENGTH_SHORT).show();
+                        "Tudo o progresso foi zerado!", Toast.LENGTH_SHORT).show();
             }
         });
         builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
