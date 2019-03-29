@@ -1,9 +1,9 @@
 # Vocabulário
 
 <i>An application for learning words (Russian <-> Portuguese) </i><br>
-<a href="https://play.google.com/store/apps/details?id=com.vocabulario.estepanova.vocablurybooster"><img src="screeenshots/google.png" alt="Google play market"></a><br>
-<i>Based on a course book "Português para principiantes" by Galina Petrova and João Carlos Mendonça João</i>
-  
+<i>Based on a course book "Português para principiantes" by Galina Petrova and João Carlos Mendonça João</i><br>
+<a href="https://play.google.com/store/apps/details?id=com.vocabulario.estepanova.vocablurybooster"><img src="https://github.com/hlnstepanova/Vocabulario/blob/master/screenshots/google.png"></a><br>
+
 <b>Purpose</b>
 
 This app is meant to help students learn new words even when they're on the go and do not have a printed version of the course book at hand.
