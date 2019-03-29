@@ -3,6 +3,7 @@ package com.example.estepanova.vocablurybooster;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.NavUtils;
@@ -53,7 +54,7 @@ public class ModeChoice extends AppCompatActivity {
             btnReset;
 
     private String dict_source;
-    private String topic = "general";
+    private String topic_selected = "general";
 
     protected void onCreate(Bundle savedInstanceState) {
         Log.i("DEBUG", "ModeOnCreate");
@@ -159,7 +160,7 @@ public class ModeChoice extends AppCompatActivity {
         // if the sharedPrefs for language-translation-general exists, load currentdictionary from sharedPrefs, else import
 
         Gson gson = new Gson();
-        String saved_source = dict_source + "-" + topic;
+        String saved_source = dict_source + "-" + topic_selected;
         String json = preferences.getString(saved_source, "");
         if (!json.isEmpty()) {
             currentDictionary = gson.fromJson(json, Dictionary.class);
@@ -197,51 +198,37 @@ public class ModeChoice extends AppCompatActivity {
 
     public void importFile() {
 
-            //first import the correspondent dictionary
-            String filePath = dict_source;
-            Log.i("import from", filePath);
+        //first import the correspondent dictionary
+        String filePath = dict_source;
+        Log.i("import from", filePath);
 
-            try {
-                int reverse = 1;
+        try {
+            AssetManager am = getApplicationContext().getAssets();
+            InputStreamReader iss = new InputStreamReader(am.open(filePath));
+            BufferedReader reader = new BufferedReader(iss);
 
-                //check if file exists
-                File f = new File(filePath);
-                if(f.exists() && !f.isDirectory()) {
-                    //if file exists, proceed to import
+            String line;
 
+            while ((line = reader.readLine()) != null) {
+                String[] parts = line.split(" - ", 3);
+                if (parts.length >= 3) {
+                    String key = parts[1];
+                    String topic = parts[0];
+                    String value = parts[2];
+                    //create a hashmap only with all words
+                    this.wordsMap.put(key, value);
                 } else {
-                    //remove everything after . in the string, split by - and swap, new filepath, tryagain, reverse->2
-                    String language_translation = filePath.split(".")[0];
-                    String level = language_translation.split("-")[0];
-                    String language_choice = language_translation.split("-")[1];
-                    String translation_choice = language_translation.split("-")[2];
-                    filePath = (level+ "-" + translation_choice + "-" + language_choice).toLowerCase() + ".txt";
-
-                    //indicator to import correct keys and values afterwards
-                    reverse=2;
-
+                    Log.i("Import:", "ignoring line: " + line);
                 }
-                // import from file
-                BufferedReader reader = new BufferedReader(new InputStreamReader(getApplicationContext().getAssets().open(filePath)));
-                String line;
-
-                while ((line = reader.readLine()) != null) {
-                    String[] parts = line.split(" - ", 3);
-                    if (parts.length == 3) {
-                        String key = parts[1*reverse%3]; // if dict reversed, keys become values
-                        String value = parts[2*reverse%3];
-                        wordsMap.put(key, value);
-                    } else {
-                        Log.i("Import:", "ignoring line: " + line);
-                    }
-                }
-                reader.close();
-            } catch (IOException e) {
-                e.printStackTrace();
             }
+            reader.close();
 
-            unlearned = new ArrayList<String>(wordsMap.keySet());
-            currentDictionary = new Dictionary (dict_source, wordsMap, unlearned, to_learn, inProcessMap, learned, topic, 0);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        unlearned = new ArrayList<String>(wordsMap.keySet());
+        currentDictionary = new Dictionary(dict_source, wordsMap, unlearned, to_learn, inProcessMap, learned, topic_selected, 0);
 
     }
 

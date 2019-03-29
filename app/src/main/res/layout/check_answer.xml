@@ -83,6 +83,7 @@
             android:background="@color/white"
             android:fontFamily="@font/robotolight"
             android:gravity="center"
+            android:paddingRight="2sp"
             android:text="@string/progresso"
             android:textColor="@color/calcada"
             android:textSize="12sp"
@@ -97,6 +98,7 @@
             android:layout_marginEnd="20dp"
             android:layout_marginTop="6dp"
             android:background="@color/white"
+            android:paddingTop="3sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/guideline7" />
 
