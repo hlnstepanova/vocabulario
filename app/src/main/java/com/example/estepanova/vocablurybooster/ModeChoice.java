@@ -57,7 +57,6 @@ public class ModeChoice extends AppCompatActivity {
     private String topic_selected = "general";
 
     protected void onCreate(Bundle savedInstanceState) {
-        Log.i("DEBUG", "ModeOnCreate");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mode_choice);
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
@@ -78,10 +77,9 @@ public class ModeChoice extends AppCompatActivity {
         Intent saveIntent = getIntent();
 
         if (saveIntent.getExtras() == null) {
-            Log.i("DEBUG", "mode choice no intent");
+            //shouldn't happen
         } else {
             dict_source = (String) saveIntent.getSerializableExtra("source");
-            Log.i("SOURCE", dict_source);
         }
 
         //if Topics button is clicked, we go to the Topics catalog
@@ -200,7 +198,6 @@ public class ModeChoice extends AppCompatActivity {
 
         //first import the correspondent dictionary
         String filePath = dict_source;
-        Log.i("import from", filePath);
 
         try {
             AssetManager am = getApplicationContext().getAssets();
@@ -218,7 +215,7 @@ public class ModeChoice extends AppCompatActivity {
                     //create a hashmap only with all words
                     this.wordsMap.put(key, value);
                 } else {
-                    Log.i("Import:", "ignoring line: " + line);
+                    //ignoring lines
                 }
             }
             reader.close();

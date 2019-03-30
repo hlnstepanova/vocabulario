@@ -76,7 +76,7 @@ public class WordCheck extends AppCompatActivity {
         Intent saveIntent = getIntent();
 
         if (saveIntent.getExtras() == null) {
-            Log.i("Wordcheck:", "no words to check");
+            //no words to check
         } else {
             currentDictionary = (Dictionary) saveIntent.getSerializableExtra("dictionary");
             wordsMap = currentDictionary.getWordsMap();
@@ -86,7 +86,6 @@ public class WordCheck extends AppCompatActivity {
             } else {
                 count = (Integer) saveIntent.getSerializableExtra("count");
             }
-            Log.i("Wordcheck:", count.toString());
         }
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -96,7 +95,6 @@ public class WordCheck extends AppCompatActivity {
             public void onClick(View v) {
                 //if correct answer, change the count of correct answers in ProcessMap
                 if (count%2==0) {
-                    Log.d("CORRECT", "correct answer");
                     correctAnswer();
                 } else {
                     showAnswer();
@@ -110,7 +108,6 @@ public class WordCheck extends AppCompatActivity {
             public void onClick(View v) {
                 //if wrong, just go back to word show
                 if (count%2==0) {
-                    Log.d("REPETIR", "wrong answer");
                     wrongAnswer();
                 } else {
                     showAnswer();
@@ -130,7 +127,6 @@ public class WordCheck extends AppCompatActivity {
        touchArea.setOnTouchListener(new OnSwipeTouchListener() {
             public boolean onSwipeRight() {
                 if (count%2==0) {
-                    Log.d("CORRECT", "correct answer");
                     correctAnswer();
                 } else {
                     showAnswer();
@@ -139,7 +135,6 @@ public class WordCheck extends AppCompatActivity {
             }
             public boolean onSwipeLeft() {
                 if (count%2==0) {
-                    Log.d("REPETIR", "wrong answer");
                     wrongAnswer();
                 } else {
                     showAnswer();
@@ -170,7 +165,6 @@ public class WordCheck extends AppCompatActivity {
         if (!json.isEmpty()) {
             topicProgressMap = gson.fromJson(json, HashMap.class);
         } else {
-            Log.d("WordAnswer", "no progress map found");
             topicProgressMap = new HashMap<>();
         }
 
@@ -242,7 +236,6 @@ public class WordCheck extends AppCompatActivity {
     }
 
     private void wrongAnswer(){
-        Log.d("current word", word);
 
         int size = currentDictionary.getToLearnLength();
 

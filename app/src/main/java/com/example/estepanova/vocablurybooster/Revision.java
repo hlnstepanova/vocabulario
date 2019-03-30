@@ -72,7 +72,7 @@ public class Revision extends AppCompatActivity {
         Intent saveIntent = getIntent();
 
         if (saveIntent.getExtras() == null) {
-            Log.i("Wordcheck:", "no words to check");
+            //no words to check
         } else {
             currentDictionary = (Dictionary) saveIntent.getSerializableExtra("dictionary");
             wordsMap = currentDictionary.getWordsMap();
@@ -173,7 +173,6 @@ public class Revision extends AppCompatActivity {
 
     private void showTranslation(){
 
-        Log.i("Revision dictionary ", currentDictionary.getSource());
 
         word = currentDictionary.testWord();
 

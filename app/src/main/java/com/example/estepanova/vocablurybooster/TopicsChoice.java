@@ -68,7 +68,6 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
         //Assigning textviews (topic numbers and titles) and binding them together in a map
         for (int i =1; i<11; i++){
             TextView topic = (TextView)findViewById(getResources().getIdentifier("topic"+i,"id", getPackageName()));
-            Log.i("topic",topic.getText().toString());
             topics.add(topic);
             TextView title = (TextView)findViewById(getResources().getIdentifier("title"+i,"id", getPackageName()));
             titles.add(title);
@@ -300,8 +299,6 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
 
         //get progress from topicProgressMap for every topic
 
-        Log.i("topics size",Integer.toString(topics.size()));
-
         for (int i = 0; i < topics.size(); i++){
 
             //String topic_number = topics.get(i).getText().toString().split(" ")[0];
@@ -331,7 +328,6 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
     private void checkProgress(){
 
         double progress = topicProgressMap.get(topic_selected);
-        Log.i("selected", topic_selected);
         if (progress==100){
             //alarm learned all words in this category, go back to topic choice
             AlertDialog.Builder builder = new AlertDialog.Builder(this);

@@ -61,16 +61,10 @@ public class LanguageChoice extends AppCompatActivity {
         Intent saveIntent = getIntent();
 
         if (saveIntent.getExtras() == null) {
-            Log.i("DEBUG", "no chosen level found");
+            //shouldn't happen
         } else {
             dict_source = (String) saveIntent.getSerializableExtra("source");
-            Log.i("LEVEL", dict_source);
         }
-
-        //TODO: customize dialog alert layout (create dialog_layout xml layout)
-        /*LayoutInflater inflater = getLayoutInflater();
-        View dialoglayout = inflater.inflate(R.layout.dialog_layout, null);
-        builder.setView(dialogLayout)*/
 
         //when apply button is clicked, move to choose mode activity
         btnApply.setOnClickListener(new View.OnClickListener() {

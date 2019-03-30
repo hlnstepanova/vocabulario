@@ -25,7 +25,6 @@ public class TopicDict extends Dictionary {
     public void importTopics(String selected) {
         //first import the correspondent dictionary
         String filePath = this.dict_source;
-        Log.i("import from", filePath);
 
         try {
             String line;
@@ -41,7 +40,7 @@ public class TopicDict extends Dictionary {
                         this.topicMap.put(key, topic);
                     }
                 } else {
-                    Log.i("Import:", "ignoring line: " + line);
+                    //ignoring line
                 }
             }
             reader.close();

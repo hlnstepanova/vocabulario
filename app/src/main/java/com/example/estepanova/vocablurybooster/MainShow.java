@@ -129,7 +129,6 @@ public class MainShow extends AppCompatActivity{
             String randomKey = currentDictionary.showNewWord(); // get a random word from unlearned array
 
             if (randomKey.equals("no_unlearned_words")){
-                Log.d("MainShow", "no unlearned words");
                 initWordCheck();
             }
 
@@ -138,7 +137,6 @@ public class MainShow extends AppCompatActivity{
             newTrans.setText(value);
 
             count++;
-            Log.d("Count: ", count.toString());
 
     }
     

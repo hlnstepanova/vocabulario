@@ -45,7 +45,6 @@ public class Congrats extends AppCompatActivity{
         });
 
 
-        Log.i("Topics", dict_source);
     }
 
 }

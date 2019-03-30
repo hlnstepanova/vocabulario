@@ -52,7 +52,7 @@ public class WelcomeActivity extends AppCompatActivity {
                 launchHomeScreen();
                 finish();
             } else {
-                Log.i("DEBUG", "rewatch intro");
+                //rewatch intro
             }
         }
 
