@@ -47,6 +47,8 @@ public class Dictionary implements Serializable{
             String randomKey = unlearned.get(wordPos); // get one unlearned word at that position
             this.unlearned.remove(wordPos); // remove the word from unlearned
             this.to_learn.add(randomKey); // add the word to "to learn"
+            Log.d("word to learn", randomKey);
+            Log.d("to learn size", Integer.toString(this.to_learn.size()));
             return randomKey;
         } else {
             return "no_unlearned_words";
@@ -57,6 +59,8 @@ public class Dictionary implements Serializable{
 
             String translation = wordsMap.get(new_word);
             this.inProcessMap.put(new_word, 0);
+            Log.d("word in process", new_word);
+            Log.d("in Processsize",  Integer.toString(this.inProcessMap.size()));
             return translation;
 
     }

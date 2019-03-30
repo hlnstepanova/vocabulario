@@ -242,11 +242,12 @@ public class WordCheck extends AppCompatActivity {
     }
 
     private void wrongAnswer(){
+        Log.d("current word", word);
 
         int size = currentDictionary.getToLearnLength();
 
-        if (currentDictionary.getUnlearnedLength()>0 && !currentDictionary.showNewWord().equals("no_unlearned_words")) {
-            if (count < 0.6*size) { //if less than 0.2*number of to_learn words checked, continue checking
+        if (currentDictionary.getUnlearnedLength()>0) {
+            if (count < 0.6*size) { //if less than 0.6*number of to_learn words checked, continue checking
                 showTranslation();
 
             } else {//else go to main (learning) activity
