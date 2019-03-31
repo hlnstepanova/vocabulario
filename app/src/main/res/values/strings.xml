@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">VocabluryBooster</string>
+    <string name="app_name">Vocabulário</string>
 
     <string name="dialog_language_choice">As linguas tem que ser diffirentes</string>
     <string name="dialog_wordcheck_intro">Tenta relembrar as palavras e toca no ecrã. Se relembraste correctamente, desliza para a direita. Se não - para a esquerda. Ou usa os botões.</string>
