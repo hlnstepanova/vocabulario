@@ -24,13 +24,9 @@
             android:launchMode="singleTop"
             android:parentActivityName=".WelcomeActivity" />
         <activity
-            android:name=".LanguageChoice"
-            android:launchMode="singleTop"
-            android:parentActivityName=".LevelChoice" />
-        <activity
             android:name=".ModeChoice"
             android:launchMode="singleTop"
-            android:parentActivityName=".LanguageChoice" />
+            android:parentActivityName=".LevelChoice" />
         <activity
             android:name=".MainShow"
             android:launchMode="singleTop"

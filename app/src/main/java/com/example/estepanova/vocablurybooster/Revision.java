@@ -192,18 +192,6 @@ public class Revision extends AppCompatActivity {
         count++;
     }
 
-    private void initLanguageChoice() {
-        startActivity(
-                new Intent(this, LanguageChoice.class));
-    }
-
-    private void initModeChoice() {
-        Intent i = new Intent(this, ModeChoice.class);
-        String dict_source = currentDictionary.getSource();
-        i.putExtra("source", dict_source);
-        startActivity(i);
-    }
-
     private void startFeedback(){
         Intent i = new Intent(this, Feedback.class);
         this.startActivity(i);

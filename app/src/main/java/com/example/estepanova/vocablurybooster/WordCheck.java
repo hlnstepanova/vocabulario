@@ -223,17 +223,6 @@ public class WordCheck extends AppCompatActivity {
         count++;
     }
 
-    private void initLanguageChoice() {
-        startActivity(
-                new Intent(this, LanguageChoice.class));
-    }
-
-    private void initModeChoice() {
-        Intent i = new Intent(this, ModeChoice.class);
-        String dict_source = currentDictionary.getSource();
-        i.putExtra("source", dict_source);
-        startActivity(i);
-    }
 
     private void wrongAnswer(){
 
