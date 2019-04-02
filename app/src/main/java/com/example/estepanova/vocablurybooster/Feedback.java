@@ -31,6 +31,7 @@ public class Feedback extends AppCompatActivity {
 
         // Enable the Up button
         ab.setDisplayHomeAsUpEnabled(true);
+        ab.setDisplayShowTitleEnabled(false);
 
         btnSend = (Button) findViewById(R.id.sendBtn);
         name = (EditText) findViewById(R.id.nameTxt);

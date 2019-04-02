@@ -69,6 +69,7 @@ public class ModeChoice extends AppCompatActivity {
 
         // Enable the Up button
         ab.setDisplayHomeAsUpEnabled(true);
+        ab.setDisplayShowTitleEnabled(false);
 
         btnTopics = (Button) findViewById(R.id.topBtn);
         btnGeneral = (Button) findViewById(R.id.genBtn);

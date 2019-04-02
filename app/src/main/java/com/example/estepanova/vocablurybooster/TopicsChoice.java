@@ -64,6 +64,7 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
 
         // Enable the Up button
         ab.setDisplayHomeAsUpEnabled(true);
+        ab.setDisplayShowTitleEnabled(false);
 
         //Assigning textviews (topic numbers and titles) and binding them together in a map
         for (int i =1; i<11; i++){
