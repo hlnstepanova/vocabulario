@@ -56,7 +56,7 @@
                     android:gravity="center"
                     android:text="@string/topic1"
                     android:textColor="@color/heading"
-                    android:textSize="26sp"
+                    android:textSize="@dimen/text_big"
                     android:fontFamily="@font/robotolight"/>
 
                 <TextView
@@ -69,7 +69,7 @@
                     android:paddingRight="15dip"
                     android:text="@string/title1"
                     android:textColor="@color/blue1"
-                    android:textSize="22sp"
+                    android:textSize="@dimen/button"
                     android:fontFamily="@font/amaticbold"/>
 
                 <TextView
@@ -80,7 +80,7 @@
                     android:gravity="center"
                     android:text="@string/progress1"
                     android:textColor="@color/dot_light_screen1"
-                    android:textSize="24sp"
+                    android:textSize="@dimen/text_regular"
                     android:fontFamily="@font/amaticbold"/>
             </TableRow>
 
@@ -100,7 +100,7 @@
                     android:textAlignment="center"
                     android:text="@string/topic2"
                     android:textColor="@color/heading"
-                    android:textSize="26sp"
+                    android:textSize="@dimen/text_big"
                     android:fontFamily="@font/robotolight" />
 
                 <TextView
@@ -113,7 +113,7 @@
                     android:paddingRight="15dip"
                     android:text="@string/title2"
                     android:textColor="@color/blue1"
-                    android:textSize="22sp"
+                    android:textSize="@dimen/button"
                     android:fontFamily="@font/amaticbold"/>
 
                 <TextView
@@ -124,7 +124,7 @@
                     android:gravity="center"
                     android:text="@string/progress2"
                     android:textColor="@color/dot_light_screen1"
-                    android:textSize="24sp"
+                    android:textSize="@dimen/text_regular"
                     android:fontFamily="@font/amaticbold"/>
             </TableRow>
 
@@ -145,7 +145,7 @@
                     android:textAlignment="center"
                     android:text="@string/topic3"
                     android:textColor="@color/heading"
-                    android:textSize="26sp"
+                    android:textSize="@dimen/text_big"
                     android:fontFamily="@font/robotolight"  />
 
                 <TextView
@@ -158,7 +158,7 @@
                     android:paddingRight="15dip"
                     android:text="@string/title3"
                     android:textColor="@color/blue1"
-                    android:textSize="22sp"
+                    android:textSize="@dimen/button"
                     android:fontFamily="@font/amaticbold" />
 
                 <TextView
@@ -169,7 +169,7 @@
                     android:gravity="center"
                     android:text="@string/progress3"
                     android:textColor="@color/dot_light_screen1"
-                    android:textSize="24sp"
+                    android:textSize="@dimen/text_regular"
                     android:fontFamily="@font/amaticbold"  />
             </TableRow>
 
@@ -189,7 +189,7 @@
                     android:textAlignment="center"
                     android:text="@string/topic4"
                     android:textColor="@color/heading"
-                    android:textSize="26sp"
+                    android:textSize="@dimen/text_big"
                     android:fontFamily="@font/robotolight" />
 
                 <TextView
@@ -202,7 +202,7 @@
                     android:paddingRight="15dip"
                     android:text="@string/title4"
                     android:textColor="@color/blue1"
-                    android:textSize="22sp"
+                    android:textSize="@dimen/button"
                     android:fontFamily="@font/amaticbold"/>
 
                 <TextView
@@ -213,7 +213,7 @@
                     android:gravity="center"
                     android:text="@string/progress4"
                     android:textColor="@color/dot_light_screen1"
-                    android:textSize="24sp"
+                    android:textSize="@dimen/text_regular"
                     android:fontFamily="@font/amaticbold"/>
             </TableRow>
 
@@ -233,7 +233,7 @@
                     android:textAlignment="center"
                     android:text="@string/topic5"
                     android:textColor="@color/heading"
-                    android:textSize="26sp"
+                    android:textSize="@dimen/text_big"
                     android:fontFamily="@font/robotolight" />
 
                 <TextView
@@ -246,7 +246,7 @@
                     android:paddingRight="15dip"
                     android:text="@string/title5"
                     android:textColor="@color/blue1"
-                    android:textSize="22sp"
+                    android:textSize="@dimen/button"
                     android:fontFamily="@font/amaticbold"/>
 
                 <TextView
@@ -257,7 +257,7 @@
                     android:text="@string/progress5"
                     android:textAlignment="center"
                     android:textColor="@color/dot_light_screen1"
-                    android:textSize="24sp"
+                    android:textSize="@dimen/text_regular"
                     android:fontFamily="@font/amaticbold" />
             </TableRow>
 
@@ -277,7 +277,7 @@
                     android:textAlignment="center"
                     android:text="@string/topic6"
                     android:textColor="@color/heading"
-                    android:textSize="26sp"
+                    android:textSize="@dimen/text_big"
                     android:fontFamily="@font/robotolight" />
 
                 <TextView
@@ -290,7 +290,7 @@
                     android:paddingRight="15dip"
                     android:text="@string/title6"
                     android:textColor="@color/blue1"
-                    android:textSize="22sp"
+                    android:textSize="@dimen/button"
                     android:fontFamily="@font/amaticbold"/>
 
                 <TextView
@@ -301,7 +301,7 @@
                     android:gravity="center"
                     android:text="@string/progress6"
                     android:textColor="@color/dot_light_screen1"
-                    android:textSize="24sp"
+                    android:textSize="@dimen/text_regular"
                     android:fontFamily="@font/amaticbold" />
             </TableRow>
 
@@ -321,7 +321,7 @@
                     android:textAlignment="center"
                     android:text="@string/topic7"
                     android:textColor="@color/heading"
-                    android:textSize="26sp"
+                    android:textSize="@dimen/text_big"
                     android:fontFamily="@font/robotolight"/>
 
                 <TextView
@@ -334,7 +334,7 @@
                     android:paddingRight="15dip"
                     android:text="@string/title7"
                     android:textColor="@color/blue1"
-                    android:textSize="22sp"
+                    android:textSize="@dimen/button"
                     android:fontFamily="@font/amaticbold"/>
 
                 <TextView
@@ -345,7 +345,7 @@
                     android:gravity="center"
                     android:text="@string/progress7"
                     android:textColor="@color/dot_light_screen1"
-                    android:textSize="24sp"
+                    android:textSize="@dimen/text_regular"
                     android:fontFamily="@font/amaticbold"/>
             </TableRow>
 
@@ -365,7 +365,7 @@
                     android:textAlignment="center"
                     android:text="@string/topic8"
                     android:textColor="@color/heading"
-                    android:textSize="26sp"
+                    android:textSize="@dimen/text_big"
                     android:fontFamily="@font/robotolight" />
 
                 <TextView
@@ -378,7 +378,7 @@
                     android:paddingRight="15dip"
                     android:text="@string/title8"
                     android:textColor="@color/blue1"
-                    android:textSize="22sp"
+                    android:textSize="@dimen/button"
                     android:fontFamily="@font/amaticbold"/>
 
                 <TextView
@@ -389,7 +389,7 @@
                     android:gravity="center"
                     android:text="@string/progress8"
                     android:textColor="@color/dot_light_screen1"
-                    android:textSize="24sp"
+                    android:textSize="@dimen/text_regular"
                     android:fontFamily="@font/amaticbold" />
             </TableRow>
 
@@ -409,7 +409,7 @@
                     android:textAlignment="center"
                     android:text="@string/topic9"
                     android:textColor="@color/heading"
-                    android:textSize="26sp"
+                    android:textSize="@dimen/text_big"
                     android:fontFamily="@font/robotolight"/>
 
                 <TextView
@@ -422,7 +422,7 @@
                     android:paddingRight="15dip"
                     android:text="@string/title9"
                     android:textColor="@color/blue1"
-                    android:textSize="22sp"
+                    android:textSize="@dimen/button"
                     android:fontFamily="@font/amaticbold"/>
 
                 <TextView
@@ -433,7 +433,7 @@
                     android:gravity="center"
                     android:text="@string/progress9"
                     android:textColor="@color/dot_light_screen1"
-                    android:textSize="24sp"
+                    android:textSize="@dimen/text_regular"
                     android:fontFamily="@font/amaticbold"/>
             </TableRow>
 
@@ -453,7 +453,7 @@
                     android:textAlignment="center"
                     android:text="@string/topic10"
                     android:textColor="@color/heading"
-                    android:textSize="26sp"
+                    android:textSize="@dimen/text_big"
                     android:fontFamily="@font/robotolight"/>
 
                 <TextView
@@ -466,7 +466,7 @@
                     android:paddingRight="15dip"
                     android:text="@string/title10"
                     android:textColor="@color/blue1"
-                    android:textSize="22sp"
+                    android:textSize="@dimen/button"
                     android:fontFamily="@font/amaticbold"/>
 
                 <TextView
@@ -477,7 +477,7 @@
                     android:gravity="center"
                     android:text="@string/progress10"
                     android:textColor="@color/dot_light_screen1"
-                    android:textSize="24sp"
+                    android:textSize="@dimen/text_regular"
                     android:fontFamily="@font/amaticbold"/>
             </TableRow>
 
