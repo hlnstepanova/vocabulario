@@ -14,7 +14,7 @@
         <ImageView
             android:layout_width="@dimen/img_width_height"
             android:layout_height="@dimen/img_width_height"
-            android:src="@drawable/swipe1" />
+            android:src="@drawable/swipe" />
 
         <TextView
             android:layout_width="wrap_content"
