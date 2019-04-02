@@ -71,6 +71,8 @@ public class ModeChoice extends AppCompatActivity {
         ab.setDisplayHomeAsUpEnabled(true);
         ab.setDisplayShowTitleEnabled(false);
 
+        getWindow().setStatusBarColor(getResources().getColor(R.color.blue));
+
         btnTopics = (Button) findViewById(R.id.topBtn);
         btnGeneral = (Button) findViewById(R.id.genBtn);
         btnReset = (Button) findViewById(R.id.resetBtn);

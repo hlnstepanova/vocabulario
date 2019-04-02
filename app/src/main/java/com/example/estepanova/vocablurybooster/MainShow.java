@@ -49,6 +49,8 @@ public class MainShow extends AppCompatActivity{
         // Enable the Up button
         ab.setDisplayHomeAsUpEnabled(true);
 
+        getWindow().setStatusBarColor(getResources().getColor(R.color.blue));
+
         touchArea = (ConstraintLayout) findViewById(R.id.touch_area);
 
         preferences = PreferenceManager.getDefaultSharedPreferences(this);

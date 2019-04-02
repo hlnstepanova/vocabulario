@@ -20,6 +20,7 @@ public class Congrats extends AppCompatActivity{
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
 
+        getWindow().setStatusBarColor(getResources().getColor(R.color.blue));
 
         btnYay = (Button) findViewById(R.id.btnYay);
 

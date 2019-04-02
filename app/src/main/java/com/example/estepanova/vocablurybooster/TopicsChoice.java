@@ -66,6 +66,8 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
         ab.setDisplayHomeAsUpEnabled(true);
         ab.setDisplayShowTitleEnabled(false);
 
+        getWindow().setStatusBarColor(getResources().getColor(R.color.blue));
+
         //Assigning textviews (topic numbers and titles) and binding them together in a map
         for (int i =1; i<11; i++){
             TextView topic = (TextView)findViewById(getResources().getIdentifier("topic"+i,"id", getPackageName()));

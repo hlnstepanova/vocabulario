@@ -21,6 +21,7 @@ public class CongratsTopic extends AppCompatActivity{
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
 
+        getWindow().setStatusBarColor(getResources().getColor(R.color.blue));
 
         btnYayTopic = (Button) findViewById(R.id.TopicYayBtn);
 

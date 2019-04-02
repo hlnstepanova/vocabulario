@@ -63,6 +63,8 @@ public class Revision extends AppCompatActivity {
         // Enable the Up button
         ab.setDisplayHomeAsUpEnabled(true);
 
+        getWindow().setStatusBarColor(getResources().getColor(R.color.blue));
+
         trans2 = (TextView) findViewById(R.id.trans2View);
         answer = (TextView) findViewById(R.id.ansView);
 

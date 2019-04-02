@@ -32,6 +32,8 @@ public class Feedback extends AppCompatActivity {
         // Enable the Up button
         ab.setDisplayHomeAsUpEnabled(true);
         ab.setDisplayShowTitleEnabled(false);
+        
+        getWindow().setStatusBarColor(getResources().getColor(R.color.blue));
 
         btnSend = (Button) findViewById(R.id.sendBtn);
         name = (EditText) findViewById(R.id.nameTxt);

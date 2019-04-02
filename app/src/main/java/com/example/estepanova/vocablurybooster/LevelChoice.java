@@ -27,7 +27,10 @@ public class LevelChoice extends AppCompatActivity implements View.OnClickListen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.level_choice);
+
+        getWindow().setStatusBarColor(getResources().getColor(R.color.blue));
 
         levelA1 = findViewById(R.id.textViewA1);
         levelB1 = findViewById(R.id.textViewB1);
