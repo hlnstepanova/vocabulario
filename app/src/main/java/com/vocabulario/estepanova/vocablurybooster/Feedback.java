@@ -1,4 +1,4 @@
-package com.example.estepanova.vocablurybooster;
+package com.vocabulario.estepanova.vocablurybooster;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBar;

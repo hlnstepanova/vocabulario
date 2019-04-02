@@ -1,4 +1,4 @@
-package com.example.estepanova.vocablurybooster;
+package com.vocabulario.estepanova.vocablurybooster;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -10,7 +10,6 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;

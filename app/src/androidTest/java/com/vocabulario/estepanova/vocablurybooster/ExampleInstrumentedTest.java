@@ -1,4 +1,4 @@
-package com.example.estepanova.vocablurybooster;
+package com.vocabulario.estepanova.vocablurybooster;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

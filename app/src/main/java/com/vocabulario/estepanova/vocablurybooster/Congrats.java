@@ -1,29 +1,27 @@
-package com.example.estepanova.vocablurybooster;
-
+package com.vocabulario.estepanova.vocablurybooster;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-public class CongratsTopic extends AppCompatActivity{
+public class Congrats extends AppCompatActivity{
 
     private Dictionary currentDictionary;
-    private Button btnYayTopic;
+    private Button btnYay;
     private String dict_source;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.congrats_topic);
+        setContentView(R.layout.congrats);
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
 
         getWindow().setStatusBarColor(getResources().getColor(R.color.blue));
 
-        btnYayTopic = (Button) findViewById(R.id.TopicYayBtn);
+        btnYay = (Button) findViewById(R.id.btnYay);
 
         Intent saveIntent = getIntent();
 
@@ -33,7 +31,7 @@ public class CongratsTopic extends AppCompatActivity{
             currentDictionary = (Dictionary) saveIntent.getSerializableExtra("dictionary");
         }
 
-        btnYayTopic.setOnClickListener(new View.OnClickListener() {
+        btnYay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 

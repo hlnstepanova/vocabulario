@@ -1,4 +1,4 @@
-package com.example.estepanova.vocablurybooster;
+package com.vocabulario.estepanova.vocablurybooster;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -11,7 +11,6 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -22,7 +21,6 @@ import android.widget.Toast;
 import com.google.gson.Gson;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;

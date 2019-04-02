@@ -1,4 +1,4 @@
-package com.example.estepanova.vocablurybooster;
+package com.vocabulario.estepanova.vocablurybooster;
 
 import android.content.DialogInterface;
 import android.content.Intent;

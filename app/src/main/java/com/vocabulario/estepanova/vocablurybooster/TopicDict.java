@@ -1,6 +1,4 @@
-package com.example.estepanova.vocablurybooster;
-
-import android.util.Log;
+package com.vocabulario.estepanova.vocablurybooster;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
