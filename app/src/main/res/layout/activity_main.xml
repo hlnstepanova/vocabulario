@@ -48,7 +48,7 @@
                 android:layout_height="26dp"
                 android:max="100"
                 android:paddingRight="5sp"
-                android:paddingTop="3sp"
+                android:paddingTop="2sp"
                 app:layout_constraintEnd_toEndOf="parent" />
         </LinearLayout>
 </android.support.v7.widget.Toolbar>
