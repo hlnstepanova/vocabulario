@@ -41,10 +41,8 @@ public class LevelChoice extends AppCompatActivity implements View.OnClickListen
         levelA1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //String level = "A1";
-                //startLanguageMode(level);
-                Toast.makeText(getApplicationContext(),
-                        "This level is not available yet", Toast.LENGTH_SHORT).show();
+                String level = "A1";
+                startModeActivity(level);
 
             }
         });
@@ -61,10 +59,8 @@ public class LevelChoice extends AppCompatActivity implements View.OnClickListen
         imgA1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //String level = "A1";
-                //startLanguageMode(level);
-                Toast.makeText(getApplicationContext(),
-                        "This level is not available yet", Toast.LENGTH_SHORT).show();
+                String level = "A1";
+                startModeActivity(level);
 
             }
         });

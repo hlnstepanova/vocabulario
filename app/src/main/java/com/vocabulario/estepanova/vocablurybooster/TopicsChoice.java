@@ -51,11 +51,34 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
 
     String dict_source;
     String topic_selected;
+    char level;
 
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.topics_choice);
+
+
+        Intent saveIntent = getIntent();
+
+        if (saveIntent.getExtras() == null) {
+            //do nothing
+        } else {
+            dict_source = (String) saveIntent.getSerializableExtra("source");
+        }
+
+
+        Log.d("Topics", dict_source);
+
+        level  = dict_source.charAt(0);
+        int topics_count = 13;
+
+        if(level=='a') {
+            topics_count = 18;
+            setContentView(R.layout.topics_choice_a1);
+        } else {
+            setContentView(R.layout.topics_choice_b1);
+        }
+
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
 
@@ -69,24 +92,27 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
         getWindow().setStatusBarColor(getResources().getColor(R.color.blue));
 
         //Assigning textviews (topic numbers and titles) and binding them together in a map
-        for (int i =1; i<11; i++){
-            TextView topic = (TextView)findViewById(getResources().getIdentifier("topic"+i,"id", getPackageName()));
+        for (int i =1; i<topics_count; i++){
+            Log.d("topic", "topic"+i+level);
+            TextView topic = (TextView)findViewById(getResources().getIdentifier("topic"+i+level,"id", getPackageName()));
             topics.add(topic);
-            TextView title = (TextView)findViewById(getResources().getIdentifier("title"+i,"id", getPackageName()));
+            TextView title = (TextView)findViewById(getResources().getIdentifier("title"+i+level,"id", getPackageName()));
             titles.add(title);
-            TextView progress = (TextView)findViewById(getResources().getIdentifier("progress"+i,"id", getPackageName()));
+            TextView progress = (TextView)findViewById(getResources().getIdentifier("progress"+i+level,"id", getPackageName()));
             progresses.add(progress);
             topicTitleMap.put(title, topic);
             topicProgressViewMap.put(progress,topic);
         }
 
 
+
+        Log.d("topics size", Integer.toString(topics.size()));
         for (TextView topic : topics){
             topic.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     TextView field = (TextView) view;
-                    topic_selected = field.getText().toString();
+                    topic_selected = field.getText().toString()+level;
 
                     checkProgress();
 
@@ -99,7 +125,7 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
                 @Override
                 public void onClick(View view) {
                     TextView field = topicTitleMap.get((TextView) view);
-                    topic_selected = field.getText().toString();
+                    topic_selected = field.getText().toString()+level;
 
                     checkProgress();
 
@@ -130,7 +156,7 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
 
                     AlertDialog alert = builder.create();
                     alert.show();
-                    Log.i("selected topic", topicToResetView.getText().toString());
+                    Log.i("selected topic", topicToResetView.getText().toString()+level);
                 }
             });
         }
@@ -140,27 +166,17 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
         preferences = PreferenceManager.getDefaultSharedPreferences(this);
         Gson gson = new Gson();
         String json = preferences.getString("topicProgressMap", "");
+        Log.d("topicprogress", json);
         if (!json.isEmpty()) {
             topicProgressMap = gson.fromJson(json, HashMap.class);
         } else {
             //automatically for every topic fill 0%
             for (TextView topic : topics){
-                topicProgressMap.put(topic.getText().toString(), 0.0);
+                topicProgressMap.put(topic.getText().toString()+level, 0.0);
             }
 
             savePrefTopicMap();
         }
-
-        Intent saveIntent = getIntent();
-
-        if (saveIntent.getExtras() == null) {
-            //do nothing
-        } else {
-            dict_source = (String) saveIntent.getSerializableExtra("source");
-        }
-
-
-        Log.i("Topics", dict_source);
 
         //set progresses by topics
 
@@ -199,7 +215,7 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         TextView field = (TextView) view;
-        topic_selected = field.getText().toString();
+        topic_selected = field.getText().toString()+level;
         Log.i("selected", topic_selected);
         startTopicsMode();
     }
@@ -304,12 +320,15 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
 
         for (int i = 0; i < topics.size(); i++){
 
+            Log.d("topic problem", Integer.toString(i));
+
             //String topic_number = topics.get(i).getText().toString().split(" ")[0];
             if (topicProgressMap==null){
                 progress=0.0;
                 topicProgressMap = new HashMap<>();
             } else {
-                progress = topicProgressMap.get(topics.get(i).getText());
+                Log.d("topics log d", Integer.toString(topics.size()));
+                progress = topicProgressMap.get(topics.get(i).getText().toString()+level);
             }
 
             String text = getString(R.string.progress, progress);

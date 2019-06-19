@@ -103,46 +103,107 @@
 
     <string name="topic_choice">Escolhe um tema</string>
 
-    <string name="topic1">1</string>
-    <string name="title1">Geografia de Portugal</string>
-    <string name="progress1">10.44%</string>
+    <string name="topic1b">1</string>
+    <string name="title1b">Geografia de Portugal</string>
+    <string name="progress1b">10.44%</string>
 
-    <string name="topic2">2</string>
-    <string name="title2">História de Portugal</string>
-    <string name="progress2">3.32%</string>
+    <string name="topic2b">2</string>
+    <string name="title2b">História de Portugal</string>
+    <string name="progress2b">3.32%</string>
 
-    <string name="topic3">3</string>
-    <string name="title3">Descobrimentos</string>
-    <string name="progress3">5.78%</string>
+    <string name="topic3b">3</string>
+    <string name="title3b">Descobrimentos</string>
+    <string name="progress3b">5.78%</string>
 
-    <string name="topic4">4</string>
-    <string name="title4">Viagens de avião e de comboio</string>
-    <string name="progress4">5.99%</string>
+    <string name="topic4b">4</string>
+    <string name="title4b">Viagens de avião e de comboio</string>
+    <string name="progress4b">5.99%</string>
 
-    <string name="topic5">5</string>
-    <string name="title5">Imáginario Portugûes</string>
-    <string name="progress5">5.76%</string>
+    <string name="topic5b">5</string>
+    <string name="title5b">Imáginario Portugûes</string>
+    <string name="progress5b">5.76%</string>
 
-    <string name="topic6">6</string>
-    <string name="title6">Automóvel. Acidente de viação</string>
-    <string name="progress6">5.90%</string>
+    <string name="topic6b">6</string>
+    <string name="title6b">Automóvel. Acidente de viação</string>
+    <string name="progress6b">5.90%</string>
 
-    <string name="topic7">7</string>
-    <string name="title7">Emigração</string>
-    <string name="progress7">5.00%</string>
+    <string name="topic7b">7</string>
+    <string name="title7b">Emigração</string>
+    <string name="progress7b">5.00%</string>
 
-    <string name="topic8">8</string>
-    <string name="title8">Internet e meios de comunicação</string>
-    <string name="progress8">5.00%</string>
+    <string name="topic8b">8</string>
+    <string name="title8b">Internet e meios de comunicação</string>
+    <string name="progress8b">5.00%</string>
 
-    <string name="topic9">9</string>
-    <string name="title9">Problemas da juventude</string>
-    <string name="progress9">100.50%</string>
+    <string name="topic9b">9</string>
+    <string name="title9b">Problemas da juventude</string>
+    <string name="progress9b">100.50%</string>
 
-    <string name="topic10">10</string>
-    <string name="title10">Economia</string>
-    <string name="progress10">85.78%</string>
+    <string name="topic10b">10</string>
+    <string name="title10b">Economia</string>
+    <string name="progress10b">85.78%</string>
 
+    <string name="topic11b">11</string>
+    <string name="title11b">Artes plásticas e pintura</string>
+    <string name="progress11b">85.78%</string>
+
+    <string name="topic12b">12</string>
+    <string name="title12b">Música e espetáculos musicais</string>
+    <string name="progress12b">85.78%</string>
+
+    <string name="title1a">Introdução</string>
+    <string name="title2a">Estudando</string>
+    <string name="title3a">No cinema</string>
+    <string name="title4a">No escritório</string>
+    <string name="title5a">Os dias de semana</string>
+    <string name="title6a">Estações de ano, meses, calendário</string>
+    <string name="title7a">O meu dia útil</string>
+    <string name="title8a">O meu retrato. A minha familia</string>
+    <string name="title9a">Os meus estudos</string>
+    <string name="title10a">Minha casa</string>
+    <string name="title11a">A minha autobiografia</string>
+    <string name="title12a">Comida portuguesa</string>
+    <string name="title13a">Fazendo compras</string>
+    <string name="title14a">As minhas férias</string>
+    <string name="title15a">A cidade de Lisboa</string>
+    <string name="title16a">No teatro e cinema</string>
+    <string name="title17a">Médicos e doentes</string>
+
+    <string name="topic1a">1</string>
+    <string name="topic2a">2</string>
+    <string name="topic3a">3</string>
+    <string name="topic4a">4</string>
+    <string name="topic5a">5</string>
+    <string name="topic6a">6</string>
+    <string name="topic7a">7</string>
+    <string name="topic8a">8</string>
+    <string name="topic9a">9</string>
+    <string name="topic10a">10</string>
+    <string name="topic11a">11</string>
+    <string name="topic12a">12</string>
+    <string name="topic13a">13</string>
+    <string name="topic14a">14</string>
+    <string name="topic15a">15</string>
+    <string name="topic16a">16</string>
+    <string name="topic17a">17</string>
+
+    <string name="progress1a">3.32%</string>
+    <string name="progress2a">3.32%</string>
+    <string name="progress3a">3.32%</string>
+    <string name="progress4a">3.32%</string>
+    <string name="progress5a">3.32%</string>
+    <string name="progress6a">3.32%</string>
+    <string name="progress7a">3.32%</string>
+    <string name="progress8a">3.32%</string>
+    <string name="progress9a">3.32%</string>
+    <string name="progress10a">3.32%</string>
+    <string name="progress11a">3.32%</string>
+    <string name="progress12a">3.32%</string>
+    <string name="progress13a">3.32%</string>
+    <string name="progress14a">3.32%</string>
+    <string name="progress15a">3.32%</string>
+    <string name="progress16a">3.32%</string>
+    <string name="progress17a">3.32%</string>
 
 
 

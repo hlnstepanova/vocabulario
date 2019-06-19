@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tile_bg">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/tile_bg">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:elevation="4dp"
+            android:background="@color/blue"
+            android:theme="@style/AzulejoAppbar"
+            app:popupTheme="@style/MyToolbar"/>
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/my_toolbar">
+
+            <TableRow
+                android:id="@+id/TableRow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/topic1a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:text="@string/topic1a"
+                    android:textColor="@color/heading"
+                    android:textSize="@dimen/text_big"
+                    android:fontFamily="@font/robotolight"/>
+
+                <TextView
+                    android:id="@+id/title1a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.6"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="@string/title1a"
+                    android:textColor="@color/blue1"
+                    android:textSize="@dimen/button"
+                    android:fontFamily="@font/amaticbold"/>
+
+                <TextView
+                    android:id="@+id/progress1a"
+                    android:paddingRight="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/progress1a"
+                    android:textColor="@color/dot_light_screen1"
+                    android:textSize="@dimen/text_regular"
+                    android:fontFamily="@font/amaticbold"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/topic2a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:text="@string/topic2a"
+                    android:textColor="@color/heading"
+                    android:textSize="@dimen/text_big"
+                    android:fontFamily="@font/robotolight" />
+
+                <TextView
+                    android:id="@+id/title2a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.6"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="@string/title2a"
+                    android:textColor="@color/blue1"
+                    android:textSize="@dimen/button"
+                    android:fontFamily="@font/amaticbold"/>
+
+                <TextView
+                    android:id="@+id/progress2a"
+                    android:paddingRight="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/progress2a"
+                    android:textColor="@color/dot_light_screen1"
+                    android:textSize="@dimen/text_regular"
+                    android:fontFamily="@font/amaticbold"/>
+            </TableRow>
+
+            <TableRow
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/topic3a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:text="@string/topic3a"
+                    android:textColor="@color/heading"
+                    android:textSize="@dimen/text_big"
+                    android:fontFamily="@font/robotolight"  />
+
+                <TextView
+                    android:id="@+id/title3a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.6"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="@string/title3a"
+                    android:textColor="@color/blue1"
+                    android:textSize="@dimen/button"
+                    android:fontFamily="@font/amaticbold" />
+
+                <TextView
+                    android:id="@+id/progress3a"
+                    android:paddingRight="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/progress3a"
+                    android:textColor="@color/dot_light_screen1"
+                    android:textSize="@dimen/text_regular"
+                    android:fontFamily="@font/amaticbold"  />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/topic4a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:text="@string/topic4a"
+                    android:textColor="@color/heading"
+                    android:textSize="@dimen/text_big"
+                    android:fontFamily="@font/robotolight" />
+
+                <TextView
+                    android:id="@+id/title4a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.6"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="@string/title4a"
+                    android:textColor="@color/blue1"
+                    android:textSize="@dimen/button"
+                    android:fontFamily="@font/amaticbold"/>
+
+                <TextView
+                    android:id="@+id/progress4a"
+                    android:paddingRight="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/progress4a"
+                    android:textColor="@color/dot_light_screen1"
+                    android:textSize="@dimen/text_regular"
+                    android:fontFamily="@font/amaticbold"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/topic5a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:text="@string/topic5a"
+                    android:textColor="@color/heading"
+                    android:textSize="@dimen/text_big"
+                    android:fontFamily="@font/robotolight" />
+
+                <TextView
+                    android:id="@+id/title5a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.6"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="@string/title5a"
+                    android:textColor="@color/blue1"
+                    android:textSize="@dimen/button"
+                    android:fontFamily="@font/amaticbold"/>
+
+                <TextView
+                    android:id="@+id/progress5a"
+                    android:paddingRight="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/progress5a"
+                    android:textAlignment="center"
+                    android:textColor="@color/dot_light_screen1"
+                    android:textSize="@dimen/text_regular"
+                    android:fontFamily="@font/amaticbold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/topic6a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:text="@string/topic6a"
+                    android:textColor="@color/heading"
+                    android:textSize="@dimen/text_big"
+                    android:fontFamily="@font/robotolight" />
+
+                <TextView
+                    android:id="@+id/title6a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.6"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="@string/title6a"
+                    android:textColor="@color/blue1"
+                    android:textSize="@dimen/button"
+                    android:fontFamily="@font/amaticbold"/>
+
+                <TextView
+                    android:id="@+id/progress6a"
+                    android:paddingRight="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/progress6a"
+                    android:textColor="@color/dot_light_screen1"
+                    android:textSize="@dimen/text_regular"
+                    android:fontFamily="@font/amaticbold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/topic7a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:text="@string/topic7a"
+                    android:textColor="@color/heading"
+                    android:textSize="@dimen/text_big"
+                    android:fontFamily="@font/robotolight"/>
+
+                <TextView
+                    android:id="@+id/title7a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.6"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="@string/title7a"
+                    android:textColor="@color/blue1"
+                    android:textSize="@dimen/button"
+                    android:fontFamily="@font/amaticbold"/>
+
+                <TextView
+                    android:id="@+id/progress7a"
+                    android:paddingRight="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/progress7a"
+                    android:textColor="@color/dot_light_screen1"
+                    android:textSize="@dimen/text_regular"
+                    android:fontFamily="@font/amaticbold"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/topic8a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:text="@string/topic8a"
+                    android:textColor="@color/heading"
+                    android:textSize="@dimen/text_big"
+                    android:fontFamily="@font/robotolight" />
+
+                <TextView
+                    android:id="@+id/title8a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.6"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="@string/title8a"
+                    android:textColor="@color/blue1"
+                    android:textSize="@dimen/button"
+                    android:fontFamily="@font/amaticbold"/>
+
+                <TextView
+                    android:id="@+id/progress8a"
+                    android:paddingRight="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/progress8a"
+                    android:textColor="@color/dot_light_screen1"
+                    android:textSize="@dimen/text_regular"
+                    android:fontFamily="@font/amaticbold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/topic9a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:text="@string/topic9a"
+                    android:textColor="@color/heading"
+                    android:textSize="@dimen/text_big"
+                    android:fontFamily="@font/robotolight"/>
+
+                <TextView
+                    android:id="@+id/title9a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.6"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="@string/title9a"
+                    android:textColor="@color/blue1"
+                    android:textSize="@dimen/button"
+                    android:fontFamily="@font/amaticbold"/>
+
+                <TextView
+                    android:id="@+id/progress9a"
+                    android:paddingRight="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/progress9a"
+                    android:textColor="@color/dot_light_screen1"
+                    android:textSize="@dimen/text_regular"
+                    android:fontFamily="@font/amaticbold"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/topic10a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:text="@string/topic10a"
+                    android:textColor="@color/heading"
+                    android:textSize="@dimen/text_big"
+                    android:fontFamily="@font/robotolight"/>
+
+                <TextView
+                    android:id="@+id/title10a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.6"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="@string/title10a"
+                    android:textColor="@color/blue1"
+                    android:textSize="@dimen/button"
+                    android:fontFamily="@font/amaticbold"/>
+
+                <TextView
+                    android:id="@+id/progress10a"
+                    android:paddingRight="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/progress10a"
+                    android:textColor="@color/dot_light_screen1"
+                    android:textSize="@dimen/text_regular"
+                    android:fontFamily="@font/amaticbold"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/topic11a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:text="@string/topic11a"
+                    android:textColor="@color/heading"
+                    android:textSize="@dimen/text_big"
+                    android:fontFamily="@font/robotolight"/>
+
+                <TextView
+                    android:id="@+id/title11a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.6"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="@string/title11a"
+                    android:textColor="@color/blue1"
+                    android:textSize="@dimen/button"
+                    android:fontFamily="@font/amaticbold"/>
+
+                <TextView
+                    android:id="@+id/progress11a"
+                    android:paddingRight="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/progress11a"
+                    android:textColor="@color/dot_light_screen1"
+                    android:textSize="@dimen/text_regular"
+                    android:fontFamily="@font/amaticbold"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/topic12a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:text="@string/topic12a"
+                    android:textColor="@color/heading"
+                    android:textSize="@dimen/text_big"
+                    android:fontFamily="@font/robotolight"/>
+
+                <TextView
+                    android:id="@+id/title12a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.6"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="@string/title12a"
+                    android:textColor="@color/blue1"
+                    android:textSize="@dimen/button"
+                    android:fontFamily="@font/amaticbold"/>
+
+                <TextView
+                    android:id="@+id/progress12a"
+                    android:paddingRight="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/progress12a"
+                    android:textColor="@color/dot_light_screen1"
+                    android:textSize="@dimen/text_regular"
+                    android:fontFamily="@font/amaticbold"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/topic13a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:text="@string/topic13a"
+                    android:textColor="@color/heading"
+                    android:textSize="@dimen/text_big"
+                    android:fontFamily="@font/robotolight"/>
+
+                <TextView
+                    android:id="@+id/title13a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.6"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="@string/title13a"
+                    android:textColor="@color/blue1"
+                    android:textSize="@dimen/button"
+                    android:fontFamily="@font/amaticbold"/>
+
+                <TextView
+                    android:id="@+id/progress13a"
+                    android:paddingRight="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/progress10a"
+                    android:textColor="@color/dot_light_screen1"
+                    android:textSize="@dimen/text_regular"
+                    android:fontFamily="@font/amaticbold"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/topic14a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:text="@string/topic14a"
+                    android:textColor="@color/heading"
+                    android:textSize="@dimen/text_big"
+                    android:fontFamily="@font/robotolight"/>
+
+                <TextView
+                    android:id="@+id/title14a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.6"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="@string/title14a"
+                    android:textColor="@color/blue1"
+                    android:textSize="@dimen/button"
+                    android:fontFamily="@font/amaticbold"/>
+
+                <TextView
+                    android:id="@+id/progress14a"
+                    android:paddingRight="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/progress14a"
+                    android:textColor="@color/dot_light_screen1"
+                    android:textSize="@dimen/text_regular"
+                    android:fontFamily="@font/amaticbold"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/topic15a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:text="@string/topic15a"
+                    android:textColor="@color/heading"
+                    android:textSize="@dimen/text_big"
+                    android:fontFamily="@font/robotolight"/>
+
+                <TextView
+                    android:id="@+id/title15a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.6"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="@string/title15a"
+                    android:textColor="@color/blue1"
+                    android:textSize="@dimen/button"
+                    android:fontFamily="@font/amaticbold"/>
+
+                <TextView
+                    android:id="@+id/progress15a"
+                    android:paddingRight="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/progress15a"
+                    android:textColor="@color/dot_light_screen1"
+                    android:textSize="@dimen/text_regular"
+                    android:fontFamily="@font/amaticbold"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/topic16a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:text="@string/topic16a"
+                    android:textColor="@color/heading"
+                    android:textSize="@dimen/text_big"
+                    android:fontFamily="@font/robotolight"/>
+
+                <TextView
+                    android:id="@+id/title16a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.6"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="@string/title16a"
+                    android:textColor="@color/blue1"
+                    android:textSize="@dimen/button"
+                    android:fontFamily="@font/amaticbold"/>
+
+                <TextView
+                    android:id="@+id/progress16a"
+                    android:paddingRight="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/progress16a"
+                    android:textColor="@color/dot_light_screen1"
+                    android:textSize="@dimen/text_regular"
+                    android:fontFamily="@font/amaticbold"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/topic17a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:text="@string/topic17a"
+                    android:textColor="@color/heading"
+                    android:textSize="@dimen/text_big"
+                    android:fontFamily="@font/robotolight"/>
+
+                <TextView
+                    android:id="@+id/title17a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.6"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="@string/title17a"
+                    android:textColor="@color/blue1"
+                    android:textSize="@dimen/button"
+                    android:fontFamily="@font/amaticbold"/>
+
+                <TextView
+                    android:id="@+id/progress17a"
+                    android:paddingRight="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/progress17a"
+                    android:textColor="@color/dot_light_screen1"
+                    android:textSize="@dimen/text_regular"
+                    android:fontFamily="@font/amaticbold"/>
+            </TableRow>
+
+        </TableLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

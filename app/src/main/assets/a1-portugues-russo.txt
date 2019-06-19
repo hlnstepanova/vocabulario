@@ -1,0 +1,2871 @@
+﻿1a - má - плохая
+1a - sala, f - комната
+1a - batata, f - картофель
+1a - dia, m - день
+1a - tia, f - тётя
+1a - uva, f - виноград
+1a - actor, m - актер
+1a - activo, m - активный
+1a - mana, f - сестренка
+1a - mas - но
+1a - tabu, m - табу
+1a - alibi, m - алиби
+1a - ali - там
+1a - avó, f - бабушка
+1a - nova - новая
+1a - hora, f - час
+1a - nota, f - оценка
+1a - porta, f - дверь
+1a - prova, f - зачет
+1a - filho, m - сын
+1a - passado, m - прошлое
+1a - pássaro, m - птица
+1a - namorado, m - бойфренд
+1a - tudo - все
+1a - vinho, m - виноград
+1a - vivo - живой
+1a - foto, f - фотография
+1a - óptimo - отличный
+1a - avô, m - дедушка
+1a - cor, f - цвет
+1a - toda, f - вся
+1a - gordo - толстый
+1a - gosto, m - вкус
+1a - novo, m - новый
+1a - olho, m - глаз
+1a - ovo, m - яйцо
+1a - povo, m - народ
+1a - porto, m - порт
+1a - porco, m - свинья
+1a - famoso, m - знаменитый
+1a - numeroso - многочисленный
+1a - professor, m - преподаватель
+1a - doutor, m - доктор
+1a - tradutor, m - переводчик
+1a - maior - больший
+1a - menor - меньший
+1a - melhor - лучший
+1a - pior - худжий
+1a - boa - хорошая
+1a - outro - другой
+1a - outono, m - осень
+1a - sapato, m - туфель
+1a - sal, m - соль
+1a - sinal, m - знак
+1a - sofá, m - диван
+1a - sopa, f - суп
+1a - sumo, m - сок
+1a - bolsa, f - сумка
+1a - valsa, f - вальс
+1a - nosso - наш
+1a - vosso - ваш
+1a - rapaz, m - парень
+1a - actriz, f - актриса
+1a - voz, f - голос
+1a - nariz, m - нос
+1a - isto - это
+1a - visto, m - вид
+1a - tosta, f - тост
+1a - lista, f - список
+1a - piscina, f - бассейн
+1a - bolso, m - карман
+1a - lápis, m - карандаш
+1a - alto - высокий
+1a - vamos - поедем
+1a - azul - синий
+1a - curo - короткий
+1a - bolo, m - пирожок
+1a - bola, f - мяч
+1a - livro, m - книга
+1a - bonito - красивый
+1a - capaz - способный
+1a - Rússia, f - Россия
+1a - russo - русский
+1a - rapariga, f - девушка
+1a - rato, m - мышь
+1a - carro, m - машина
+1a - caro - дорогой
+1a - morar - жить
+1a - cama, f - кровать
+1a - data, f - дата
+1a - aluna, f - ученица
+1a - sono, m - сон
+1a - má - плохая
+1a - mínimo - минимальный
+1a - minha - моя
+1a - vivo - живой
+1a - todo - весь
+1a - pouco - немногий
+1a - louro - блондин
+1a - pálido - бледный
+1a - parado - остановившийся
+1a - dito - сказанный
+1a - outono, m - осень
+1a - sábado, m - суббота
+1a - camisa, f - рубашка
+1a - camisola, f - майка, свитер
+1a - cama, f - кровать
+1a - data, f - дата
+1a - aluna, f - ученица
+1a - sono, m - сон
+1a - filha, f - дочь
+1a - vida, f - жизнь
+1a - hora, f - час
+1a - aula, f - занятие, урок
+1a - flor, f - цветок
+1a - vasto - просторный
+1a - tolo - глупый
+1a - louco - безумный, сумасшедший
+1a - modo, m - способ
+1a - cómodo - удобный
+1a - ama - любит
+1a - toma - принимает, пьет
+1a - banho - душ
+1a - lava - моет
+1a - apanha - ловит
+1a - passa - передает
+1a - dá - дает
+1a - mostra - показывает
+1a - mora - живет
+1a - aqui - здесь
+2a - boca, f - рот
+2a - moço, m - юноша
+2a - moça, f - девушка
+2a - louça, f - посуда
+2a - açúcar, m - сахар
+2a - chá, m - чай
+2a - chama - зовёт
+2a - chato - скучный
+2a - chuva, f - дождь
+2a - amável - любезный
+2a - directo - прямой
+2a - cinema, m - кино
+2a - este - этот
+2a - aquele - тот
+2a - verde - зеленый
+2a - pequeno - маленький
+2a - mesa, f - стол
+2a - cortês - вежливый
+2a - poruguês - португальский
+2a - menino, m - мальчик
+2a - vestido, m - платье
+2a - fechado - закрытый
+2a - hoje - сегодня
+2a - nome,  m - имя
+2a - filme, m - фильм
+2a - pessoa, f - человек
+2a - pé - нога
+2a - testa - лоб
+2a - médico - врач
+2a - eléctrico - электричсекий
+2a - tecto - крыша
+2a - aspecto - вид
+2a - selecção - сборная
+2a - seleccionar - оибирать
+2a - céptico - скептик
+2a - carácter - характер, буква
+2a - terra - земля
+2a - perto - рядом
+2a - cedro - кедр
+2a - festa - праздник
+2a - erro - ошибка
+2a - três - три
+2a - vê - смотрит
+2a - medo - страх
+2a - solidez - твердость
+2a - beleza - красота
+2a - ver - видеть
+2a - comer - есть
+2a - sede - жажда
+2a - escola - школа
+2a - está - находится
+2a - escuro - темный
+2a - jogo, m - игра
+2a - janela, f - окно
+2a - justo - справедливый
+2a - ajuda, f - помощь
+2a - sujo - грязный
+2a - gelo, m - лед
+2a - ginásio, m - спортивный зал
+2a - obrigado - спасибо
+2a - devagar - медленный
+2a - água, f - вода
+2a - gesto - жест
+2a - giz - мел
+2a - gás - газ
+2a - golpe - удар
+2a - guloso - сластена
+2a - globo - шар
+2a - guarda - охрана
+2a - ambíguo - двусмысленный
+2a - quero - хочу
+2a - químico - химический
+2a - quarto - спальня
+2a - quadro - картина
+2a - quatro - четыре
+2a - quadrado - квадратный
+2a - pinguim - пингвин
+2a - aguentar - терпеть
+2a - linguiça - колбаса
+2a - tranquilo - спокойный
+2a - consequência - следствие
+2a - frequente - частый
+2a - cinquenta - пятьдесят
+2a - sequestro - похищение
+2a - aquilo - то
+2a - quilograma, m - килограмм
+2a - quase - почти
+2a - jornal - гаета
+2a - espanhol - испанский
+2a - estudar - учиться
+2a - cartaz - плакат
+2a - provável - возможный
+2a - líder - лидер
+2a - bodas - свадьба
+2a - cosmos - космос
+2a - pires - блюдце
+2a - atrás - сзади
+2a - aliás - впрочем
+2a - propôs - предложил
+2a - através - через
+2a - obus - осколок
+2a - anis - анис
+2a - ténis - теннис
+2a - vírus - вирус
+2a - sadio - здоровый
+2a - lábio - губа
+2a - crânio - череп
+2a - simples - простой
+2a - atlas, m - атлас
+2a - fácil - легкий, нетрудный
+2a - difícil - трудный
+2a - necessário - необходимый
+2a - início, m - начало
+2a - princípio, m - начало
+2a - pronúncia, f - произношение
+2a - pai - отей
+2a - mais - еще
+2a - cais - набережная
+2a - leitura - чтение
+2a - peixe - рыба
+2a - feito - сделанный
+2a - causa - причина
+2a - pausa - пауза, перерыв
+2a - saudade - тоска
+2a - herói - герой
+2a - noite - ночь
+2a - coisa - вещь
+2a - boi - бык
+2a - loiro - блондин
+2a - céu - небо
+2a - chapéu - шляпа
+2a - troféu - трофей
+2a - museu - музей
+2a - liceu - лицей
+2a - Europa - Европа
+2a - europeu - европейский
+2a - pastéis - пирожки
+2a - piada - анекдот, шутка
+2a - diário - ежедневный
+2a - nuclear - ядерный
+2a - farmácia - аптека
+2a - família - семья
+2a - fêmea - самка
+2a - boato - слух
+2a - mágoa - огорчение
+2a - curiosa - любопытная
+2a - pior - худший
+2a - furioso - яростный
+2a - viúva - вдова
+2a - prédio - здание
+2a - quotidiano - ежедневный
+2a - oblíquo - наклонный
+2a - fiel - верный
+2a - soviético - советский
+2a - sociedade - общество
+2a - série - серия
+2a - superficie - площадь
+2a - moeda - монета
+2a - sueco - швед
+2a - moinho - мельница
+2a - obliquidade - кривизна
+2a - poema - поэма
+2a - estreito - узкий
+2a - dihneiro, m - деньги
+2a - ligeiro - легкий
+2a - mau - плохой
+2a - depois - потом
+2a - eu, prom - я
+2a - meu - мой
+2a - seu - его, ее
+2a - euro, m - евро
+2a - adeus - прощай
+2a - familiar, m adj - член семьи, домашний
+2a - lingua, f - язык
+2a - qual - какой, который
+2a - iqual - одинаковый
+2a - manual, m - учебник
+2a - pessoal - личный
+2a - curioso - любопытный
+2a - tranquilo - спокойной
+2a - frequente - частый
+2a - cinquenta, num - пятьдесят
+2a - aldeia, f - деревня
+2a - poeira, f - пыль
+2a - ideia, f - идея
+2a - praia, f - пляж
+2a - papagaio, m - попугай
+2a - Maio, m - май
+2a - azul - синий
+2a - papel, m - бумага
+2a - favorável - благоприятный
+2a - fuzil, m - ружье
+2a - viril - мужественный
+2a - vez, f - раз
+2a - feliz - счастливый
+2a - locutor, m - диктор
+2a - escultor, m - скульптор
+2a - geral - общий
+2a - profissional - профессиональный
+2a - mal,m adv - зло, плохо
+2a - sol, m - солнце
+2a - cônsul, m - консул
+2a - telemóvel, m - мобильный телефон
+2a - computador portátil, m - ноутбук
+2a - preto - черный
+2a - branco - белый
+2a - vermelho - красный
+2a - amarelo - желтый
+2a - verde - зеленый
+2a - azul - синий
+2a - azul-escuro - темно-синий
+2a - azul-claro - голубой
+2a - castanho - коричневый
+2a - roxo - фиолетовый
+2a - cor-de-rosa - розовый
+2a - cor de laranja - оранжевый
+2a - cinzento - серый
+2a - beige - бежевый
+2a - chamo-me - меня зовут
+2a - chamo-se - его зовут
+2a - nome, m - имя
+2a - meu, minha - мой, моя
+2a - todos - все
+2a - aprendemos - учим
+2a - curso - курс
+2a - annual - годичный
+2a - cidade, f - город
+2a - capital, f - столица
+2a - bonito - красивый
+2a - nosso, nossa - наш, наша
+2a - turma, f - группа
+2a - isto é - то есть
+2a - há - есть, имеется
+2a - vários - несколько, разный
+2a - país - страна
+2a - Cabo Verde - Кабу Верде
+2a - Estados Unidos da América - США
+2a - et cetera - и так далее
+2a - estudamos - учимся
+2a - de dia - днем
+2a - a noite - вечером
+2a - saímos - выходим
+2a - para - для
+2a - dar uma volta - гулять, прогуляться
+2a - ou - или
+2a - ir (a, para) - идти (куда-л.)
+2a - cinema, m - кино
+2a - discoteca - дискотека
+2a - pai, m - отец
+2a - alto - высокий
+2a - moreno - смуглый
+2a - magro - худой
+2a - cabelo - волосы
+2a - castanho - коричневый, карий
+2a - gordo - толстый
+2a - louro - блондин, белокурый
+2a - claro - светлый
+2a - de estatura média - среднего роста
+2a - número - номер
+2a - data de emissão - когда выдан
+2a - serviço emissor - кем вадын
+2a - data de validade - срок действия
+2a - nome completo - полное имя
+2a - filiação - полное имя родителей
+2a - naturalidade - место рождения
+2a - data de nascimento - дата рождения
+2a - estado civil - семейной положение
+2a - casado - женат
+2a - solteiro - холост
+2a - viúvo - вдовец
+2a - sexo - пол
+2a - altura - рост
+2a - residência - место жительства
+2a - fotografia - фотография
+2a - assinatura - подпись
+3a - velho - старый
+3a - orelha, f - ухо
+3a - tenho - имею
+3a - verdadeiro - настоящий
+3a - queijo, m  - сыр
+3a - feito - сделанный
+3a - perfeito - совершенный
+3a - satisfeito - довольный
+3a - respeito, m - уважение
+3a - direito, m - право
+3a - manhã - утро
+3a - criança - ребенок
+3a - âmbito - область действия
+3a - amparo - опора
+3a - ambos - оба
+3a - cantar - петь
+3a - andar - ходить
+3a - anca - бедро
+3a - ângulo - угол
+3a - anzol - крючок
+3a - anjo - ангел
+3a - importância - важность, значение
+3a - mancha - пятно
+3a - amanhã - завтра
+3a - irmã - сестра
+3a - cidadã - гражданка
+3a - ímã - магнит
+3a - órfã - сирота
+3a - amplo - просторный
+3a - branco - белый
+3a - andar, m - этаж, ходить
+3a - antes - раньше
+3a - antigo - старинный
+3a - francês, m - француз, французский
+3a - laranja, f - апельсин
+3a - empada - пирожок
+3a - embrulho - сверток
+3a - tempo - время
+3a - lembrar - помнить
+3a - entro - вхожу
+3a - talento - талант
+3a - endereço - адрес
+3a - sendo - будучи
+3a - elenco - труппа
+3a - mostrengo - пугало
+3a - desenvolvimento - развитие
+3a - pensar - думать
+3a - desencharcar - высушить
+3a - gengibre - имбирь
+3a - genro - зять
+3a - garagem - гараж
+3a - tempo, m - время
+3a - sempre - всегда
+3a - lembrar - вспоминать
+3a - entrar - входить
+3a - entender - понимать
+3a - encontro - встреча
+3a - entre - между
+3a - fazenda - поместье
+3a - calendário, m - календарь
+3a - enfermeira, f - медсестра
+3a - ensinar - обучать
+3a - engenheiro, m - инженер
+3a - doença, f - болезнь
+3a - licença, f - разрешение
+3a - diferença, f - разница
+3a - impacto - удар
+3a - símbolo - символ
+3a - íntimo - интимный
+3a - índole - характер
+3a - inclusive - включительно
+3a - pingo - капля
+3a - ínfimo - самый низкий
+3a - inverno - зима
+3a - pincel - кисть
+3a - inchado - опухший
+3a - singelo - искренний
+3a - enfim - наконец
+3a - bombom - конфета
+3a - atum - тунец
+3a - fim, m - конец
+3a - jardim, m - сад
+3a - limpo - чистый
+3a - importante - важный
+3a - lindo - красивый
+3a - domingo, m - воскресенье
+3a - inglês, m - англичанин
+3a - interno - внутренний
+3a - inverno, m - зима
+3a - quinze - пятнадцать
+3a - comprar - покупать
+3a - ombro - плечо
+3a - conto - рассказ
+3a - honra - честь
+3a - confortável - удобный
+3a - convite - приглашение
+3a - concerto - концерт
+3a - concha - раковина
+3a - longe - далеко
+3a - bom - хороший
+3a - ontem - вчера
+3a - ponto, m - точка
+3a - pronto - готовый
+3a - onze - одиннадцать
+3a - conjugar - спрягать
+3a - cúmplice - сообщник
+3a - chumbo - свинец
+3a - oriúndo - родом из
+3a - juntos - вместе
+3a - mundo - мир
+3a - nunca - никогда
+3a - fungo - сопение
+3a - triunfo - триумф
+3a - pronúncia - произношение
+3a - ungir - помазать
+3a - nenhuns - ни один (из многих)
+3a - algum - какой-нибудь
+3a - nehnum - ни один
+3a - segundo - второй
+3a - nunca - никогда
+3a - fundo - дно
+3a - mundo - мир
+3a - pronunciar - произносить
+3a - ordem, f - порядок
+3a - viagem, f - путешествие
+3a - jovem - молодой
+3a - nuvem, f - облако
+3a - jardim, m - сад
+3a - pudim, m - пудинг
+3a - comum - общий
+3a - maçã, f - яблоко
+3a - alemã, f - немка, немецкая
+3a - mau - плохой
+3a - bem - хорошо
+3a - mal - плохо
+3a - idade, f - возраст
+3a - universidade, f - университет
+3a - evolução, f - эволюция
+3a - decisão, f - решение
+3a - tolice, f - глупость
+3a - rapidez, f - быстрота
+3a - riqueza, f - богатство
+3a - cartão, m - карточка
+3a - jubileu, m - юбилей
+3a - chapéu, m - шляпа
+3a - jasmim, m - жасмин
+3a - mapa, m - карта
+3a - sistema, m - система
+3a - cometa, m - комета
+3a - planeta, m - планета
+3a - tema, m - тема
+3a - problema, m - проблема
+3a - clima, m - климат
+3a - esquema, m - схема
+3a - sofá, m - диван
+3a - foto, f - фотография
+3a - moto, f - мотоцикл
+3a - tribo, f - племя
+3a - dia, m - день
+3a - papa, m - папа римский
+3a - papá, m - папа
+3a - bebé, m - младенец
+3a - pessoa, f - человек
+3a - testemunha, f - свидетель
+3a - sentinela, f - часовой
+3a - democrata, f - демократ
+3a - desportista, f - спортсмен
+3a - antifascista, f - антифашист
+3a - altruísta, f - альтруист
+3a - estudante, f - студент
+3a - lisboeta - лиссабонский
+3a - camarada, m f - товарищ
+3a - intérprete, m f - переводчик
+3a - colega, m f - коллега
+3a - selvagem - дикий
+3a - ruim - плохой
+3a - imagem, f - изображение
+3a - comum - общий
+3a - imóvel - недвижимый
+3a - som, m - звук
+3a - nasal - носовой
+3a - paragem, f - остановка
+3a - bem - хорошо
+3a - rim, m - почка
+3a - filmagem, f - съемка
+3a - está bem - хорошо
+3a - que tempo está? - какая стоит погода?
+3a - está bom (mau) tempo - погода хорошая
+3a - está frio - холодно
+3a - está calor - жарко
+3a - está sol - солнечно
+3a - está escuro - темно
+3a - está a chover - идет дождь
+3a - está a nevar - идет снег
+3a - como estás? - как поживаешь? (как ты себя чувствуешь?)
+3a - estar bom, boa (mau, má) - быть здоровым (нездоровым)
+3a - estar bem, mal - дела идут хорошо, плохо
+3a - estar doente - быть больным
+3a - estar sentado - сидеть
+3a - estar em pé - стоять
+3a - estar triste - быть грустным
+3a - estar alegre - быть  веселым
+3a - estar contente - быть довольным
+3a - estar satisfeito - быть довольным, удовлетворенным
+3a - estar certo - быть уверенным
+3a - cinema, m - кинотеатр
+3a - gente, f - люди
+3a - fila, f - очередь
+3a - comprar - покупать
+3a - bilhete,m - билет
+3a - realizador, m - режиссер
+3a - famoso - знаменитый
+3a - namorado, m - друг (бойфренд)
+3a - divertido - забавный
+3a - comunicativo - общительный
+3a - colega de trabalho - коллега по работе
+3a - idade, f - возраст
+3a - trabalhar - работать
+3a - departamento, m - отдел
+3a - venda, f - продажа
+3a - solteiro, m - неженатый, холостяк
+3a - cinéfilo, m - любитель кино
+3a - tímido - застенчивый
+3a - é difícil - трудно
+3a - dar o primeiro passo - сделать первый шаг
+3a - querer - хотеть
+3a - apresentar - представлять
+3a - quando - когда
+3a - aparecer - появляться
+3a - dizer - говорить
+3a - olá - привет
+3a - este - этот
+3a - esta - эта
+3a - muito gosto - очень приятно
+3a - responder - отвечать
+3a - prazer - удовольствие
+3a - todo - весь
+3a - perguntar - спрашивать
+3a - achar - находить
+3a - nunca - никогда
+3a - perder - терять
+3a - predilecto - любимый
+3a - é chato - скучно
+3a - estar à espera (de) - ждать (чего-л.)
+3a - disposição, f - настроение
+3a - feriado - выходной
+3a - rir - смеяться
+3a - muito - много
+3a - durante - в течение, во время
+3a - estar satisfeito (com) - быть довольным (чем-л.)
+3a - jogo, m - игра
+3a - actor, m - актер
+3a - parecer - казаться
+3a - jantar - ужинать
+3a - restaurante, m - ресторан
+3a - típico - традиционный, типичный
+3a - perguntar alguma coisa a alguém - спрашивать что-л. у кого-л.
+3a - responder alguma coisa a alguém - отвечать что-л. кому-л.
+3a - responder às perguntas - отвечать на вопросы
+3a - apresentar alguém a alguém - представить кого-л. кому-л.
+3a - gostar de - любить, нравиться
+3a - o que achas de... - что скажешь о…
+3a - parece que - кажется, что
+3a - acho que - я считаю (думаю), что
+3a - olá! (viva!) - привет!
+3a - tudo bem? - как дела?
+3a - estás bem disposto? - как настроение?
+3a - como tens passado? - как поживаешь?
+3a - mais ou menos - более или менее, ничего
+3a - estou melhor - мне лучше
+3a - estou óptimo - я чувствую себя отлично
+3a - queria - мне хотелось бы
+3a - apresentar-lhe - представить Вам
+3a - prazer em conhecê-lo - приятно познакомиться
+3a - ouvi falar muito de si - я много о Вас слышал
+4a - baixo - низкий
+4a - táxi - такси
+4a - léxico - лексика
+4a - sintaxe - синтаксис
+4a - xadrez - шахматы
+4a - texto - текст
+4a - exemplo, m - пример
+4a - exercício, m - упражнение
+4a - exame, m - экзамен
+4a - existir - существовать
+4a - exacto - точный
+4a - externo - внешний
+4a - têxtil - текстильный
+4a - texto - текст
+4a - extremo - крайний
+4a - deixar - разрешать, позволять
+4a - próximo - ближний
+4a - aproximar - приближать
+4a - rouxe - принес
+4a - fixo - неподвижный
+4a - verão - лето
+4a - virão - придут, приедут
+4a - põe - кладет
+4a - também - тоже
+4a - homem - мужчина
+4a - ter - иметь
+4a - ler - читать
+4a - vir - приходить
+4a - órfão - сирота
+4a - órgão - орган
+4a - bênção - благословение
+4a - acórdão - соглашение
+4a - sótão - чердак
+4a - cão, m - собака
+4a - furacão, m - ураган
+4a - pão, m - хлеб
+4a - capitão, m - капитан
+4a - mão, f - рука
+4a - acção, f - действие
+4a - questão, f - вопрос
+4a - mãe, f - мама
+4a - ninguém - никто
+4a - avião, m - самолет
+4a - união, m - союз
+4a - leão, m - лев
+4a - região, f - религия
+4a - reunião, f - собрание
+4a - ocasião, f - случай
+4a - explicação, f - объяснение
+4a - vagão, m - вагон
+4a - melão, m - дыня
+4a - grão, m - зерно
+4a - chão, m - пол
+4a - são - здоровый
+4a - vão - напрасный
+4a - ancião, m - предок
+4a - chorão-chorona - плакса
+4a - bonitão-bonitona - красавец-красавица
+4a - solterão-solterona - холостяк-старая дева
+4a - cristão, m - христианин
+4a - coração, m - сердце
+4a - educação, f - образование
+4a - canção, f - песня
+4a - cidadão, m - гражданин
+4a - tradução, f - перевод
+4a - ter fome, f - быть голодным
+4a - ter sede, f - испытывать жажду
+4a - ter frio, m - мерзнуть
+4a - ter calor, m - испытывать жару
+4a - ter medo, m - бояться
+4a - ter sono, m - хотеть спать
+4a - ter pressa, f - торопиться
+4a - ter vergonha, f - испытывать стыд
+4a - ter azar, m - быть невезучим
+4a - ter sorte, f - быть везучим
+4a - ter razão, m - быть правым
+4a - no centro de - в центре 
+4a - no meio de - среди чего-л.
+4a - perto de - рядом с 
+4a - longe de - далеко от
+4a - em cima de (sobre) - на
+4a - debaixo de (sob) - под
+4a - à direita de - справа
+4a - à esquerda de - слева
+4a -  dentro de - внутри
+4a - fora de - снаружи
+4a - atrás de - за, сзади
+4a - em (à) frente de - напротив
+4a - diante de - перед
+4a - ao lado de - рядом с, сбоку от
+4a - além de - помимо
+4a - durante - во время
+4a - entre - между
+4a - escritório - кабинет, офис
+4a - ficar - находиться, оставаться
+4a - janela - окно
+4a - secretária - письменный стол
+4a - computador fixo - компьютор настольный
+4a - computador portátil, m - ноутбук
+4a - impressora, f - принтер
+4a - candeeiro, m - лампа
+4a - gaveta, f - ящик (стола)
+4a - lista telefónica - телефонный справочник
+4a - vário - различный, несколько
+4a - papel, m - бумага
+4a - esferográfica, f - шариковая ручка
+4a - lápis, m - карандаш
+4a - caneta, f - ручка
+4a - marcador, m - фломастер
+4a - caderno, m - тетрадь
+4a - bloco para apontamentos - блокнот
+4a - aberto - открытый
+4a - parede, f - стена
+4a - quadro, m - картина
+4a - espelho, m - зеркало
+4a - poltrona, f - кресло
+4a - confortável - удобный
+4a - estante - книжный шкаф, полка
+4a - cheio de - полный (чего-л.)
+4a - tanto - столько
+4a - poder - мочь
+4a - ver - видеть
+4a - prontuário - справочник
+4a - enciclopédia - энциклопедия
+4a - dicionário - словарь
+4a - outro - другой
+4a - específico - специальный
+4a - cadeira - стул
+4a - visitante - посетитель
+4a - cobrir - покрывать
+4a - a cobrir - покрывая
+4a - chão, m - пол
+4a - tapete, m - ковер
+4a - reunião, f - собрание
+4a - cada - каждый
+4a - garrafa, f - бутылка
+4a - água, f - вода
+4a - mineral - минеральный
+4a - copo, m - стакан
+4a - jarra, f - кувшин
+4a - flor, f - цветок
+4a - trazer - приносить
+4a - consigo - с собой
+4a - telemóvel, m - мобильный телефон
+4a - pôr - ставить, класть
+4a - põem - они кладут
+4a - não tem de que - не за что
+4a - ora essa! - ничего страшного
+4a - não faz mal - ничего
+4a - desculpa - извини
+4a - com licença - простите
+4a - faz favor - будьте добры
+5a - como vais? - как у тебя дела?
+5a - ir de férias - уезжать в отпуск
+5a - ir às compras - ходить за покупками
+5a - ir a pé - идти пешком
+5a - ir a cavalo - ехать на лошади
+5a - ir de metro - ехать на метро
+5a - ir de carro - ехать на машине
+5a - ir de eléctrico - ехать на электричке
+5a - ir de autocarro - ехать на автобусе
+5a - ir de táxi - ехать на такси
+5a - ir de comboio - ехать на поезде
+5a - ir de bicicleta - ехать на велосипеде
+5a - ir de avião - ехать на самолете
+5a - primeiro - первый
+5a - segundo - второй
+5a - terceiro - третий
+5a - quarto - четвертый
+5a - quinto - пятый
+5a - sexto - шестой
+5a - sétimo - седьмой
+5a - oitavo - восьмой
+5a - nono - девятый
+5a - décimo - десятый
+5a - agora - сейчас
+5a - hoje - сегодня
+5a - amanhã - завтра
+5a - depois de amanhã - послезавтра
+5a - ontem - вчера
+5a - anteontem - позавчера
+5a - há pouco - недавно
+5a - há dias - несколько дней назад
+5a - sempre - всегда
+5a - daqui a dois dias - через два дня
+5a - dentro de dois dias - через два дня
+5a - de manhã - утром
+5a - à tarde - днем
+5a - à noite - вечером
+5a - domingo - воскресенье
+5a - segunda-feira - понедельник
+5a - terça-feira - вторник
+5a - quarta-feira - среда
+5a - quinta-feira - четверг
+5a - sexta-feira - пятница
+5a - sábado - суббота
+5a - semana - неделя
+5a - todos - все
+5a - descansar - отдыхать
+5a - sair - выходить, уезжать
+5a - cidade, f - город
+5a - praia, f - пляж
+5a - começar - начинаться
+5a - trabalho, m - работа
+5a - o dia mais difícil - самый трудный день
+5a - praticar desporto - заниматься спортом
+5a - por isso - поэтому
+5a - depois de - послезавтра
+5a - ginásio, m - спортивный зал
+5a - frequentamente - часто
+5a - parceiro, m - партнер
+5a - negócio, m - дело, бизнес
+5a - visitar - посещать
+5a - ninguém - никто
+5a - trabalhar - работать
+5a - fazer compras - делать покупки
+5a - aos domingos, às segundas, às terças... - по воскресеньям, понедельникам, вторникам…
+5a - no domingo, na segunda, na terça... - в воскресенье, понедельник, вторник…
+5a - há quanto tempo! - сколько зим, сколько лет!
+5a - reconhecer - узнавать
+5a - voz, f - голос
+5a - diferente - другой
+5a - ao telefone - по телефону
+5a - poder - мочь
+5a - encontrar-nos - встретиться
+5a - vejo - я вижу
+5a - estar com saudades de alguém - скучать по кому-л.
+5a - está combinado - договорились
+5a - com licença - с твоего разрешения
+5a - desculpe incomodá-lo - извините, что помешали Вам
+5a - marcar - назначить
+5a - entrevista, f - встреча
+5a - consigo - с Вами
+5a - a respeito de - по поводу
+5a - tese, f - дипломная работа, диссертация
+5a - vir - прийти
+5a - gabinete, m - кабинет
+6a - passear - гулять
+6a - barbear - брить
+6a - pentear - причесывать
+6a - nomear - называть, назначать
+6a - semear - сеять
+6a - planear - планировать
+6a - chatear - надоедать
+6a - coxear - хромать
+6a - sentir - чувствовать
+6a - vestir - одевать
+6a - despir - раздевать
+6a - preferir - предпочитать
+6a - repetir - повторять
+6a - seguir - следовать
+6a - conseguir - удаваться
+6a - prosseguir - продолжать
+6a - mentir - лгать
+6a - servir - служить
+6a - divertir - развлекать
+6a - ferir - ранить
+6a - digerir - переваривать
+6a - prevenir - предупреждать
+6a - sugerir - подсказывать
+6a - consentir - соглашаться
+6a - aderir - присоединяться
+6a - primavera, f - весна
+6a - verão, m - лето
+6a - outono, m - осень
+6a - inverno, m - зима
+6a - janeiro - январь
+6a - fevereiro - февраль
+6a - março - март
+6a - abril - апрель
+6a - maio - май
+6a - junho - июнь
+6a - julho - июль
+6a - agosto - август
+6a - setembro - сентябрь
+6a - outubro - октябрь
+6a - novembro - ноябрь
+6a - dezembro - декабрь
+6a - bissexto - високосный
+6a - porém - однако
+6a - ano lectivo - учебный год
+6a - tal como - совсем как
+6a - comemorar - отмечать
+6a - comer - есть
+6a - castanha, f - каштан
+6a - abrir - открывать
+6a - garrafa, f - бутылка
+6a - vinho, m novo - молодое вино
+6a - festa, f - праздник
+6a - fim, m - конец, окончание
+6a - festejar - праздновать
+6a - em família - в семейном кругу
+6a - à volta de - вокруг чего-л.
+6a - presente, m - подарок
+6a - colocado - помещенный, находящийся
+6a - árvore, f de Natal - новогодняя елка
+6a - passagem, f do ano - ночь на Новый год
+6a - nem sempre - не всегда
+6a - passar - проводить
+6a - preferir - предпочитать
+6a - entrar no Ano Novo - встречать Новы год
+6a - nos finais de - в конце чего-л.
+6a - chegar - приходить, приезжать
+6a - todo - весь
+6a - país - страна
+6a - celebrar - праздновать
+6a - ou seja - иными словами
+6a - ditadura - диктатура
+6a - início, m - начало
+6a - democracia, f - демократия
+6a - feriado, m - национальный праздник, выходной
+6a - trabalhador, m - трудящийся
+6a - estação, f - сезон, время года
+6a - turístico - туристический
+6a - grande poeta, m - великий поэт
+6a - normalmente, - обычно
+6a - praia, f - пляж
+6a - outono, m - другой
+6a - ir para o campo - уезжать за город
+6a - estrangeiro, m - заграница
+6a - regressar - возвращаться
+6a - familiar - член семьи
+6a - desejar um bom Ano Novo - пожелать счастливого Нового года
+6a - a passagem de ano - празднование Нового года
+6a - entrar no Ano Novo - встречать Новый год
+6a - ano lectivo - учебный год
+6a - ano bissexto - високосный год
+6a - o próximo ano - следующий год
+6a - o ano que vem - следующий год
+6a - o ano passado - прошлый год
+6a - estar no primeiro ano - быть на первом курсе
+6a - fazer anos - отмечать день рождения
+6a - faço ... anos - мне исполняется … лет
+6a - por cá - здесь
+6a - ainda - еще
+6a - sonhar com - мечтать о чем-л.
+6a - só - только
+6a - meados - середина (месяца)
+6a - eu, por mim - что касается меня
+6a - ia - я бы поехал
+6a - reservar - забронировать
+6a - despeço-me - я прощаюсь
+6a - saudade - тоска
+6a - ter saudades de algúem - скучать по кому-л.
+6a - antes de mais - прежде всего
+6a - atraso, m - опоздание
+6a - quase - почти
+6a - saber - знать
+6a - bolseiro - стипендиат
+6a - único - единственный
+6a - aplicado - прилежный, старательный
+6a - busca, f - поиск
+6a - assim - так
+6a - até a - до
+6a - abertura - открытие
+6a - saboroso - вкусный
+6a - refeição, f - еда, прием пищи
+6a - residência, f - общежитие
+6a - infelizmente - к сожалению
+6a - privacidade, f - частная жизнь
+6a - partilhar - разделять, делить
+6a - ainda por cima - к тому же
+6a - ressonar - храпеть
+6a - quanto a - что касается чего-л.
+6a - postal - открытка
+6a - acolhedor - гостеприимный
+6a - calmo - спокойный
+6a - seguro - безопасный
+6a - até - даже
+6a - parar - останавливаться
+6a - passadeira, f - переход
+6a - deixar passar - пропустить
+6a - peão, m - пешеход
+6a - ser rico em - быть богатым чем-л.
+6a - bairro, m - квартал
+6a - algum - какой-то
+6a - à beira-mar - на берегу моря
+6a - apanhar, bahnos de sol - загорать
+6a - tasca, f - семейный ресторанчик
+6a - ao vivo, - живьем
+6a - ouvir - слушать
+6a - soalheiro - солнечный
+6a - saudável - здоровый
+6a - correr - проходить
+6a - aguardar - ожидать
+6a - por enquanto - пока
+6a - carregado - нагруженный, полный
+6a - mandar - передавать
+6a - cumprimento, m - приветствие
+7a - pôr - класть, положить
+7a - propor - предлагать
+7a - dispor - располагать (чем-л.)
+7a - expor - излагать
+7a - impor - навязывать
+7a - opor - противостоять
+7a - compor - сочинять
+7a - supor - предполагать
+7a - todos os dias - каждый день
+7a - todas as semanas - каждую неделю
+7a - todos - все
+7a - tudo - всё
+7a - vigésimo - двадцатый
+7a - trigésimo - тридцатый
+7a - quadragésimo - сороковой
+7a - quinquagésimo - пятидесятый
+7a - sexagésimo - шестидесятый
+7a - septuagésimo - семидесятый
+7a - octogésimo - восьмидесятый
+7a - nonagésimo - девяностый
+7a - centésimo - сотый
+7a - normalmente - обычно
+7a - acordar - просыпаться
+7a - por volta de - около, примерно в
+7a - levantar-se - подниматься
+7a - logo - сразу
+7a - preguiçoso - ленивый
+7a - razão, f - причина
+7a - fazer ginástica, f - делать зарядку
+7a - tomar duche, m - принимать душ
+7a - lavar os dentes - чистить зубы
+7a - pentear-se - причесываться
+7a - vestir-se - одеваться
+7a - tomar o pequeno almoço, m - завтракать
+7a - café, m - кофе
+7a - café puro - черный кофе
+7a - café com leite - кофе с молоком
+7a - cereais - хлопья
+7a - iogurte, m - йогурт
+7a - ovo, m - яйцо
+7a - ovos estrelados - яичница-глазунья
+7a - apanhar o autocarro - садитсья на автобус
+7a - paragem, f - остановка
+7a - mais - самый
+7a - próximo - близкий
+7a - trânsito, m - движение
+7a - por isso - поэтому
+7a - levar (40 minutos) - занимать (40 минут)
+7a - às vezes - иногда
+7a - chegar atrasado - опаздывать
+7a - TV, televisão, f - телевизор, телевидение
+7a - antes de - до того, как
+7a - deitar-se  - лечь
+7a - revista, f - журнал
+7a - adormecer - засыпать
+7a - almoçar - обедать
+7a - mas - но
+7a - prolongar-se - продолжаться
+7a - até (a) - до (чего-л.)
+7a - refeitório - столовая
+7a - escolher - выбирать
+7a - prato, m - блюдо
+7a - peixe, m - рыба
+7a - legumes - овощи
+7a - terminar - заканчивать
+7a - depois de - после
+7a - requisitar - заказывать (книги в библиотеке)
+7a - consultar - справляться
+7a - internet, f - интернет
+7a - lanchar - полдничать
+7a - trabalhos de casa - домашняя работа (уроки)
+7a - empregado, m - прислуга, служащий
+7a - preparar - готовить
+7a - jantar, m - ужинать
+7a - pôr a mesa - накрывать стол
+7a - jantar - ужинать
+7a - enquanto - в то время как
+7a - ver - видеть
+7a - noticiário, m - выпуск новостей
+7a - em casa - дома
+7a - sair de casa - выходить из дома
+7a - ir para casa - идти домой
+7a - voltar a (para) casa - возвращаться домой
+7a - estar em casa - быть дома
+7a - chegar a casa - приходить домой
+7a - levar para casa - отводить (отвозить) домой
+7a - a tarefa de casa - домашнее задание
+7a - ir a casa de alguém, ir ver algúem, ir visitar alguém - идти к кому-л.
+7a - ir ao médico, ao cabeleireiro - идти к врачу, в парикмахерскую и т.д.
+7a - costumar fazer - иметь обыкновение, обычно что-то делать
+7a - por volta de - около
+7a - até a - до
+7a - depois de - после
+7a - antes de - перед
+7a - apanhar um autocarro, um táxi, um comboio, um eléctrico, o metro, um trólei - сесть в автобус, поймать такси, сесть на поезд, в трамвай, в метро, в троллейбус
+7a - passe bem! - всего хорошего!
+7a - até qualquer dia! - увидимся!
+7a - até breve! - до скорого!
+7a - vai dando notícias - не пропадай!
+7a - transmitir cumprimentos - передавать приветы
+7a - demorar-se - задерживаться
+7a - dá um toque - позвони
+8a - trazer - приносить
+8a - dizer - говорить
+8a - vir - приходить
+8a - dar - давать
+8a - ver - видеть
+8a - querer - хотеть
+8a - saber - знать
+8a - poder - мочь
+8a - perder - терять
+8a - haver - иметь
+8a - querer - хотеть
+8a - pedir - просить
+8a - sair - выходить
+8a - cair - падать
+8a - crer - верить
+8a - ler - читать
+8a - ouvir - слышать
+8a - pedir alguma coisa a alguém - просить что-л. у кого-л.
+8a - pedir a alguém para fazer alguma coisa - просить кого-л. сделать что-л.
+8a - pedir desculpa por alguma coisa - просить прощения за что-л.
+8a - pedir licença para fazer - просить разрещения сделать что-л.
+8a - pedir o favor de - просить о любезности, об одолжении
+8a - extremamente - крайне
+8a - excessivamente - чрезвычайно
+8a - grande - maior - máximo - большой - больше - самый большой
+8a - pequeno - menor - mínimo - маленький - меньше - самый маленький
+8a - bom - melhor - óptimo - хороший - лучше - самый лучший
+8a - mau - pior - péssimo - плохой - хуже - самый плохой
+8a - alto - mais alto - superior - высокий - выше - самый высокий
+8a - baixo - mais baixo - inferior - низкий - ниже - самый низкий
+8a - retrato, m - портрет
+8a - ondulado - вьющийся
+8a - recto - прямой
+8a - desportista - спортсмен
+8a - atletismo, m - легкая атлетика
+8a - ao ar livre - на свежем воздухе
+8a - autónomo - автономный
+8a - professor assistente - ассистент
+8a - viuvez, f - вдовство
+8a - viúvo, m - вдовец
+8a - viúva, f - вдова
+8a - luto, m - траур
+8a - ou seja - иными словами
+8a - só - только
+8a - roupa, f - одежда
+8a - vivo - живой
+8a - infelizmente - к сожалению
+8a - aparentar - выглядеть
+8a - jovem - молодой
+8a - rir - смеяться
+8a - repartição, f - учреждение
+8a - funcionário, m - служащий
+8a - pontual - пунктуальный
+8a - por isso - поэтому
+8a - ensino, m - образование
+8a - secundário - средний
+8a - grisalho - седой
+8a - despenteado - растрепанный
+8a - óculos - очки
+8a - bigode - усы
+8a - espesso - густой, пышный
+8a - único - единственный
+8a - primo, m - двоюродный брат
+8a - pelos menos - по крайней мере
+8a - a mais - больше
+8a - responsável - ответственный
+8a - prestável - услужливый
+8a - dedicado - преданный, самоотверженный
+8a - gêmeo, m - близнец
+8a - diferente - другой, различный
+8a - sisudo - серьезный, рассудительный
+8a - pelo contrário - наоборот
+8a - extrovertido - экстраверт
+8a - risonho - улыбающийся, веселый, радостный
+8a - ter jeito  para - иметь склонность
+8a - homem dos sete instrumentos - мастер на все руки
+8a - do lado de - со стороны
+8a - tio, m - дядя, тетя
+8a - paterno - отцовский
+8a - materno - материнский
+8a - estar ligado - быть связанным (с чем-л.)
+8a - agricultura, f - сельское хозяйство
+8a - herdade, f - сельскохозяйственный участок, поместье
+8a - produzir - производить
+8a - azeite - оливковое масло
+8a - vinho, m - вино
+8a - algum - какой-либо
+8a - cortiça, f - пробка
+8a - tecnologia, f - технология
+8a - informático, m - компьютерщик
+8a - ser casado - быть женатым
+8a - professor assistente - ассистент
+8a - departamento, m - департамент, отделение
+8a - namorado, m - парень, возлюбленный
+8a - Faculdade de Letras - филологический факультет
+8a - por ser… - из-за того, что
+8a - expressamente - категорически
+8a - salto - каблук
+8a - juntos - вместе
+8a - curso - курс
+8a - estrangeiro - иностранный
+8a - idade, f - возраст
+8a - avançado - преклонный
+8a - estar reformado - быть на пенсии
+8a - receber - получать
+8a - pensão, f - пенсия
+8a - está proibida de - ей (ему) запрещено
+8a - a minha mãe não aparenta essa idade - моя мама не выглядит на свой возраст
+8a - estar ligado a - быть связанным (с чем-л.)
+8a - andar a pé - ходить пешком
+8a - andar a cavalo - ездить на лошади
+8a - andar de bicicleta - ездить на велосипеде
+8a - saber fazer alguma coisa - уметь делать что-л.
+8a - saber alguma coisa - знать что-л.
+8a - saber que - знать, что
+8a - saber alguma coisa de cor - знать что-л. наизусть
+8a - conhecer alguém - быть знакомым с кем-л., знать кого-л.
+8a - conhecer alguma coisa - знать что-л.
+8a - prazer em conhecê-lo! - очень приятно с Вами познакомиться!
+8a - andar - ходить
+8a - andar na Faculdade, na escola, no infantário - ходить в университет, в школу, в детский сад
+8a - como vais? - vou andando - как поживаешь? - помаленьку.
+8a - usar - носить
+8a - usar óculos, roupa, chapéu - носить очки, одежду, шляпу
+8a - usar salto alto (raso) - носить высокие (низкие) каблуки
+8a - usar bigode, barba - носить усы, бороду
+8a - parecer jovem, alegre, divertido - казаться молодым, веселым, забавным
+8a - ser parecido com - быть похожим на кого-л.
+8a - os olhos - глаза
+8a - o nariz - нос
+8a - o cabelo - волосы
+8a - a boca - рот
+8a - a cara - лицо
+8a - o bigode - усы
+8a - a barba - борода
+8a - a testa - лоб
+8a - as bochechas - щёки
+8a - o quiexo - подбородок
+8a - as orelhas - уши
+8a - a estatura - рост, фигура
+8a - queria - мне хотелось бы
+8a - alfacinha - жить лиссабона
+8a - propriamente - собственно
+8a - de gema - коренной, исконный
+8a - na verdade - на самом деле
+8a - conhecer de uma ponta à outra - знать вдоль и поперек, как свои пять пальцев
+8a - olhem! - послушайте!
+8a - já que - раз уж
+8a - tirar um curso - проходить курс
+8a - pós-graduação, f - магистратура или аспирантура
+8a - ter saídas - иметь (профессиональные) перспективы
+8a - bastante - достаточный
+8a - perspectiva - перспектива
+8a - polivalente - разносторонний
+8a - possibilidade - возможность
+8a - insituição - институт, учреждение
+8a - associação, f - ассоциация
+8a - apoio, m - помощь, поддержка
+8a - emigrante, m - эмигрант
+8a - chega de - хватит (чего-л.)
+8a - conversa, f - разговор, беседа
+8a - chato - скучный
+8a - mandar - заказать
+9a - entreolhar-se - переглядываться
+9a - dormir - спать
+9a - cobrir - покрывать
+9a - descobrir - открывать
+9a - engolir - глотать
+9a - tossir - кашлять
+9a - fugir - сбежать
+9a - subir - подниматься
+9a - consumir - потреблять
+9a - sumir - исчезать
+9a - acudir - помогать
+9a - cuspir - плевать
+9a - sacudir - трясти
+9a - ter por objectivo - иметь целью
+9a - interessar-se por - интересоваться (чем-л.)
+9a - lei, f - закон
+9a - implementar - насаждать, исполнять (закон)
+9a - corpo docente - преподавательский состав
+9a - compor-se - состоять (из чего-л.)
+9a - ser necessário - быть необходимым
+9a - classificação, f - оценка
+9a - exame nacional - национальный экзамен, ЕГЭ
+9a - decorrer - проходить
+9a - existir - существовать
+9a - número - количество
+9a - vaga, f - вакансия
+9a - ingresso, m - поступление
+9a - admitir - допустить
+9a - em média - в среднем
+9a - anualmente - в год
+9a - quinhentos - пятьсот
+9a - disciplina, f - дисциплина, предмет
+9a - curricular, m - обязательный (о предмете)
+9a - ministrar - читать, преподавать
+9a - direito, m - право
+9a - optativo - по выбору
+9a - sinónimo - синоним
+9a - ritual, m - ритуал
+9a - socialização, f - прием в сообщество
+9a - durante - в течение
+9a - carnavalesco - карнавальный
+9a - encenar - ставить (на сцене)
+9a - jogo, m - игра
+9a - ser obrigado a - быть обязанным (делать что-л.)
+9a - participar em - участвовать (в чем-л.)
+9a - pintar - красить
+9a - obrigar a - обязывать (делать что-л.)
+9a - dançar - танцевать
+9a - académico - университетский
+9a - levar a sério - принимать всерьёз
+9a - emprestar - давать взаймы
+9a - conselho, m - совет
+9a - entregar - давать, выдавать
+9a - apontamento, m - запись, конспект
+9a - anterior - предыдущий
+9a - matéria, f - предмет
+9a - válido - действительный
+9a - precioso - драгоценный
+9a - convidar a - приглашать (сделать что-л.)
+9a - entrar em - войти (во что-л.)
+9a - conjunto, m - ансамбль
+9a - amizade, f - дружба
+9a - namoro, m - влюбленность
+9a - intensivo - интенсивный
+9a - carga horária - (часовая) нагрузка
+9a - substancial - существенный
+9a - consistente - плотный
+9a - requerer - требовать
+9a - extenso - обширный
+9a - documentação, f - документация
+9a - neccesário - необходимая
+9a - pesquisa, f - исследование, научная работа
+9a - precisar de - иметь необходимость (в чем-л.)
+9a - copiar - копировать, переписывать
+9a - manualmente - вручную
+9a - tirar fotocópias - снимать ксерокопии
+9a - consultar - обращаться за справкой, справиться
+9a - estar à disposição - находиться в распоряжении
+9a - rede, f - сеть
+9a - internet, f - интернет
+9a - acesso a - доступ (к чему-л.)
+9a - estante, f - книжный шкаф,  полка
+9a - requisitar - заказывать (книги в библиотеке)
+9a - ligar - включать
+9a - avaliação, f - оценка успеваемости
+9a - contínuo - постоянный
+9a - ao longo de - в течение чего-л.
+9a - realizar-se - проводиться
+9a - semestral - семестровый
+9a - época de exames - экзаменационная сессия
+9a - seguir-se - следовать
+9a - Páscoa, f - пасха
+9a - prova, f - зачет
+9a - melhoria, f - улучшение
+9a - nota, f - отметка
+9a - pretender - намереваться, собираться
+9a - precisar de alguma coisa - нуждаться в чем-л.
+9a - precisar de fazer alguma coisa - иметь необходимость сделать что-л.
+9a - é preciso fazer alguma coisa - нужно сделать что-л.
+9a - ajudar alguém a fazer alguma coisa - помогать кому-л. Делать что-л.
+9a - tirar as férias - брать отпуск
+9a - tirar um curso, um mestrado, um doutoramento - пройти курс, учиться в магистратуре, докторантуре
+9a - tirar fotocópias - снимать ксерокопии
+9a - tirar a roupa, o chpéu, os sapatos - снимать одежду, шляпу, обувь
+9a - tirar uma boa, má nota - получать хорошую, плохую оценку
+9a - ligar - связывать, включать
+9a - ligar a alguém - звонить кому-л.
+9a - ligar a alguma coisa - обращать внимание на что-л.
+9a - estar ligado a - быть связанным с чем-л.
+9a - desligar - выключить
+9a - frequentar as aulas, as conferências - посещать занятия (лекции, семинары)
+9a - assistir às aulas - присутствовать на занятиях (на лекциях, семинарах)
+9a - faltar às aulas - пропускать занятия
+9a - dar aulas de - давать уроки чего-л.
+9a - fazer os exames, as provas - сдавать экзамены (зачеты)
+9a - passar no exame - сдать экзамен
+9a - interessar a alguém - интересовать кого-л.
+9a - interessar-se por - интересоваться чем-л.
+9a - estar interessado em - быть заинтересованным в чем-л.
+9a - obrigar alguém a fazer alguma coisa - заставлять кого-л. Сделать что-л.
+9a - ser obrigado a fazer alguma coisa - быть вынужденным сделать что-л.
+9a - convidar a fazer alguma coisa - пригласить сделать что-л.
+9a - convidar para alguma coisa - пригласить на что-л. Или куда-л.
+9a - acontecer - случаться
+9a - vago - свободный
+9a - corrigir - исправлять
+9a - lamentar - сожалеть
+9a - ainda por cima - вдобавок
+9a - isto não volta a acontecer - это больше не повторится
+9a - catálogo em linha - он-лайновый каталог
+9a - espólio, m - книгохранилище
+9a - por ordem alfabética - в алфавитном порядке
+9a - pretender - намереваться, собираться
+9a - arquivo, m - архив, хранилище
+9a - caso, m - случай
+9a - preencher um formulário (um requerimento) - заполнить бланк (требование)
+9a - levantar - поднимать, забирать
+9a - indicar - указывать
+9a - cota, f - шифр
+9a - editora, f - издательство
+9a - levar - уносить
+9a - depender - зависеть
+9a - obra, f - произведение
+9a - no que respeita a - в том, что касается чего-л.
+9a - cartão de leitor - читательский билет
+9a - caloiro, m - первокурсник
+9a - dados pessoais - персональный данные
+9a - colar - приклеивать
+9a - a cores - цветной
+9a - gratuito - бесплатный
+9a - preço, m - цена
+9a - incluir - включать
+9a - propinas - плата за обучение
+9a - bolseiro - стипендиат
+9a - de qualquer modo - в любом случае
+9a - em relação a - что касается чего-л.
+9a - fotocopiadora, f - ксерокс
+9a - à sua disposição - в вашем распоряжении
+9a - junto a - рядом с
+9a - ficheiro, m - каталог
+9a - à venda - в продаже
+9a - tesouraria, f - казначейство, касса
+9a - recarregar - зарядить, пополнить деньгами
+9a - à entrada de - у входа во что-л.
+10a - tanto - столько
+10a - tão - так
+10a - outro - другой
+10a - cada - каждый
+10a - cada vez mais - все больше
+10a - qualquer - какой-либо, любой
+10a - algum - какой-нибудь
+10a - vário - несколько
+10a - algo - что-либо
+10a - diferente - разный, различный
+10a - ambos - оба
+10a - tal - такой
+10a - um tal - некий
+10a - mesmo, próprio - сам
+10a - nenhum - ни один
+10a - ninguém - никто
+10a - nada - ничего
+10a - nem - ни
+10a - nunca - никогда
+10a - reabilitado - восстановленный
+10a - reconstruir - перестраивать
+10a - por ocasião - по случаю
+10a - à beira - на берегу
+10a - espaço, m - пространство
+10a - lazer, m - досуг
+10a - adulto, m - взрослый
+10a - inúmero - бесчисленный
+10a - qualidade, f - вид, сорт
+10a - peixe, m - рыба
+10a - espécie, f - вид
+10a - marinho - морской
+10a - prestigiado - престижный
+10a - comodidade, f - удобство
+10a - a nível de - на уровне
+10a - varanda, f - балкон
+10a - desfutar-se - открываться
+10a - vista, f - вид
+10a - deslumbrante - великолепный, ослепительный
+10a - condomínio - кондоминиум
+10a - apartamento, m - квартира
+10a - aquecimento centralizado, m - центральное отопление
+10a - rés-do-chão, m - первый этаж
+10a - porteira, f - консьержка
+10a - saída, f - выход
+10a - parque de estacionamento, m - парковка
+10a - subterrâneo - подземный
+10a - vigiar - наблюдать
+10a - segurança, m - охранник
+10a - elevador, m - лифт
+10a - interfone, m - домофон
+10a - antena parabólica - параболическая антенна
+10a - permitir - позволять
+10a - assoalhada, f - комната
+10a - cozinha, f - кухня
+10a - isto é - то есть
+10a - quarto, m - спальня
+10a - sala de estar - гостиная
+10a - sala de jantar - столовая
+10a - visita, f - гость
+10a - para mim - для меня
+10a - destinar-se - предназначаться
+10a - empregada doméstica - домработница, прислуга
+10a - amplo - просторный
+10a - arrumar - убирать
+10a - por vezes - иногда
+10a - desarrumado - неубранный
+10a - romance - роман
+10a - ocupar - занимать
+10a - género, m - жанр
+10a - móveis - мебель
+10a - cama de casal - двуспальная кровать
+10a - madeira, f - древесина, дерево
+10a - pinho, m - сосновая древесина
+10a - secretária, f - письменный стол
+10a - comprar - покупать
+10a - antiquário - антиквар
+10a - encantado - очарованный
+10a - vender - продавать
+10a - nem por nada - ни за что
+10a - mesa de cabeceira - тумбочка
+10a - fofo - мягкий
+10a - almofada, f - подушка
+10a - colorido - цветной, яркий
+10a - a condizer com - сочетаясь с
+10a - par, m - пара
+10a - instalar - устанавливать
+10a - fogão a gás - газовая плита
+10a - forno, m - духовка, печь
+10a - exaustor, m - вытяжка
+10a - esquentador, m - нагреватель
+10a - aquecer - нагревать
+10a - lavar - мыть
+10a - loiça (louça), f - посуда
+10a - lava-loiça, m - мойка
+10a - máquina de lavar a loiça - посудомоечная машина
+10a - tencionar - намереваться
+10a - microondas, m - микроволновка
+10a - descongelar - размораживать
+10a - alimentos - продукты
+10a - pre-cozinhado - заранее приготовленный
+10a - serviço de loiça - сервиз
+10a - porcelana, f - фарфор
+10a - copo de pé alto - бокал для вина
+10a - cálice, m - фужер, чаша
+10a - digestivo, m - дижестив
+10a - sumo, m - сок
+10a - chávena, f - чашка
+10a - caneca, f - кружка
+10a - frigideira, f - сковорода
+10a - panela, f - кастрюля
+10a - guisado, m - жаркое, тушеное мясо с овощами
+10a - correspondência, f - переписка, корреспонденция
+10a - tapete, m - ковер
+10a - ao pé de - рядом с
+10a - reprodução, f - репродукция
+10a - famoso - знаменитый
+10a - estar em exposição - быть выставленным
+10a - aparelhagem, f - аппаратура, музыкальный центр
+10a - potente - мощный
+10a - televisão de alta definição - телевидение высокой четкости
+10a - coluna de som - акустическая колонка
+10a - estéreo - стерео
+10a - leitor de DVDs - DVD-проигрыватель
+10a - amplificador, m - усилитель
+10a - auscultadores, m - наушники
+10a - incomodar - мешать
+10a - leitor de cassetes - кассетный магнитофон
+10a - videogravador, m - видеомагнитофон
+10a - utilizar - использовать
+10a - estar em desuso, m - выйти из употребления
+10a - confortável - удобный
+10a - caldo verde - суп-крем из капусты
+10a - talher, m - столовый прибор
+10a - prata, f - серебро
+10a - garfo, m - вилка
+10a - faca, f - нож
+10a - colher, f - ложка
+10a - colher de sopa - суповая ложка
+10a - colher de chá - чайная ложка
+10a - electrodomésticos - электробытовые приборы
+10a - facilitar - облегчать
+10a - robô, m - кухонный комбайн
+10a - picar carne - молоть мясо, готовить фарш
+10a - varinha mágica - блендер
+10a - passar os legumes - измельчать овощи
+10a - misturar - смешивать
+10a - cocktail, m - коктейль
+10a - encarregar-se de - брать на себя ответсвенность
+10a - lide da casa - работа по дому
+10a - cozer - варить
+10a - assar - запекать, печь
+10a - frango, m - цыпленок
+10a - refeição, f - прием пищи, еда
+10a - limpar o pó - вытирать пыль
+10a - vidro, m - стекло
+10a - aspirar - пылесосить
+10a - passar a ferro - гладить
+10a - máquina de lavar - стиральная машина
+10a - ponho-a - я кладу (развешиваю) ее
+10a - estendal, m - сушилка для белья
+10a - enxugar - сохнуть
+10a - passar tempo - проводить время
+10a - passar a fronteira - перейти границу
+10a - passar por - проходить по, забежать
+10a - passar de ano - перейти в следущий класс (на следующий курс)
+10a - passar a outra tema - перейти к другой теме
+10a - o tempo passa - время проходит
+10a - passar alguma coisa a alguém - передать что-л. кому-л.
+10a - passar a roupa (a ferro) - гладить белье
+10a - passar carne - жарить мясо
+10a - o que se passa? - что происходит?
+10a - à beira de - около, рядом с, на грани
+10a - ao pé de - рядом с,  близко к
+10a - bom proveito! - приятного аппетита!
+10a - delícia, f - наслаждение
+10a - parabéns - поздравляю (поздравляем)
+10a - habitual - обычный
+10a - nada mais - ничего особенного
+10a - correr - проходить
+10a - sal, m - соль
+10a - um bocadinho - немного
+10a - insosso - несоленый
+10a - desgraça, f - несчастье
+10a - à hora de - во время чего-л.
+10a - nem um tostão - ни ргроша
+10a - bolsa de estudo - стипендия
+10a - emprestar - одалживать
+10a - trocos - мелочь, мелкие монеты
+10a - gastar - тратить
+11a - infantário, m - детский сад
+11a - guardar - хранить
+11a - fazer contas - считать
+11a - horário, m - расписание
+11a - semanal - еженедельный
+11a - educação física - физкультура
+11a - educação visual - рисование
+11a - trabalhos manuais - труд
+11a - humanidades - гуманитарные науки
+11a - média, f - средний бал
+11a - valor, m - оценка
+11a - escala, f - шкала
+11a - leque, m - веер, список
+11a - duradouro - длительный
+11a - aliás - впрочем
+11a - sítio, m - место
+11a - inteiro - полный, целый
+11a - serviço militar - военная служба
+11a - por causa de - из-за
+11a - simultaneamente - одновременно
+11a - completar - завершить
+11a - formação, f - образование
+11a - à distância - на расстоянии
+11a - ensino à  distânciф - дистанционное обучение
+11a - ingressar em - поступить в
+11a - ramo, m - отрасль
+11a - educacional - образовательный
+11a - estágio, m - стажировка
+11a - crítica literária - литературоведение
+11a - comparado - сравнительный
+11a - cadeira, f - кафедра, дисциплина
+11a - teórico - теоретический
+11a - em regime noturno - без отрыва от производства, на вечернем отделении
+11a - redigir - составлять
+11a - com louvor - с отличием
+11a - elaborar - разрабатывать
+11a - curriculo, m - резюме, CV
+11a - de acordo com - в соответсвии с 
+11a - complementar - дополнительный
+11a - mercado de trabalho - рынок труда
+11a - remunerado - оплачиваемый
+11a - privado - частный
+11a - director de turma - классный руководитель
+11a - responsibilidade, f - ответсвенность
+11a - junto de - при (чем-л.)
+11a - Conselho Directivo - совет директоров
+11a - desgastante - утомительный
+11a - demitir-se - увольняться, уходить в отставку
+11a - concluir - заканчивать
+11a - palestra, f - лекция
+11a - científico - научный
+11a - formar-se em Direito pela Faculdade de Direito da Universidade Clássica - закончить университет по специальности
+11a - licenciar-se em Filosofia - закончить бакалавриат по специальности
+11a - doutorar-se em Letras - защитить докторскую по
+11a - de quatro em quatro anos - каждые 4 года
+11a - de quando em quando - время от времени
+11a - com 3 anos  - в возрасте 3 лет
+11a - aos 15 anos de idade - в 15 лет
+11a - acabar por - сделать что-л. в конце концов, в итоге
+11a - aprender a + infinitivo - учиться делать что-л.
+11a - aprender alguma coisa - учить что-л.
+11a - passar a + infinitivo - начать делать что-л.
+11a - passar a alguma coisa - перейти к чему-л.
+11a - participar em alguma coisa - участовать в чем-л.
+11a - optar por + infinitivo / alguma coisa - выбрать что-л.
+11a - foi assim que - именно так
+11a - foi então que - именно тогда
+11a - foi aí que - именно там
+11a - atentamente - внимательно
+11a - pelo que vi - насколько я видел
+11a - efectuar - осуществлять
+11a - conceituado - уважаемый, престижный
+11a - referência, f - отзыв, рекомендация
+11a - sob a direcção de - под управлением (кого-л.)
+11a - contemporâneo - современный
+11a - essencialmente - главным образом
+11a - complicado - сложный
+11a - delicado - трудный, деликатный
+11a - tanto mais que - тем более, что
+11a - vocaçâo, f - призвание
+11a - lidar com - работать, сотрудничать
+11a - disciplinar - дисциплинарный
+11a - procurar - стараться
+11a - chegar a um consenso com - приходить к единому мнению (с кем-л.)
+11a - dar ouvidos a - прислушиваться к
+11a - equipa, f - команда
+11a - assumir responsibilidades - принимать на себя ответсвенность
+11a - colaborar - сотрудничать
+11a - no seio da equipa - в команде
+11a - ocupar - занимать
+11a - cargo, m - должность
+11a - exercer - исполнять
+11a - já que - раз уж
+11a - psicologia da infância - детская психология
+11a - para além de - помимо (чего-л.)
+11a - experiência, f - опыт
+11a - profissional - профессиональный
+11a - no âmbito de - в рамках
+11a - campo de refugiados - лагерь беженцев
+11a - gestão, f - управление, менеджмент
+11a - logístico - логистический
+11a - ajuda humanitária - гуманитарная помощь
+11a - durante - в течение
+11a - civil - гражданский
+11a - no que respeita a - что касается
+11a - estar familiarizado com - быть знакомым с
+11a - dominar - владеть
+11a - programa de processamento de imagem - программа обработки изображения
+11a - empresa, f - предприятие
+11a - estado, m civil - семейной положение
+11a - tencionar - намереваться
+11a - casar-se, casar - жениться
+11a - estável - стабильный
+11a - dentro de - через
+11a - passatempo, m - досуг
+11a - jogar - играть (в спортивные игры)
+11a - adepto, m - болельщик
+11a - torcer por - болеть за
+11a - desde criança - с детства
+11a - neste campo - в этой области
+11a - sendo assim - раз так
+11a - entrar em funções - приступить к обязанностям
+11a - de momento - а пока, на настоящий момент
+11a - definir - определять
+11a - horário lectivo - расписание занятий
+11a - estar satisfeiro por - быть удовлетворенным (тем, что)
+11a - integrar - входить (быть частью)
+11a - até para a semana - до следующей недели
+11a - seja bem-vindo a - добро пожаловать в
+11a - desde já - уже сейчас, с настоящего времени
+11a - considerar - считать
+12a - construir - строить
+12a - destruir - разрушать
+12a - concluir - завершать, заключать
+12a - contribuir - способствовать
+12a - distribuir - распределять
+12a - incluir - включать
+12a - instituir - основывать
+12a - excluir - исключать
+12a - influir - влиять
+12a - evoluir - развиваться
+12a - diminuir - уменьшать
+12a - substituir - заменять
+12a - constituir - основывать
+12a - refeição, f - прием пищи, еда
+12a - pastelaria, f - кондитерская
+12a - acolhedor - приветливый, уютный
+12a - freguês, m - посетитель
+12a - patrão, m - хозяин
+12a - torrada, f - тост
+12a - pastel, m - пирожок
+12a - nata, f - сливки
+12a - bolo, m - пирог, пирожок (круглый)
+12a - consistente - плотный
+12a - flocos de cereais - хлопья из зерновых
+12a - de aveia - из овса,  овсяный
+12a - solúvel - растворимый
+12a - acompanhado - в сопровождении чего-л.
+12a - marmelada, f - джем
+12a - papa, f - каша
+12a - estabelecimento, m - заведение
+12a - regra geral - обычно
+12a - à mesa - за столом
+12a - faltar - не хватать
+12a - canja, f - куриный бульон с рисом
+12a - dona de casa - домохозяйка
+12a - exibir - показывать, демонстрировать
+12a - dote, m - дар, дарование
+12a - culinária, f - кулинария
+12a - passar sem - обойтись без
+12a - arroz doce - сладкий рис
+12a - creme, m - крем
+12a - pudim, m - пудинг
+12a - regar - запивать
+12a - saber bem - нравиться, быть приятным
+12a - digestivo, m - дижестив
+12a - limitar-se a - ограничиваться (чем-л.)
+12a - aproveitar - воспользоваться чем-л.
+12a - tasca, f - маленький ресторан, кабачок
+12a - taberna, f - таверна
+12a - petisco, m - закуска
+12a - acepipe, m - лакомство
+12a - diversificado - различный
+12a - bifana, f - свинина, поджаренная на гриле, в хлебе
+12a - prego, m - говядина, поджаренная на гриле, в хлебе
+12a - polvo, m - осьминог
+12a - caracol, m - улитка
+12a - queijo, m - сыр
+12a - petiscar - отведывать,  пробовать, лакомиться
+12a - estômago, m - желудок
+12a - dar horas - бить (о часах)
+12a - cerveja, f - пиво
+12a - dar dois dedos de conversa - перекидываться словечком, толковать
+12a - ida, f - поход
+12a - fazer parte de - быть частью чего-л., входить в состав (чего-л.)
+12a - hábito, m - привычка
+12a - quotidiano - ежедневный
+12a - bastante - достаточно
+12a - acessivel - доступный
+12a - variado - разнообразный
+12a - repatição pública - государственное учреждение
+12a - alomoçar fora - обедать в ресторане (не дома)
+12a - barato - дешевый
+12a - ambiente, m - атмосфера
+12a - abrir o apetite - возбуждать аппетит
+12a - montra, f - витрина
+12a - delicioso - превосходный, отменный
+12a - marisco - морепродукт
+12a - fresco - свежий
+12a - assar - печь, жарить
+12a - almoço combinado - комплексный обед
+12a - prato do dia - дежурное блюдо
+12a - bebida, f - напиток
+12a - sobremesa, f - десерт
+12a - requintado - изысканный
+12a - atendimento, m - обслуживание
+12a - cliente - посетитель
+12a - atender - обслуживать
+12a - aconselhar - советовать
+12a - guardanapo, m - салфетка
+12a - palito, m - зубочистка
+12a - toalha, f - скатерть
+12a - respectivo - соответствующий
+12a - galheteiro, m - столовый набор
+12a - azeite, m - оливковое масло
+12a - vinagre, m - уксус
+12a - saleiro, m - солонка
+12a - pimenteiro, m - перечница
+12a - pimenta, f - перец
+12a - queijo, m - сыр
+12a - presunto, m - ветчина,  окорок
+12a - manteiga, f - сливочное масло
+12a - pasta de sardinha - паштет из сардин
+12a - esquecer - забывать
+12a - cesto, m - корзинка
+12a - azeitona, f - оливка
+12a - entradas - закуски
+12a - a maioria de - большинство
+12a - tomar o pequeno almoço - завтракать
+12a - tomar uma refeição - принимать пищу
+12a - tomar uma bebida - пить чай, кофе, сок и т.д.
+12a - tomar uma sopa - есть суп
+12a - tomar um petisco - перекусывать
+12a - esquecer alguma coisa - забыть что-л.
+12a - esquecer que - забывать, что
+12a - esquecer-se de alguma coisa, de fazer alguma coisa - забывать о чем-л, забывать сделать что-л.
+12a - lembrar-se de alguma coisa, de fazer alguma coisa - вспоминать о чем-л., вспоминать, что нужно сделать что-л.
+12a - lembrar alguma coisa a alguém - напоминать кому-л.
+12a - faltar - не хватать, не доставать
+12a - faltar a alguma coisa - пропускать что-л., не прийти на что-л.
+12a - alguma coisa falta a alguém - кому-л. чего-л. не хватает
+12a - faltar para - оставаться до чего-л.
+12a - a maioria de +artigo+Subst. - большинство чего-л.
+12a - a maior parte de+artigo+Subst. - большая часть чего-л.
+12a - pagar alguma coisa - платить за что-л.
+12a - pagar a alguém - платить кому-л.
+12a - pagar com o cheque, o cartâo - платить чеком, карточкой
+12a - participar em - участвовать в чем-л.
+12a - tomar parte em - принимать участие в чем-л.
+12a - fazer parte de - быть частью чего-л., входить в состав чего-л.
+12a - frito - жаренный на растительном масле
+12a - um bife bem passado, mal passado - хорошо прожаренный бифштекс, бифштекс с кровью
+12a - assado - печеный, жаренный без масла (на вертеле, в духовке)
+12a - cozido - вареный
+12a - grelhado - на гриле
+12a - aconselhar alguma coisa a alguém - советовать что-л. кому-л.
+12a - aconselhar alguém a fazer alguma coisa - советовать кому-л. сделать что-л.
+12a - salgado - соленой
+12a - doce - сладкий
+12a - picante - острый
+12a - insosso - несоленый
+12a - ácido - кислый
+12a - azedo - кислый, скисший
+12a - amargo - горький
+13a - ir às compras - идти за покупками
+13a - hipermercado, m - гипермаркет
+13a - abrir - открыться
+13a - arredores - окрестности
+13a - ser fácil de acesso - быть в пределах досягаемости
+13a - capacidade, f - вместимость, емкость
+13a - criar - создать
+13a - rede, f - сеть
+13a - cerreira, f - рейс
+13a - gratuito - бесплатный
+13a - encher - наполнять
+13a - vagar, m - свободное время, досуг
+13a - primeiro - сначала, во-первых
+13a - carrinho - тележка
+13a - artigo,m - товар, продукт
+13a - alimentação, m - питание
+13a - barato - дешевый
+13a - loja de conveniência - маленький магазин
+13a - espalhar - распространять, разбросать
+13a - empregar - устраивать на работу, использовать, употреблять
+13a - milhar, m - тысяча
+13a - antes de mais - прежде всего
+13a - dirigir-se a, para - направляться к чему-л.
+13a - talho, m - мясной отдел
+13a - comprar - покупать
+13a - carne de porco - свинина
+13a - carne de vitela - телятина
+13a - carne de borrego, m - баранина
+13a - a seguir - затем
+13a - peixaria, f - рыбный отдел
+13a - posta, f - кусок (рыбы, мяса)
+13a - secção, f - отдел
+13a - laranja, f - апельсин
+13a - maracujá, f - маракуя
+13a - dióspiro, m - хурма
+13a - molho, m - пучок
+13a - cebola, f - лук
+13a - refogado, m - приправа, заправка
+13a - cenoura, f - морковь
+13a - cozido à portuguesa - блюдо из мяса, копченых колбас, картофеля и т.д.
+13a - regional - местный
+13a - lacticínio - молочный
+13a - manteiga, f - сливочной масло
+13a - leite magro - нежирное молоко
+13a - iogurte, m - йогурт
+13a - farinha, f - мука
+13a - fermento, m - дрожжи
+13a - temperar - приправлять (еду)
+13a - em promoção - со скидкой
+13a - embalagem, f - упаковка
+13a - rolo, m - рулон
+13a - papel higiénico - туалетная бумага
+13a - detergente, m - моющее средство
+13a - lixívia, f - чистящее средство
+13a - limpar - чистить
+13a - desinfectar - дезинфецировать
+13a - sanita, f - туалетная бумага
+13a - esfregâo, m - мочалка, губка
+13a - pano, m - тряпка, салфетка
+13a - higiene, m - гигиена
+13a - corporal - телесный
+13a - sabonete, m - мыло (туалетное)
+13a - gel-duche, m - гуль для душа
+13a - champô, m - шампунь
+13a - amaciador para o cabelo - бальзам-ополаскиватель
+13a - pasta para os dentes - зубная паста
+13a - espuma, f - пена
+13a - loçâo, f - лосьон
+13a - barba, f - борода
+13a - perder a oportunidade, f - упустить возможность (сделать что-л.)
+13a - dar um salto a - заскочить (куда-л.)
+13a - charcutaria, f - колбасный отдел
+13a - enchidos, m - колбасы
+13a - chouriço, m - колбаса (копченая)
+13a - transmontano - из провинции Траз-уж-Монтеш
+13a - presunto, m - окорок (копченый)
+13a - fatia, f - ломоть, кусок
+13a - fiambre, m - ветчина (вареная)
+13a - água mineral sem gás - минеральная вода без газа
+13a - matar a sede - утолить жажду
+13a - fazer uma reserva - делать запасы
+13a - cair bem - быть кстати
+13a - licoroso - похожий на ликер, сладкий
+13a - uísque, m - виски
+13a - macieira, f - бренди
+13a - refresco,m - прохладительный напиток
+13a - condizer com - сочетаться с
+13a - pão caseiro - домашний хлеб
+13a - carcaça, f - булочка
+13a - pão de Mafra - хлеб из пшеничной и ржной муки
+13a - esperar por - ждать (чего-л.)
+13a - vez, f - раз, очередь, черед
+13a - caixa, f - касса
+13a - folhear - листать
+13a - colocar - помещать, ставить, располагать
+13a - expositor, m - стенд
+13a - aceitar - принять, согласиться на что-л.
+13a - modo de pagamento - способ оплаты
+13a - cheque - чек
+13a - em líquido - наличными
+13a - desconto, m - скидка
+13a - mediante - при помощи
+13a - apresentação, f - представление
+13a - talão, m - талон,  чек
+13a - a partir de - начиная с
+13a - determinado - определенный
+13a - quantia, f - сумма (денег)
+13a - ter o direito a - иметь право на
+13a - gratuito - бесплатный
+13a - dinheiro trocado - мелкие деньги
+13a - dar uma olhada a - заглянуть, бросить взгляд на
+13a - cenro comercial - торговый центр
+13a - parar - останавливаться
+13a - pronto-a-vestir, m - отдел готовой одежды
+13a - resistir a - сопротивляться, устоять перед
+13a - saldos - распродажа
+13a - par, m - пара
+13a - calças - брюки
+13a - meias - чулки, носки
+13a - cinot, m - пояск
+13a - roupa de interior - белье
+13a - cachecol, m - шарф
+13a - cachemire, f - кашемир
+13a - roubar - красть
+13a - estádio, m - стадион
+13a - ir buscar alguma cois a alguma parte - идти (ехать) за чем-л. куда-л.
+13a - duas vezes por mês - два раза в месяц
+13a - ir às compras - идти за покупками
+13a - fazer compras - делать покупки
+13a - comprar a 15 euros - покупать за 15 евро
+13a - comprar a um preço alto/baixo - покупать по высокой (низкой) цене
+13a - comprar (vender) caro (barato) - продавать дорого (дешево)
+13a - vender por 20 euros - продавать за 20 евро
+13a - vender por um preço alto - продавать по высокой цене
+13a - perder tempo - тратить время
+13a - perder a espernça de - терять надежду на что-л.
+13a - perder um espectáculo - пропускать зрелище
+13a - perder o comboio, o avião - опаздывать на поезд, самолет
+13a - perder o jogo - проигрывать игру
+13a - perder a cabeça - терять голову
+13a - perder o ano - остаться на второй год, потерять год
+13a - perder a oportunidade de - упускать возможность
+13a - dar um salto a - забежать куда-л.
+13a - ter o direito a - иметь право на что-л.
+13a - ter o direito de - иметь право сделать что-л.
+13a - matar a sede - утолить жажду
+13a - dirigir-se a (para) - направляться к чему-л.
+13a - esperar alguém (por alguém) - ожидать чего-л., кого-л.
+13a - aceitar uma proposta - принять предложение
+13a - aceitar um convite - принять приглашение
+13a - aceitar flores, uma prenda - принять цветы
+13a - aceitar um emprego - согласиться на работу
+13a - aceitar cartões (cheques) - принимать к оплате кредитные карточки (чеки)
+13a - ao peso - на вес
+13a - à unidade - поштучно
+13a - se desejar - если захотите
+13a - pesar - взвешивать
+13a - à vontafo - сколько угодно, без стеснения
+13a - eis - вот
+13a - quanto é? - почем это?
+13a - ficar em ... euros a - обойтись кому-л. в … евро
+13a - cêntimo, m - цент (одна сотая евро)
+13a - no total - в целом
+13a - nota, f - банкнота
+13a - atender - обслуживать
+13a - experimentar - примерять
+13a - em preto, em castanho - черного, коричневого цвета
+13a - a propósito - кстати
+13a - estar em saldos - быть уцененным, продаваться со скидкой
+13a - tamanho, m - размер
+13a - saber ao certo - знать точно
+13a - emagrecer - похудеть
+13a - deixe-me ver - дайте мне посмотреть
+13a - servir a - годиться, подходить
+13a - aqui tem - вот
+13a - pretender - желать, требовать
+13a - cabine, f - примерочная
+13a - ao fundo de - в глубине
+13a - número acima - размер побольше
+13a - lamentar - сожалеть
+13a - por conseguinte - следовательно, тем самым
+13a - desaparecer - исчезать
+13a - num instante - в одно мгновение
+13a - existir - существовать
+13a - ficar bem (mal) a - хорошо (плохо) сидеть
+13a - cintura, f - талия
+13a - de facto - на самом деле
+13a - por medida, f - на заказ
+13a - preocupar-se com - беспокоиться
+13a - alfaiate, m - портной
+13a - emendar - исправлять
+13a - cobrar - брать, взимать (деньги)
+13a - pronto - готовый
+13a - consertar - чинить
+13a - pele, f - кожа
+13a - sola, f - подметка
+13a - borracha, f - резина, каучук
+13a - apropriado para - подходящий
+13a - resistente - крепкий, прочный
+13a - fabrico, m - производство
+13a - calçar - обуть, надеть (об обуви и перчатках)
+13a - traga-me - принесите мне
+13a - calçadeira, f - ложка, рожок для обуви
+13a - que tal? - ну как?
+13a - palmilha, f - стелька
+13a - levar - брать, уносить
+13a - siga-me - следуйте за мной
+13a - cartão multibanco - вид кредитной карточки
+13a - caixa, f - коробка
+13a - saco de plástico - пластиковый пакет
+13a - volte sempre! - приходите еще!
+13a - pôr - надевать (о головном уборе и одежде)
+13a - vestir - надевать (об одежде)
+13a - calçar - обувать, надевать
+13a - atar - повязывать
+13a - tirar - снимать (об одежде)
+13a - descalçar - снимать (об обуви, брюках и перчатках)
+13a - desatar - развязывать
+14a - traduzir - переводить
+14a - rir - смеяться
+14a - sorrir - улыбаться
+14a - conduzir - водить
+14a - luzir - светиться
+14a - reluzir - блестеть
+14a - introduzir - вводить
+14a - caber - вмещаться
+14a - adepto, m - приверженец, последователь
+14a - campismo, m - туризм
+14a - acampar - располагаться лагерем
+14a - tenda, f - палатка
+14a - clareira, f - поляна
+14a - pinhal, m - сосновый лес
+14a - bóia, f - спасательный круг,  плавательный пояс
+14a - colchão de ar - надувной матрас
+14a - barbatanas - ласты
+14a - máscara, f - маска
+14a - mergulhar - нырять
+14a - sítio, m - место
+14a - reserva natural - заповедник
+14a - gaivota, f - чайка
+14a - ave, f - птица (крупная)
+14a - bronzear - загорать
+14a - povoação, f - населенный пункт, местечко
+14a - descartável - одноразовый
+14a - lobisomem, m - оборотень
+14a - assustar - пугать
+14a - recolher - скрываться, уединяться, возвращаться домой
+14a - divertimento, m - развлечение
+14a - estância, f - сезон
+14a - esqui, m - лыжи
+14a - esqui de montanha - горные лыжи
+14a - adolescente - подросток
+14a - patinagem, f - катание на коньках
+14a - neve, f - снег
+14a - pista, f - лыжня, каток
+14a - visto, m - виза
+14a - cambiar - менять (деньги)
+14a - alugar - брать напрокат, сдавать внаем
+14a - corte de ténis - теннисный корт
+14a - aproveitar - пользоваться
+14a - curiosidade, f - любопытство, достопримечательность
+14a - isto é - то есть
+14a - palácio, m - дворец
+14a - castelo, m - замок
+14a - igreja, f - церковь
+14a - guia - гид, экскурсовод
+14a - considerar - считать
+14a - roteiro, m - путеводитель
+14a - deslocar-se - перемещаться
+14a - percorrer - проходит, проезжать, обследовать
+14a - cheio de - полный чего-л.
+14a - estar cheio de medo - испытывать страх
+14a - estar cheio de fome - испытывать голод
+14a - estar cheio de raiva - быть в ярости
+14a - estar cheio de calor - испытывать жару
+14a - estar cheio de frio - испытывать холод
+14a - aproveitar alguma coisa (tempo, a ocasião, a oportunidade, a experiência) para fazer alguma coisa - пользоваться чем-л., чтобы сделать что-л. (временем, случаем, возможностью, опытом)
+14a - aproveitar-se de alguma coisa (do tempo, da ocasião, da oportunidade, da experiência) para fazer alguma coisa - пользоваться чем-л., чтобы сделать что-л. (временем, случаем, возможностью, опытом)
+14a - jogar ténis, futebol, voleibol, basquetebol, hóquei, xadrez - играть в теннис, в футбол, в волейбол, в баскетбол, в хоккей, в шахматы
+14a - jogar às cartas, à bola - играть в карты,  в мяч
+14a - ganhar (perder) um jogo - выиграть (проиграть) игру
+14a - o jogo de cartas - карточная игра
+14a - jogos de azar - азартные игры
+14a - chegar para, bastar para, dar para - хватать (для чего-л.)
+14a - ser suficiente para - быть достаточным для
+14a - basta de ... - хватит уже
+14a - usar, utilizar, empregar - пользоваться, использовать, употреблять
+14a - usar - носить
+14a - usar-se, utilizar-se, empregar-se - употребляться, использоваться
+14a - alugar uma coisa a algúem - сдавать что-л. кому-л.
+14a - alugar alguma coisa - снимать что-л., брать напрокат
+14a - aluguer, m - квартплата
+14a - renda de casa - квартплата
+14a - reservar - резервировать, бронировать
+14a - em nome de... - на имя кого-л.
+14a - apelido, m - фамилия
+14a - compahneiro - спутник
+14a - quiera - будьте добры
+14a - cartão de hóspedes - карточка гостя в гостинице
+14a - alojar - поселить, разместить (в гостинице)
+14a - quarto duplo - номер на двоих
+14a - ar condicionado - кондиционер
+14a - de banda larga - широкополосный
+14a - dar para - выходить (на что-л., куда-л.)
+14a - piscina, f - бассейн
+14a - salgado - соленый
+14a - para além de - помимо
+14a - sossegado - тихий, спокойный
+14a - estrela, f - звезда
+14a - figurar - фигурировать
+14a - de momento - пока, на настоящий момент
+14a - de facto - в самом деле
+14a - marcação, f - заказ
+14a - visita guiada - экскурсия
+14a - incluir - включать
+14a - plateia, f - партер
+14a - camioneta, f - автобус (загородный или экскурсионный)
+14a - a partir de - начиная с
+14a - instalar-se - размещаться, устраиваться
+14a - em nome de... - на имя кого-л., от имени кого-л.
+14a - visita a - визит куда-л.
+14a - quanto a - что касается чего-л.
+14a - a partir de - начиная с чего-л.
+14a - levar alguma coisa a, para - относить, отводить что-л. куда-л.
+15a - atrair - привлекать
+15a - trair - изменять,  предавать
+15a - subtrair - вычитать
+15a - contrair - сжимать,  сокращать, искажать
+15a - distrair - отвлекать, развлекать
+15a - extrair - извлекать,  добывать
+15a - abranger - охватывать
+15a - área, f - площадь
+15a - urbano - городской
+15a - multifacetado - многосторонний
+15a - longo - долгий
+15a - essência, f - сущность, суть
+15a - identidade, f - идентичность, самосознание, отличительные особенности
+15a - corporação profissional - профессиональное объединение
+15a - habitar - проживать
+15a - palco, m - сцена, арена
+15a - luta, f - борьба
+15a - independência, f - независимость
+15a - pescador, m - рыбак
+15a - carregador, m - грузчик, разносчик
+15a - água canalizada - водопровод
+15a - representar - представлять
+15a - marcha, f - марш, процессия
+15a - acontecer - случаться
+15a - santo - святой
+15a - nomeadamente - именно
+15a - padroeiro, m - покровитель
+15a - fluvial - речной
+15a - mosteiro, m - монастырь
+15a - notável - известный,  знаменитый
+15a - manuelino - в стиле мануэлино
+15a - caraterizar-se por - характеризоваться чем-л.
+15a - navegaçâo, f - мореплавание
+15a - planta, f - растение
+15a - exótico - экзотический
+15a - encomendar - заказывать
+15a - terramoto, m - землетрясение
+15a - ruína, f - развалина
+15a - convento, m - моныстырь
+15a - testemunho, m - свидетельство
+15a - evento, m - событие
+15a - marquês, m - маркиз
+15a - planear - планировать
+15a - inspirar-se em - вдохновляться (чем-л.)
+15a - arquitectónico - архитектурный
+15a - estilo - стиль
+15a - conjunto, m - ансамбль
+15a - prédio, m - здание
+15a - fachada, f - фасад
+15a - europeu, eia - европейский
+15a - lançar - положить начало
+15a - obras públicas - общественнные работы
+15a - influência, f - влияние
+15a - germânico - германский
+15a - ornamento, m - украшение, орнамент
+15a - genuinamente - подлинно, истинно
+15a - para este efeito - с этой целью
+15a - abrigar - укрывать, дать приют
+15a - pavilhâo, m - павильон
+15a - hoje em dia - в настоящее время
+15a - habitacional - жилой
+15a - no âmbito de - в рамках чего-л.
+15a - dito - упомянутыйы, вышеназванный
+15a - comprimento, m - длина
+15a - empresa, f - предприятие
+15a - transporte público - общественный транспорт
+15a - metropolitano (metro), m - метро
+15a - mão-de-obra, f - рабочая сила
+15a - margem, f - берег (реки)
+15a - sul - южный
+15a - privado - частный
+15a - atravessar - пересекать, переходить
+15a - ponte, f - мост
+15a - inaugurar - торжественно открыть
+15a - portagem, f - плата за проезд по шоссе
+15a - em direcção a - по направлению к
+15a - incitar - побуждать
+15a - utente - пользователь
+15a - suburbano - пригородный
+15a - barco - судно
+15a - ligação, f - сообщение
+15a - travessia, f - переправа
+15a - criar - создавать
+15a - meio de transporte - транспортное средство
+15a - durante - в течение
+15a - década, f - десятилетие
+15a - parte integrante - составная часть
+15a - paisagem, f - пейзаж
+15a - vantagem, f - преимущество
+15a - trólei - тролейбус
+15a - eléctrico - трамвай
+15a - comboio (tren) - поезд
+15a - autocarro, camioneta (ônibus) - автобус
+15a - ir de metro, de comboio, de carro - ехать на метро, поезде, машине
+15a - ir a pé - идти пешком
+15a - ir a cavalo - ехать на лошади
+15a - mais de... - более, чем
+15a - menos de... - менее, чем
+15a - cerca de... - около, приблизительно
+15a - a área é de ... quilómeros quadrados - площадь в … километров
+15a - o comprimento é de ... metros - длина … метров
+15a - a superfície - поверхность, площадь
+15a - a extensão - протяженность
+15a - a altura - высота
+15a - a população é de ... habitantes - население … проживающих
+15a - ter uma área de - иметь территорию, площадь …
+15a - ter um comprimento de ... - иметь длину …
+15a - ter uma população de ... - иметь население …
+15a - o começo (os inícios) do século - начало века
+15a - os fins (os finais) - конец
+15a - os meados - середина
+15a - a primeira metade - первая половина
+15a - no tempo em que - тогда, кога
+15a - no dia (no ano, na semana, na época) em que - в тот день (год, неделю, время), когда
+15a - norte, m - север, северный
+15a - sul, m - юг, южный
+15a - leste, m - восток, восточный
+15a - oeste, m - запад, западный
+15a - a norte, a sul, a leste, a oeste - на севере, на юге, на востоке, на западе
+15a - em direcção a - по направлению к
+15a - apesar de - несмотря на
+15a - no âmbito de - в рамках чего-л.
+15a - indicar o caminho - показать дорогу
+15a - ora bem - ну хорошо
+15a - se for a pé - если вы пойдете пешком
+15a - demorado - медленный
+15a - a dois passos de - в двух шагах от
+15a - rotunda, f - площадь с круговым движением
+15a - a seguir a - вслед за
+15a - alameda, f - аллея
+15a - cimo, m - вершина
+15a - fonte, f - фонтан
+15a - transeunte - прохожий
+15a - enganar-se - ошибаться
+15a - a propósito - кстати
+15a - demorar - задерживаться, занимать время
+15a - caminhar - идти пешком
+15a - pôr-se - оказываться
+15a - estadia, f - пребывание
+15a - fazer a correspondência para - сделать пересадку (куда-л.)
+15a - dar de caras com - выйти (к чему-л.)
+15a - comboio suburbano - электричка
+15a - plataforma, f - платформа
+15a - piso, m - этаж
+15a - bilheteira, f - билетная касса
+15a - terminal - конечный
+15a - exclusivo - исключительный
+15a - ser capaz de - быть способным (сделать что-л.)
+15a - farmácia, f - аптека
+15a - de todo - совсем
+15a - passagem para peões - наземный переход
+15a - quarteirão, m - квартал
+15a - dar com - выйти к чему-л., встретить что-л.
+16a - dispendioso - дорогой
+16a - orçamento, m - бюджет
+16a - rondar - примерно насчитывать
+16a - fita, f - лента
+16a - registar - регистрировать
+16a - êxito, m - успех
+16a - bilheteira, f - билетная касса
+16a - arranjar - доставать
+16a - lotação, f - вместимость (театра)
+16a - esgotar - исчерпать
+16a - pipocas - воздушная кукуруза, попкорн
+16a - dar início a - положить начало (чему-л.)
+16a - episódio, m - серия
+16a - sucesso, m - успех
+16a - na altura, f - в то время
+16a - exceder - превышать
+16a - expectativa, f - ожидание
+16a - lenda, f - легенда
+16a - raíz, f - корень
+16a - protagonista - главное действующее лицо 
+16a - papel - роль
+16a - desempenhar - исполнять
+16a - actor, actriz - актер, актриса
+16a - conceituado - уважаемый
+16a - efeito especial - специальный эффект
+16a - filmagem - съемка
+16a - numérico - цифровой
+16a - cenário - декорации
+16a - desiludir - разочаровывать
+16a - a bem dizer - по правде говоря
+16a - ser o forte de - быть чьим-л. Коньком
+16a - personagem, f - персонаж
+16a - mover-se - двигаться
+16a - boneco articulado - кукла-марионетка
+16a - emoção, f - чувство
+16a - inexpressivo - невыразительный
+16a - realizador - режиссер
+16a - nomeação a - номинация (на что-л.)
+16a - framboesa, f - малина
+16a - nomear - назначать, номинировать
+16a - argumento, m - сценарий
+16a - pecar - грешить
+16a - excesso - избыток
+16a - artificialidade, f - искуственность
+16a - contudo - однако
+16a - empolgante - захватывающий
+16a - engraçado - забавный
+16a - anteontem - позавчера
+16a - ballet, m - балет
+16a - interpretar - исполнять
+16a - matinée, f - дневной спектакль
+16a - reservar - бронировать
+16a - com antecedência - заранее
+16a - companhia, f - труппа
+16a - bailado, m - балет
+16a - hoje em deia - в настоящее время
+16a - vanguardista - авангардный
+16a - estreia, f - премьера
+16a - recente - недавний
+16a - conquistar - завоевывать
+16a - prestígio - престиж
+16a - criar - создавать
+16a - especificamente - специально, в особенности
+16a - divulgar - распространять
+16a - reunir - собирать
+16a - intérprete, m - исполнитель
+16a - natalício - рождественский
+16a - fundir-se com - сплавляться с чем-л.
+16a - divertido - забавный, веселый
+16a - indicar - указывать
+16a - tanto ... como - как …, так …
+16a - considerar - считать
+16a - mestre, m - мастер
+16a - esrela, f - звезда
+16a - vencedor (-a) - победитель
+16a - bailarino (-a) - танцовщик
+16a - cenografia, f - сценография
+16a - primor, m - шедевр
+16a - guarda-roupa, m - костюмы
+16a - recriar - воссоздавать
+16a - universo, m - вселенная, мир
+16a - deslumbrante - ослепительный, потрясающий
+16a - ovação, f - овация
+16a - palco, m - сценарий
+16a - agradecer - благодарить, кланяться
+16a - vir a saber - узнавать
+16a - Quebra-Nozes, m - Щелкунчик
+16a - fazer fila - стоять в очереди
+16a - arranjar bilhetes - достать билеты
+16a - ser um êxito de bilheteira - быть кассовым (о фильме)
+16a - a lotaçâo está esgotada - все билеты проданы
+16a - ter tempo de - успеть (сделать что-л.)
+16a - dar início a - положить начало (чем-л.)
+16a - ser o forte de - быть сильной стороной (кого-л.)
+16a - desempenhar (interpretar) o papel - исполнять роль
+16a - exceder as expectativas - превосходить все ожидания
+16a - entrar na lenda - стать легендой, войти в историю
+16a - voltar às raízes - вернуться к истокам
+16a - 10 por cento de populaçâo - 10 процентов населения
+16a - vir a ser - становиться
+16a - a bem dizer - по правде говоря
+16a - com antecedência - заранее
+16a - com … meses de antecedência - за … месяцев
+16a - hoje em dia - в настоящее время
+16a - em princípio - в принципе
+16a - contudo - однако
+16a - na altura - в то время
+16a - por acaso - случайно
+16a - bengaleiro, m - раздевалка, гардероб
+16a - mesmo assim - тем не менее
+16a - desfrutar de - наслаждаться (чем-л.)
+16a - oferta, f - предложение
+16a - que tal? - ну как?
+16a - encanto, m - очарование
+16a - graciosidade, f - грация, грациозность
+16a - sortudo, m - счастливчик
+16a - contentar-se com - довольствоваться
+16a - balcão, m - ярус
+16a - beneficiar de - воспользоваться (чем-л.)
+16a - dimensão, f - размер
+16a - merecer - заслуживать
+17a - adoecer - заболевать
+17a - centro de saúde - поликлиника
+17a - médico de família - семейный врач
+17a - intervenção, f - вмешательство, операция
+17a - imediato - немедленный
+17a - serviço de urgências - скорая помощь
+17a - médico de clínica geral - терапевт
+17a - examinar - осматривать (больного)
+17a - estabelecer - поставить, устанавливать
+17a - diagnóstico, m - диагноз
+17a - reencaminhar - направлять
+17a - especialidade, f - специальность
+17a - cirurgia, f - хирургия
+17a - caber a - следовать (кому-л.)
+17a - cirurgião, m - хирург
+17a - operar - оперировать
+17a - bloco operatório - хирургический блок
+17a - em voga - в моде
+17a - corrigir - исправлять
+17a - defeito - недостаток, дефект
+17a - retarder - замедлять
+17a - emvelhecimento, m - старение
+17a - mudar - изменять
+17a - visual, m - внешность
+17a - por completo - полностью
+17a - dentista, m - зубной врач
+17a - consultório, m - кабинет врача
+17a - tratar - лечить
+17a - tratar de - заниматься чем-л.
+17a - dentição, f - зубы
+17a - coroa, f - коронка
+17a - pivô, m - штифт
+17a - remover - удалять
+17a - colocar - ставить
+17a - placa dentária - протез (съемный)
+17a - desdentado - беззубый
+17a - aparelho dentário - бреккеты
+17a - irregularidade, f - неправильность
+17a - cárie, f - кариес
+17a - chumbar - пломбировать
+17a - esmalte - эмаль
+17a - precaver-se de - принимать меры предостторожности против чего-л.
+17a - eventual - возможный
+17a - inflamação, f - воспаление
+17a - frágil - хрупкий, слабый
+17a - otorrinolaringologista - отоларинголог
+17a - ouvido, m - слух
+17a - laringe, f - гортань
+17a - otite, f - отит
+17a - apanhar frio em - простудить
+17a - desgosto, m - огорчение, неприятность
+17a - amoroso - любовный
+17a - cardiologista, m - кардиолог
+17a - disfunção, f - нарушение, недостаточность
+17a - ataque, m - приступ
+17a - ataque cardíaco - инфаркт
+17a - curar - лечить
+17a - mal, m - болезнь
+17a - internar - положить в больницу
+17a - à disposição - в распоряжении
+17a - enfermeiro - медбрат
+17a - providenciar - предоставлять
+17a - cuidado, m - забота, уход
+17a - medir - мерять, измерять
+17a - tensão arterial - артериальное давление
+17a - fazer as necessidades - отправлять естественные потребности
+17a - administrar - делать (уколы), применять (анестезию)
+17a - injecção, f - укол
+17a - medicamento, m - лекарство
+17a - para além de - помимо (чего-л.)
+17a - deslocar-se - перемещаться, приходить
+17a - particular, m - частное лицо
+17a - mobilidade, f - подвижность
+17a - reduzido - ограниченный
+17a - visão, f - зрение
+17a - hereditário - наследственный
+17a - míope - близорукий
+17a - garganta, f - горло
+17a - tossir - кашлять
+17a - antibiótico, m - антибиотик
+17a - bronquite, f - бронхит
+17a - respiratório - дыхательный
+17a - asma, f - астма
+17a - inalação, f - вдыхание
+17a - pólen, m - пыльца
+17a - dermatologista - дерматолог
+17a - borbulha, f - прыщ
+17a - cutâneo - кажный
+17a - devido a - из-за (чего-л.), благодаря (чему-л.)
+17a - abuso, m - злоупотребление
+17a - solário, m - солярий
+17a - hipocondríaco, m - ипохондрик
+17a - depressivo - в депрессии, угнетенный
+17a - mental - душевный
+17a - basear-se em - основываться (на чем-л.)
+17a - relato, m - рассказ, повествование, доклад
+17a - lamúria, f - горькая жалоба
+17a - psiquiatra - психиатр
+17a - dotar de - наделять
+17a - acreditação, f - разрешение (по закону)
+17a - antidepressivo, m - антидепрессант
+17a - ginecologista - гинеколог
+17a - gravidez, f - беременность
+17a - revelar-se - раскрываться, обнаруживаться
+17a - por medida de - в качестве (чего-л.)
+17a - precaução, f - мера предосторожности
+17a - contraceptivo, m - противозачаточное средство
+17a - pílula, f - противозачаточная таблетка
+17a - recorrer a - прибегать к
+17a - exame, m - анализ, проверка
+17a - análise, f - анализ
+17a - radiografia, f - рентген
+17a - osso, m - кость
+17a - acusar - подтверждать
+17a - fractura, f - перелом
+17a - tumor, m - опухоль
+17a - distúrbio - нарушение
+17a - crescimento, m - рост
+17a - sangue, m - кровь
+17a - urina, f - моча
+17a - marcar consulta (com, em) - записаться (к кому-л., куда-л.)
+17a - oftalmologista - офтальмолог
+17a - vista, f - зрение
+17a - detectar - выявлять
+17a - astigmatismo, m - астигматизм
+17a - adaptar - подбирать, приспособлять
+17a - graduação, f - калибровка линз
+17a - lente (de contacto) - контактная линза
+17a - moldura, f - оправа
+17a - dar-se, bem (com) - уживаться (с кем-л.)
+17a - redobrado - удвоенный
+17a - gota, f - капля
+17a - fezes - кал
+17a - digestivo - пищеварительный
+17a - rim, m - почка
+17a - exam TAC (tomografia exial computarizada) - компьютерная томография
+17a - complementar - дополнительный
+17a - electroencefalograma, m - электроэнцефалограмма
+17a - consistir em - состоять (в чем-л.)
+17a - captar - ловить, выявлять
+17a - cérebro, m - мозг
+17a - epilepsia, f - эпилепсия
+17a - relacionado com - связанный с чем-л.
+17a - mamografia, f - маммография
+17a - mama, f - грудь (женская)
+17a - nódulo, m - узел
+17a - preventivo - профилактический
+17a - câncer, m - рак
+17a - despistagem, f - выявление
+17a - sida, f - спид, ВИЧ
+17a - teste HIV - тест на спид
+17a - verificar - выяснять
+17a - seropoisitivo - вич-позитивный
+17a - contaminar - заражать
+17a - vírus, m - вирус
+17a - adoecer - заболевать
+17a - doer - болеть
+17a - dói-me um dente - у меня болит зуб
+17a - perna, f - нога
+17a - pé, m - ступня
+17a - braço, m - рука
+17a - mão, f - кисть
+17a - cabeça, f - голова
+17a - doem-lhe os ouvidos (as gengivas etc.) - у него болят уши (глаза, спина)
+17a - ter (sentir) dores de ouvidos (olhos, costas etc.) - чувствовать боль в ухе (в глазах, в спине и т.д.)
+17a - tomar (receitar) um remédio - принимать (выписывать) лекарство
+17a - comprimidos - таблетки
+17a - vitaminas - витамины
+17a - gotas - капли
+17a - xarope, m - сироп
+17a - trata-se de - речь идет о
+17a - tratamento, m - лечение, обращение
+17a - estabelecer um diagnóstico - поставить диагноз
+17a - medir a temperatura a alguém - измерять температуру у кого-л.
+17a - dar (administrar) injecçôes a alguém - делать уколы (кому-л.)
+17a - examinar um doente - осматривать больного
+17a - fazer os exames (as análises), a radigrafia, o cardiograma - сдавать анализы, делать рентген, кардиограмму
+17a - detectar a doença (anomalias, disfunções, problemas) - определять болезнь (выявить аномалии, недостаточность, проблемы)
+17a - internar alguém - положить кого-л. в больницу
+17a - cuidar de alguém, de alguma coisa - заботиться о ком-л., беречь кого-л.
+17a - cirurgião - cirúrgico - хирург - хирургический
+17a - operação - operatório - операция - операционный
+17a - coração - cardíaco - сердце - сердечный
+17a - artéria - arterial - артерия - артериальный
+17a - vista - óptico - зрение - оптический
+17a - ouvido - auditivo - слух - акустический
+17a - pele - cutâneo - кожа - кожный
+17a - respiração - respiratótio - дыхание - дыхательный
+17a - dente - dentário - зубы - зубной
+17a - médico - médico - врач - медицинский
+17a - mente - mental - разум - ментальный
+17a - digestão - digestivo - пищеварение - пищеварительный
+17a - febre, f - жар
+17a - tonturas - головокружение
+17a - enxaqueca, f - мигрень
+17a - por acaso - случайно, кстати
+17a - deixar alguém fzer alguma coisa - разрешить кому-л. сделать что-л.
+17a - espreitar - взглянуть
+17a - efeito secundário - побочное действие
+17a - diarreia, f - понос
+17a - sonolência, f - сонливость
+17a - é que - дело в том, что
+17a - nocivo - вредный
+17a - dar comichão, m - чесаться
+17a - vómito - рвота
+17a - náusea, f - тошнота
+17a - posologia, f - показания к применению
+17a - modo de administração, f - способ применения
+17a - ser alérgico a - иметь аллергию на
+17a - para além de - помимо чего-л.
+17a - recuperar - обретать, возвращать
+17a - fazer uma dieta - соблюдать диету
+17a - sofrer - страдать
+17a - alteração, f - изменение
+17a - deprimido - в плохом настроение
+17a - queixar-se de - жаловаться на
+17a - mexer-se - двигаться
+17a - pretender - намереваться, собираться
+17a - meter baixa médica - взять больничный лист
+17a - inspirar cuidados - внушать опасения
+17a - pensar em - думать (о чем-л.)
+17a - aliás - впрочем
+17a - trabalhem os doentes! - пусть больные работают
+17a - marcar uma consulta com alguém - записаться на прием к
+17a - ter efeitos secundários - иметь побочные действия
+17a - fazer um tratamento a - лечить что-л.
+17a - ser alérgico a - иметь аллергию на что-л.
+17a - ficar deprimido - быть в депрессии
+17a - chegar à idade do condor - достичь преклонных лет
+17a - meter baixa médica - взять больничный лист
+17a - inspirar cuidados - внушать опасения
+17a - pretender fazer alguma coisa - собираться, намереваться сделать что-л.
+17a - recuperar alguma coisa - вернуть что-л., наверствывать что-л.
+17a - imenso - очень
+17a - gengiva, f - десна
+17a - notar - замечать
+17a - inchaço, m - опухоль
+17a - dente do ciso - зуб мудрости
+17a - engolir - глотать
+17a - anestesiar - обезболивать
+17a - doloroso - болезненный
+17a - anestesiante, m - анестезия
+17a - articular - произносить
+17a - durar - длиться
+17a - dentição, f - зубы
+17a - podre - гнилой
+17a - contudo - однако
+17a - se calhar - возможно, может быть
+17a - cárie, f - кариес
+17a - molar, m - коренной зуб
+17a - aliviar - облегчить
+17a - saudável - здоровый
+17a - dispensar - обойтись (без чего-л.)
+17a - rotina, f - рутина, повседневность
+17a - mais vale - лучше
+17a - prevenir - предупреждать
+17a - remediar - лечить, исцелять
+17a - tanto mais - тем более
+17a - despesa, f - расход, трата
+17a - comparticipar - принимать участие (в чем-л.), разделять (что-л.)
+17a - Segurança Social - социальное обеспечение
+17a - higiene, f - гигена
+17a - após - после
+17a - proibir a - запрещать
+17a - excesso, m - избыток
+17a - rebuçado, m - конфета
+17a - trocar - менять
+17a - certificar - сертифицировать, утверждать
+17a - de pequenino é que se torce o pepino - береги честь смолоду (здоровье заклыдвается с детства)
+17a - arrancar, remover, tirar um dente - вырывать, удалять, вытаскивать зуб
+17a - mais vale prevenir do que remediar - лучше предупреждать, чем лечить
+17a - tanto mais que - тем более, что…
+17a - ficar aliviado por - почувствовать облегчение из-за
+17a - mandar alguém fazer alguma coisa - велеть, приказывать, пригласить кого-л. сделать что-л.
+17a - mandar alguém buscar - послать кого-л. за кем-л., чем-л.
+17a - rugas - морщины
+17a - olfacto - обоняние
+17a - cheiro - запах
+17a - calado - немой
+17a - paladar - вкус (чувство)
+17a - mastigar - жевать
+17a - pêlos - волоски (бороды)
+17a - rosto - лицо
+17a - atraves de - с помощью, посредством
+17a - tacto - осязание
+17a - audição - слух
+17a - exprimir emoções - выражать эмоции
+17a - dedos - пальцы
+17a - dar à luz - рождать на свет
+17a - calcanhar de Aquiles - Ахиллесова пята
+17a - testa - лоб
+17a - olho - глаз
+17a - nariz - нос
+17a - cara - лицо
+17a - queixo - подбородок
+17a - boca - рот
+17a - bochecha - щека
+17a - clavícula - ключица
+17a - axila - подмышка
+17a - costela - ребро
+17a - peito - грудь
+17a - barriga - живот
+17a - ombro - плечо
+17a - tornozelo - щиколотка
+17a - nádega - ягодица
+17a - coluna vertebral - позвоночный столб
+17a - cotovelo - локоть
+17a - costas - спина
+17a - cintura - талия
+17a - anca (coxa) - бедро
+17a - joelho - колено
+17a - canela - голень

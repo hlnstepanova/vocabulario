@@ -48,37 +48,37 @@
                 android:background="@color/white">
 
                 <TextView
-                    android:id="@+id/topic1"
+                    android:id="@+id/topic1b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:textAlignment="center"
                     android:gravity="center"
-                    android:text="@string/topic1"
+                    android:text="@string/topic1b"
                     android:textColor="@color/heading"
                     android:textSize="@dimen/text_big"
                     android:fontFamily="@font/robotolight"/>
 
                 <TextView
-                    android:id="@+id/title1"
+                    android:id="@+id/title1b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="0.6"
                     android:paddingLeft="15dip"
                     android:paddingRight="15dip"
-                    android:text="@string/title1"
+                    android:text="@string/title1b"
                     android:textColor="@color/blue1"
                     android:textSize="@dimen/button"
                     android:fontFamily="@font/amaticbold"/>
 
                 <TextView
-                    android:id="@+id/progress1"
+                    android:id="@+id/progress1b"
                     android:paddingRight="4dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="@string/progress1"
+                    android:text="@string/progress1b"
                     android:textColor="@color/dot_light_screen1"
                     android:textSize="@dimen/text_regular"
                     android:fontFamily="@font/amaticbold"/>
@@ -93,36 +93,36 @@
                 android:background="@color/white">
 
                 <TextView
-                    android:id="@+id/topic2"
+                    android:id="@+id/topic2b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:textAlignment="center"
-                    android:text="@string/topic2"
+                    android:text="@string/topic2b"
                     android:textColor="@color/heading"
                     android:textSize="@dimen/text_big"
                     android:fontFamily="@font/robotolight" />
 
                 <TextView
-                    android:id="@+id/title2"
+                    android:id="@+id/title2b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="0.6"
                     android:paddingLeft="15dip"
                     android:paddingRight="15dip"
-                    android:text="@string/title2"
+                    android:text="@string/title2b"
                     android:textColor="@color/blue1"
                     android:textSize="@dimen/button"
                     android:fontFamily="@font/amaticbold"/>
 
                 <TextView
-                    android:id="@+id/progress2"
+                    android:id="@+id/progress2b"
                     android:paddingRight="4dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="@string/progress2"
+                    android:text="@string/progress2b"
                     android:textColor="@color/dot_light_screen1"
                     android:textSize="@dimen/text_regular"
                     android:fontFamily="@font/amaticbold"/>
@@ -138,36 +138,36 @@
                 android:background="@color/white">
 
                 <TextView
-                    android:id="@+id/topic3"
+                    android:id="@+id/topic3b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:textAlignment="center"
-                    android:text="@string/topic3"
+                    android:text="@string/topic3b"
                     android:textColor="@color/heading"
                     android:textSize="@dimen/text_big"
                     android:fontFamily="@font/robotolight"  />
 
                 <TextView
-                    android:id="@+id/title3"
+                    android:id="@+id/title3b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="0.6"
                     android:paddingLeft="15dip"
                     android:paddingRight="15dip"
-                    android:text="@string/title3"
+                    android:text="@string/title3b"
                     android:textColor="@color/blue1"
                     android:textSize="@dimen/button"
                     android:fontFamily="@font/amaticbold" />
 
                 <TextView
-                    android:id="@+id/progress3"
+                    android:id="@+id/progress3b"
                     android:paddingRight="4dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="@string/progress3"
+                    android:text="@string/progress3b"
                     android:textColor="@color/dot_light_screen1"
                     android:textSize="@dimen/text_regular"
                     android:fontFamily="@font/amaticbold"  />
@@ -182,36 +182,36 @@
                 android:background="@color/white">
 
                 <TextView
-                    android:id="@+id/topic4"
+                    android:id="@+id/topic4b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:textAlignment="center"
-                    android:text="@string/topic4"
+                    android:text="@string/topic4b"
                     android:textColor="@color/heading"
                     android:textSize="@dimen/text_big"
                     android:fontFamily="@font/robotolight" />
 
                 <TextView
-                    android:id="@+id/title4"
+                    android:id="@+id/title4b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="0.6"
                     android:paddingLeft="15dip"
                     android:paddingRight="15dip"
-                    android:text="@string/title4"
+                    android:text="@string/title4b"
                     android:textColor="@color/blue1"
                     android:textSize="@dimen/button"
                     android:fontFamily="@font/amaticbold"/>
 
                 <TextView
-                    android:id="@+id/progress4"
+                    android:id="@+id/progress4b"
                     android:paddingRight="4dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="@string/progress4"
+                    android:text="@string/progress4b"
                     android:textColor="@color/dot_light_screen1"
                     android:textSize="@dimen/text_regular"
                     android:fontFamily="@font/amaticbold"/>
@@ -226,35 +226,35 @@
                 android:background="@color/white">
 
                 <TextView
-                    android:id="@+id/topic5"
+                    android:id="@+id/topic5b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:textAlignment="center"
-                    android:text="@string/topic5"
+                    android:text="@string/topic5b"
                     android:textColor="@color/heading"
                     android:textSize="@dimen/text_big"
                     android:fontFamily="@font/robotolight" />
 
                 <TextView
-                    android:id="@+id/title5"
+                    android:id="@+id/title5b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="0.6"
                     android:paddingLeft="15dip"
                     android:paddingRight="15dip"
-                    android:text="@string/title5"
+                    android:text="@string/title5b"
                     android:textColor="@color/blue1"
                     android:textSize="@dimen/button"
                     android:fontFamily="@font/amaticbold"/>
 
                 <TextView
-                    android:id="@+id/progress5"
+                    android:id="@+id/progress5b"
                     android:paddingRight="4dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="@string/progress5"
+                    android:text="@string/progress5b"
                     android:textAlignment="center"
                     android:textColor="@color/dot_light_screen1"
                     android:textSize="@dimen/text_regular"
@@ -270,36 +270,36 @@
                 android:background="@color/white">
 
                 <TextView
-                    android:id="@+id/topic6"
+                    android:id="@+id/topic6b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:textAlignment="center"
-                    android:text="@string/topic6"
+                    android:text="@string/topic6b"
                     android:textColor="@color/heading"
                     android:textSize="@dimen/text_big"
                     android:fontFamily="@font/robotolight" />
 
                 <TextView
-                    android:id="@+id/title6"
+                    android:id="@+id/title6b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="0.6"
                     android:paddingLeft="15dip"
                     android:paddingRight="15dip"
-                    android:text="@string/title6"
+                    android:text="@string/title6b"
                     android:textColor="@color/blue1"
                     android:textSize="@dimen/button"
                     android:fontFamily="@font/amaticbold"/>
 
                 <TextView
-                    android:id="@+id/progress6"
+                    android:id="@+id/progress6b"
                     android:paddingRight="4dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="@string/progress6"
+                    android:text="@string/progress6b"
                     android:textColor="@color/dot_light_screen1"
                     android:textSize="@dimen/text_regular"
                     android:fontFamily="@font/amaticbold" />
@@ -314,36 +314,36 @@
                 android:background="@color/white">
 
                 <TextView
-                    android:id="@+id/topic7"
+                    android:id="@+id/topic7b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:textAlignment="center"
-                    android:text="@string/topic7"
+                    android:text="@string/topic7b"
                     android:textColor="@color/heading"
                     android:textSize="@dimen/text_big"
                     android:fontFamily="@font/robotolight"/>
 
                 <TextView
-                    android:id="@+id/title7"
+                    android:id="@+id/title7b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="0.6"
                     android:paddingLeft="15dip"
                     android:paddingRight="15dip"
-                    android:text="@string/title7"
+                    android:text="@string/title7b"
                     android:textColor="@color/blue1"
                     android:textSize="@dimen/button"
                     android:fontFamily="@font/amaticbold"/>
 
                 <TextView
-                    android:id="@+id/progress7"
+                    android:id="@+id/progress7b"
                     android:paddingRight="4dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="@string/progress7"
+                    android:text="@string/progress7b"
                     android:textColor="@color/dot_light_screen1"
                     android:textSize="@dimen/text_regular"
                     android:fontFamily="@font/amaticbold"/>
@@ -358,36 +358,36 @@
                 android:background="@color/white">
 
                 <TextView
-                    android:id="@+id/topic8"
+                    android:id="@+id/topic8b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:textAlignment="center"
-                    android:text="@string/topic8"
+                    android:text="@string/topic8b"
                     android:textColor="@color/heading"
                     android:textSize="@dimen/text_big"
                     android:fontFamily="@font/robotolight" />
 
                 <TextView
-                    android:id="@+id/title8"
+                    android:id="@+id/title8b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="0.6"
                     android:paddingLeft="15dip"
                     android:paddingRight="15dip"
-                    android:text="@string/title8"
+                    android:text="@string/title8b"
                     android:textColor="@color/blue1"
                     android:textSize="@dimen/button"
                     android:fontFamily="@font/amaticbold"/>
 
                 <TextView
-                    android:id="@+id/progress8"
+                    android:id="@+id/progress8b"
                     android:paddingRight="4dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="@string/progress8"
+                    android:text="@string/progress8b"
                     android:textColor="@color/dot_light_screen1"
                     android:textSize="@dimen/text_regular"
                     android:fontFamily="@font/amaticbold" />
@@ -402,36 +402,36 @@
                 android:background="@color/white">
 
                 <TextView
-                    android:id="@+id/topic9"
+                    android:id="@+id/topic9b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:textAlignment="center"
-                    android:text="@string/topic9"
+                    android:text="@string/topic9b"
                     android:textColor="@color/heading"
                     android:textSize="@dimen/text_big"
                     android:fontFamily="@font/robotolight"/>
 
                 <TextView
-                    android:id="@+id/title9"
+                    android:id="@+id/title9b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="0.6"
                     android:paddingLeft="15dip"
                     android:paddingRight="15dip"
-                    android:text="@string/title9"
+                    android:text="@string/title9b"
                     android:textColor="@color/blue1"
                     android:textSize="@dimen/button"
                     android:fontFamily="@font/amaticbold"/>
 
                 <TextView
-                    android:id="@+id/progress9"
+                    android:id="@+id/progress9b"
                     android:paddingRight="4dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="@string/progress9"
+                    android:text="@string/progress9b"
                     android:textColor="@color/dot_light_screen1"
                     android:textSize="@dimen/text_regular"
                     android:fontFamily="@font/amaticbold"/>
@@ -446,40 +446,129 @@
                 android:background="@color/white">
 
                 <TextView
-                    android:id="@+id/topic10"
+                    android:id="@+id/topic10b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:textAlignment="center"
-                    android:text="@string/topic10"
+                    android:text="@string/topic10b"
                     android:textColor="@color/heading"
                     android:textSize="@dimen/text_big"
                     android:fontFamily="@font/robotolight"/>
 
                 <TextView
-                    android:id="@+id/title10"
+                    android:id="@+id/title10b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="0.6"
                     android:paddingLeft="15dip"
                     android:paddingRight="15dip"
-                    android:text="@string/title10"
+                    android:text="@string/title10b"
                     android:textColor="@color/blue1"
                     android:textSize="@dimen/button"
                     android:fontFamily="@font/amaticbold"/>
 
                 <TextView
-                    android:id="@+id/progress10"
+                    android:id="@+id/progress10b"
                     android:paddingRight="4dp"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="@string/progress10"
+                    android:text="@string/progress10b"
                     android:textColor="@color/dot_light_screen1"
                     android:textSize="@dimen/text_regular"
                     android:fontFamily="@font/amaticbold"/>
             </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/topic11b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:text="@string/topic11b"
+                    android:textColor="@color/heading"
+                    android:textSize="@dimen/text_big"
+                    android:fontFamily="@font/robotolight"/>
+
+                <TextView
+                    android:id="@+id/title11b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.6"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="@string/title11b"
+                    android:textColor="@color/blue1"
+                    android:textSize="@dimen/button"
+                    android:fontFamily="@font/amaticbold"/>
+
+                <TextView
+                    android:id="@+id/progress11b"
+                    android:paddingRight="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/progress11b"
+                    android:textColor="@color/dot_light_screen1"
+                    android:textSize="@dimen/text_regular"
+                    android:fontFamily="@font/amaticbold"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.5dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/topic12b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:text="@string/topic12b"
+                    android:textColor="@color/heading"
+                    android:textSize="@dimen/text_big"
+                    android:fontFamily="@font/robotolight"/>
+
+                <TextView
+                    android:id="@+id/title12b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.6"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text="@string/title12b"
+                    android:textColor="@color/blue1"
+                    android:textSize="@dimen/button"
+                    android:fontFamily="@font/amaticbold"/>
+
+                <TextView
+                    android:id="@+id/progress12b"
+                    android:paddingRight="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/progress12b"
+                    android:textColor="@color/dot_light_screen1"
+                    android:textSize="@dimen/text_regular"
+                    android:fontFamily="@font/amaticbold"/>
+            </TableRow>
+
 
         </TableLayout>
 
