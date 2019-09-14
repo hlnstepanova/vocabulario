@@ -234,6 +234,9 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
             Log.i("Importing", "from prefs");
             topicDict = gson.fromJson(json, Dictionary.class);
             Log.i("Importing", Integer.toString(topicDict.getProgress()));
+            if (topicDict.getProgress()==0){
+                importTopicFile();
+            }
 
         } else {
 
@@ -328,7 +331,12 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
                 topicProgressMap = new HashMap<>();
             } else {
                 Log.d("topics log d", Integer.toString(topics.size()));
-                progress = topicProgressMap.get(topics.get(i).getText().toString()+level);
+                if (topicProgressMap.containsKey(topics.get(i).getText().toString()+level)){
+                    progress = topicProgressMap.get(topics.get(i).getText().toString()+level);
+                } else {
+                    progress=0.0;
+                }
+
             }
 
             String text = getString(R.string.progress, progress);
@@ -348,8 +356,13 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
     }
 
     private void checkProgress(){
-
-        double progress = topicProgressMap.get(topic_selected);
+        double progress;
+        if (topicProgressMap.containsKey(topic_selected))
+        {
+            progress = topicProgressMap.get(topic_selected);
+        } else {
+            progress = 0.0;
+        }
         if (progress==100){
             //alarm learned all words in this category, go back to topic choice
             AlertDialog.Builder builder = new AlertDialog.Builder(this);

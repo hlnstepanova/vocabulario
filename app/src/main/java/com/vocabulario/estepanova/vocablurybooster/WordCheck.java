@@ -210,7 +210,7 @@ public class WordCheck extends AppCompatActivity {
 
         String word_to_show ="";
         double prob = Math.random();
-        if (prob<0.5){
+        if (prob<0.4){
             word_to_show = word;
             reversed = false;
         } else {

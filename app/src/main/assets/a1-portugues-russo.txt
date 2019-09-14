@@ -21,8 +21,8 @@
 1a - passado, m - прошлое
 1a - pássaro, m - птица
 1a - namorado, m - бойфренд
-1a - tudo - все
-1a - vinho, m - виноград
+1a - tudo - всё
+1a - vinho, m - вино
 1a - vivo - живой
 1a - foto, f - фотография
 1a - óptimo - отличный
@@ -45,7 +45,7 @@
 1a - maior - больший
 1a - menor - меньший
 1a - melhor - лучший
-1a - pior - худжий
+1a - pior - худший
 1a - boa - хорошая
 1a - outro - другой
 1a - outono, m - осень
@@ -73,7 +73,7 @@
 1a - alto - высокий
 1a - vamos - поедем
 1a - azul - синий
-1a - curo - короткий
+1a - curto - короткий
 1a - bolo, m - пирожок
 1a - bola, f - мяч
 1a - livro, m - книга
@@ -89,7 +89,7 @@
 1a - cama, f - кровать
 1a - data, f - дата
 1a - aluna, f - ученица
-1a - sono, m - сон
+1a - sonho, m - сон
 1a - má - плохая
 1a - mínimo - минимальный
 1a - minha - моя
@@ -146,7 +146,7 @@
 2a - pequeno - маленький
 2a - mesa, f - стол
 2a - cortês - вежливый
-2a - poruguês - португальский
+2a - português - португальский
 2a - menino, m - мальчик
 2a - vestido, m - платье
 2a - fechado - закрытый
@@ -157,11 +157,11 @@
 2a - pé - нога
 2a - testa - лоб
 2a - médico - врач
-2a - eléctrico - электричсекий
+2a - eléctrico - электрический
 2a - tecto - крыша
 2a - aspecto - вид
 2a - selecção - сборная
-2a - seleccionar - оибирать
+2a - seleccionar - отбирать
 2a - céptico - скептик
 2a - carácter - характер, буква
 2a - terra - земля
@@ -200,7 +200,7 @@
 2a - ambíguo - двусмысленный
 2a - quero - хочу
 2a - químico - химический
-2a - quarto - спальня
+2a - quarto - спальня, комната
 2a - quadro - картина
 2a - quatro - четыре
 2a - quadrado - квадратный
@@ -215,7 +215,7 @@
 2a - aquilo - то
 2a - quilograma, m - килограмм
 2a - quase - почти
-2a - jornal - гаета
+2a - jornal - газета
 2a - espanhol - испанский
 2a - estudar - учиться
 2a - cartaz - плакат
@@ -243,7 +243,7 @@
 2a - início, m - начало
 2a - princípio, m - начало
 2a - pronúncia, f - произношение
-2a - pai - отей
+2a - pai - отец
 2a - mais - еще
 2a - cais - набережная
 2a - leitura - чтение
@@ -295,7 +295,7 @@
 2a - ligeiro - легкий
 2a - mau - плохой
 2a - depois - потом
-2a - eu, prom - я
+2a - eu - я
 2a - meu - мой
 2a - seu - его, ее
 2a - euro, m - евро
@@ -303,7 +303,7 @@
 2a - familiar, m adj - член семьи, домашний
 2a - lingua, f - язык
 2a - qual - какой, который
-2a - iqual - одинаковый
+2a - igual - одинаковый
 2a - manual, m - учебник
 2a - pessoal - личный
 2a - curioso - любопытный
@@ -326,7 +326,7 @@
 2a - locutor, m - диктор
 2a - escultor, m - скульптор
 2a - geral - общий
-2a - profissional - профессиональный
+2a - professional - профессиональный
 2a - mal,m adv - зло, плохо
 2a - sol, m - солнце
 2a - cônsul, m - консул
@@ -347,7 +347,7 @@
 2a - cinzento - серый
 2a - beige - бежевый
 2a - chamo-me - меня зовут
-2a - chamo-se - его зовут
+2a - chama-se - его зовут
 2a - nome, m - имя
 2a - meu, minha - мой, моя
 2a - todos - все
@@ -388,7 +388,7 @@
 2a - de estatura média - среднего роста
 2a - número - номер
 2a - data de emissão - когда выдан
-2a - serviço emissor - кем вадын
+2a - serviço emissor - кем выдан
 2a - data de validade - срок действия
 2a - nome completo - полное имя
 2a - filiação - полное имя родителей
@@ -696,7 +696,7 @@
 4a - deixar - разрешать, позволять
 4a - próximo - ближний
 4a - aproximar - приближать
-4a - rouxe - принес
+4a - trouxe - принес
 4a - fixo - неподвижный
 4a - verão - лето
 4a - virão - придут, приедут
@@ -723,7 +723,7 @@
 4a - avião, m - самолет
 4a - união, m - союз
 4a - leão, m - лев
-4a - região, f - религия
+4a - religião, f - религия
 4a - reunião, f - собрание
 4a - ocasião, f - случай
 4a - explicação, f - объяснение
@@ -826,7 +826,7 @@
 4a - põem - они кладут
 4a - não tem de que - не за что
 4a - ora essa! - ничего страшного
-4a - não faz mal - ничего
+4a - não faz mal - ничего страшного
 4a - desculpa - извини
 4a - com licença - простите
 4a - faz favor - будьте добры
@@ -885,7 +885,7 @@
 5a - o dia mais difícil - самый трудный день
 5a - praticar desporto - заниматься спортом
 5a - por isso - поэтому
-5a - depois de - послезавтра
+5a - depois de - после
 5a - ginásio, m - спортивный зал
 5a - frequentamente - часто
 5a - parceiro, m - партнер
@@ -993,9 +993,9 @@
 6a - estação, f - сезон, время года
 6a - turístico - туристический
 6a - grande poeta, m - великий поэт
-6a - normalmente, - обычно
+6a - normalmente - обычно
 6a - praia, f - пляж
-6a - outono, m - другой
+6a - outono, m - осень
 6a - ir para o campo - уезжать за город
 6a - estrangeiro, m - заграница
 6a - regressar - возвращаться
@@ -1193,12 +1193,12 @@
 8a - pedir o favor de - просить о любезности, об одолжении
 8a - extremamente - крайне
 8a - excessivamente - чрезвычайно
-8a - grande - maior - máximo - большой - больше - самый большой
-8a - pequeno - menor - mínimo - маленький - меньше - самый маленький
-8a - bom - melhor - óptimo - хороший - лучше - самый лучший
-8a - mau - pior - péssimo - плохой - хуже - самый плохой
-8a - alto - mais alto - superior - высокий - выше - самый высокий
-8a - baixo - mais baixo - inferior - низкий - ниже - самый низкий
+8a - grande / maior / máximo - большой / больше / самый большой
+8a - pequeno / menor / mínimo - маленький / меньше / самый маленький
+8a - bom / melhor / óptimo - хороший / лучше / самый лучший
+8a - mau / pior / péssimo - плохой / хуже / самый плохой
+8a - alto / mais alto / superior - высокий / выше / самый высокий
+8a - baixo / mais baixo / inferior - низкий / ниже / самый низкий
 8a - retrato, m - портрет
 8a - ondulado - вьющийся
 8a - recto - прямой
@@ -1435,7 +1435,7 @@
 9a - tirar as férias - брать отпуск
 9a - tirar um curso, um mestrado, um doutoramento - пройти курс, учиться в магистратуре, докторантуре
 9a - tirar fotocópias - снимать ксерокопии
-9a - tirar a roupa, o chpéu, os sapatos - снимать одежду, шляпу, обувь
+9a - tirar a roupa, o chapéu, os sapatos - снимать одежду, шляпу, обувь
 9a - tirar uma boa, má nota - получать хорошую, плохую оценку
 9a - ligar - связывать, включать
 9a - ligar a alguém - звонить кому-л.
@@ -1644,7 +1644,7 @@
 10a - misturar - смешивать
 10a - cocktail, m - коктейль
 10a - encarregar-se de - брать на себя ответсвенность
-10a - lide da casa - работа по дому
+10a - lida da casa - работа по дому
 10a - cozer - варить
 10a - assar - запекать, печь
 10a - frango, m - цыпленок
@@ -1680,7 +1680,7 @@
 10a - insosso - несоленый
 10a - desgraça, f - несчастье
 10a - à hora de - во время чего-л.
-10a - nem um tostão - ни ргроша
+10a - nem um tostão - ни гроша
 10a - bolsa de estudo - стипендия
 10a - emprestar - одалживать
 10a - trocos - мелочь, мелкие монеты
@@ -1708,7 +1708,7 @@
 11a - completar - завершить
 11a - formação, f - образование
 11a - à distância - на расстоянии
-11a - ensino à  distânciф - дистанционное обучение
+11a - ensino à  distância - дистанционное обучение
 11a - ingressar em - поступить в
 11a - ramo, m - отрасль
 11a - educacional - образовательный
@@ -1810,7 +1810,7 @@
 11a - de momento - а пока, на настоящий момент
 11a - definir - определять
 11a - horário lectivo - расписание занятий
-11a - estar satisfeiro por - быть удовлетворенным (тем, что)
+11a - estar satisfeito por - быть удовлетворенным (тем, что)
 11a - integrar - входить (быть частью)
 11a - até para a semana - до следующей недели
 11a - seja bem-vindo a - добро пожаловать в
@@ -1967,7 +1967,7 @@
 13a - capacidade, f - вместимость, емкость
 13a - criar - создать
 13a - rede, f - сеть
-13a - cerreira, f - рейс
+13a - carreira, f - рейс
 13a - gratuito - бесплатный
 13a - encher - наполнять
 13a - vagar, m - свободное время, досуг
@@ -2021,7 +2021,7 @@
 13a - higiene, m - гигиена
 13a - corporal - телесный
 13a - sabonete, m - мыло (туалетное)
-13a - gel-duche, m - гуль для душа
+13a - gel-duche, m - гель для душа
 13a - champô, m - шампунь
 13a - amaciador para o cabelo - бальзам-ополаскиватель
 13a - pasta para os dentes - зубная паста
@@ -2070,7 +2070,7 @@
 13a - gratuito - бесплатный
 13a - dinheiro trocado - мелкие деньги
 13a - dar uma olhada a - заглянуть, бросить взгляд на
-13a - cenro comercial - торговый центр
+13a - centro comercial - торговый центр
 13a - parar - останавливаться
 13a - pronto-a-vestir, m - отдел готовой одежды
 13a - resistir a - сопротивляться, устоять перед
@@ -2078,7 +2078,7 @@
 13a - par, m - пара
 13a - calças - брюки
 13a - meias - чулки, носки
-13a - cinot, m - пояск
+13a - cinto, m - пояс
 13a - roupa de interior - белье
 13a - cachecol, m - шарф
 13a - cachemire, f - кашемир
@@ -2094,7 +2094,7 @@
 13a - vender por 20 euros - продавать за 20 евро
 13a - vender por um preço alto - продавать по высокой цене
 13a - perder tempo - тратить время
-13a - perder a espernça de - терять надежду на что-л.
+13a - perder a esperança de - терять надежду на что-л.
 13a - perder um espectáculo - пропускать зрелище
 13a - perder o comboio, o avião - опаздывать на поезд, самолет
 13a - perder o jogo - проигрывать игру
@@ -2116,7 +2116,7 @@
 13a - à unidade - поштучно
 13a - se desejar - если захотите
 13a - pesar - взвешивать
-13a - à vontafo - сколько угодно, без стеснения
+13a - à vontade - сколько угодно, без стеснения
 13a - eis - вот
 13a - quanto é? - почем это?
 13a - ficar em ... euros a - обойтись кому-л. в … евро
@@ -2491,7 +2491,7 @@
 16a - com antecedência - заранее
 16a - companhia, f - труппа
 16a - bailado, m - балет
-16a - hoje em deia - в настоящее время
+16a - hoje em dia - в настоящее время
 16a - vanguardista - авангардный
 16a - estreia, f - премьера
 16a - recente - недавний
@@ -2509,7 +2509,7 @@
 16a - tanto ... como - как …, так …
 16a - considerar - считать
 16a - mestre, m - мастер
-16a - esrela, f - звезда
+16a - estrela, f - звезда
 16a - vencedor (-a) - победитель
 16a - bailarino (-a) - танцовщик
 16a - cenografia, f - сценография
@@ -2519,7 +2519,7 @@
 16a - universo, m - вселенная, мир
 16a - deslumbrante - ослепительный, потрясающий
 16a - ovação, f - овация
-16a - palco, m - сценарий
+16a - palco, m - сцена
 16a - agradecer - благодарить, кланяться
 16a - vir a saber - узнавать
 16a - Quebra-Nozes, m - Щелкунчик
@@ -2577,8 +2577,8 @@
 17a - em voga - в моде
 17a - corrigir - исправлять
 17a - defeito - недостаток, дефект
-17a - retarder - замедлять
-17a - emvelhecimento, m - старение
+17a - retardar - замедлять
+17a - envelhecimento, m - старение
 17a - mudar - изменять
 17a - visual, m - внешность
 17a - por completo - полностью
@@ -2644,7 +2644,7 @@
 17a - pólen, m - пыльца
 17a - dermatologista - дерматолог
 17a - borbulha, f - прыщ
-17a - cutâneo - кажный
+17a - cutâneo - кожный
 17a - devido a - из-за (чего-л.), благодаря (чему-л.)
 17a - abuso, m - злоупотребление
 17a - solário, m - солярий
@@ -2692,7 +2692,7 @@
 17a - fezes - кал
 17a - digestivo - пищеварительный
 17a - rim, m - почка
-17a - exam TAC (tomografia exial computarizada) - компьютерная томография
+17a - exam TAC (tomografia axial computarizada) - компьютерная томография
 17a - complementar - дополнительный
 17a - electroencefalograma, m - электроэнцефалограмма
 17a - consistir em - состоять (в чем-л.)
@@ -2709,7 +2709,7 @@
 17a - sida, f - спид, ВИЧ
 17a - teste HIV - тест на спид
 17a - verificar - выяснять
-17a - seropoisitivo - вич-позитивный
+17a - seropositivo - вич-позитивный
 17a - contaminar - заражать
 17a - vírus, m - вирус
 17a - adoecer - заболевать
@@ -2744,7 +2744,7 @@
 17a - vista - óptico - зрение - оптический
 17a - ouvido - auditivo - слух - акустический
 17a - pele - cutâneo - кожа - кожный
-17a - respiração - respiratótio - дыхание - дыхательный
+17a - respiração - respiratório - дыхание - дыхательный
 17a - dente - dentário - зубы - зубной
 17a - médico - médico - врач - медицинский
 17a - mente - mental - разум - ментальный

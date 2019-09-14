@@ -41,7 +41,7 @@
     <string name="title_activity_welcome">Intro</string>
 
     <string name="slide_1_title">Bem vindo!</string>
-    <string name="slide_1_desc">Esta app vai ajudar-te aprender novas palavras ainda quando estás em movimento.</string>
+    <string name="slide_1_desc">Esta app vai ajudar-te a aprender novas palavras ainda quando estás em movimento.</string>
 
     <string name="slide_2_title">Memoriza</string>
     <string name="slide_2_desc">Aprende as novas palavras</string>
@@ -50,10 +50,10 @@
     <string name="slide_3_desc">Tenta relembrar as palavras. Toca no ecrâ para ver o tradução</string>
 
     <string name="slide_4_title">Desliza</string>
-    <string name="slide_4_desc">Se relembraste correctamente, desliza para a direita. Se não - para a esquerda. Ou usa os botões. O teu progresso vai crescer depois relembrares a mesma palavra correctamente 5 vezes.</string>
+    <string name="slide_4_desc">Se relembraste correctamente, desliza para a direita. Se não - para a esquerda. Ou usa os botões. O teu progresso vai crescer depois de relembrares a mesma palavra correctamente 5 vezes.</string>
 
     <string name="slide_5_title">Feedback</string>
-    <string name="slide_5_desc">Se encontraste erros ou tens sugestões, não hesita em deixar um feedback!</string>
+    <string name="slide_5_desc">Se encontraste erros ou tens sugestões, não hesites em deixar um feedback!</string>
 
     <string name="slide_6_title">Boa sorte!</string>
     <string name="slide_6_desc">A prática leva à perfeição, ou seja, nunca para aprender!</string>

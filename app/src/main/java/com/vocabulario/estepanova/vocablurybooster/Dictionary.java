@@ -1,5 +1,7 @@
 package com.vocabulario.estepanova.vocablurybooster;
 
+import android.util.Log;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -47,7 +49,7 @@ public class Dictionary implements Serializable{
             this.to_learn.add(randomKey); // add the word to "to learn"
             return randomKey;
         } else {
-            return "no_unlearned_words";
+            return "";
         }
     }
 
@@ -62,6 +64,7 @@ public class Dictionary implements Serializable{
     public String testWord(){
 
         if (to_learn.size()==0){
+            Log.d("unlerned", unlearned.toString());
             int wordPos = random.nextInt(learned.size());
             return learned.get(wordPos);
         } else {
