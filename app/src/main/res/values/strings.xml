@@ -16,6 +16,7 @@
 
 
     <string name="progress">"%.2f%%"</string>
+    <string name="revision">Revisão</string>
 
     <string name="title_activity_congrats">Parabens</string>
 

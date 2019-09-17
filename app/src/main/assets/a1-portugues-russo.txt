@@ -2345,7 +2345,7 @@
 15a - hoje em dia - в настоящее время
 15a - habitacional - жилой
 15a - no âmbito de - в рамках чего-л.
-15a - dito - упомянутыйы, вышеназванный
+15a - dito - упомянутый, вышеназванный
 15a - comprimento, m - длина
 15a - empresa, f - предприятие
 15a - transporte público - общественный транспорт
@@ -2382,7 +2382,7 @@
 15a - mais de... - более, чем
 15a - menos de... - менее, чем
 15a - cerca de... - около, приблизительно
-15a - a área é de ... quilómeros quadrados - площадь в … километров
+15a - a área é de ... quilómetros quadrados - площадь в … километров
 15a - o comprimento é de ... metros - длина … метров
 15a - a superfície - поверхность, площадь
 15a - a extensão - протяженность
@@ -2395,7 +2395,7 @@
 15a - os fins (os finais) - конец
 15a - os meados - середина
 15a - a primeira metade - первая половина
-15a - no tempo em que - тогда, кога
+15a - no tempo em que - тогда, когда
 15a - no dia (no ano, na semana, na época) em que - в тот день (год, неделю, время), когда
 15a - norte, m - север, северный
 15a - sul, m - юг, южный

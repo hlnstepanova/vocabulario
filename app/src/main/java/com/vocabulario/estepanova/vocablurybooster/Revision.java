@@ -14,6 +14,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import java.util.HashMap;
@@ -36,6 +37,12 @@ public class Revision extends AppCompatActivity {
     private Button
             btnCorrect,
             btnWrong;
+
+    private ConstraintLayout touchArea;
+
+    private TextView progressView;
+
+    private ProgressBar progressBar;
 
     private String word;
     private Integer count;
@@ -65,8 +72,13 @@ public class Revision extends AppCompatActivity {
         trans2 = (TextView) findViewById(R.id.trans2View);
         answer = (TextView) findViewById(R.id.ansView);
 
+        progressBar=(ProgressBar)findViewById(R.id.progressBar);
+        progressView = (TextView)findViewById(R.id.progressView);
+
         btnCorrect = (Button) findViewById(R.id.corBtn);
         btnWrong = (Button) findViewById(R.id.wrongBtn);
+
+        touchArea = (ConstraintLayout) findViewById(R.id.touch_area);
 
         Intent saveIntent = getIntent();
 
@@ -84,12 +96,6 @@ public class Revision extends AppCompatActivity {
         }
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setNeutralButton(R.string.ok, new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int id) {
-                // User clicked OK button
-            }
-        });
-        builder.setMessage(R.string.dialog_wordcheck_intro);
 
         btnCorrect.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -98,9 +104,7 @@ public class Revision extends AppCompatActivity {
                 if (count%2==0) {
                     showTranslation();
                 } else {
-                    //alarm that first you should guess the word and tap the screen
-                    AlertDialog alert = builder.create();
-                    alert.show();
+                    showAnswer();
                 }
 
             }
@@ -109,33 +113,44 @@ public class Revision extends AppCompatActivity {
         btnWrong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //if wrong, just go back to word show
+                //if correct answer, change the count of correct answers in ProcessMap
                 if (count%2==0) {
                     showTranslation();
                 } else {
-                    //alarm that first you should guess the word and tap the screen
-                    AlertDialog alert = builder.create();
-                    alert.show();
-                }
-
-
-            }
-        });
-
-        ConstraintLayout touch_area = (ConstraintLayout) findViewById(R.id.touch_area);
-        touch_area.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                if (count%2!=0) {
                     showAnswer();
                 }
 
             }
-
         });
 
+        touchArea.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                showAnswer();
+            }
+        });
 
+        touchArea.setOnTouchListener(new OnSwipeTouchListener() {
+            public boolean onSwipeRight() {
+                if (count%2==0) {
+                    showTranslation();
+                } else {
+                    showAnswer();
+                }
+                return true;
+            }
+            public boolean onSwipeLeft() {
+                if (count%2==0) {
+                    showTranslation();
+                } else {
+                    showAnswer();
+                }
+                return true;
+            }
+        });
+
+        progressView.setText(getString(R.string.revision));
+        progressBar.setProgress(currentDictionary.getProgress());
 
         showTranslation();
 
@@ -164,20 +179,22 @@ public class Revision extends AppCompatActivity {
 
     private void showAnswer(){
 
-        String translation = wordsMap.get(word);
-        answer.setText(translation);
+        if (reversed){
+            answer.setText(word);
+        } else {
+            String translation = wordsMap.get(word);
+            answer.setText(translation);
+        }
         count++;
     }
 
-
     private void showTranslation(){
-
 
         word = currentDictionary.testWord();
 
         String word_to_show ="";
         double prob = Math.random();
-        if (prob<0.5){
+        if (prob<0.4){
             word_to_show = word;
             reversed = false;
         } else {
