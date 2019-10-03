@@ -11,6 +11,7 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,7 +33,7 @@ public class WelcomeActivity extends AppCompatActivity {
     SharedPreferences preferences;
     SharedPreferences.Editor editor;
 
-    Boolean emptyIntent = false;
+    Boolean watchIntro = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,18 +43,22 @@ public class WelcomeActivity extends AppCompatActivity {
         preferences = PreferenceManager.getDefaultSharedPreferences(this);
 
         Intent saveIntent = getIntent();
-        if (saveIntent.getExtras() == null){
-            emptyIntent = true;
-        }
-
-        if (emptyIntent) {
-            if (!preferences.getBoolean("IsFirstTimeLaunch",true)) {
-                launchHomeScreen();
-                finish();
-            } else {
-                //rewatch intro
+        if (saveIntent!=null && saveIntent.getStringExtra("Rewatch")!=null){
+            if (saveIntent.getStringExtra("Rewatch").equals("rewatch")){
+                watchIntro = true;
             }
         }
+
+        if (watchIntro){
+            //watch Intro
+        } else {
+            if (!preferences.getBoolean("IsFirstTimeLaunch", true)) {
+                Log.d("Debug", "NOT first time launch");
+                launchHomeScreen();
+                finish();
+            }
+        }
+
 
         // Making notification bar transparent
         if (Build.VERSION.SDK_INT >= 21) {
@@ -105,11 +110,9 @@ public class WelcomeActivity extends AppCompatActivity {
                     // move to next screen
                     viewPager.setCurrentItem(current);
                 } else {
-                    if(emptyIntent){
                     launchHomeScreen();
-                    } else {
-                        finish();
-                    }
+                    finish();
+
                 }
             }
         });

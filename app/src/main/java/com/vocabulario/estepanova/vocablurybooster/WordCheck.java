@@ -317,7 +317,7 @@ public class WordCheck extends AppCompatActivity {
 
     private void startWelcome(){
         Intent i = new Intent(this, WelcomeActivity.class);
-        i.putExtra("again", 1);
+        i.putExtra("Rewatch", "rewatch");
         this.startActivity(i);
 
     }

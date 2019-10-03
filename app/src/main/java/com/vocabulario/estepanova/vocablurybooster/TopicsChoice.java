@@ -323,17 +323,16 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
 
         for (int i = 0; i < topics.size(); i++){
 
-            Log.d("topic problem", Integer.toString(i));
-
             //String topic_number = topics.get(i).getText().toString().split(" ")[0];
             if (topicProgressMap==null){
                 progress=0.0;
+                Log.d("topic problem", "No progress map found");
                 topicProgressMap = new HashMap<>();
             } else {
-                Log.d("topics log d", Integer.toString(topics.size()));
                 if (topicProgressMap.containsKey(topics.get(i).getText().toString()+level)){
                     progress = topicProgressMap.get(topics.get(i).getText().toString()+level);
                 } else {
+                    Log.d("topic problem", "No topic key found");
                     progress=0.0;
                 }
 
@@ -361,6 +360,7 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
         {
             progress = topicProgressMap.get(topic_selected);
         } else {
+            Log.d("topic problem", "No topic key found while checking progress");
             progress = 0.0;
         }
         if (progress==100){
@@ -414,7 +414,7 @@ public class TopicsChoice extends AppCompatActivity implements View.OnClickListe
 
     private void startWelcome(){
         Intent i = new Intent(this, WelcomeActivity.class);
-        i.putExtra("again", 1);
+        i.putExtra("Rewatch", "rewatch");
         this.startActivity(i);
 
     }
