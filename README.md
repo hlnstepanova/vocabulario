@@ -2,7 +2,7 @@
 
 <i>An application for learning words (Russian <-> Portuguese) </i><br>
 <i>Based on a course book "Português para principiantes" by Galina Petrova and João Carlos Mendonça João</i><br>
-<a href="https://play.google.com/store/apps/details?id=com.vocabulario.estepanova.vocablurybooster"><img src="https://github.com/hlnstepanova/Vocabulario/blob/master/screenshots/google.png"></a><br>
+[<img src="https://raw.githubusercontent.com/hlnstepanova/vocabulario/master/screenshots/google.png">](https://play.google.com/store/apps/details?id=com.vocabulario.estepanova.vocablurybooster)
 
 <b>Purpose</b>
 
