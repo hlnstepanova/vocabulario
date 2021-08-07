@@ -21,7 +21,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewA1"
-        app:srcCompat="@drawable/a1rect" />
+        app:srcCompat="@drawable/a1new" />
 
     <TextView
         android:id="@+id/textViewA1"
@@ -75,5 +75,5 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewB1"
-        app:srcCompat="@drawable/b1rect" />
+        app:srcCompat="@drawable/b1new" />
 </android.support.constraint.ConstraintLayout>

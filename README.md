@@ -29,7 +29,7 @@ You can choose between two learning modes: by topics (if you want to learn words
 
 <b>Levels</b>
 
-There are supposed to be two levels, but currently only B1-B2 is available.
+Both A1-A2 and B1-B2 levels available.
 
 ![image](screenshots/level.png?raw=true "Choose a a level")
 
